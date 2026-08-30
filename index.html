@@ -21,7 +21,14 @@
     <label class="language"><span class="sr-only">Language</span><select id="languageSelect" aria-label="Language">
       <option value="en">English</option><option value="hu">Magyar</option><option value="de">Deutsch</option><option value="es">Español</option><option value="fr">Français</option><option value="pt-BR">Português (Brasil)</option><option value="pl">Polski</option><option value="it">Italiano</option>
     </select></label>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span><span></span></button>
   </div>
+  <nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#apps" data-i18n="nav_apps">Apps</a>
+    <a href="#support" data-i18n="nav_support">Support</a>
+    <a href="#privacy" data-i18n="nav_privacy">Privacy</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+  </nav>
 </header>
 <main>
 <section id="home" class="hero">
@@ -48,4 +55,5 @@
 <footer><div class="wrap footer"><div><img src="assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span class="developer-id">Developer: JN86VI</span></p></div></footer>
 <script src="assets/site.js"></script>
 <script src="assets/showcase-i18n.js"></script>
+<script src="assets/mobile-menu.js"></script>
 </body></html>
