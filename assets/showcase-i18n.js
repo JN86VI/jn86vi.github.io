@@ -16,7 +16,9 @@ function renderShowcase(lang) {
   const showcase = document.getElementById('homeShowcase');
   if (!showcase) return;
   showcase.replaceChildren();
-  for (const app of apps.filter(a => a.status === 'soon')) {
+  const comingSoon = apps.filter(a => a.status === 'soon');
+  showcase.hidden = comingSoon.length === 0;
+  for (const app of comingSoon) {
     const link = document.createElement('a');
     link.className = 'showcase-card';
     link.dataset.app = app.id;
@@ -28,7 +30,7 @@ function renderShowcase(lang) {
   }
   showcase.setAttribute('aria-label', tr(lang, 'status_soon'));
   const counts = {all: apps.length, soon: apps.filter(a => a.status === 'soon').length,
-    creating: apps.filter(a => a.status === 'creating').length};
+    creating: apps.filter(a => a.status === 'creating').length, released: apps.filter(a => a.status === 'released').length};
   document.querySelectorAll('[data-app-count]').forEach(el => el.textContent = counts[el.dataset.appCount]);
 }
 document.addEventListener('jn86-language', e => renderShowcase(e.detail));

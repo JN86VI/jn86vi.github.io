@@ -5,8 +5,20 @@
     const copy = app.copy[lang];
     document.querySelector('[data-app-summary]').textContent = copy.summary;
     document.querySelector('[data-app-overview]').textContent = copy.overview;
+    document.querySelector('[data-app-status]').className = 'badge ' + app.status;
     document.querySelector('[data-app-status]').textContent = tr(lang, 'status_' + app.status);
-    document.querySelector('[data-app-availability]').textContent = tr(lang, app.status === 'soon' ? 'availability_soon' : 'availability_text');
+    document.querySelector('[data-app-availability]').textContent = tr(lang, appAvailabilityKey(app.status));
+    const play = document.querySelector('[data-app-play]');
+    play.replaceChildren();
+    const playUrl = getPlayUrl(app);
+    if (playUrl) {
+      const link = document.createElement('a');
+      link.className = 'btn primary play-link';
+      link.href = playUrl;
+      link.textContent = tr(lang, 'play_cta');
+      link.setAttribute('aria-label', `${tr(lang, 'play_cta')}: ${app.name}`);
+      play.appendChild(link);
+    }
     const list = document.querySelector('[data-app-features]');
     list.replaceChildren(...copy.features.map(text => {
       const item = document.createElement('li');

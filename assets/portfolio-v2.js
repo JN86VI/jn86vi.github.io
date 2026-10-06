@@ -1,11 +1,35 @@
 // Public app presentations from the current canonical JN86 AppSpecs.
 // Public status policy: owner request, 2026-10-06.
+const APP_STATUSES = Object.freeze(['creating', 'soon', 'released']);
+
+// URL shape is checked here. Public production availability must be verified
+// independently before a maintainer assigns status=released and a Play URL.
+function isPlayStoreUrl(value) {
+  if (typeof value !== 'string' || !value || value.trim() !== value) return false;
+  try {
+    const url = new URL(value);
+    const packageName = url.searchParams.get('id');
+    return url.protocol === 'https:' && url.hostname === 'play.google.com' &&
+      !url.port && !url.username && !url.password && !url.hash &&
+      url.pathname === '/store/apps/details' &&
+      url.searchParams.getAll('id').length === 1 &&
+      /^[A-Za-z][A-Za-z0-9_]*(?:\.[A-Za-z][A-Za-z0-9_]*)+$/.test(packageName || '') &&
+      [...url.searchParams.keys()].every(key => ['id', 'hl', 'gl'].includes(key));
+  } catch { return false; }
+}
+function getPlayUrl(app) {
+  return app.status === 'released' && isPlayStoreUrl(app.playUrl) ? app.playUrl : null;
+}
+function appAvailabilityKey(status) {
+  return status === 'released' ? 'availability_released' :
+    status === 'soon' ? 'availability_soon' : 'availability_text';
+}
 const portfolioApps = [
   {
     "id": "unit-converter",
     "name": "Unit Converter",
     "status": "creating",
-    "icon": "assets/ic_unit_converter_512.png",
+    "icon": "assets/ic_unit_converter_512.png?v=18199c16b800",
     "copy": {
       "en": {
         "summary": "Convert everyday and technical units, with useful calculators and quick access to your favorites.",
@@ -87,7 +111,8 @@ const portfolioApps = [
           "Calcoli offline senza account."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "ott-e",
@@ -175,13 +200,14 @@ const portfolioApps = [
           "Offline, senza pubblicità e senza account."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "age-date-toolkit",
     "name": "Age & Date Toolkit",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/age-date-toolkit.png",
     "copy": {
       "en": {
         "summary": "Find exact ages, compare dates and count down to birthdays and anniversaries.",
@@ -263,13 +289,14 @@ const portfolioApps = [
           "I calcoli funzionano offline."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "stopwatch-multi-timer",
     "name": "Stopwatch & Multi Timer",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/stopwatch-multi-timer.png",
     "copy": {
       "en": {
         "summary": "Time activities with a stopwatch and several named countdown timers running together.",
@@ -351,13 +378,14 @@ const portfolioApps = [
           "Suono, vibrazione e notifica allo scadere."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "fraction-calculator",
     "name": "Fraction Calculator",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/fraction-calculator.png",
     "copy": {
       "en": {
         "summary": "Calculate with fractions and mixed numbers, and follow the steps to the answer.",
@@ -439,13 +467,14 @@ const portfolioApps = [
           "Aiuto per misure in frazioni di pollice."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "last-done",
     "name": "Last Done",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/last-done.png",
     "copy": {
       "en": {
         "summary": "Remember when you last did a recurring task and when it is due again.",
@@ -527,13 +556,14 @@ const portfolioApps = [
           "Organizza le attività in categorie."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "material-calculator",
     "name": "Material Calculator",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/material-calculator.png",
     "copy": {
       "en": {
         "summary": "Estimate how much paint, flooring, tile or other material you need for home projects.",
@@ -615,13 +645,14 @@ const portfolioApps = [
           "Unità metriche e imperiali, offline."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "bubble-level-inclinometer",
     "name": "Bubble Level & Inclinometer",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/bubble-level-inclinometer.png",
     "copy": {
       "en": {
         "summary": "Check whether a surface is level and measure its tilt with your phone’s sensors.",
@@ -703,13 +734,14 @@ const portfolioApps = [
           "La precisione dipende dal dispositivo e dalla calibrazione."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "ruler-protractor",
     "name": "Ruler & Protractor",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/ruler-protractor.png",
     "copy": {
       "en": {
         "summary": "Measure small objects and angles with a calibrated ruler and protractor on your screen.",
@@ -791,13 +823,14 @@ const portfolioApps = [
           "Calibra con una lunghezza nota."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "sound-meter",
     "name": "Sound Meter",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/sound-meter.png",
     "copy": {
       "en": {
         "summary": "Estimate the sound level around you using your phone’s microphone.",
@@ -879,13 +912,14 @@ const portfolioApps = [
           "Stime, non misurazioni certificate."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "compass-altimeter",
     "name": "Compass & Altimeter",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/compass-altimeter.png",
     "copy": {
       "en": {
         "summary": "Check direction, coordinates and altitude using the sensors available on your phone.",
@@ -967,13 +1001,14 @@ const portfolioApps = [
           "Fonte, qualità e precisione disponibile dei dati."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "gps-speedometer",
     "name": "GPS Speedometer",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/gps-speedometer.png",
     "copy": {
       "en": {
         "summary": "See your GPS speed, distance and journey time on a large, clear display.",
@@ -1055,13 +1090,14 @@ const portfolioApps = [
           "Indicatore di qualità GPS e display specchiato facoltativo."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "device-info-diagnostics",
     "name": "Device Info & Diagnostics",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/device-info-diagnostics.png",
     "copy": {
       "en": {
         "summary": "Explore your phone’s hardware and system information, and run simple checks.",
@@ -1143,13 +1179,14 @@ const portfolioApps = [
           "I rapporti omettono identificativi sensibili del dispositivo."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "image-resizer-compressor",
     "name": "Image Resizer & Compressor",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/image-resizer-compressor.png",
     "copy": {
       "en": {
         "summary": "Resize and compress photos on your device, with previews and batch processing.",
@@ -1231,13 +1268,14 @@ const portfolioApps = [
           "Calcola le dimensioni di stampa da pixel e risoluzione."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "voice-recorder",
     "name": "Voice Recorder",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/voice-recorder.png",
     "copy": {
       "en": {
         "summary": "Record speech, notes and interviews, then organize and share your recordings.",
@@ -1319,13 +1357,14 @@ const portfolioApps = [
           "Registrazione in background con qualità selezionabile."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "tuner-metronome",
     "name": "Tuner & Metronome",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/tuner-metronome.png",
     "copy": {
       "en": {
         "summary": "Tune an instrument and keep time while practising with a tuner and metronome.",
@@ -1407,13 +1446,14 @@ const portfolioApps = [
           "Salva tempi e usa il metronomo in background."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "electrical-toolkit",
     "name": "Electrical Toolkit",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/electrical-toolkit.png",
     "copy": {
       "en": {
         "summary": "Work out common electrical and electronic values from the measurements you enter.",
@@ -1495,13 +1535,14 @@ const portfolioApps = [
           "Resistenza dei fili e caduta di tensione dai tuoi dati."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "ham-tools",
     "name": "Ham Tools / Radio RF Toolkit",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/ham-tools.png",
     "copy": {
       "en": {
         "summary": "Radio tools for wavelength, power, signal calculations, locators and Morse practice.",
@@ -1583,13 +1624,14 @@ const portfolioApps = [
           "Conversione, riproduzione e pratica Morse."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "mini-games",
     "name": "Mini Games",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/mini-games.png",
     "copy": {
       "en": {
         "summary": "Play eleven classic puzzles and small games offline in one app.",
@@ -1671,13 +1713,14 @@ const portfolioApps = [
           "Riprendi partite salvate e consulta risultati locali."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "readystock",
     "name": "Inventory / ReadyStock",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/readystock.png",
     "copy": {
       "en": {
         "summary": "Keep track of supplies at home, in a workshop or in a small business, offline.",
@@ -1759,13 +1802,14 @@ const portfolioApps = [
           "Stima la durata delle riserve con i tuoi consumi."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "workout-training",
     "name": "Workout / Training",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/workout-training.png",
     "copy": {
       "en": {
         "summary": "Follow expert-designed exercise programs and keep a record of your training.",
@@ -1847,13 +1891,14 @@ const portfolioApps = [
           "Usa offline i moduli di allenamento scaricati."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "meal-planner",
     "name": "Meal Planner — „Mit főzzek?”",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/meal-planner.png",
     "copy": {
       "en": {
         "summary": "Find ideas for what to cook, use ingredients and leftovers, and plan your week.",
@@ -1935,13 +1980,14 @@ const portfolioApps = [
           "Ricette personali, preferenze e lista della spesa comune."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "work-manager",
     "name": "Work Manager",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/work-manager.png",
     "copy": {
       "en": {
         "summary": "Organize clients, jobs, deadlines and costs, with a clear view of the next task.",
@@ -2023,13 +2069,14 @@ const portfolioApps = [
           "Crea schede di lavoro PDF leggibili."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "lottery-filter",
     "name": "Lottery Filter",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/lottery-filter.png",
     "copy": {
       "en": {
         "summary": "Create and filter lottery combinations using rules you choose, for adults aged 18 and over.",
@@ -2111,13 +2158,14 @@ const portfolioApps = [
           "Nessuna previsione o promessa di maggiori probabilità di vincita."
         ]
       }
-    }
+    },
+    "playUrl": null
   },
   {
     "id": "dialer",
     "name": "Dialer",
     "status": "creating",
-    "icon": null,
+    "icon": "assets/icons/dialer.png",
     "copy": {
       "en": {
         "summary": "An Android phone app for calls, contacts and call history, with configurable automatic redial.",
@@ -2199,11 +2247,14 @@ const portfolioApps = [
           "Imposta intervalli e limiti dei tentativi di richiamata."
         ]
       }
-    }
+    },
+    "playUrl": null
   }
 ];
 
 for (const app of portfolioApps) {
+  if (!APP_STATUSES.includes(app.status)) throw new Error(`Invalid app status: ${app.id}`);
+  if (app.playUrl !== null && !isPlayStoreUrl(app.playUrl)) throw new Error(`Invalid Play URL: ${app.id}`);
   for (const lang of L) {
     const copy = app.copy[lang];
     if (!copy?.summary || !copy.overview || copy.features.length !== 4 || copy.features.some(v => !v)) {

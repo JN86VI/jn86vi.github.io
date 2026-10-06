@@ -3,9 +3,44 @@ import html
 import json
 from pathlib import Path
 import xml.etree.ElementTree as ET
+import re
+from urllib.parse import urlsplit, parse_qs
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://jn86vi.github.io'
+
+
+def play_url(app):
+    value = app.get('playUrl')
+    if app['status'] != 'released' or not isinstance(value, str) or value.strip() != value:
+        return None
+    try:
+        url = urlsplit(value)
+        query = parse_qs(url.query, keep_blank_values=True)
+        package = query.get('id', [])
+        if (url.scheme == 'https' and url.netloc == 'play.google.com'
+                and url.path == '/store/apps/details' and not url.fragment
+                and len(package) == 1
+                and re.fullmatch(r'[A-Za-z][A-Za-z0-9_]*(?:\.[A-Za-z][A-Za-z0-9_]*)+', package[0])
+                and set(query) <= {'id', 'hl', 'gl'}):
+            return value
+    except ValueError:
+        pass
+    return None
+
+
+def header(prefix='../'):
+    options = ''.join(f'<option value="{value}">{label}</option>' for value, label in [
+        ('en', 'English'), ('hu', 'Magyar'), ('de', 'Deutsch'), ('es', 'Español'),
+        ('fr', 'Français'), ('pt-BR', 'Português (Brasil)'), ('pl', 'Polski'), ('it', 'Italiano')])
+    nav = ''.join(f'<a href="{prefix}{path}.html" data-i18n="nav_{path}">{label}</a>' for path, label in [
+        ('apps', 'Apps'), ('support', 'Support'), ('privacy', 'Privacy'), ('contact', 'Contact')])
+    return f'''<header class="site-header"><div class="wrap nav-wrap">
+  <a class="brand" href="{prefix}index.html" aria-label="JN86 home" data-i18n-aria="home_label"><img src="{prefix}assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="brand-logo"></a>
+  <nav class="nav" aria-label="Main navigation" data-i18n-aria="nav_label">{nav}</nav>
+  <label class="language"><span class="sr-only" data-i18n="language">Language</span><select id="languageSelect" aria-label="Language" data-i18n-aria="language">{options}</select></label>
+  <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span><span></span></button>
+</div><nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation" data-i18n-aria="mobile_nav_label">{nav}</nav></header>'''
 
 
 def app_data():
@@ -20,15 +55,14 @@ def page(app):
     description = esc(copy['summary'], quote=True)
     url = f"{SITE}/apps/{app['id']}.html"
     image = app['icon'] or 'assets/JN86_Logo_Lockup_White_Transparent.png'
-    icon = f'<img class="detail-icon" src="../{app["icon"]}" alt="">' if app['icon'] else ''
-    options = ''.join(f'<option value="{value}">{label}</option>' for value, label in [
-        ('en', 'English'), ('hu', 'Magyar'), ('de', 'Deutsch'), ('es', 'Español'),
-        ('fr', 'Français'), ('pt-BR', 'Português (Brasil)'), ('pl', 'Polski'), ('it', 'Italiano')])
-    nav = ''.join(f'<a href="../{path}.html" data-i18n="nav_{path}">{label}</a>' for path, label in [
-        ('apps', 'Apps'), ('support', 'Support'), ('privacy', 'Privacy'), ('contact', 'Contact')])
-    status = 'Coming soon' if app['status'] == 'soon' else 'In the works'
+    icon = f'<img class="detail-icon" src="../{app["icon"]}" width="150" height="150" alt="">' if app['icon'] else ''
+    status = {'soon': 'Coming soon', 'creating': 'In the works', 'released': 'Available'}[app['status']]
     features = ''.join(f'<li>{esc(text)}</li>' for text in copy['features'])
-    availability = 'Coming soon. This app is not yet available to download.' if app['status'] == 'soon' else 'This app is being created. The features described here are planned; it is not yet available to download.'
+    availability = {'soon': 'Coming soon. This app is not yet available to download.',
+                    'creating': 'This app is being created. The features described here are planned; it is not yet available to download.',
+                    'released': 'This app has been publicly released.'}[app['status']]
+    url_to_play = play_url(app)
+    play = f'<a class="btn primary play-link" href="{esc(url_to_play, quote=True)}" aria-label="View on Google Play: {name}">View on Google Play</a>' if url_to_play else ''
     related = ''
     if app['id'] in ['unit-converter', 'ott-e']:
         related = f'''<a class="btn secondary" href="../help/{app['id']}.html" data-i18n="app_help">App help</a>
@@ -51,16 +85,11 @@ def page(app):
   <meta name="twitter:card" content="summary_large_image">
   <title>{name} — App details — JN86</title>
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
-  <link rel="stylesheet" href="../assets/style.css?v=9">
+  <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
 </head>
 <body data-app="{app['id']}">
-<header class="site-header"><div class="wrap nav-wrap">
-  <a class="brand" href="../index.html" aria-label="JN86 home" data-i18n-aria="home_label"><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="brand-logo"></a>
-  <nav class="nav" aria-label="Main navigation" data-i18n-aria="nav_label">{nav}</nav>
-  <label class="language"><span class="sr-only" data-i18n="language">Language</span><select id="languageSelect" aria-label="Language" data-i18n-aria="language">{options}</select></label>
-  <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span><span></span></button>
-</div><nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation" data-i18n-aria="mobile_nav_label">{nav}</nav></header>
+{header()}
 <main>
   <section class="detail-hero"><div class="wrap detail-grid{' without-icon' if not icon else ''}">{icon}<div>
     <p class="eyebrow" data-i18n="detail_title">App details</p>
@@ -75,14 +104,56 @@ def page(app):
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>{availability}</p>
-    <div class="hero-actions"><a class="btn secondary" href="../apps.html" data-i18n="back_apps">← Back to apps</a>{related}</div>
+    <div class="hero-actions"><a class="btn secondary" href="../apps.html" data-i18n="back_apps">← Back to apps</a>{related}<span data-app-play>{play}</span></div>
   </div></section>
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
-<script src="../assets/site.js?v=6"></script>
-<script src="../assets/portfolio-v2.js?v=3"></script>
+<script src="../assets/site.js?v=7"></script>
+<script src="../assets/portfolio-v2.js?v=4"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
-<script src="../assets/app-detail.js?v=1"></script>
+<script src="../assets/app-detail.js?v=2"></script>
+</body>
+</html>
+'''
+
+
+def released_page(apps):
+    cards = []
+    for app in apps:
+        if app['status'] != 'released':
+            continue
+        esc = html.escape
+        name = esc(app['name'])
+        image = f'<img class="app-icon" src="{app["icon"]}" width="70" height="70" alt="">' if app['icon'] else ''
+        url = play_url(app)
+        play = f'<a class="btn secondary play-link" href="{esc(url, quote=True)}" aria-label="View on Google Play: {name}">View on Google Play</a>' if url else ''
+        cards.append(f'''<article class="app-card" data-app="{app['id']}">{image}<span class="badge released">Available</span><h2>{name}</h2><p>{esc(app['copy']['en']['summary'])}</p><a class="more" href="apps/{app['id']}.html" aria-label="Details: {name}">Details →</a>{play}</article>''')
+    return f'''<!doctype html>
+<!-- Generated by scripts/build-details.py from the shared portfolio data. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0B0F14"><meta name="robots" content="index,follow">
+  <meta name="description" content="JN86 apps that have been publicly released.">
+  <link rel="canonical" href="{SITE}/released.html">
+  <meta property="og:type" content="website"><meta property="og:title" content="Available apps — JN86">
+  <meta property="og:description" content="JN86 apps that have been publicly released.">
+  <meta property="og:url" content="{SITE}/released.html"><meta property="og:image" content="{SITE}/assets/JN86_Logo_Lockup_White_Transparent.png">
+  <meta name="twitter:card" content="summary_large_image"><title>Available apps — JN86</title>
+  <link rel="icon" type="image/png" href="assets/JN86_Logo_Lockup_White_Transparent.png">
+  <link rel="stylesheet" href="assets/style.css?v=10"><link rel="stylesheet" href="assets/pages.css?v=3">
+</head>
+<body data-catalog="released">
+{header('')}
+<main>
+  <section class="page-hero"><div class="wrap"><p class="eyebrow">JN86</p><h1 data-i18n="released_apps">Available apps</h1><p class="lead" data-i18n="released_intro">JN86 apps that have been publicly released.</p></div></section>
+  <section class="section apps-section"><div class="wrap">
+    <div id="releasedEmpty" class="panel"{' hidden' if cards else ''} aria-live="polite"><p class="lead" data-i18n="released_empty">No JN86 apps have been publicly released yet.</p><a class="btn secondary" href="apps.html" data-i18n="browse_apps">Browse apps</a></div>
+    <div id="appGrid" class="app-grid" data-status="released"{'' if cards else ' hidden'}>{''.join(cards)}</div>
+  </div></section>
+</main>
+<footer><div class="wrap footer"><div><img src="assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
+<script src="assets/site.js?v=7"></script><script src="assets/portfolio-v2.js?v=4"></script><script src="assets/mobile-menu.js?v=6"></script>
 </body>
 </html>
 '''
@@ -91,12 +162,12 @@ def page(app):
 def outputs():
     apps = app_data()
     pages = {ROOT / f"apps/{app['id']}.html": page(app) for app in apps}
+    pages[ROOT / 'released.html'] = released_page(apps)
     namespace = 'http://www.sitemaps.org/schemas/sitemap/0.9'
     ET.register_namespace('', namespace)
     sitemap = ET.fromstring((ROOT / 'sitemap.xml').read_text())
     existing = {el.text for el in sitemap.findall(f'{{{namespace}}}url/{{{namespace}}}loc')}
-    for app in apps:
-        url = f"{SITE}/apps/{app['id']}.html"
+    for url in [f'{SITE}/released.html', *[f"{SITE}/apps/{app['id']}.html" for app in apps]]:
         if url not in existing:
             entry = ET.SubElement(sitemap, f'{{{namespace}}}url')
             ET.SubElement(entry, f'{{{namespace}}}loc').text = url
@@ -112,8 +183,8 @@ if __name__ == '__main__':
         stale = [str(path.relative_to(ROOT)) for path, text in generated.items() if not path.exists() or path.read_text() != text]
         if stale:
             raise SystemExit('Stale generated pages: ' + ', '.join(stale))
-        print('PASS: all 25 detail pages and the sitemap match the shared template/data')
+        print('PASS: all 25 detail pages, released-app page and sitemap match the shared template/data')
     else:
         for path, text in generated.items():
             path.write_text(text)
-        print('Generated 25 app pages and updated the sitemap')
+        print('Generated 25 app pages, released-app page and updated the sitemap')

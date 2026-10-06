@@ -153,21 +153,108 @@ const publicLabels = {
 
 const appHelp = {en:'App help', hu:'Alkalmazássúgó', de:'App-Hilfe', es:'Ayuda de la app', fr:'Aide de l’application', 'pt-BR':'Ajuda do app', pl:'Pomoc aplikacji', it:'Aiuto dell’app'};
 const soonAvailability = {"en": "Coming soon. This app is not yet available to download.", "hu": "Hamarosan megjelenik. Az alkalmazás még nem tölthető le.", "de": "Demnächst verfügbar. Diese App steht noch nicht zum Download bereit.", "es": "Próximamente. Esta app aún no se puede descargar.", "fr": "Bientôt disponible. Cette application ne peut pas encore être téléchargée.", "pt-BR": "Em breve. Este app ainda não está disponível para baixar.", "pl": "Wkrótce. Nie można jeszcze pobrać tej aplikacji.", "it": "In arrivo. Questa app non è ancora disponibile per il download."};
-for (const lang of L) Object.assign(ui[lang], publicLabels[lang], {app_help:appHelp[lang], availability_soon:soonAvailability[lang]});
+const releaseLabels = {
+  "en": {
+    "released_apps": "Available apps",
+    "status_released": "Available",
+    "released_intro": "JN86 apps that have been publicly released.",
+    "released_empty": "No JN86 apps have been publicly released yet.",
+    "play_cta": "View on Google Play",
+    "availability_released": "This app has been publicly released.",
+    "apps_intro": "Explore the JN86 app portfolio and learn what each app is for."
+  },
+  "hu": {
+    "released_apps": "Megjelent alkalmazások",
+    "status_released": "Elérhető",
+    "released_intro": "A nyilvánosan megjelent JN86 alkalmazások.",
+    "released_empty": "Még nincs nyilvánosan megjelent JN86 alkalmazás.",
+    "play_cta": "Megnyitás a Google Playen",
+    "availability_released": "Az alkalmazás nyilvánosan megjelent.",
+    "apps_intro": "Ismerd meg a JN86 alkalmazásokat és azt, hogy melyik mire használható."
+  },
+  "de": {
+    "released_apps": "Veröffentlichte Apps",
+    "status_released": "Verfügbar",
+    "released_intro": "Die öffentlich veröffentlichten JN86-Apps.",
+    "released_empty": "Es wurden noch keine JN86-Apps öffentlich veröffentlicht.",
+    "play_cta": "Bei Google Play öffnen",
+    "availability_released": "Diese App wurde öffentlich veröffentlicht.",
+    "apps_intro": "Entdecke die JN86-Apps und erfahre, wofür sie gedacht sind."
+  },
+  "es": {
+    "released_apps": "Aplicaciones disponibles",
+    "status_released": "Disponible",
+    "released_intro": "Las apps JN86 que ya se han publicado para el público.",
+    "released_empty": "Aún no se ha publicado ninguna app JN86 para el público.",
+    "play_cta": "Ver en Google Play",
+    "availability_released": "Esta app ya se ha publicado para el público.",
+    "apps_intro": "Explora las apps JN86 y descubre para qué sirve cada una."
+  },
+  "fr": {
+    "released_apps": "Applications disponibles",
+    "status_released": "Disponible",
+    "released_intro": "Les applications JN86 déjà accessibles au public.",
+    "released_empty": "Aucune application JN86 n’est encore disponible pour le public.",
+    "play_cta": "Voir sur Google Play",
+    "availability_released": "Cette application est disponible pour le public.",
+    "apps_intro": "Découvrez les applications JN86 et à quoi chacune peut vous servir."
+  },
+  "pt-BR": {
+    "released_apps": "Apps disponíveis",
+    "status_released": "Disponível",
+    "released_intro": "Os apps JN86 que já foram lançados para o público.",
+    "released_empty": "Nenhum app JN86 foi lançado para o público ainda.",
+    "play_cta": "Ver no Google Play",
+    "availability_released": "Este app já foi lançado para o público.",
+    "apps_intro": "Conheça os apps JN86 e descubra para que serve cada um."
+  },
+  "pl": {
+    "released_apps": "Dostępne aplikacje",
+    "status_released": "Dostępna",
+    "released_intro": "Aplikacje JN86 już udostępnione publicznie.",
+    "released_empty": "Żadna aplikacja JN86 nie została jeszcze udostępniona publicznie.",
+    "play_cta": "Zobacz w Google Play",
+    "availability_released": "Ta aplikacja została udostępniona publicznie.",
+    "apps_intro": "Poznaj aplikacje JN86 i dowiedz się, do czego służy każda z nich."
+  },
+  "it": {
+    "released_apps": "App disponibili",
+    "status_released": "Disponibile",
+    "released_intro": "Le app JN86 già pubblicate per il pubblico.",
+    "released_empty": "Nessuna app JN86 è stata ancora pubblicata per il pubblico.",
+    "play_cta": "Vedi su Google Play",
+    "availability_released": "Questa app è stata pubblicata per il pubblico.",
+    "apps_intro": "Scopri le app JN86 e a cosa può servirti ciascuna."
+  }
+};
+for (const lang of L) Object.assign(ui[lang], publicLabels[lang], releaseLabels[lang], {app_help:appHelp[lang], availability_soon:soonAvailability[lang]});
 function tr(lang, key) { return ui[lang]?.[key] ?? ui.en[key] ?? key; }
 
 function renderApps(lang) {
   const grid = document.getElementById('appGrid');
   if (!grid) return;
   grid.replaceChildren();
-  for (const app of apps) {
+  const visibleApps = grid.dataset.status ? apps.filter(app => app.status === grid.dataset.status) : apps;
+  const empty = document.getElementById('releasedEmpty');
+  if (empty) empty.hidden = visibleApps.length > 0;
+  if (grid.dataset.status) grid.hidden = visibleApps.length === 0;
+  for (const app of visibleApps) {
     const card = document.createElement('article');
     card.className = 'app-card' + (app.status === 'soon' ? ' featured' : '');
     card.dataset.app = app.id;
-    const icon = app.icon ? `<img class="app-icon" src="${app.icon}" alt="">` : '';
+    const icon = app.icon ? `<img class="app-icon" src="${app.icon}" width="70" height="70" alt="">` : '';
     card.innerHTML = `${icon}<span class="badge ${app.status}">${tr(lang, 'status_' + app.status)}</span>
       <h2>${app.name}</h2><p>${app.copy[lang].summary}</p>
       <a class="more" href="apps/${app.id}.html" aria-label="${tr(lang, 'details')}: ${app.name}">${tr(lang, 'details')} →</a>`;
+    const playUrl = getPlayUrl(app);
+    if (playUrl) {
+      const play = document.createElement('a');
+      play.className = 'btn secondary play-link';
+      play.href = playUrl;
+      play.textContent = tr(lang, 'play_cta');
+      play.setAttribute('aria-label', `${tr(lang, 'play_cta')}: ${app.name}`);
+      card.appendChild(play);
+    }
     grid.appendChild(card);
   }
 }
@@ -180,6 +267,13 @@ function setLanguage(lang) {
   document.querySelectorAll('[data-i18n]').forEach(el => el.textContent = tr(lang, el.dataset.i18n));
   document.querySelectorAll('[data-i18n-aria]').forEach(el => el.setAttribute('aria-label', tr(lang, el.dataset.i18nAria)));
   renderApps(lang);
+  if (document.body.dataset.catalog === 'released') {
+    document.title = `${tr(lang, 'released_apps')} — JN86`;
+    for (const query of ['meta[name="description"]', 'meta[property="og:description"]']) {
+      document.querySelector(query).content = tr(lang, 'released_intro');
+    }
+    document.querySelector('meta[property="og:title"]').content = document.title;
+  }
   document.dispatchEvent(new CustomEvent('jn86-language', {detail: lang}));
 }
 

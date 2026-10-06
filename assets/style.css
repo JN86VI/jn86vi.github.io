@@ -16,3 +16,10 @@
 .hero-showcase .showcase-card{margin-left:0}
 .hero-showcase .showcase-label{color:#9DDEA1}
 .showcase-card:not(:has(img)){grid-template-columns:minmax(0,1fr)}
+
+[hidden]{display:none!important}
+.detail-icon{object-fit:contain}
+.badge.released{background:rgba(45,140,255,.12);color:#9CC8FF;border:1px solid rgba(45,140,255,.3)}
+.app-card .play-link{margin-top:14px;align-self:flex-start;text-align:center}
+[data-app-play]:empty{display:none}
+@media(max-width:640px){[data-catalog="released"] .page-hero h1{font-size:clamp(2.2rem,8vw,3.2rem)}}
