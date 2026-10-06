@@ -3,3 +3,16 @@
 .page-hero h1{overflow-wrap:anywhere}
 .panel h2{overflow-wrap:anywhere}
 @media(max-width:920px){.split{grid-template-columns:minmax(0,1fr)}.split>*{min-width:0}}
+
+.badge.soon{background:rgba(76,175,80,.12);color:#A8E7AA;border:1px solid rgba(76,175,80,.3)}
+.badge.creating{background:rgba(255,255,255,.05);color:#C5CBD3;border:1px solid rgba(255,255,255,.1)}
+.app-card.featured{border-color:#315D38;background:linear-gradient(180deg,rgba(76,175,80,.11),rgba(255,255,255,.018))}
+.app-card .more{margin-top:auto}
+.detail-grid.without-icon{grid-template-columns:minmax(0,1fr)}
+.detail-grid>div{min-width:0}
+.detail-hero h1,.feature-list li{overflow-wrap:anywhere}
+.feature-list{padding-left:1.3em;color:var(--muted)}
+.feature-list li+li{margin-top:14px}
+.hero-showcase .showcase-card{margin-left:0}
+.hero-showcase .showcase-label{color:#9DDEA1}
+.showcase-card:not(:has(img)){grid-template-columns:minmax(0,1fr)}

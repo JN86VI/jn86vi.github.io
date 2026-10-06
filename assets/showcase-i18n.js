@@ -11,3 +11,25 @@ const showcaseText={
 function applyShowcaseLanguage(lang){const dict=showcaseText[lang]||showcaseText.en;document.querySelectorAll('[data-showcase]').forEach(el=>{const key=el.dataset.showcase;if(dict[key])el.textContent=dict[key];});}
 const showcaseSelect=document.getElementById('languageSelect');
 if(showcaseSelect){applyShowcaseLanguage(showcaseSelect.value||localStorage.getItem('jn86-language')||'en');showcaseSelect.addEventListener('change',e=>applyShowcaseLanguage(e.target.value));}
+
+function renderShowcase(lang) {
+  const showcase = document.getElementById('homeShowcase');
+  if (!showcase) return;
+  showcase.replaceChildren();
+  for (const app of apps.filter(a => a.status === 'soon')) {
+    const link = document.createElement('a');
+    link.className = 'showcase-card';
+    link.dataset.app = app.id;
+    link.href = `apps/${app.id}.html`;
+    const icon = app.icon ? `<img src="${app.icon}" alt="">` : '';
+    link.innerHTML = `${icon}<div><span class="showcase-label">${tr(lang, 'status_soon')}</span>
+      <strong>${app.name}</strong><small>${app.copy[lang].summary}</small></div>`;
+    showcase.appendChild(link);
+  }
+  showcase.setAttribute('aria-label', tr(lang, 'status_soon'));
+  const counts = {all: apps.length, soon: apps.filter(a => a.status === 'soon').length,
+    creating: apps.filter(a => a.status === 'creating').length};
+  document.querySelectorAll('[data-app-count]').forEach(el => el.textContent = counts[el.dataset.appCount]);
+}
+document.addEventListener('jn86-language', e => renderShowcase(e.detail));
+renderShowcase(document.documentElement.lang);
