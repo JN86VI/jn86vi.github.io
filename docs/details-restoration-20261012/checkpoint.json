@@ -1,6 +1,6 @@
 {
-  "status": "LOCAL_READY_FOR_PUBLICATION",
-  "EXACT_CONTINUATION_POINT": "publication:commit-reviewed-scope",
+  "status": "COMPLETE",
+  "EXACT_CONTINUATION_POINT": "COMPLETE_25_APPS_8_LANGUAGES_PUBLISHED",
   "locales": [
     "en",
     "hu",
@@ -29,7 +29,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "unit-converter-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/unit-converter-validation.json"
     },
     {
       "id": "ott-e",
@@ -48,7 +49,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "ott-e-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/ott-e-validation.json"
     },
     {
       "id": "age-date-toolkit",
@@ -67,7 +69,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "age-date-toolkit-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/age-date-toolkit-validation.json"
     },
     {
       "id": "stopwatch-multi-timer",
@@ -86,7 +89,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "stopwatch-multi-timer-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/stopwatch-multi-timer-validation.json"
     },
     {
       "id": "fraction-calculator",
@@ -105,7 +109,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "fraction-calculator-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/fraction-calculator-validation.json"
     },
     {
       "id": "last-done",
@@ -124,7 +129,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "last-done-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/last-done-validation.json"
     },
     {
       "id": "material-calculator",
@@ -143,7 +149,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "material-calculator-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/material-calculator-validation.json"
     },
     {
       "id": "bubble-level-inclinometer",
@@ -162,7 +169,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "bubble-level-inclinometer-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/bubble-level-inclinometer-validation.json"
     },
     {
       "id": "ruler-protractor",
@@ -181,7 +189,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "ruler-protractor-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/ruler-protractor-validation.json"
     },
     {
       "id": "sound-meter",
@@ -200,7 +209,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "sound-meter-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/sound-meter-validation.json"
     },
     {
       "id": "compass-altimeter",
@@ -219,7 +229,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "compass-altimeter-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/compass-altimeter-validation.json"
     },
     {
       "id": "gps-speedometer",
@@ -238,7 +249,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "gps-speedometer-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/gps-speedometer-validation.json"
     },
     {
       "id": "device-info-diagnostics",
@@ -257,7 +269,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "device-info-diagnostics-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/device-info-diagnostics-validation.json"
     },
     {
       "id": "image-resizer-compressor",
@@ -276,7 +289,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "image-resizer-compressor-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/image-resizer-compressor-validation.json"
     },
     {
       "id": "voice-recorder",
@@ -295,7 +309,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "voice-recorder-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/voice-recorder-validation.json"
     },
     {
       "id": "tuner-metronome",
@@ -314,7 +329,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "tuner-metronome-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/tuner-metronome-validation.json"
     },
     {
       "id": "electrical-toolkit",
@@ -333,7 +349,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "electrical-toolkit-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/electrical-toolkit-validation.json"
     },
     {
       "id": "ham-tools",
@@ -352,7 +369,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "ham-tools-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/ham-tools-validation.json"
     },
     {
       "id": "mini-games",
@@ -371,7 +389,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "mini-games-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/mini-games-validation.json"
     },
     {
       "id": "readystock",
@@ -390,7 +409,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "readystock-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/readystock-validation.json"
     },
     {
       "id": "workout-training",
@@ -409,7 +429,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "workout-training-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/workout-training-validation.json"
     },
     {
       "id": "meal-planner",
@@ -428,7 +449,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "meal-planner-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/meal-planner-validation.json"
     },
     {
       "id": "work-manager",
@@ -447,7 +469,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "work-manager-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/work-manager-validation.json"
     },
     {
       "id": "lottery-filter",
@@ -466,7 +489,8 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "lottery-filter-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/lottery-filter-validation.json"
     },
     {
       "id": "dialer",
@@ -485,12 +509,15 @@
       ],
       "content_review": "AUTHOR_SOURCE_AND_LANGUAGE_REVIEW",
       "technical_evidence": "dialer-validation.json",
-      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED"
+      "visual_review": "HU_390_PX_SCREENSHOT_INSPECTED",
+      "live_evidence": "live/dialer-validation.json"
     }
   ],
-  "local_commits": [],
+  "local_commits": [
+    "2754625384f9238b693d240994ffaac4759a58e8"
+  ],
   "blockers": [],
-  "published": false,
+  "published": true,
   "supplementary_uc_status": {
     "requested": "soon",
     "local_change": "DONE",
@@ -548,6 +575,34 @@
     "docs/details-restoration-20261012/ham-tools-validation.json",
     "docs/details-restoration-20261012/image-resizer-compressor-validation.json",
     "docs/details-restoration-20261012/last-done-validation.json",
+    "docs/details-restoration-20261012/live-content-validation.json",
+    "docs/details-restoration-20261012/live-uc-status-validation.json",
+    "docs/details-restoration-20261012/live-validation-summary.json",
+    "docs/details-restoration-20261012/live/age-date-toolkit-validation.json",
+    "docs/details-restoration-20261012/live/bubble-level-inclinometer-validation.json",
+    "docs/details-restoration-20261012/live/compass-altimeter-validation.json",
+    "docs/details-restoration-20261012/live/device-info-diagnostics-validation.json",
+    "docs/details-restoration-20261012/live/dialer-validation.json",
+    "docs/details-restoration-20261012/live/electrical-toolkit-validation.json",
+    "docs/details-restoration-20261012/live/fraction-calculator-validation.json",
+    "docs/details-restoration-20261012/live/gps-speedometer-validation.json",
+    "docs/details-restoration-20261012/live/ham-tools-validation.json",
+    "docs/details-restoration-20261012/live/image-resizer-compressor-validation.json",
+    "docs/details-restoration-20261012/live/last-done-validation.json",
+    "docs/details-restoration-20261012/live/lottery-filter-validation.json",
+    "docs/details-restoration-20261012/live/material-calculator-validation.json",
+    "docs/details-restoration-20261012/live/meal-planner-validation.json",
+    "docs/details-restoration-20261012/live/mini-games-validation.json",
+    "docs/details-restoration-20261012/live/ott-e-validation.json",
+    "docs/details-restoration-20261012/live/readystock-validation.json",
+    "docs/details-restoration-20261012/live/ruler-protractor-validation.json",
+    "docs/details-restoration-20261012/live/sound-meter-validation.json",
+    "docs/details-restoration-20261012/live/stopwatch-multi-timer-validation.json",
+    "docs/details-restoration-20261012/live/tuner-metronome-validation.json",
+    "docs/details-restoration-20261012/live/unit-converter-validation.json",
+    "docs/details-restoration-20261012/live/voice-recorder-validation.json",
+    "docs/details-restoration-20261012/live/work-manager-validation.json",
+    "docs/details-restoration-20261012/live/workout-training-validation.json",
     "docs/details-restoration-20261012/local-site-validation.json",
     "docs/details-restoration-20261012/lottery-filter-validation.json",
     "docs/details-restoration-20261012/material-calculator-validation.json",
@@ -556,6 +611,7 @@
     "docs/details-restoration-20261012/ott-e-validation.json",
     "docs/details-restoration-20261012/preservation-validation.json",
     "docs/details-restoration-20261012/publication-content.json",
+    "docs/details-restoration-20261012/publication.json",
     "docs/details-restoration-20261012/readystock-validation.json",
     "docs/details-restoration-20261012/ruler-protractor-validation.json",
     "docs/details-restoration-20261012/sound-meter-validation.json",
@@ -572,5 +628,8 @@
     "scripts/build-details.py",
     "tests/validate-detail-content.cjs",
     "tests/validate-site.cjs"
-  ]
+  ],
+  "published_content_commit": "2754625384f9238b693d240994ffaac4759a58e8",
+  "live_validation": "live-validation-summary.json",
+  "completion_evidence_commit": "Git commit containing this completed checkpoint; see repository history and task final reply"
 }

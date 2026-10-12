@@ -1,0 +1,27 @@
+{
+  "app": "bubble-level-inclinometer",
+  "status": "PASS",
+  "languages": [
+    "en",
+    "hu",
+    "de",
+    "es",
+    "fr",
+    "pt-BR",
+    "pl",
+    "it"
+  ],
+  "widths": [
+    320,
+    390,
+    1440
+  ],
+  "rendered_states": 24,
+  "sections": 2,
+  "feature_descriptions": 9,
+  "coverage_rows": 9,
+  "links_checked": 2,
+  "keyboard_and_language_state": "PASS",
+  "errors": [],
+  "base_url": "https://jn86vi.github.io/"
+}

@@ -1,6 +1,6 @@
 # JN86 webes alkalmazásrészletek — 2026-10-12
 
-**Helyi ellenőrzés: PASS. Mind a 25 leírás teljes, nyolc nyelven. Publikáció: folyamatban.**
+**PASS — 25/25 alkalmazásrészlet elkészült nyolc nyelven, publikálva és az élő weboldalon ellenőrizve.**
 
 A meglévő helyi `Web_Sync_site` munkafában készült a teljes javítás. Az irányadó forrás a `JN86VI/JN86` hivatalos `main` ágából rögzített saját AppSpec, az UC-nál a saját adatleltár és implementált funkciók is. A források tartalma, Git blobja, SHA-256 lenyomata és rögzített GitHub-hivatkozása a `sources.json` fájlban található. Az induló forráspont `f571bd9da1e52097894049341e18b1e503be9594`; a publikáció előtti ellenőrzési pont `e277661b99686c72aa03536cd1e9bded5b07ea29`. A 25 AppSpec és az UC-adatleltár változatlan. A Master Index közben csak a Meal Planner kutatási belépési navigációját kapta meg; a követelményeket és ezt a webfeladatot nem változtatta meg.
 
@@ -65,6 +65,14 @@ Ezek nem a webes helyreállítás hiányzó lépései, és nem jelentenek appkia
 
 ## Publikáció
 
-A felhasználó előre engedélyezte a teljes munka végén a helyi commitot és push-t. Részleges portfólió nem került publikálásra. A teljes 25/25 × 8 helyi PASS után következik az ellenőrzött fájllista commitja, a távoli SHA ellenőrzése, a Pages-build és az élő tartalom ellenőrzése.
+A felhasználó előre engedélyezte a teljes munka végén a helyi commitot és push-t. Részleges portfólió nem került publikálásra. A teljes 25/25 × 8 helyi PASS után az ellenőrzött 72 fájl egy helyi commitban került a hivatalos webrepo `main` ágára.
 
-EXACT_CONTINUATION_POINT: `publication:stage-reviewed-scope`
+- Tartalomcommit: `2754625384f9238b693d240994ffaac4759a58e8`.
+- A helyi HEAD, követő ág és közvetlen távoli main az első push után egyezett.
+- [GitHub Pages build és deployment](https://github.com/JN86VI/jn86vi.github.io/actions/runs/38279985591): completed / success, a fenti tartalomcommitból.
+- [Élő webhely](https://jn86vi.github.io/): 25 alkalmazás × 8 nyelv × 3 szélesség = 600 aktuális részletállapot PASS; az UC-státusz/főoldal további 24 állapota PASS; billentyűzetes nyitás, nyelvmegőrzés, HTTP/hivatkozások és túlcsordulás ellenőrizve. A 32 publikált tartalomfájl és a 25 változatlan privacy oldal HTTP 200, SHA-256 szerint pontosan egyezik a helyi példánnyal.
+- Az élő bizonyítékok külön lezárási commitja csak ennek a feladatnak a jelentéseit és ellenőrzési adatait tartalmazza. A megjelenített webes tartalmat nem változtatja. A commit a jelentést tartalmazó Git-előzményben azonosítható; végleges SHA-ja a feladat záró válaszában szerepel.
+
+Élő bizonyítékok: `live-validation-summary.json`, `live-content-validation.json`, `live-uc-status-validation.json` és a `live/` könyvtár 25 alkalmazásonkénti jelentése. A Git- és buildbizonylat a `publication.json` fájlban található. A push az aktív, már meglévő JN86VI SSH-kulccsal történt; a repository beállításai nem változtak. A fő JN86-forrásrepo ebben a munkában kizárólag olvasási forrás maradt.
+
+EXACT_CONTINUATION_POINT: `COMPLETE_25_APPS_8_LANGUAGES_PUBLISHED`

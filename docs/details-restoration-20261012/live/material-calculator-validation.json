@@ -1,0 +1,27 @@
+{
+  "app": "material-calculator",
+  "status": "PASS",
+  "languages": [
+    "en",
+    "hu",
+    "de",
+    "es",
+    "fr",
+    "pt-BR",
+    "pl",
+    "it"
+  ],
+  "widths": [
+    320,
+    390,
+    1440
+  ],
+  "rendered_states": 24,
+  "sections": 2,
+  "feature_descriptions": 12,
+  "coverage_rows": 12,
+  "links_checked": 2,
+  "keyboard_and_language_state": "PASS",
+  "errors": [],
+  "base_url": "https://jn86vi.github.io/"
+}

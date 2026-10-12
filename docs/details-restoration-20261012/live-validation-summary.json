@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "base_url": "https://jn86vi.github.io/",
+  "implementation_commit": "2754625384f9238b693d240994ffaac4759a58e8",
+  "verified_at_utc": "2026-10-12T16:54:29.004486+00:00",
+  "apps": 25,
+  "languages": [
+    "en",
+    "hu",
+    "de",
+    "es",
+    "fr",
+    "pt-BR",
+    "pl",
+    "it"
+  ],
+  "widths": [
+    320,
+    390,
+    1440
+  ],
+  "description_states": 600,
+  "description_sections": 362,
+  "uc_status_and_home_states": 24,
+  "content_file_hash_matches": 32,
+  "privacy_file_hash_matches": 25,
+  "keyboard_and_locale_state": "PASS",
+  "errors": []
+}
