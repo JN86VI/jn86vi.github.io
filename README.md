@@ -10,6 +10,10 @@ The 2026-10-06 owner request sets public statuses: Ott e! is Coming soon;
 the other 24 apps are In the works. Only Coming soon apps are featured.
 Currently no app has a verified public production release. Ott e!'s closed
 Google Play test is not a public release. No release date is published.
+The separate product stage distinguishes the two apps in development from
+the other 23 planned apps. This stage does not change the public lifecycle
+badge or imply production availability. Unit Converter's active internal
+Play test is described explicitly on its detail and privacy pages.
 
 `assets/portfolio-v2.js` contains names, statuses and all eight translations.
 Cards, detail pages and the home showcase use this same data. There is no
@@ -51,5 +55,14 @@ Playwright available; set `BASE_URL` to the preview or live URL and optionally
 runs data, source and local-link checks without a browser. `OUTPUT_DIR` can
 save the browser validation report and screenshots outside the repository.
 
-Privacy policy content is independent of public app presentations and is
-not generated or edited by this workflow.
+`assets/app-pages.json` adds complete app-specific workflows, limits, data,
+permissions and first-version boundaries in all eight languages. It is the
+source for generated `app-pages-data.js`, the extended detail sections and
+23 planned-app privacy pages. Planned pages disclose their draft product
+status and must be checked against actual implementations before launch.
+`privacy/unit-converter.html` remains a separate legal source, updated once
+under W7/G06 for active UMP/Ads/Billing. Ott e! privacy bytes are preserved.
+The privacy catalog links to all 25 dedicated pages. Inventory, checkpoints
+and the Hungarian closeout report are under `docs/w7-portfolio/`.
+The validator checks full content localization on every app/privacy route,
+in addition to portfolio, icons, navigation, links and lifecycle behavior.

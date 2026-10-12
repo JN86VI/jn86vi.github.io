@@ -243,7 +243,8 @@ function renderApps(lang) {
     card.className = 'app-card' + (app.status === 'soon' ? ' featured' : '');
     card.dataset.app = app.id;
     const icon = app.icon ? `<img class="app-icon" src="${app.icon}" width="70" height="70" alt="">` : '';
-    card.innerHTML = `${icon}<span class="badge ${app.status}">${tr(lang, 'status_' + app.status)}</span>
+    const stage = app.status === 'released' ? '' : `<span class="badge neutral" data-app-stage>${tr(lang, app.productStage === 'planned' ? 'status_plan' : 'status_dev')}</span>`;
+    card.innerHTML = `${icon}<span class="badge ${app.status}">${tr(lang, 'status_' + app.status)}</span> ${stage}
       <h2>${app.name}</h2><p>${app.copy[lang].summary}</p>
       <a class="more" href="apps/${app.id}.html" aria-label="${tr(lang, 'details')}: ${app.name}">${tr(lang, 'details')} →</a>`;
     const playUrl = getPlayUrl(app);

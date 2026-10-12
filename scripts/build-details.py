@@ -48,6 +48,44 @@ def app_data():
     return json.JSONDecoder().raw_decode(source.split('const portfolioApps = ', 1)[1])[0]
 
 
+def extended_data():
+    return json.loads((ROOT / 'assets/app-pages.json').read_text())
+
+
+def extended_sections(app):
+    data = extended_data()
+    entry = data['apps'].get(app['id'])
+    if not entry:
+        return ''
+    text = entry['copy']['en']
+    labels = data['labels']['en']
+    def section(key, title):
+        return f'<section class="section"><div class="wrap"><h2 data-detail-label="{title}">{html.escape(labels[title])}</h2><p data-detail="{key}">{html.escape(text[key])}</p></div></section>'
+    notice = labels['plannedNotice'] if entry['planned'] else labels['internal' if app['id'] == 'unit-converter' else 'soon']
+    return f'''<section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>{html.escape(notice)}</p></div></section>''' + section('workflow', 'workflowTitle') + section('limits', 'limitsTitle') + f'''<section class="section alt"><div class="wrap split">
+      <div><h2 data-detail-label="operationTitle">{html.escape(labels['operationTitle'])}</h2><p data-detail-offline>{html.escape(text.get('offline', labels['offline']))}</p><p data-detail-android>{html.escape(labels['android'])}</p><h3 data-detail-label="permissionsTitle">{html.escape(labels['permissionsTitle'])}</h3><p data-detail="permissions">{html.escape(text['permissions'])}</p></div>
+      <div class="panel"><h3 data-detail-label="dataTitle">{html.escape(labels['dataTitle'])}</h3><p data-detail="data">{html.escape(text['data'])}</p><h3 data-detail-label="moneyTitle">{html.escape(labels['moneyTitle'])}</h3><p data-detail-money>{html.escape(labels[entry['monetization']] if entry['planned'] or app['id'] == 'ott-e' else text['money'])}</p></div>
+    </div></section>''' + f'''<section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">{html.escape(labels['versionTitle'])}</h2><p data-detail-version>{html.escape(labels['version'] if entry['planned'] else text['version'])}</p><p data-detail="plans">{html.escape(text['plans'])}</p></div></section>'''
+
+
+def privacy_page(app):
+    data = extended_data()
+    entry = data['apps'][app['id']]
+    text = entry['copy']['en']
+    labels = data['labels']['en']
+    sections = [('dataTitle', 'data'), ('permissionsTitle', 'permissions')]
+    body = ''.join(f'<section class="section"><div class="wrap"><h2 data-detail-label="{title}">{html.escape(labels[title])}</h2><p data-detail="{key}">{html.escape(text[key])}</p></div></section>' for title, key in sections)
+    for title, key in [('moneyTitle', entry['monetization']), ('externalTitle', 'external'), ('deletionTitle', 'deletion'), ('contactTitle', 'contact')]:
+        body += f'<section class="section"><div class="wrap"><h2 data-detail-label="{title}">{html.escape(labels[title])}</h2><p data-policy-shared="{key}">{html.escape(labels[key])}</p></div></section>'
+    name = html.escape(app['name'])
+    return f'''<!doctype html>
+<!-- Generated from the app-specific, eight-language content. -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0B0F14"><meta name="description" content="Planned privacy information for {name} by JN86VI."><link rel="canonical" href="{SITE}/privacy/{app['id']}.html"><title>{name} — Privacy — JN86</title><link rel="stylesheet" href="../assets/style.css?v=10"><link rel="stylesheet" href="../assets/pages.css?v=3"></head>
+<body data-policy-app="{app['id']}">{header()}<main><section class="page-hero"><div class="wrap"><p class="eyebrow">{name}</p><h1 data-detail-label="policyTitle">{html.escape(labels['policyTitle'])}</h1><p class="lead" data-policy-shared="policyNotice">{html.escape(labels['policyNotice'])}</p><p data-detail-label="updated">{html.escape(labels['updated'])}</p><p>JN86VI · <a href="mailto:jn86apps@outlook.com">jn86apps@outlook.com</a></p></div></section>{body}<section class="section alt"><div class="wrap"><a class="btn secondary" href="../apps/{app['id']}.html" data-detail-label="backDetails">{html.escape(labels['backDetails'])}</a><a class="btn secondary" href="../privacy.html" data-i18n="nav_privacy">Privacy</a></div></section></main>
+<footer><div class="wrap footer"><p>© <span id="year"></span> JN86VI</p><p>Fast. Simple. Reliable.</p></div></footer><script src="../assets/site.js?v=8"></script><script src="../assets/portfolio-v2.js?v=5"></script><script src="../assets/app-pages-data.js?v=1"></script><script src="../assets/app-pages.js?v=1"></script><script src="../assets/mobile-menu.js?v=6"></script></body></html>
+'''
+
+
 def page(app):
     esc = html.escape
     name = esc(app['name'])
@@ -57,16 +95,19 @@ def page(app):
     image = app['icon'] or 'assets/JN86_Logo_Lockup_White_Transparent.png'
     icon = f'<img class="detail-icon" src="../{app["icon"]}" width="150" height="150" alt="">' if app['icon'] else ''
     status = {'soon': 'Coming soon', 'creating': 'In the works', 'released': 'Available'}[app['status']]
+    stage = 'Planned' if app['productStage'] == 'planned' else 'In development'
     features = ''.join(f'<li>{esc(text)}</li>' for text in copy['features'])
     availability = {'soon': 'Coming soon. This app is not yet available to download.',
                     'creating': 'This app is being created. The features described here are planned; it is not yet available to download.',
                     'released': 'This app has been publicly released.'}[app['status']]
+    entry = extended_data()['apps'].get(app['id'])
+    if entry and not entry['planned'] and app['status'] != 'released':
+        availability = extended_data()['labels']['en']['internal' if app['id'] == 'unit-converter' else 'soon']
     url_to_play = play_url(app)
     play = f'<a class="btn primary play-link" href="{esc(url_to_play, quote=True)}" aria-label="View on Google Play: {name}">View on Google Play</a>' if url_to_play else ''
-    related = ''
+    related = f'<a class="btn secondary" href="../privacy/{app["id"]}.html" data-i18n="nav_privacy">Privacy</a>'
     if app['id'] in ['unit-converter', 'ott-e']:
-        related = f'''<a class="btn secondary" href="../help/{app['id']}.html" data-i18n="app_help">App help</a>
-          <a class="btn secondary" href="../privacy/{app['id']}.html" data-i18n="nav_privacy">Privacy</a>'''
+        related += f'''<a class="btn secondary" href="../help/{app['id']}.html" data-i18n="app_help">App help</a>'''
     return f'''<!doctype html>
 <!-- Generated by scripts/build-details.py from assets/portfolio-v2.js. -->
 <html lang="en">
@@ -95,12 +136,13 @@ def page(app):
     <p class="eyebrow" data-i18n="detail_title">App details</p>
     <h1>{name}</h1>
     <p class="lead" data-app-summary>{esc(copy['summary'])}</p>
-    <div class="detail-meta"><span class="badge {app['status']}" data-app-status>{status}</span><span class="badge neutral">Android</span></div>
+    <div class="detail-meta"><span class="badge {app['status']}" data-app-status>{status}</span><span class="badge neutral" data-app-stage{' hidden' if app['status'] == 'released' else ''}>{stage}</span><span class="badge neutral">Android</span></div>
   </div></div></section>
   <section class="section"><div class="wrap split">
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>{esc(copy['overview'])}</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features>{features}</ul></div>
   </div></section>
+  {extended_sections(app)}
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>{availability}</p>
@@ -108,10 +150,12 @@ def page(app):
   </div></section>
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
-<script src="../assets/site.js?v=7"></script>
-<script src="../assets/portfolio-v2.js?v=4"></script>
+<script src="../assets/site.js?v=8"></script>
+<script src="../assets/portfolio-v2.js?v=5"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
-<script src="../assets/app-detail.js?v=2"></script>
+<script src="../assets/app-detail.js?v=3"></script>
+<script src="../assets/app-pages-data.js?v=1"></script>
+<script src="../assets/app-pages.js?v=1"></script>
 </body>
 </html>
 '''
@@ -153,7 +197,7 @@ def released_page(apps):
   </div></section>
 </main>
 <footer><div class="wrap footer"><div><img src="assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
-<script src="assets/site.js?v=7"></script><script src="assets/portfolio-v2.js?v=4"></script><script src="assets/mobile-menu.js?v=6"></script>
+<script src="assets/site.js?v=8"></script><script src="assets/portfolio-v2.js?v=5"></script><script src="assets/mobile-menu.js?v=6"></script>
 </body>
 </html>
 '''
@@ -162,12 +206,17 @@ def released_page(apps):
 def outputs():
     apps = app_data()
     pages = {ROOT / f"apps/{app['id']}.html": page(app) for app in apps}
+    data = extended_data()
+    pages[ROOT / 'assets/app-pages-data.js'] = '// Generated from app-pages.json.\nconst appPages = ' + json.dumps(data, ensure_ascii=False, indent=2) + ';\n'
+    for app in apps:
+        if app['id'] in data['apps'] and app['id'] not in ['unit-converter', 'ott-e']:
+            pages[ROOT / f"privacy/{app['id']}.html"] = privacy_page(app)
     pages[ROOT / 'released.html'] = released_page(apps)
     namespace = 'http://www.sitemaps.org/schemas/sitemap/0.9'
     ET.register_namespace('', namespace)
     sitemap = ET.fromstring((ROOT / 'sitemap.xml').read_text())
     existing = {el.text for el in sitemap.findall(f'{{{namespace}}}url/{{{namespace}}}loc')}
-    for url in [f'{SITE}/released.html', *[f"{SITE}/apps/{app['id']}.html" for app in apps]]:
+    for url in [f'{SITE}/released.html', *[f"{SITE}/apps/{app['id']}.html" for app in apps], *[f"{SITE}/privacy/{app['id']}.html" for app in apps if app['id'] in data['apps']]]:
         if url not in existing:
             entry = ET.SubElement(sitemap, f'{{{namespace}}}url')
             ET.SubElement(entry, f'{{{namespace}}}loc').text = url
@@ -179,6 +228,11 @@ def outputs():
 if __name__ == '__main__':
     import sys
     generated = outputs()
+    if '--app' in sys.argv:
+        app_id = sys.argv[sys.argv.index('--app') + 1]
+        if app_id not in {app['id'] for app in app_data()}:
+            raise SystemExit('Unknown app: ' + app_id)
+        generated = {p: t for p, t in generated.items() if p.stem == app_id or p.name == 'app-pages-data.js'}
     if '--check' in sys.argv:
         stale = [str(path.relative_to(ROOT)) for path, text in generated.items() if not path.exists() or path.read_text() != text]
         if stale:

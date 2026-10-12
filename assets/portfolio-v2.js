@@ -112,7 +112,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "development"
   },
   {
     "id": "ott-e",
@@ -201,7 +202,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "development"
   },
   {
     "id": "age-date-toolkit",
@@ -290,7 +292,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "stopwatch-multi-timer",
@@ -379,7 +382,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "fraction-calculator",
@@ -468,7 +472,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "last-done",
@@ -557,7 +562,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "material-calculator",
@@ -646,7 +652,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "bubble-level-inclinometer",
@@ -735,7 +742,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "ruler-protractor",
@@ -824,7 +832,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "sound-meter",
@@ -913,7 +922,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "compass-altimeter",
@@ -1002,7 +1012,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "gps-speedometer",
@@ -1091,7 +1102,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "device-info-diagnostics",
@@ -1180,7 +1192,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "image-resizer-compressor",
@@ -1269,7 +1282,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "voice-recorder",
@@ -1358,7 +1372,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "tuner-metronome",
@@ -1447,7 +1462,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "electrical-toolkit",
@@ -1536,7 +1552,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "ham-tools",
@@ -1625,7 +1642,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "mini-games",
@@ -1714,7 +1732,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "readystock",
@@ -1803,7 +1822,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "workout-training",
@@ -1892,7 +1912,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "meal-planner",
@@ -1981,7 +2002,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "work-manager",
@@ -2070,7 +2092,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "lottery-filter",
@@ -2159,7 +2182,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   },
   {
     "id": "dialer",
@@ -2248,7 +2272,8 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null
+    "playUrl": null,
+    "productStage": "planned"
   }
 ];
 

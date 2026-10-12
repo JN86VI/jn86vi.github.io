@@ -1,0 +1,267 @@
+{
+  "files": [
+    {
+      "path": "apps/image-resizer-compressor.html",
+      "sha256": "df362d1186012ab0d8ab0f817c7b81b83089f5fb488d659a949dee7677a2f976",
+      "bytes": 8640
+    },
+    {
+      "path": "apps/compass-altimeter.html",
+      "sha256": "1e4bcec99f910af9009b2743f461bb62c8a50ed43fdac78d17bdc38ed6e3ad13",
+      "bytes": 8590
+    },
+    {
+      "path": "apps/ruler-protractor.html",
+      "sha256": "cb8c411cf340c760b642a1ef940dcc874e9d83d5fd2cec3a55e7df2e67ffcc46",
+      "bytes": 8247
+    },
+    {
+      "path": "apps/electrical-toolkit.html",
+      "sha256": "df675753cd05d8f235e9a5631e80954535fdfee1cf790f20c758baf2efd5fa31",
+      "bytes": 8538
+    },
+    {
+      "path": "apps/dialer.html",
+      "sha256": "4f3e0b51aa02cddb5bb4d7a4f6daabe3ebaf87b954b809a0f902c3a2a42292f3",
+      "bytes": 8600
+    },
+    {
+      "path": "apps/bubble-level-inclinometer.html",
+      "sha256": "c89d9a78789e2c75d6a52b4363fa483600644360ef8df27b68822db9caf3b57a",
+      "bytes": 8397
+    },
+    {
+      "path": "apps/age-date-toolkit.html",
+      "sha256": "91f1b7ac298838e1badb5ae4f80f53bc5909823e778a5cd95688c82999a7ef11",
+      "bytes": 8129
+    },
+    {
+      "path": "apps/meal-planner.html",
+      "sha256": "b98a7bf23b5bf29a734c001b67a4916f7459627fecf81644e71c5481372c30d4",
+      "bytes": 8754
+    },
+    {
+      "path": "apps/mini-games.html",
+      "sha256": "e9e0bd7e157b6a4b2a555404bdec469fceb677de55a31026578d3f54beb4a611",
+      "bytes": 8171
+    },
+    {
+      "path": "apps/tuner-metronome.html",
+      "sha256": "9fa15f4fb175e34c81c100658a170718a4391b523552a180a8302db4f053cc19",
+      "bytes": 8383
+    },
+    {
+      "path": "apps/device-info-diagnostics.html",
+      "sha256": "ed5222572cf23cf10c0d17e7dde9fe7ba39aec34011a7055816774cc42693bb9",
+      "bytes": 8451
+    },
+    {
+      "path": "apps/unit-converter.html",
+      "sha256": "499362568bb147d619b24bd6e508b60e0c197843501cdccb94fe41f7d3e155a2",
+      "bytes": 8641
+    },
+    {
+      "path": "apps/last-done.html",
+      "sha256": "ef8194e0cf11b44b3fab53645fac97bb99f31ce2903099ecf77d53af418177b4",
+      "bytes": 8182
+    },
+    {
+      "path": "apps/stopwatch-multi-timer.html",
+      "sha256": "31f254cb62d17c4a1912a6ea74791f3ca1c3fe7f708b25066aa102fd55545198",
+      "bytes": 8295
+    },
+    {
+      "path": "apps/material-calculator.html",
+      "sha256": "11e740cb93e63e3571b736a1be9de88e131f9842ed4712df6a886c986c85f5e6",
+      "bytes": 8384
+    },
+    {
+      "path": "apps/lottery-filter.html",
+      "sha256": "72954d80b853d6e2921f4ec9657ac20144879bc29363a02428c64ff5f3ac99e9",
+      "bytes": 8532
+    },
+    {
+      "path": "apps/voice-recorder.html",
+      "sha256": "9755f143dedff92358d345d05f1cc6c4425f47a2bad012dbda8971e8b1226168",
+      "bytes": 8379
+    },
+    {
+      "path": "apps/work-manager.html",
+      "sha256": "0e46993d3848557d5dde972396cc815061f0b3d746927edb5f5b5f868309e606",
+      "bytes": 8423
+    },
+    {
+      "path": "apps/sound-meter.html",
+      "sha256": "d05c7d9d716470452fa2a58aa60affa101c6594efae43857a176a982f8bc1594",
+      "bytes": 8320
+    },
+    {
+      "path": "apps/ott-e.html",
+      "sha256": "031b407a992cf516eeacd5b8d6b5d9b2796be20d81452dcf607c68809b4e44d7",
+      "bytes": 8016
+    },
+    {
+      "path": "apps/gps-speedometer.html",
+      "sha256": "cb07d11a74cfd8a0dbfdb0aad3605f861ee976a666f9e8c26b5038ece5aa46b6",
+      "bytes": 8309
+    },
+    {
+      "path": "apps/fraction-calculator.html",
+      "sha256": "5c27c122c7e0d6e3541f9d29bd5650b54b5be2518f440be7b2d883ef978dffab",
+      "bytes": 8254
+    },
+    {
+      "path": "apps/workout-training.html",
+      "sha256": "54e53721e7aedc8bbcbb862ebf14bec01d380b02d4c288dc6225c9e38dd32f7a",
+      "bytes": 8552
+    },
+    {
+      "path": "apps/ham-tools.html",
+      "sha256": "e302f5c25a1c9534202f279ff00620945a7b4511491f41df01d813b1fba8f7c0",
+      "bytes": 8568
+    },
+    {
+      "path": "apps/readystock.html",
+      "sha256": "adc1314d37b8a2d3939cb6bd2f7531b7f00ecff867c1aac4921848eff2c94a0a",
+      "bytes": 8647
+    },
+    {
+      "path": "privacy/image-resizer-compressor.html",
+      "sha256": "634d42a44356a0917b70e0330c33b7cad39067cacddc15da80042ebb5203b217",
+      "bytes": 6120
+    },
+    {
+      "path": "privacy/compass-altimeter.html",
+      "sha256": "42ddc1ade47fe9a71a12a7f775cb76b9d79a1ce0e9f665320d394b2799dc53dc",
+      "bytes": 6100
+    },
+    {
+      "path": "privacy/ruler-protractor.html",
+      "sha256": "1483411202b542d27e1158cff0834b16b8c40e83729ee41bef99c4b71bf83166",
+      "bytes": 5946
+    },
+    {
+      "path": "privacy/electrical-toolkit.html",
+      "sha256": "e1afe2031c88798c398d3dfddd841ce1be890f03560dedbfb38b6869abf0df3b",
+      "bytes": 5984
+    },
+    {
+      "path": "privacy/dialer.html",
+      "sha256": "674dfb91de4b964a0f147e51b7810bf5ebb8d6cee5c2e648735a66019b496ad6",
+      "bytes": 6063
+    },
+    {
+      "path": "privacy/bubble-level-inclinometer.html",
+      "sha256": "3609152c47df8686209b0d630a7ba0c3b2af7f37fa54a1be2de5570341033244",
+      "bytes": 6021
+    },
+    {
+      "path": "privacy/age-date-toolkit.html",
+      "sha256": "c7f53411187de5889d3eb8ba8a78280fd8ef91005b55c1ffccacb497e732b655",
+      "bytes": 5994
+    },
+    {
+      "path": "privacy/meal-planner.html",
+      "sha256": "4df7d1d0bccf91b0037a4685e640ef0dab69ba296a90379c348d809d2a289eb7",
+      "bytes": 6062
+    },
+    {
+      "path": "privacy/mini-games.html",
+      "sha256": "c69a8550469d18388d4c65d8270627291ea94e879e5282f912fc6c0f6aeaa1c6",
+      "bytes": 5959
+    },
+    {
+      "path": "privacy/tuner-metronome.html",
+      "sha256": "92f798221f3a112ec29620cc71eb45345c038dfb4c643ff5082fface28dcd653",
+      "bytes": 6017
+    },
+    {
+      "path": "privacy/device-info-diagnostics.html",
+      "sha256": "2e30a2221c4ca432e5bbe727a25e352a9b2e0d67fccc312f232a842be84aa748",
+      "bytes": 6128
+    },
+    {
+      "path": "privacy/unit-converter.html",
+      "sha256": "cbb78c9db29bb21c2990e53eea80651bf83bdb424d6af0b367107df14c7deffb",
+      "bytes": 82394
+    },
+    {
+      "path": "privacy/last-done.html",
+      "sha256": "f08cf3de367e227b4a13277d5c4ad4dd5eb3e5a06e57aa22de36370b5d64a342",
+      "bytes": 5958
+    },
+    {
+      "path": "privacy/stopwatch-multi-timer.html",
+      "sha256": "73452f838405989ef24a34c58748a9a536cd1513c790bf6d651a2138809cb114",
+      "bytes": 6072
+    },
+    {
+      "path": "privacy/material-calculator.html",
+      "sha256": "d75738bccec43873a788d2acadfff565f07fdcb3a3d74fc855fb109de061754c",
+      "bytes": 6022
+    },
+    {
+      "path": "privacy/lottery-filter.html",
+      "sha256": "083cc5c7b38950a2e309a6058588ec40590c9f0eac4ec91efc37203f7b914a58",
+      "bytes": 6013
+    },
+    {
+      "path": "privacy/voice-recorder.html",
+      "sha256": "4c3419ec8271f110195ce8c88775fd154dbabad9cfe720772f3fe4f96782227e",
+      "bytes": 6068
+    },
+    {
+      "path": "privacy/work-manager.html",
+      "sha256": "bdb55dddffd2a1d8b519d7205a81ec469741cb7a02943e9834f16873750ba5cd",
+      "bytes": 6038
+    },
+    {
+      "path": "privacy/sound-meter.html",
+      "sha256": "e4e0dde4ce4df8c2fe68b20c73b6a641aa2c3844a358d4d8b866ed985075d048",
+      "bytes": 6003
+    },
+    {
+      "path": "privacy/ott-e.html",
+      "sha256": "9e16edbbdf080e8c23054aa9dadbc289f8e05391fe3519851ed2824008be3679",
+      "bytes": 41318
+    },
+    {
+      "path": "privacy/gps-speedometer.html",
+      "sha256": "ddbced8beb7ed246acfb370f7560522418d2c0e7a4ddd32c8dc533bbf4c9316b",
+      "bytes": 6015
+    },
+    {
+      "path": "privacy/fraction-calculator.html",
+      "sha256": "01a299c2266be99660d2e7f0bbb12d32e3f141e62f1ffbc4c023efe96cbf06df",
+      "bytes": 6008
+    },
+    {
+      "path": "privacy/workout-training.html",
+      "sha256": "d805fc9c08cb071cceb449e0189b3cf62a4411d48194e78f75de88a8d3fda35a",
+      "bytes": 6039
+    },
+    {
+      "path": "privacy/ham-tools.html",
+      "sha256": "096583338302a87aff72f7eb44c29951d0a4f7b45180392d0894d039b323b6fe",
+      "bytes": 6058
+    },
+    {
+      "path": "privacy/readystock.html",
+      "sha256": "de04dee45dff2bf20751e3fd30eff77e4d43ac4ebdb28718fea9331785d0329a",
+      "bytes": 6090
+    },
+    {
+      "path": "assets/app-pages.json",
+      "sha256": "d8eec5e7f685e35fbe10b804ac4f5dd0dba701b44778c8d7cda057281a959a10",
+      "bytes": 273291
+    },
+    {
+      "path": "assets/app-pages-data.js",
+      "sha256": "476f42f7be6e02701958e6308da1729f378ca92cfcba508f7fd9ac0ccc6cb8a4",
+      "bytes": 273343
+    }
+  ],
+  "approved_release_count": 0,
+  "no_generated_images": true,
+  "appspec_review": "Each batch read against its current scope, permissions, persistence and exclusions; translations preserve limitations."
+}

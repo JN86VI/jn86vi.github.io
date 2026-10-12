@@ -1,0 +1,33 @@
+{
+  "updated_keys": [
+    "status",
+    "futureTitle",
+    "futureText",
+    "permissionsText",
+    "diagnosticsText",
+    "securityText",
+    "retentionText",
+    "rightsText",
+    "updated",
+    "googleLinks"
+  ],
+  "preserved_original_legal_text_keys": [
+    "retentionText",
+    "rightsText",
+    "securityText"
+  ],
+  "locales": [
+    "en",
+    "hu",
+    "de",
+    "es",
+    "fr",
+    "pt-BR",
+    "pl",
+    "it"
+  ],
+  "g06_runs": 1,
+  "p03": "OWNER_SELECTED_PRECAUTION; GOOGLE_CLASSIFICATION_NOT_CONFIRMED",
+  "source": "Apps/Unit-Converter/docs/play-release/DATA_SAFETY_FINAL_CONSOLE_ANSWERS.md#G06",
+  "sha256": "cbb78c9db29bb21c2990e53eea80651bf83bdb424d6af0b367107df14c7deffb"
+}

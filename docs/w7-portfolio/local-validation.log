@@ -1,0 +1,5 @@
+PASS: 25 canonical icons, 200 complete translations, three statuses, Play URI guards, templates, JS syntax, 1275 local links
+PASS: 320px, 488 page/language states checked
+PASS: 390px, 976 page/language states checked
+PASS: 1440px, 1464 page/language states checked
+PASS: 1464 browser states, 72 lifecycle states, 25 icons, 60 rendered links, 200 card/back pairs, locale and keyboard checks

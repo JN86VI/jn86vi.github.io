@@ -23,6 +23,27 @@ const appSource = fs.readFileSync(path.join(root, 'assets/portfolio-v2.js'), 'ut
 const sandbox = {apps: [], L: locales, URL, document: {getElementById: () => ({value:'en'})}, setLanguage: () => {}};
 vm.runInNewContext(appSource, sandbox);
 const apps = JSON.parse(JSON.stringify(sandbox.apps));
+const appPages = JSON.parse(fs.readFileSync(path.join(root, 'assets/app-pages.json'), 'utf8'));
+assert.deepEqual(appPages.locales, locales);
+assert.deepEqual(Object.keys(appPages.apps), apps.map(a => a.id));
+const catalog = JSON.parse(fs.readFileSync(path.join(root, 'docs/w7-portfolio/catalog.json'), 'utf8'));
+assert.equal(catalog.apps.length, 25);
+for (const app of apps) {
+  const entry = appPages.apps[app.id];
+  assert.equal(app.productStage, ['unit-converter', 'ott-e'].includes(app.id) ? 'development' : 'planned');
+  assert.equal(entry.planned, !['unit-converter', 'ott-e'].includes(app.id));
+  assert.deepEqual(Object.keys(entry.copy).sort(), [...locales].sort());
+  assert(fs.existsSync(path.join(root, 'privacy', `${app.id}.html`)), `${app.id}: missing privacy page`);
+  for (const locale of locales) {
+    for (const key of ['workflow', 'limits', 'data', 'permissions', 'plans']) {
+      assert(entry.copy[locale][key]?.trim().length >= 15, `${app.id}/${locale}/${key}`);
+      if (locale !== 'en') assert.notEqual(entry.copy[locale][key], entry.copy.en[key]);
+    }
+    for (const [key, value] of Object.entries(appPages.labels.en)) {
+      assert(appPages.labels[locale][key]?.trim(), `${locale}: missing label ${key}`);
+    }
+  }
+}
 assert.deepEqual(apps.map(a => a.name), names);
 assert.equal(new Set(apps.map(a => a.id)).size, 25);
 const soonApps = apps.filter(a => a.status === 'soon');
@@ -120,7 +141,7 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
   const routes = ['index.html','apps.html','released.html',...apps.map(a=>`apps/${a.id}.html`)];
   // Shared navigation/style consumers receive a focused regression check as well.
   const otherRoutes = ['about.html','support.html','contact.html','privacy.html','help.html',
-    'help/ott-e.html','help/unit-converter.html','privacy/ott-e.html','privacy/unit-converter.html','404.html'];
+    'help/ott-e.html','help/unit-converter.html',...apps.map(a => `privacy/${a.id}.html`),'404.html'];
   let states = 0;
   const renderedLinks = new Set();
   try {
@@ -144,6 +165,31 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
           }
           const overflow = await page.evaluate(()=>document.documentElement.scrollWidth > innerWidth+1);
           assert(!overflow,`${route}/${lang}/${width}: horizontal overflow`);
+          if (app || route.startsWith('privacy/')) {
+            const contentIssues = await page.evaluate(() => {
+              const problems = [];
+              const locale = document.documentElement.lang;
+              const id = document.body.dataset.app || document.body.dataset.policyApp;
+              if (id) {
+                const copy = appPages.apps[id].copy[locale];
+                const labels = appPages.labels[locale];
+                for (const el of document.querySelectorAll('[data-detail]')) {
+                  if (el.textContent !== copy[el.dataset.detail]) problems.push(el.dataset.detail);
+                }
+                for (const el of document.querySelectorAll('[data-detail-label]')) {
+                  if (el.textContent !== labels[el.dataset.detailLabel]) problems.push(el.dataset.detailLabel);
+                }
+                for (const el of document.querySelectorAll('[data-policy-shared]')) {
+                  if (el.textContent !== labels[el.dataset.policyShared]) problems.push(el.dataset.policyShared);
+                }
+              }
+              for (const el of document.querySelectorAll('[data-p]')) {
+                if (!T[locale][el.dataset.p] || el.textContent !== T[locale][el.dataset.p]) problems.push(el.dataset.p);
+              }
+              return problems;
+            });
+            assert.deepEqual(contentIssues, [], `${route}/${lang}: full content localization`);
+          }
           if (routes.includes(route)) {
             const issues = await page.evaluate(()=>{
               const bad=[];
@@ -172,7 +218,8 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
             for (const a of apps) {
               const card = page.locator(`.app-card[data-app="${a.id}"]`);
               assert.equal(await card.locator('p').innerText(),a.copy[lang].summary);
-              assert.equal(await card.locator('.badge').textContent(),await page.evaluate(([l,status])=>ui[l]['status_'+status],[lang,a.status]));
+              assert.equal(await card.locator(`.badge.${a.status}`).textContent(),await page.evaluate(([l,status])=>ui[l]['status_'+status],[lang,a.status]));
+              assert.equal(await card.locator('[data-app-stage]').textContent(),await page.evaluate(([l,stage])=>ui[l][stage === 'planned' ? 'status_plan' : 'status_dev'],[lang,a.productStage]));
               assert.equal(await card.locator('.app-icon').getAttribute('src'),a.icon);
               assert.equal(await card.locator('.app-icon').getAttribute('alt'),'');
               assert.equal(await card.locator('.play-link').count(),sandbox.getPlayUrl(a)?1:0);
@@ -202,7 +249,10 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
             assert.equal(await page.locator('[data-app-overview]').innerText(),app.copy[lang].overview);
             assert.deepEqual(await page.locator('[data-app-features] li').allTextContents(),app.copy[lang].features);
             assert.equal(await page.locator('[data-app-status]').textContent(),await page.evaluate(([l,status])=>ui[l]['status_'+status],[lang,app.status]));
-            assert.equal(await page.locator('[data-app-availability]').textContent(),await page.evaluate(([l,status])=>ui[l][appAvailabilityKey(status)],[lang,app.status]));
+            assert.equal(await page.locator('[data-app-availability]').textContent(),await page.evaluate(([l,id,status])=>{
+              const entry = appPages.apps[id];
+              return entry && !entry.planned && status !== 'released' ? appPages.labels[l][id === 'unit-converter' ? 'internal' : 'soon'] : ui[l][appAvailabilityKey(status)];
+            },[lang,app.id,app.status]));
             assert.equal(await page.locator('meta[name="description"]').getAttribute('content'),app.copy[lang].summary);
             assert((await page.title()).includes(await page.evaluate(l=>ui[l].detail_title,lang)));
             assert.equal(await page.locator('[data-i18n="back_apps"]').getAttribute('href'),'../apps.html');

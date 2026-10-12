@@ -7,6 +7,9 @@
     document.querySelector('[data-app-overview]').textContent = copy.overview;
     document.querySelector('[data-app-status]').className = 'badge ' + app.status;
     document.querySelector('[data-app-status]').textContent = tr(lang, 'status_' + app.status);
+    const stage = document.querySelector('[data-app-stage]');
+    stage.hidden = app.status === 'released';
+    stage.textContent = tr(lang, app.productStage === 'planned' ? 'status_plan' : 'status_dev');
     document.querySelector('[data-app-availability]').textContent = tr(lang, appAvailabilityKey(app.status));
     const play = document.querySelector('[data-app-play]');
     play.replaceChildren();

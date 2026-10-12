@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-12T10:34:35.406783+00:00",
+  "branch": "main",
+  "head": "1df0ae82adfb3dbcf6352b2f14d5271948f7ad85",
+  "tracking_main": "1df0ae82adfb3dbcf6352b2f14d5271948f7ad85",
+  "direct_remote_main": "1df0ae82adfb3dbcf6352b2f14d5271948f7ad85",
+  "equal": true,
+  "initial_before_edits": {
+    "head": "1df0ae82adfb3dbcf6352b2f14d5271948f7ad85",
+    "direct_remote_main": "1df0ae82adfb3dbcf6352b2f14d5271948f7ad85",
+    "status": "CLEAN",
+    "evidence": "Read-only Git status at entry and direct ls-remote before the first website mutation."
+  },
+  "uncommitted_status": [
+    "M scripts/build-details.py",
+    "?? assets/app-pages.js",
+    "?? assets/app-pages.json",
+    "?? docs/"
+  ],
+  "reason": "New app content, generator changes and durable checkpoints created by this authorized task; no pre-existing web work was present.",
+  "resolution": "Preserve current work; no reset, checkout, clean, stash or deletion.",
+  "uncommitted_hashes": {
+    "assets/app-pages.json": "7e4069237404eedc7b491fc4783a9c2b35912203869c7631ef7e113f32771d2d",
+    "assets/app-pages.js": "dcd83775813305c4d0a668fc6d04c11e1555a3f91d017b758c21ff0841711721",
+    "scripts/build-details.py": "f7da39f2f95f88a9b8f0d3b10fb40e11ba2d47f567d6b19308a538a11007c059"
+  }
+}
