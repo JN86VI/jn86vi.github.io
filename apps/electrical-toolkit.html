@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="electrical-toolkit">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,45 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>An offline helper for electronics projects and practical calculations. Enter voltage, current, resistance and component values to work out power, choose LED resistors, combine components or estimate voltage drop in a wire. You can also read resistor colour bands and printed codes.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Ohm’s law, power and component calculations.</li><li>Read resistor colour bands and printed codes.</li><li>Calculate resistor networks and LED resistors.</li><li>Wire resistance and voltage drop from entered data.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Choose a calculator and enter the values you know, with their units. For example, enter voltage and resistance to find current and power, or supply voltage and LED data to estimate a series resistor. Combine series or parallel components, read resistor colour bands or printed codes, and calculate wire resistance and voltage drop from your own parameters.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Results describe the entered model and assumptions, not a tested circuit. The app does not design mains installations, certify electrical safety or simulate a full circuit. RF-specific work belongs to Ham Tools.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Core calculations require no camera, microphone, contacts or location. Colour bands and component codes are entered manually.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Calculator inputs are processed locally and not sent to JN86. Display settings may persist; saved component libraries and calculation history are not planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Ohm’s law, component networks and wire calculations are included. Circuit simulation, PCB design, saved components and mains-installation design are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="et-features" open>
+<summary data-content-section-title>Circuits, components and practical calculations</summary>
+<div class="detail-items"><article id="et-ohm-power" data-content-item="et-ohm-power">
+<h3 data-content-item-title>Ohm’s law and power</h3>
+<p data-content-item-text>Enter two known values among voltage, current and resistance to find the third. Power can be found from voltage/current, current/resistance or voltage/resistance. Results describe the entered ideal circuit values; they do not certify an electrical installation as safe.</p></article><article id="et-charge-conductance" data-content-item="et-charge-conductance">
+<h3 data-content-item-title>Charge and reciprocal electrical quantities</h3>
+<p data-content-item-text>Find charge from current×time or capacitance×voltage. Convert positive resistance to conductance and back, or material resistivity to conductivity and back. You supply the material’s value; no material or operating condition is assumed, and zero denominators are rejected.</p></article><article id="et-wire" data-content-item="et-wire">
+<h3 data-content-item-title>AWG, wire resistance and voltage drop</h3>
+<p data-content-item-text>Select an AWG wire size to see diameter and cross-section, or use the stated rounding rules for a reverse size suggestion. Enter conductor length, material resistivity, cross-section and current for resistance and voltage drop; specify one-way or return length. It does not select a safe current rating or protective device.</p></article><article id="et-networks" data-content-item="et-networks">
+<h3 data-content-item-title>Series and parallel components</h3>
+<p data-content-item-text>Choose resistance, capacitance or inductance, enter a list of positive component values and select series or parallel. See the equivalent total; add or remove list entries to compare arrangements. Inductor calculations assume no magnetic coupling. The result alone gives no voltage rating or thermal design.</p></article><article id="et-divider-led" data-content-item="et-divider-led">
+<h3 data-content-item-title>Voltage divider and LED resistor</h3>
+<p data-content-item-text>For an unloaded divider, enter input voltage and its two resistances to get output voltage. For a LED, enter supply voltage, LED forward voltage and desired current to find resistance and resistor heat loss. Suggested standard value avoids increasing the target current; a power class is estimated with stated margin, while real part limits still matter.</p></article><article id="et-codes" data-content-item="et-codes">
+<h3 data-content-item-title>Resistor colours, SMD codes and capacitor codes</h3>
+<p data-content-item-text>Choose four or five resistor bands for value, multiplier and tolerance, or obtain supported colours from a value. Decode 3/4-digit resistor markings and EIA-96 codes, with reverse codes when representable. Decode common 3-digit capacitor markings: 104 gives 100 nF. Unknown or ambiguous manufacturer codes are identified, not guessed.</p></article><article id="et-standard" data-content-item="et-standard">
+<h3 data-content-item-title>Preferred standard component values</h3>
+<p data-content-item-text>Choose E12, E24, E48 or E96 and enter a value to see the nearest, next lower and next higher preferred values at the relevant scale. This helps find a purchasable resistor value; the LED recommendation uses its current-limit rule rather than always choosing the nearest value.</p></article><article id="et-reactive" data-content-item="et-reactive">
+<h3 data-content-item-title>Reactance, resonance and stored energy</h3>
+<p data-content-item-text>Frequency plus capacitance or inductance gives capacitive or inductive reactance, the opposition to alternating current. Capacitance plus inductance gives ideal LC resonance frequency. A capacitor’s capacitance/voltage or an inductor’s inductance/current gives its stored energy. Enter each required value explicitly; these are ideal models.</p></article><article id="et-rc" data-content-item="et-rc">
+<h3 data-content-item-title>RC time constant, charging and discharging</h3>
+<p data-content-item-text>Enter resistance and capacitance to find the RC time constant. For charging or discharging, also enter the supply/starting voltage and elapsed time to find capacitor voltage and progress percentage. A valid target level can give required time. The model assumes ideal components and stated starting conditions.</p></article><article id="et-555" data-content-item="et-555">
+<h3 data-content-item-title>NE555 single pulses and oscillation</h3>
+<p data-content-item-text>Choose monostable mode for a single pulse: resistance and capacitance estimate its duration. Astable mode uses the classic resistor/capacitor arrangement for frequency, period, high/low times and duty percentage. The displayed circuit model matters; other arrangements and real chip tolerances may produce different results.</p></article><article id="et-lm317" data-content-item="et-lm317">
+<h3 data-content-item-title>LM317 voltage and heat-loss estimate</h3>
+<p data-content-item-text>Enter R1/R2 for output voltage, or desired output and fixed R1 for required R2. Input voltage, output voltage and load current estimate regulator dissipation. The stated reference-voltage model is used; this calculation does not decide heatsink suitability or replace chip datasheet limits.</p></article><article id="et-filters-star" data-content-item="et-filters-star">
+<h3 data-content-item-title>Simple filters and star–delta networks</h3>
+<p data-content-item-text>For RC low/high-pass or RL filters, enter the relevant component values to get cutoff frequency for the shown connection; ideal RLC gives resonance. For star↔delta, choose direction and enter three positive resistances to see three labelled equivalents preserving the nodes. These are basic ideal models, not complete filter or installation design.</p></article><article id="et-egg" data-content-item="et-egg">
+<h3 data-content-item-title>Magic smoke</h3>
+<p data-content-item-text>Tap the About logo seven times: a drawn LED gets brighter, flashes, smokes and goes out, illustrating the magic-smoke joke. This offline scene is not a wiring or safety demonstration and changes no calculation.</p></article></div></details><details class="detail-section" data-content-section="electrical-toolkit-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="electrical-toolkit-offline" data-content-item="electrical-toolkit-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="electrical-toolkit-settings" data-content-item="electrical-toolkit-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="electrical-toolkit-ads" data-content-item="electrical-toolkit-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +85,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

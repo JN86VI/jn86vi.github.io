@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="work-manager">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,33 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Keep client jobs and their next steps together on your device. Track tasks, deadlines, materials, recorded costs and working time, then prepare a PDF work sheet. Voice entry helps capture a new job while you work and asks you to confirm the details.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Job status, tasks and reminders.</li><li>Materials, recorded costs and working time.</li><li>Capture a new job by voice, then confirm it.</li><li>Create readable PDF work sheets.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Create a client and job, set status, priority and due date, then add tasks, materials and recorded costs. Start a work timer or enter time manually; Today, week and overdue views show what needs attention. Voice capture proposes job details for your confirmation, with manual entry always available. Export a readable job summary or PDF work sheet.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">A work sheet is not an invoice or certified accounting document. Voice interpretation can be ambiguous and must be confirmed. Optional last-call suggestions depend on Android and Play permission rules; they are not required for creating jobs.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>Manual jobs, costs and PDF work offline. Speech recognition depends on the selected Android service and its offline capability; manual capture remains available.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Microphone only for explicit voice capture, notifications for optional reminders, and file or photo selection for attachments. Contacts and call-log access are not core requirements.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Client details, jobs, notes, attachments, costs and time would be local. Export and offline backup are explicit actions. No mandatory account or automatic upload of client records is planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Jobs, voice confirmation and PDF sheets are planned. ReadyStock integration is a later option, not an included first-version link.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="wm-features" open>
+<summary data-content-section-title>Organise a job from intake to completion</summary>
+<div class="detail-items"><article id="wm-jobs" data-content-item="wm-jobs">
+<h3 data-content-item-title>Jobs, customers, tasks and status</h3>
+<p data-content-item-text>Create a job with a required title and optional customer, address, notes, priority and deadline. Split it into ordered checkable tasks. Set New, Planned, In progress, Waiting, Completed or Archived; completing a task does not complete the whole job automatically. Reopen finished work while retaining history; one customer can have several jobs.</p></article><article id="wm-schedule" data-content-item="wm-schedule">
+<h3 data-content-item-title>Today, calendar, reminders and recurring jobs</h3>
+<p data-content-item-text>Browse Today, Tomorrow, This week and Overdue, or a week/month calendar. Opt into reminders with chosen advance time. Create a reusable task/material/note template or weekly/monthly/yearly recurrence; each new job is separate and earlier jobs stay unchanged. Search customers/jobs/notes and filter status, deadline, priority or customer; dashboard counts open matching lists.</p></article><article id="wm-cost-time" data-content-item="wm-cost-time">
+<h3 data-content-item-title>Materials, expenses, estimates and work time</h3>
+<p data-content-item-text>Enter a checkable material list with quantity/unit and optional unit price for estimated material cost. Record travel, parking, subcontractor or other costs and optional quote/revenue; remaining amount is an estimate, not accounting profit. Different currencies are not automatically summed. Start/stop one job timer or add/edit time manually; starting another warns about the active timer.</p></article><article id="wm-voice" data-content-item="wm-voice">
+<h3 data-content-item-title>Capture a new job by voice, then confirm</h3>
+<p data-content-item-text>Start microphone capture and dictate the new job’s date/time, place/address and description. Review the transcript and suggested fields, correct uncertainty and confirm before creating the job. The phone’s speech service may need internet; manual entry always works without it. There is no background listening or unconfirmed job creation.</p></article><article id="wm-contacts" data-content-item="wm-contacts">
+<h3 data-content-item-title>Customer numbers and system calling</h3>
+<p data-content-item-text>Enter a number manually or choose a customer/contact, including a number not saved as a contact. Open the system phone or email action deliberately. Any last-call number suggestion depends on permitted call-data access; manual number entry and voice capture remain usable without call history. Contact access is separate from the basic job workflow.</p></article><article id="wm-files" data-content-item="wm-files">
+<h3 data-content-item-title>Photos, documents, PDF sheet and offline backup</h3>
+<p data-content-item-text>Attach before/during/after photos or selected documents to a job. Export a readable job summary or PDF work sheet with customer/job, tasks, materials, time, costs and notes; it is not an invoice. Back up jobs, customers, templates and related records offline, then preview/validate before restoring. Attachment references may need their separately saved physical files; nothing uploads automatically.</p></article><article id="wm-egg" data-content-item="wm-egg">
+<h3 data-content-item-title>Done, then back in progress</h3>
+<p data-content-item-text>Tap the About logo seven times: a drawn worker checks Done, puts tools away, then hears something fall and the job becomes In progress again. This offline scene changes no real job, deadline or saved record.</p></article></div></details><details class="detail-section" data-content-section="work-manager-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="work-manager-offline" data-content-item="work-manager-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="work-manager-settings" data-content-item="work-manager-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="work-manager-ads" data-content-item="work-manager-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +73,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

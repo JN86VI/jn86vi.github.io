@@ -1,0 +1,201 @@
+{
+  "status": "PASS",
+  "scope": "unit-converter creating -> soon only",
+  "homepage_filter": "already data-driven: status === soon; no condition change needed",
+  "states": 24,
+  "checks": [
+    {
+      "language": "en",
+      "width": 320,
+      "status_label": "Coming soon",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "hu",
+      "width": 320,
+      "status_label": "Hamarosan",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "de",
+      "width": 320,
+      "status_label": "Demnächst",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "es",
+      "width": 320,
+      "status_label": "Próximamente",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "fr",
+      "width": 320,
+      "status_label": "Bientôt",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "pt-BR",
+      "width": 320,
+      "status_label": "Em breve",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "pl",
+      "width": 320,
+      "status_label": "Wkrótce",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "it",
+      "width": 320,
+      "status_label": "In arrivo",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "en",
+      "width": 390,
+      "status_label": "Coming soon",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "hu",
+      "width": 390,
+      "status_label": "Hamarosan",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "de",
+      "width": 390,
+      "status_label": "Demnächst",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "es",
+      "width": 390,
+      "status_label": "Próximamente",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "fr",
+      "width": 390,
+      "status_label": "Bientôt",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "pt-BR",
+      "width": 390,
+      "status_label": "Em breve",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "pl",
+      "width": 390,
+      "status_label": "Wkrótce",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "it",
+      "width": 390,
+      "status_label": "In arrivo",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "en",
+      "width": 1440,
+      "status_label": "Coming soon",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "hu",
+      "width": 1440,
+      "status_label": "Hamarosan",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "de",
+      "width": 1440,
+      "status_label": "Demnächst",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "es",
+      "width": 1440,
+      "status_label": "Próximamente",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "fr",
+      "width": 1440,
+      "status_label": "Bientôt",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "pt-BR",
+      "width": 1440,
+      "status_label": "Em breve",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "pl",
+      "width": 1440,
+      "status_label": "Wkrótce",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    },
+    {
+      "language": "it",
+      "width": 1440,
+      "status_label": "In arrivo",
+      "homepage_uc": true,
+      "other_statuses_unchanged": true,
+      "play_link": false
+    }
+  ],
+  "errors": []
+}

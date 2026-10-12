@@ -1,0 +1,20 @@
+{
+  "base": "http://127.0.0.1:8766/",
+  "apps": 25,
+  "canonicalIcons": 25,
+  "translations": 200,
+  "states": 1464,
+  "lifecycleStates": 72,
+  "releasedApps": 0,
+  "localLinks": 1325,
+  "renderedLinks": 60,
+  "navigationPairs": 200,
+  "widths": [
+    320,
+    390,
+    1440
+  ],
+  "errors": [],
+  "status": "PASS",
+  "process_exit": 0
+}

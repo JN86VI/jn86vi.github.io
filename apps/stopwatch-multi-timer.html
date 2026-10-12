@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="stopwatch-multi-timer">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,29 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Stopwatch with current laps plus multiple named timers, presets and timer history.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Record lap and split times.</li><li>Save timer presets and view timer history.</li><li>Timers continue with the screen off.</li><li>Sound, vibration and notifications when time is up.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Start the stopwatch and tap Lap to compare each lap and the total time. Create named countdowns, such as tea and an oven timer, and run them together. Pause, resume or restart each timer separately; save frequently used durations as presets and review completed timer history.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Timer alerts depend on Android notification and background settings. The app does not promise laboratory timing precision. Stopwatch history and automatic timer sequences are not included in the first version.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Notifications and visible background operation may need Android permission or settings. Denial affects alerts, not the basic timing tools. No camera, microphone or location is needed.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Names, presets, timer history and recoverable running timer state are planned as local records. There is no account, web dashboard or shared team timer.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Timer history belongs to the first version; stopwatch history and CSV or text export do not. Export remains a later idea.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="stm-features" open>
+<summary data-content-section-title>Stopwatch, timers and saved durations</summary>
+<div class="detail-items"><article id="stm-stopwatch" data-content-item="stm-stopwatch">
+<h3 data-content-item-title>Stopwatch and lap times</h3>
+<p data-content-item-text>Start, pause and resume one stopwatch. During a run, record numbered laps with total time and time since the previous lap. Reset returns to zero and clears the current lap list; laps belong to that session.</p></article><article id="stm-timers" data-content-item="stm-timers">
+<h3 data-content-item-title>Several independent timers</h3>
+<p data-content-item-text>Create named countdowns with positive durations, for example separate cooking steps. Each timer has start, pause, resume and reset. Remaining time and running, paused or finished status are shown clearly. Restart begins its original duration again, including after expiry.</p></article><article id="stm-presets" data-content-item="stm-presets">
+<h3 data-content-item-title>Presets and timer history</h3>
+<p data-content-item-text>Save a named duration as a preset to create a timer quickly; edit or delete presets later. Timer history records names, durations, start/finish information and whether a run finished, was cancelled or reset. Clear history separately; stopwatch laps do not enter it.</p></article><article id="stm-background" data-content-item="stm-background">
+<h3 data-content-item-title>Background timing and alerts</h3>
+<p data-content-item-text>Timers continue in the background and with the screen off. Sound and vibration are separately adjustable; notifications depend on Android permission and device behaviour. Denying notifications leaves in-app timing available. Recovery uses saved timing information; unrecoverable stopwatch sessions are marked interrupted rather than inventing elapsed time.</p></article><article id="stm-egg" data-content-item="stm-egg">
+<h3 data-content-item-title>The impatient stopwatch</h3>
+<p data-content-item-text>Tap the About logo seven times to reveal a playful stopwatch. If you wait instead of starting it, impatient messages appear and it eventually starts itself. This offline scene closes without changing your real timers, presets or history.</p></article></div></details><details class="detail-section" data-content-section="stopwatch-multi-timer-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="stopwatch-multi-timer-offline" data-content-item="stopwatch-multi-timer-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="stopwatch-multi-timer-settings" data-content-item="stopwatch-multi-timer-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="stopwatch-multi-timer-ads" data-content-item="stopwatch-multi-timer-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +69,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

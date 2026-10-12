@@ -313,9 +313,11 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
     }
     // A later status change alone must update the featured set.
     await page.goto(new URL('index.html',base).href);
-    await page.evaluate(()=>{apps.find(a=>a.id==='unit-converter').status='soon';setLanguage('hu');});
-    assert.equal(await page.locator('.showcase-card').count(),2);
-    assert.equal(await page.locator('[data-app-count="soon"]').innerText(),'2');
+    const enteringSoon = apps.find(a=>a.status==='creating');
+    await page.evaluate(id=>{apps.find(a=>a.id===id).status='soon';setLanguage('hu');},enteringSoon.id);
+    const expectedSoon = apps.filter(a=>a.status==='soon'||a.id===enteringSoon.id);
+    assert.deepEqual(await page.locator('.showcase-card strong').allTextContents(),expectedSoon.map(a=>a.name));
+    assert.equal(await page.locator('[data-app-count="soon"]').innerText(),String(expectedSoon.length));
     // Simulate the lifecycle only in isolated browser memory. No fixture is saved.
     let lifecycleStates=0;
     for(const width of [320,1440]) {
@@ -338,7 +340,11 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
     }
     await page.goto(new URL('index.html',base).href);
     await page.evaluate(()=>{apps.find(a=>a.id==='ott-e').status='released';setLanguage('hu');});
-    assert.equal(await page.locator('.showcase-card').count(),0,'Released app must leave Coming soon');
+    const remainingSoon = soonApps.filter(a=>a.id!=='ott-e');
+    assert.deepEqual(await page.locator('.showcase-card strong').allTextContents(),remainingSoon.map(a=>a.name),'Only the released app must leave Coming soon');
+    assert.equal(await page.locator('#homeShowcase').isHidden(),remainingSoon.length===0);
+    await page.evaluate(()=>{apps.filter(a=>a.status==='soon').forEach(a=>{a.status='released';});setLanguage('hu');});
+    assert.equal(await page.locator('.showcase-card').count(),0,'No Coming soon apps leaves an empty showcase');
     assert(await page.locator('#homeShowcase').isHidden());
     for(const lang of locales) {
       await page.goto(new URL('apps/ott-e.html',base).href);

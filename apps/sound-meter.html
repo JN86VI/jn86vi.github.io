@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="sound-meter">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,31 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Estimate ambient sound from the microphone with current, minimum, average and maximum readings, a time graph and calibration offset. Includes a sound-pressure/dB SPL calculator; it is not a certified meter.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Current, minimum, average and maximum readings.</li><li>A graph shows changes during the measurement.</li><li>Adjust calibration for the chosen microphone.</li><li>Results are estimates, not certified measurements.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Allow microphone access when starting a measurement, choose an available input and watch the current, minimum, average and maximum levels. The graph shows how sound changes during the session. Pause or reset the session and adjust an input-specific calibration offset. A separate calculator converts sound pressure and dB SPL using an explicit reference.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Phone microphones can clip and do not guarantee a calibrated sound level. Readings are estimates; no certified meter, guaranteed dBA weighting or universal measurement range is claimed.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Microphone permission is requested for measurement. If denied, the separate sound-pressure calculator remains available. Camera and location are unnecessary.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Live audio is intended only for local level analysis. Raw sound is not stored as a recording or sent to JN86. Calibration settings may persist; live graph and statistics are session data.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">No audio recording, background noise logger, measurement history or export is included.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="sm-features" open>
+<summary data-content-section-title>Sound measurement and pressure calculations</summary>
+<div class="detail-items"><article id="sm-measure" data-content-item="sm-measure">
+<h3 data-content-item-title>Live sound level, statistics and graph</h3>
+<p data-content-item-text>Allow microphone access and start an active measurement. See current estimated dB, minimum, average, maximum, active session time and a dB-versus-time graph. Pause stops updates, Resume continues and Reset clears the session statistics and graph. It does not save an audio recording.</p></article><article id="sm-microphones" data-content-item="sm-microphones">
+<h3 data-content-item-title>Microphone choice and correction</h3>
+<p data-content-item-text>Choose among microphone inputs Android actually exposes and test each separately. Enter a manual dB correction from a reference meter for that input; Reset Calibration returns its correction to zero. Changing microphones does not reuse another input’s correction. This is not professional calibration.</p></article><article id="sm-response" data-content-item="sm-response">
+<h3 data-content-item-title>FAST, SLOW and Peak Hold</h3>
+<p data-content-item-text>Choose FAST for quicker changes or SLOW for a steadier reading. Peak Hold keeps a recent peak visible briefly; it differs from the maximum of the whole session. These display aids help follow changing noise without promising a fixed response time for every phone.</p></article><article id="sm-spl" data-content-item="sm-spl">
+<h3 data-content-item-title>Sound pressure and dB SPL calculator</h3>
+<p data-content-item-text>Choose pressure-to-dB SPL or the reverse, enter the value and use the explicit reference pressure. The air reference is 20 µPa. See the corresponding pressure or sound-pressure level; a pressure input must be positive. This calculation is separate from a microphone reading.</p></article><article id="sm-limits" data-content-item="sm-limits">
+<h3 data-content-item-title>Device limits and practical use</h3>
+<p data-content-item-text>Microphone processing or clipping can limit readings; warnings flag suspected overload. A rough environmental reference scale is educational and does not identify the sound source. Use portrait/landscape or keep the screen awake. Measurement pauses in the background; without microphone permission, the SPL calculator still works offline.</p></article><article id="sm-egg" data-content-item="sm-egg">
+<h3 data-content-item-title>Night-time noise joke</h3>
+<p data-content-item-text>Tap the About logo seven times for a sleeping character whose snoring makes a playful meter rise. The figures are animation, not real measurements. This offline scene uses no microphone and changes no measurement settings.</p></article></div></details><details class="detail-section" data-content-section="sound-meter-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="sound-meter-offline" data-content-item="sound-meter-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="sound-meter-settings" data-content-item="sound-meter-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="sound-meter-ads" data-content-item="sound-meter-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +71,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

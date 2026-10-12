@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="device-info-diagnostics">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,37 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Browse hardware, system, battery, display, camera and sensor information, run selected live checks and share a privacy-filtered TXT or JSON report.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Battery, storage, screen, camera and sensor details.</li><li>Touch, display, audio and live sensor checks.</li><li>Copy information or share a text or JSON report.</li><li>Reports omit sensitive device identifiers.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Open a hardware category to inspect reported CPU, memory, storage, battery, screen, camera or sensor details. Run a touch or display check, watch live sensor values or deliberately start a camera or microphone test. Preview the privacy-filtered report before copying or sharing TXT or JSON.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Android may restrict or omit information; unavailable data is labelled instead of guessed. Tests do not certify a hardware fault. There is no cleaner, booster, malware scanner or performance benchmark.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Camera and microphone are requested only for their explicit tests. Reading capability information should not unnecessarily request them. Export uses the Android file or share chooser.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Settings and a report you explicitly create would be local. Live samples and previews are temporary. Reports exclude stable sensitive device identifiers; no background telemetry upload is planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">First-version tests and reports are included. IMEI, serial numbers, device fingerprinting and long-term hardware history are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="did-features" open>
+<summary data-content-section-title>Device information and individual checks</summary>
+<div class="detail-items"><article id="did-overview" data-content-item="did-overview">
+<h3 data-content-item-title>Overview and detailed device information</h3>
+<p data-content-item-text>Open the overview for model, Android, memory, storage, display and battery, then explore detailed pages. See processor architecture/core count, graphics chip, total/available RAM, total/free/used storage, display resolution/density/refresh/HDR, and battery charge/state/source/temperature/voltage where reported. Missing or restricted fields are labelled rather than guessed.</p></article><article id="did-motion" data-content-item="did-motion">
+<h3 data-content-item-title>Motion, magnetism and inclination tests</h3>
+<p data-content-item-text>Select a sensor instance and start a live test. Accelerometer and gyroscope show three-axis values and short graphs while you move the phone. The magnetometer shows X/Y/Z components and field magnitude; orientation/inclination shows response to tilting. These observations do not certify the sensor’s accuracy.</p></article><article id="did-environment" data-content-item="did-environment">
+<h3 data-content-item-title>Light, proximity and pressure tests</h3>
+<p data-content-item-text>Cover or expose the light sensor to watch lux values change. Bring an object near the proximity sensor to see near/far or the actual reported distance. A pressure sensor shows hPa and a short graph. The app does not invent centimetres for a binary sensor or turn pressure into a weather forecast.</p></article><article id="did-touch-screen" data-content-item="did-touch-screen">
+<h3 data-content-item-title>Touchscreen, pixels, vibration and flashlight</h3>
+<p data-content-item-text>Touch the screen to mark areas and see simultaneous touch points. Inspect full-screen colour/brightness patterns for dead or stuck pixels. Trigger vibration or a supported flashlight and judge the result yourself. Separate lights are selectable when the device exposes them; a visual test is not an automatic hardware certificate.</p></article><article id="did-camera-audio" data-content-item="did-camera-audio">
+<h3 data-content-item-title>Camera, microphone and audio-output checks</h3>
+<p data-content-item-text>Choose an available camera for preview with permission; camera capabilities can be viewed without starting preview. Select an exposed microphone to see live level and a short waveform, with no saved recording. Play test sound and left/right channels on supported outputs, then give your own verdict. Each separately accessible device has its own result.</p></article><article id="did-network" data-content-item="did-network">
+<h3 data-content-item-title>Network state and supported features</h3>
+<p data-content-item-text>See the active connection type and reported internet, metered or validated status, plus features the Android system declares. These indicators explain availability, not a network scan or proof that every declared feature works. Unavailable information remains clearly marked.</p></article><article id="did-reports" data-content-item="did-reports">
+<h3 data-content-item-title>Copy, text/JSON report and sharing</h3>
+<p data-content-item-text>Copy relevant fields or export a readable text report or structured JSON file, then share through Android. Reports keep separate device instances but omit stable unique identifiers, SIM information and IP address by default. Nothing uploads automatically; you choose the recipient or file location.</p></article><article id="did-verdict" data-content-item="did-verdict">
+<h3 data-content-item-title>What a diagnostic result means</h3>
+<p data-content-item-text>Tests are user-started and can succeed, fail, be unavailable or remain inconclusive. A success applies to the checked function only; visual, sound and vibration checks need your judgment. This tool shows available information and responses, not automatic certification of the whole phone or a battery-health percentage guessed from basic readings.</p></article><article id="did-egg" data-content-item="did-egg">
+<h3 data-content-item-title>An overly thorough check</h3>
+<p data-content-item-text>Tap the About logo seven times for a fictional checklist that finishes by detecting the user. The offline joke does not run real hardware tests or change diagnostic results. Close it to return to the normal app.</p></article></div></details><details class="detail-section" data-content-section="device-info-diagnostics-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="device-info-diagnostics-offline" data-content-item="device-info-diagnostics-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="device-info-diagnostics-settings" data-content-item="device-info-diagnostics-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="device-info-diagnostics-ads" data-content-item="device-info-diagnostics-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +77,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

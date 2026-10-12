@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="voice-recorder">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,31 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Local audio recording in M4A/AAC, MP3 or WAV, with quality profiles, waveform and markers, plus pause/resume and background recording.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Pause and continue the same recording.</li><li>Name recordings, add tags and search them.</li><li>Add markers to find important moments.</li><li>Background recording and selectable quality.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Choose a supported format and quality profile, press Record, and watch duration, level and waveform. Pause and resume the same recording, add markers at important moments, then Stop to save. Name and tag the file, search it later and use a marker to seek during playback. Sharing sends a selected recording through Android’s chooser.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Available formats and stereo depend on real codec and input support. Low storage or interruptions can stop recording; recovery is not guaranteed. No call recording, surveillance, transcription or audio editing is planned.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Microphone permission is used only for an explicitly started recording. Background recording stays visible with a notification and Stop control; file export uses Android selection.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Audio files, names, tags and markers would be stored locally. There is no automatic cloud upload. Exported or shared copies are controlled separately by their destination; waveform display buffers are temporary.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Recording, markers and local playback are included. Automatic transcripts, trimming, merging and call recording are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="vr-features" open>
+<summary data-content-section-title>Recording, playback, markers and organisation</summary>
+<div class="detail-items"><article id="vr-record" data-content-item="vr-record">
+<h3 data-content-item-title>Record, pause, resume and save</h3>
+<p data-content-item-text>Allow microphone access and start recording deliberately. Pause adds no new sound; Resume continues the same recording. Stop closes and saves the file. A live waveform, input level and overload warning help judge capture. A write or capture error is shown instead of claiming a successful recording.</p></article><article id="vr-quality" data-content-item="vr-quality">
+<h3 data-content-item-title>Formats, profiles and input selection</h3>
+<p data-content-item-text>Choose Speech/Small, Normal, High Quality or Custom settings. Planned formats are M4A/AAC, MP3 and WAV/PCM, offered only with reliable device support; WAV is lossless and larger. Mono/stereo and selectable microphones depend on available hardware. Custom bitrate, sample rate and channels must form a supported combination.</p></article><article id="vr-markers-list" data-content-item="vr-markers-list">
+<h3 data-content-item-title>Markers, names, tags and playback</h3>
+<p data-content-item-text>Add a named marker while recording or paused, then jump to it during playback. Rename or remove markers without changing the sound. Name and tag recordings, search by either, and browse duration/date/format/file size. Playback offers play, pause and seeking; export or share the chosen recording through Android.</p></article><article id="vr-background" data-content-item="vr-background">
+<h3 data-content-item-title>Screen-off recording and interruption handling</h3>
+<p data-content-item-text>A recording you start can continue with the screen off or app in the background, with visible recording notification where required. Use notification Stop, or supported Pause/Resume controls. Calls, input loss and low storage produce an explicit pause/stop or error. Previously written sound may be recoverable, with partial files clearly labelled; recovery is not guaranteed.</p></article><article id="vr-local" data-content-item="vr-local">
+<h3 data-content-item-title>Local recordings and your sharing choices</h3>
+<p data-content-item-text>Sound stays on the device unless you export or share it yourself. Microphone capture is tied to your explicit recording and visible state; there is no call recording or hidden surveillance. Stored files, names, tags and markers remain available for your own playback and organisation.</p></article><article id="vr-egg" data-content-item="vr-egg">
+<h3 data-content-item-title>The tangled cassette</h3>
+<p data-content-item-text>Tap the About logo seven times for a drawn analogue cassette whose reels turn until its tape tangles. The offline joke suggests going digital. It uses no microphone and leaves your real recordings unchanged.</p></article></div></details><details class="detail-section" data-content-section="voice-recorder-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="voice-recorder-offline" data-content-item="voice-recorder-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="voice-recorder-settings" data-content-item="voice-recorder-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="voice-recorder-ads" data-content-item="voice-recorder-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +71,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

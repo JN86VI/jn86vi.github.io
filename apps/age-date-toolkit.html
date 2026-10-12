@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="age-date-toolkit">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,33 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Calculate exact age, date differences and time until the next birthday or anniversary; add or subtract calendar periods from dates. Designed for offline use.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Age in years, months and days.</li><li>Add or subtract years, months, weeks and days.</li><li>Save named dates and copy results.</li><li>Calculations work offline.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Enter a birth date and a reference date to see age in years, months and days. Compare two dates, or add and subtract calendar periods to plan a deadline. Save a date with a name to revisit a birthday or anniversary, and copy the result.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Calendar months have different lengths, so a month is not treated as thirty days. No country holiday calendar, time-zone conversion or reminder notification is planned for the first version.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">The planned date tools need no camera, microphone, location or contacts access. Advertising and Play purchasing may use separate network services.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Saved names and dates and display settings are intended to stay locally. Date calculations need no account and are not sent to a JN86 server.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Calendar sync, export and automatic reminders are outside the first version.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="adt-dates" open>
+<summary data-content-section-title>Calendar calculations and saved dates</summary>
+<div class="detail-items"><article id="adt-age" data-content-item="adt-age">
+<h3 data-content-item-title>Exact age</h3>
+<p data-content-item-text>Enter a birth date and reference date, normally today. The result gives completed years, remaining months and days, plus total elapsed days. It handles leap years; a February 29 birthday falls on February 28 in a non-leap year.</p></article><article id="adt-difference" data-content-item="adt-difference">
+<h3 data-content-item-title>Date difference and countdown</h3>
+<p data-content-item-text>Choose two dates to see years, months and days or total days, with reversed order indicated. September 1 to 2 is one day. The until/since shortcut compares a chosen date with today and says days remaining, days elapsed or today. An optional weeks-and-remaining-days view helps compare longer intervals.</p></article><article id="adt-add" data-content-item="adt-add">
+<h3 data-content-item-title>Add or subtract a calendar period</h3>
+<p data-content-item-text>Choose a starting date and add or subtract years, months, weeks and days. The result is a calendar date, with years then months then weeks then days applied. If the target day does not exist, use month-end: January 31 plus one month becomes February 28 or 29.</p></article><article id="adt-anniversary" data-content-item="adt-anniversary">
+<h3 data-content-item-title>Next birthday or anniversary</h3>
+<p data-content-item-text>Enter the original date and a reference date. See the next occurrence, weekday, days remaining and anniversary number where applicable. An event on the reference day is shown as today. The remaining time is also shown as months and days.</p></article><article id="adt-info" data-content-item="adt-info">
+<h3 data-content-item-title>Date information</h3>
+<p data-content-item-text>Select a valid date to see its weekday, numbered day of the year, days left after it in that year and ISO week number. Useful for checking a date without doing a separate calculation.</p></article><article id="adt-save" data-content-item="adt-save">
+<h3 data-content-item-title>Saved dates and copying</h3>
+<p data-content-item-text>Save a date with a non-empty name, edit or delete it, and reuse it in relevant calculations. Copy results to notes or messages. Saved dates remain on your device; clearing a current calculation is separate from deleting saved dates.</p></article><article id="adt-egg" data-content-item="adt-egg">
+<h3 data-content-item-title>A backwards clock surprise</h3>
+<p data-content-item-text>Tap the About logo seven times. The hidden About activity shows an analogue clock with reversed numbering and hands moving backwards from the current local time. Close it to return; it works offline and changes no dates or settings.</p></article></div></details><details class="detail-section" data-content-section="age-date-toolkit-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="age-date-toolkit-offline" data-content-item="age-date-toolkit-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="age-date-toolkit-settings" data-content-item="age-date-toolkit-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="age-date-toolkit-ads" data-content-item="age-date-toolkit-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +73,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

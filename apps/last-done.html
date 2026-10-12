@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="last-done">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,29 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Record a recurring task with one tap, see when it was last done and its history, and optionally set intervals, reminders and a due-date countdown.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Record completion with one tap.</li><li>See past completions and elapsed time.</li><li>Choose repeat intervals and optional reminders.</li><li>Organize tasks into categories.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Create an item such as watering a plant or changing a filter, then tap Done now when you finish. Its last completion and elapsed time become visible. Set an optional interval to see the next due date, add an older completion manually, and use categories or archive items you no longer need.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Due dates follow the interval you enter, not a learned prediction. Reminders are optional and depend on Android notification settings. Shared lists, team projects and location-based reminders are not planned.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Optional reminders may need notification permission. The basic completion log needs no location, camera, microphone or contacts.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Item names, categories, intervals, completion history and reminder choices would stay locally. System backup or device transfer is separate from JN86 cloud sync, which is not planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">The first version includes completion history and optional reminders. Automatic learning of schedules and shared cloud lists are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="ld-features" open>
+<summary data-content-section-title>Last completion, due dates and history</summary>
+<div class="detail-items"><article id="ld-done" data-content-item="ld-done">
+<h3 data-content-item-title>Record what you last did</h3>
+<p data-content-item-text>Create a named item, such as watering plants, then tap Done now to record the current time. See when it last happened and elapsed time; a new item says it has not happened yet. A brief Undo reverses an accidental entry. No interval is required.</p></article><article id="ld-history" data-content-item="ld-history">
+<h3 data-content-item-title>History and average interval</h3>
+<p data-content-item-text>Open an item’s chronological history to add an older event, edit its time or delete it. Last-done and due values recalculate. With at least two events, see average time between them; it is information only and does not choose your next deadline.</p></article><article id="ld-due" data-content-item="ld-due">
+<h3 data-content-item-title>Optional intervals and reminders</h3>
+<p data-content-item-text>Set a number of days, weeks, months or years after the last recorded completion. See days remaining, due today or overdue; without a completion there is no calculated due date. Opt into a local reminder when a due date exists. Android notification permission affects alerts, not tracking.</p></article><article id="ld-organize" data-content-item="ld-organize">
+<h3 data-content-item-title>Categories, lists and archiving</h3>
+<p data-content-item-text>Create or rename categories and assign one to an item. Browse active, category, due, recently completed, overdue and archived views. Deleting a category keeps its items. Archive items to keep their history while suspending reminders, and restore them when useful again.</p></article><article id="ld-egg" data-content-item="ld-egg">
+<h3 data-content-item-title>Do not press!</h3>
+<p data-content-item-text>Tap the About logo seven times to reveal a Do not press button. Press it to see how long ago you pressed it; pressing again restarts that playful counter. Close it without creating or changing any tracked event.</p></article></div></details><details class="detail-section" data-content-section="last-done-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="last-done-offline" data-content-item="last-done-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="last-done-settings" data-content-item="last-done-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="last-done-ads" data-content-item="last-done-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +69,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

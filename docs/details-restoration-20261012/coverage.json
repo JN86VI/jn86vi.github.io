@@ -1,0 +1,4669 @@
+{
+  "unit-converter": [
+    {
+      "feature": "uc_feature_length",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-LEN-001",
+        "UC-LEN-002",
+        "UC-LEN-003",
+        "UC-LEN-004",
+        "UC-LEN-005",
+        "UC-LEN-006",
+        "UC-LEN-007",
+        "UC-LEN-008",
+        "UC-LEN-009",
+        "UC-LEN-010",
+        "UC-LEN-011"
+      ],
+      "web_anchor": "uc-feature-length",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hosszúság",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-length"
+    },
+    {
+      "feature": "uc_feature_mass",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-MAS-001",
+        "UC-MAS-002",
+        "UC-MAS-003",
+        "UC-MAS-004",
+        "UC-MAS-005",
+        "UC-MAS-006",
+        "UC-MAS-007",
+        "UC-MAS-008",
+        "UC-MAS-009"
+      ],
+      "web_anchor": "uc-feature-mass",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tömeg",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-mass"
+    },
+    {
+      "feature": "uc_feature_area",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-AREA-001",
+        "UC-AREA-002",
+        "UC-AREA-003",
+        "UC-AREA-004",
+        "UC-AREA-005",
+        "UC-AREA-006",
+        "UC-AREA-007",
+        "UC-AREA-008",
+        "UC-AREA-009",
+        "UC-AREA-010"
+      ],
+      "web_anchor": "uc-feature-area",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Terület",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-area"
+    },
+    {
+      "feature": "uc_feature_volume",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-VOL-001",
+        "UC-VOL-002",
+        "UC-VOL-003",
+        "UC-VOL-004",
+        "UC-VOL-005",
+        "UC-VOL-006",
+        "UC-VOL-007",
+        "UC-VOL-008",
+        "UC-VOL-009",
+        "UC-VOL-010",
+        "UC-VOL-011",
+        "UC-VOL-012",
+        "UC-VOL-013",
+        "UC-VOL-014",
+        "UC-VOL-015",
+        "UC-VOL-016"
+      ],
+      "web_anchor": "uc-feature-volume",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Térfogat",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-volume"
+    },
+    {
+      "feature": "uc_feature_speed",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-SPD-001",
+        "UC-SPD-002",
+        "UC-SPD-003",
+        "UC-SPD-004",
+        "UC-SPD-005",
+        "UC-SPD-006"
+      ],
+      "web_anchor": "uc-feature-speed",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Sebesség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-speed"
+    },
+    {
+      "feature": "uc_feature_temperature",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-TEMP-001",
+        "UC-TEMP-002",
+        "UC-TEMP-003",
+        "UC-TEMP-004"
+      ],
+      "web_anchor": "uc-feature-temperature",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hőmérséklet",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-temperature"
+    },
+    {
+      "feature": "uc_feature_time",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-TIME-001",
+        "UC-TIME-002",
+        "UC-TIME-003",
+        "UC-TIME-004",
+        "UC-TIME-005",
+        "UC-TIME-006",
+        "UC-TIME-007",
+        "UC-TIME-008"
+      ],
+      "web_anchor": "uc-feature-time",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Idő",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-time"
+    },
+    {
+      "feature": "uc_feature_fuel_consumption",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-FUEL-001",
+        "UC-FUEL-002",
+        "UC-FUEL-003",
+        "UC-FUEL-004"
+      ],
+      "web_anchor": "uc-feature-fuel-consumption",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Üzemanyag-fogyasztás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-fuel-consumption"
+    },
+    {
+      "feature": "uc_feature_plane_angle",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-ANG-001",
+        "UC-ANG-002",
+        "UC-ANG-003",
+        "UC-ANG-004",
+        "UC-ANG-005",
+        "UC-ANG-006",
+        "UC-ANG-007"
+      ],
+      "web_anchor": "uc-feature-plane-angle",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Síkszög",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-plane-angle"
+    },
+    {
+      "feature": "uc_feature_pressure",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-PRS-001",
+        "UC-PRS-002",
+        "UC-PRS-003",
+        "UC-PRS-004",
+        "UC-PRS-005",
+        "UC-PRS-006",
+        "UC-PRS-007",
+        "UC-PRS-008",
+        "UC-PRS-009",
+        "UC-PRS-010",
+        "UC-PRS-011",
+        "UC-PRS-012",
+        "UC-PRS-013",
+        "UC-PRS-014"
+      ],
+      "web_anchor": "uc-feature-pressure",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyomás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-pressure"
+    },
+    {
+      "feature": "uc_feature_force",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-FRC-001",
+        "UC-FRC-002",
+        "UC-FRC-003",
+        "UC-FRC-004",
+        "UC-FRC-005",
+        "UC-FRC-006"
+      ],
+      "web_anchor": "uc-feature-force",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Erő",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-force"
+    },
+    {
+      "feature": "uc_feature_torque",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-TRQ-001",
+        "UC-TRQ-002",
+        "UC-TRQ-003",
+        "UC-TRQ-004",
+        "UC-TRQ-005",
+        "UC-TRQ-006",
+        "UC-TRQ-007"
+      ],
+      "web_anchor": "uc-feature-torque",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Forgatónyomaték",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-torque"
+    },
+    {
+      "feature": "uc_feature_frequency",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-FRQ-001",
+        "UC-FRQ-002",
+        "UC-FRQ-003",
+        "UC-FRQ-004",
+        "UC-FRQ-005"
+      ],
+      "web_anchor": "uc-feature-frequency",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Frekvencia",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-frequency"
+    },
+    {
+      "feature": "uc_feature_mass_density",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-DEN-001",
+        "UC-DEN-002",
+        "UC-DEN-003",
+        "UC-DEN-004",
+        "UC-DEN-005",
+        "UC-DEN-006"
+      ],
+      "web_anchor": "uc-feature-mass-density",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tömegsűrűség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-mass-density"
+    },
+    {
+      "feature": "uc_feature_specific_volume",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-SVOL-001",
+        "UC-SVOL-002",
+        "UC-SVOL-003",
+        "UC-SVOL-004",
+        "UC-SVOL-005"
+      ],
+      "web_anchor": "uc-feature-specific-volume",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Fajtérfogat",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-specific-volume"
+    },
+    {
+      "feature": "uc_feature_mass_moment_of_inertia",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-MOI-001",
+        "UC-MOI-002",
+        "UC-MOI-003",
+        "UC-MOI-004",
+        "UC-MOI-005"
+      ],
+      "web_anchor": "uc-feature-mass-moment-of-inertia",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tömegtehetetlenségi nyomaték",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-mass-moment-of-inertia"
+    },
+    {
+      "feature": "uc_feature_heat_capacity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-HCAP-001",
+        "UC-HCAP-002",
+        "UC-HCAP-003",
+        "UC-HCAP-004",
+        "UC-HCAP-005"
+      ],
+      "web_anchor": "uc-feature-heat-capacity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hőkapacitás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-heat-capacity"
+    },
+    {
+      "feature": "uc_feature_cooling_capacity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-COOL-001",
+        "UC-COOL-002",
+        "UC-COOL-003",
+        "UC-COOL-004",
+        "UC-COOL-005"
+      ],
+      "web_anchor": "uc-feature-cooling-capacity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hűtőteljesítmény",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-cooling-capacity"
+    },
+    {
+      "feature": "uc_feature_angular_velocity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-AV-001",
+        "UC-AV-002",
+        "UC-AV-003",
+        "UC-AV-004"
+      ],
+      "web_anchor": "uc-feature-angular-velocity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Szögsebesség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-angular-velocity"
+    },
+    {
+      "feature": "uc_feature_angular_acceleration",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-AA-001",
+        "UC-AA-002",
+        "UC-AA-003"
+      ],
+      "web_anchor": "uc-feature-angular-acceleration",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Szöggyorsulás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-angular-acceleration"
+    },
+    {
+      "feature": "UC-CALC-001",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CALC-001"
+      ],
+      "web_anchor": "uc-calc-001",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Sűrűség / tömeg / térfogat",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-calc-001"
+    },
+    {
+      "feature": "uc_feature_electric_potential",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-VOLT-001",
+        "UC-VOLT-002",
+        "UC-VOLT-003",
+        "UC-VOLT-004"
+      ],
+      "web_anchor": "uc-feature-electric-potential",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Elektromos potenciál",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-electric-potential"
+    },
+    {
+      "feature": "uc_feature_electric_current",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CUR-001",
+        "UC-CUR-002",
+        "UC-CUR-003",
+        "UC-CUR-004",
+        "UC-CUR-005"
+      ],
+      "web_anchor": "uc-feature-electric-current",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Elektromos áramerősség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-electric-current"
+    },
+    {
+      "feature": "uc_feature_resistance",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-RES-001",
+        "UC-RES-002",
+        "UC-RES-003",
+        "UC-RES-004",
+        "UC-RES-005"
+      ],
+      "web_anchor": "uc-feature-resistance",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Ellenállás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-resistance"
+    },
+    {
+      "feature": "uc_feature_conductance",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-COND-001",
+        "UC-COND-002",
+        "UC-COND-003",
+        "UC-COND-004"
+      ],
+      "web_anchor": "uc-feature-conductance",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Vezetőképesség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-conductance"
+    },
+    {
+      "feature": "uc_feature_capacitance",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CAP-001",
+        "UC-CAP-002",
+        "UC-CAP-003",
+        "UC-CAP-004",
+        "UC-CAP-005"
+      ],
+      "web_anchor": "uc-feature-capacitance",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kapacitás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-capacitance"
+    },
+    {
+      "feature": "uc_feature_inductance",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-IND-001",
+        "UC-IND-002",
+        "UC-IND-003",
+        "UC-IND-004"
+      ],
+      "web_anchor": "uc-feature-inductance",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Induktivitás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-inductance"
+    },
+    {
+      "feature": "uc_feature_power",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-PWR-001",
+        "UC-PWR-002",
+        "UC-PWR-003",
+        "UC-PWR-004",
+        "UC-PWR-005",
+        "UC-PWR-006",
+        "UC-PWR-007",
+        "UC-PWR-008",
+        "UC-PWR-009",
+        "UC-PWR-010"
+      ],
+      "web_anchor": "uc-feature-power",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Teljesítmény",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-power"
+    },
+    {
+      "feature": "uc_feature_energy",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-ENG-001",
+        "UC-ENG-002",
+        "UC-ENG-003",
+        "UC-ENG-004",
+        "UC-ENG-005",
+        "UC-ENG-006",
+        "UC-ENG-007",
+        "UC-ENG-008",
+        "UC-ENG-009",
+        "UC-ENG-010"
+      ],
+      "web_anchor": "uc-feature-energy",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Energia",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-energy"
+    },
+    {
+      "feature": "uc_feature_electrical_resistivity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-RHO-001",
+        "UC-RHO-002",
+        "UC-RHO-003",
+        "UC-RHO-004"
+      ],
+      "web_anchor": "uc-feature-electrical-resistivity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Fajlagos elektromos ellenállás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-electrical-resistivity"
+    },
+    {
+      "feature": "uc_feature_electrical_conductivity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-SIG-001",
+        "UC-SIG-002",
+        "UC-SIG-003",
+        "UC-SIG-004",
+        "UC-SIG-005",
+        "UC-SIG-006",
+        "UC-SIG-007"
+      ],
+      "web_anchor": "uc-feature-electrical-conductivity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Fajlagos elektromos vezetőképesség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-electrical-conductivity"
+    },
+    {
+      "feature": "uc_feature_electric_charge",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CHG-001",
+        "UC-CHG-002",
+        "UC-CHG-003",
+        "UC-CHG-004",
+        "UC-CHG-005",
+        "UC-CHG-006",
+        "UC-CHG-007"
+      ],
+      "web_anchor": "uc-feature-electric-charge",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Elektromos töltés",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-electric-charge"
+    },
+    {
+      "feature": "uc_feature_current_density",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-JCUR-001",
+        "UC-JCUR-002",
+        "UC-JCUR-003",
+        "UC-JCUR-004",
+        "UC-JCUR-005"
+      ],
+      "web_anchor": "uc-feature-current-density",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Áramsűrűség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-current-density"
+    },
+    {
+      "feature": "uc_feature_linear_charge_density",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-LCD-001",
+        "UC-LCD-002",
+        "UC-LCD-003",
+        "UC-LCD-004"
+      ],
+      "web_anchor": "uc-feature-linear-charge-density",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Vonali töltéssűrűség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-linear-charge-density"
+    },
+    {
+      "feature": "uc_feature_surface_charge_density",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-SCD-001",
+        "UC-SCD-002",
+        "UC-SCD-003",
+        "UC-SCD-004",
+        "UC-SCD-005"
+      ],
+      "web_anchor": "uc-feature-surface-charge-density",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Felületi töltéssűrűség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-surface-charge-density"
+    },
+    {
+      "feature": "uc_feature_volume_charge_density",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-VCD-001",
+        "UC-VCD-002",
+        "UC-VCD-003",
+        "UC-VCD-004"
+      ],
+      "web_anchor": "uc-feature-volume-charge-density",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Térfogati töltéssűrűség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-volume-charge-density"
+    },
+    {
+      "feature": "uc_feature_electric_field_strength",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-EFS-001",
+        "UC-EFS-002",
+        "UC-EFS-003",
+        "UC-EFS-004",
+        "UC-EFS-005"
+      ],
+      "web_anchor": "uc-feature-electric-field-strength",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Elektromos térerősség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-electric-field-strength"
+    },
+    {
+      "feature": "uc_feature_permittivity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-PERM-001",
+        "UC-PERM-002",
+        "UC-PERM-003"
+      ],
+      "web_anchor": "uc-feature-permittivity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Permittivitás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-permittivity"
+    },
+    {
+      "feature": "UC-CALC-004",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CALC-004"
+      ],
+      "web_anchor": "uc-calc-004",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Energiafogyasztás / költség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-calc-004"
+    },
+    {
+      "feature": "uc_feature_dynamic_viscosity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-DVIS-001",
+        "UC-DVIS-002",
+        "UC-DVIS-003",
+        "UC-DVIS-004",
+        "UC-DVIS-005"
+      ],
+      "web_anchor": "uc-feature-dynamic-viscosity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Dinamikai viszkozitás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-dynamic-viscosity"
+    },
+    {
+      "feature": "uc_feature_kinematic_viscosity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-KVIS-001",
+        "UC-KVIS-002",
+        "UC-KVIS-003",
+        "UC-KVIS-004"
+      ],
+      "web_anchor": "uc-feature-kinematic-viscosity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kinematikai viszkozitás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-kinematic-viscosity"
+    },
+    {
+      "feature": "uc_feature_volume_flow_rate",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-FLOW-001",
+        "UC-FLOW-002",
+        "UC-FLOW-003",
+        "UC-FLOW-004",
+        "UC-FLOW-005",
+        "UC-FLOW-006"
+      ],
+      "web_anchor": "uc-feature-volume-flow-rate",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Térfogatáram",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-volume-flow-rate"
+    },
+    {
+      "feature": "uc_feature_amount_concentration",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-MOL-001",
+        "UC-MOL-002",
+        "UC-MOL-003",
+        "UC-MOL-004"
+      ],
+      "web_anchor": "uc-feature-amount-concentration",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Anyagmennyiség-koncentráció",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-amount-concentration"
+    },
+    {
+      "feature": "uc_feature_mass_concentration",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-MCON-001",
+        "UC-MCON-002",
+        "UC-MCON-003",
+        "UC-MCON-004",
+        "UC-MCON-005",
+        "UC-MCON-006"
+      ],
+      "web_anchor": "uc-feature-mass-concentration",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tömegkoncentráció",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-mass-concentration"
+    },
+    {
+      "feature": "uc_feature_dimensionless_ratio",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-RATIO-001",
+        "UC-RATIO-002",
+        "UC-RATIO-003",
+        "UC-RATIO-004"
+      ],
+      "web_anchor": "uc-feature-dimensionless-ratio",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Dimenziótlan arány",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-dimensionless-ratio"
+    },
+    {
+      "feature": "uc_feature_intrinsic_permeability",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-POR-001",
+        "UC-POR-002",
+        "UC-POR-003",
+        "UC-POR-004"
+      ],
+      "web_anchor": "uc-feature-intrinsic-permeability",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Intrinsic permeabilitás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-intrinsic-permeability"
+    },
+    {
+      "feature": "uc_feature_surface_tension",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-STEN-001",
+        "UC-STEN-002",
+        "UC-STEN-003"
+      ],
+      "web_anchor": "uc-feature-surface-tension",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Felületi feszültség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-surface-tension"
+    },
+    {
+      "feature": "uc_feature_water_hardness",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-HARD-001",
+        "UC-HARD-002",
+        "UC-HARD-003",
+        "UC-HARD-004",
+        "UC-HARD-005",
+        "UC-HARD-006"
+      ],
+      "web_anchor": "uc-feature-water-hardness",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Vízkeménység",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-water-hardness"
+    },
+    {
+      "feature": "UC-CALC-003",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CALC-003"
+      ],
+      "web_anchor": "uc-calc-003",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hígítás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-calc-003"
+    },
+    {
+      "feature": "UC-CALC-006",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CALC-006"
+      ],
+      "web_anchor": "uc-calc-006",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Molaritás / tömegkoncentráció",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-calc-006"
+    },
+    {
+      "feature": "uc_feature_specific_heat_capacity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-SHC-001",
+        "UC-SHC-002",
+        "UC-SHC-003",
+        "UC-SHC-004",
+        "UC-SHC-005"
+      ],
+      "web_anchor": "uc-feature-specific-heat-capacity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Fajhő",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-specific-heat-capacity"
+    },
+    {
+      "feature": "uc_feature_heat_flux_density",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-HFLX-001",
+        "UC-HFLX-002",
+        "UC-HFLX-003",
+        "UC-HFLX-004"
+      ],
+      "web_anchor": "uc-feature-heat-flux-density",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hőáramsűrűség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-heat-flux-density"
+    },
+    {
+      "feature": "uc_feature_thermal_conductivity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-TCOND-001",
+        "UC-TCOND-002",
+        "UC-TCOND-003",
+        "UC-TCOND-004"
+      ],
+      "web_anchor": "uc-feature-thermal-conductivity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hővezetési tényező",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-thermal-conductivity"
+    },
+    {
+      "feature": "uc_feature_heat_transfer_coefficient",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-HTC-001",
+        "UC-HTC-002",
+        "UC-HTC-003"
+      ],
+      "web_anchor": "uc-feature-heat-transfer-coefficient",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hőátadási tényező",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-heat-transfer-coefficient"
+    },
+    {
+      "feature": "uc_feature_luminous_intensity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-LINT-001",
+        "UC-LINT-002"
+      ],
+      "web_anchor": "uc-feature-luminous-intensity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Fényerősség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-luminous-intensity"
+    },
+    {
+      "feature": "uc_feature_illuminance",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-ILL-001",
+        "UC-ILL-002",
+        "UC-ILL-003"
+      ],
+      "web_anchor": "uc-feature-illuminance",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Megvilágítás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-illuminance"
+    },
+    {
+      "feature": "uc_feature_luminance",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-LUM-001",
+        "UC-LUM-002"
+      ],
+      "web_anchor": "uc-feature-luminance",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Fénysűrűség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-luminance"
+    },
+    {
+      "feature": "UC-CALC-005",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CALC-005"
+      ],
+      "web_anchor": "uc-calc-005",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Világítástechnika",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-calc-005"
+    },
+    {
+      "feature": "uc_feature_magnetic_flux_density",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-BFLX-001",
+        "UC-BFLX-002",
+        "UC-BFLX-003",
+        "UC-BFLX-004",
+        "UC-BFLX-005"
+      ],
+      "web_anchor": "uc-feature-magnetic-flux-density",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mágneses indukció",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-magnetic-flux-density"
+    },
+    {
+      "feature": "uc_feature_magnetic_field_strength",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-HFLD-001",
+        "UC-HFLD-002",
+        "UC-HFLD-003"
+      ],
+      "web_anchor": "uc-feature-magnetic-field-strength",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mágneses térerősség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-magnetic-field-strength"
+    },
+    {
+      "feature": "uc_feature_magnetic_flux",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-MFLX-001",
+        "UC-MFLX-002",
+        "UC-MFLX-003",
+        "UC-MFLX-004"
+      ],
+      "web_anchor": "uc-feature-magnetic-flux",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mágneses fluxus",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-magnetic-flux"
+    },
+    {
+      "feature": "uc_feature_magnetic_permeability",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-MPER-001",
+        "UC-MPER-002",
+        "UC-MPER-003"
+      ],
+      "web_anchor": "uc-feature-magnetic-permeability",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mágneses permeabilitás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-magnetic-permeability"
+    },
+    {
+      "feature": "uc_feature_data_amount",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-DATA-001",
+        "UC-DATA-002",
+        "UC-DATA-003",
+        "UC-DATA-004",
+        "UC-DATA-005",
+        "UC-DATA-006",
+        "UC-DATA-007",
+        "UC-DATA-008",
+        "UC-DATA-009",
+        "UC-DATA-010",
+        "UC-DATA-011",
+        "UC-DATA-012",
+        "UC-DATA-013",
+        "UC-DATA-014",
+        "UC-DATA-015",
+        "UC-DATA-016"
+      ],
+      "web_anchor": "uc-feature-data-amount",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Adatmennyiség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-data-amount"
+    },
+    {
+      "feature": "uc_feature_data_rate",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-DRATE-001",
+        "UC-DRATE-002",
+        "UC-DRATE-003",
+        "UC-DRATE-004",
+        "UC-DRATE-005",
+        "UC-DRATE-006",
+        "UC-DRATE-007",
+        "UC-DRATE-008",
+        "UC-DRATE-009",
+        "UC-DRATE-010",
+        "UC-DRATE-011",
+        "UC-DRATE-012",
+        "UC-DRATE-013"
+      ],
+      "web_anchor": "uc-feature-data-rate",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Adatátviteli sebesség",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-data-rate"
+    },
+    {
+      "feature": "uc_feature_pixel_count",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-PIX-001",
+        "UC-PIX-002",
+        "UC-PIX-003",
+        "UC-PIX-004"
+      ],
+      "web_anchor": "uc-feature-pixel-count",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Pixelszám",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-pixel-count"
+    },
+    {
+      "feature": "UC-CALC-002",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CALC-002"
+      ],
+      "web_anchor": "uc-calc-002",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Adatátviteli idő",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-calc-002"
+    },
+    {
+      "feature": "UC-UTIL-001",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-UTIL-001"
+      ],
+      "web_anchor": "uc-util-001",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Számrendszer-konverter",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-util-001"
+    },
+    {
+      "feature": "uc_feature_absorbed_dose",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-ABS-001",
+        "UC-ABS-002",
+        "UC-ABS-003",
+        "UC-ABS-004"
+      ],
+      "web_anchor": "uc-feature-absorbed-dose",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Elnyelt dózis",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-absorbed-dose"
+    },
+    {
+      "feature": "uc_feature_radionuclide_activity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-ACT-001",
+        "UC-ACT-002",
+        "UC-ACT-003",
+        "UC-ACT-004",
+        "UC-ACT-005",
+        "UC-ACT-006",
+        "UC-ACT-007",
+        "UC-ACT-008"
+      ],
+      "web_anchor": "uc-feature-radionuclide-activity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Radionuklid aktivitása",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-radionuclide-activity"
+    },
+    {
+      "feature": "uc_feature_radiation_exposure",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-EXP-001",
+        "UC-EXP-002",
+        "UC-EXP-003",
+        "UC-EXP-004"
+      ],
+      "web_anchor": "uc-feature-radiation-exposure",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Besugárzási dózis",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-radiation-exposure"
+    },
+    {
+      "feature": "uc_feature_dose_equivalent",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-SV-001",
+        "UC-SV-002",
+        "UC-SV-003",
+        "UC-SV-004",
+        "UC-SV-005"
+      ],
+      "web_anchor": "uc-feature-dose-equivalent",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Dózisegyenérték",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-dose-equivalent"
+    },
+    {
+      "feature": "uc_feature_astronomical_distance",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-ASTD-001",
+        "UC-ASTD-002",
+        "UC-ASTD-003",
+        "UC-ASTD-004",
+        "UC-ASTD-005",
+        "UC-ASTD-006",
+        "UC-ASTD-007"
+      ],
+      "web_anchor": "uc-feature-astronomical-distance",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Csillagászati távolság",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-astronomical-distance"
+    },
+    {
+      "feature": "uc_feature_astronomical_mass",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-ASTM-001",
+        "UC-ASTM-002",
+        "UC-ASTM-003",
+        "UC-ASTM-004"
+      ],
+      "web_anchor": "uc-feature-astronomical-mass",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Csillagászati tömeg",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-astronomical-mass"
+    },
+    {
+      "feature": "uc_feature_luminosity",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-ASTL-001",
+        "UC-ASTL-002"
+      ],
+      "web_anchor": "uc-feature-luminosity",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Luminozitás",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-luminosity"
+    },
+    {
+      "feature": "uc_feature_shoe_size",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-SIZE-001",
+        "UC-SIZE-002",
+        "UC-SIZE-003",
+        "UC-SIZE-004",
+        "UC-SIZE-005",
+        "UC-SIZE-006"
+      ],
+      "web_anchor": "uc-feature-shoe-size",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Cipőméret",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-shoe-size"
+    },
+    {
+      "feature": "uc_feature_women_clothing_size",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CLOTH-001",
+        "UC-CLOTH-002",
+        "UC-CLOTH-003",
+        "UC-CLOTH-004"
+      ],
+      "web_anchor": "uc-feature-women-clothing-size",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Női ruhaméret",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-women-clothing-size"
+    },
+    {
+      "feature": "uc_feature_men_clothing_size",
+      "source_sections": [
+        "FS §6.9, §10–12",
+        "CDR §5, §10"
+      ],
+      "data_ids": [
+        "UC-CLOTH-005",
+        "UC-CLOTH-006",
+        "UC-CLOTH-007",
+        "UC-CLOTH-008"
+      ],
+      "web_anchor": "uc-feature-men-clothing-size",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Férfi ruhaméret",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-feature-men-clothing-size"
+    },
+    {
+      "feature": "use",
+      "source_sections": [
+        "FS §4, §14, §17"
+      ],
+      "web_anchor": "uc-use",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Többeredményes átváltás használata",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-use"
+    },
+    {
+      "feature": "search",
+      "source_sections": [
+        "FS §19"
+      ],
+      "web_anchor": "uc-search",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Keresés",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-search"
+    },
+    {
+      "feature": "favorites",
+      "source_sections": [
+        "FS §20–21"
+      ],
+      "web_anchor": "uc-favorites",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kedvencek és legutóbbi funkciók",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-favorites"
+    },
+    {
+      "feature": "history",
+      "source_sections": [
+        "FS §22, UC-CURRENT"
+      ],
+      "web_anchor": "uc-history",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Előzmények és megőrzött bevitel",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-history"
+    },
+    {
+      "feature": "copy",
+      "source_sections": [
+        "FS §17.1, §10.2"
+      ],
+      "web_anchor": "uc-copy",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Eredmények másolása",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-copy"
+    },
+    {
+      "feature": "mini",
+      "source_sections": [
+        "FS §11.1; MiniCalculator.kt; UcMiniCalculator.kt"
+      ],
+      "web_anchor": "uc-mini",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mini számológép",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-mini"
+    },
+    {
+      "feature": "settings",
+      "source_sections": [
+        "FS §16.2, §44–45"
+      ],
+      "web_anchor": "uc-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv és számmegjelenítés",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-settings"
+    },
+    {
+      "feature": "offline",
+      "source_sections": [
+        "FS §32–34; actual manifest/build"
+      ],
+      "web_anchor": "uc-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat és helyi adatok",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-offline"
+    },
+    {
+      "feature": "money",
+      "source_sections": [
+        "FS §36–38; W7 evidence"
+      ],
+      "web_anchor": "uc-money",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és egyszeri reklámmentesítés",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-money"
+    },
+    {
+      "feature": "uc-dedication",
+      "source_sections": [
+        "FS UC offline dedication 2026-10-08; UI Kit About activation"
+      ],
+      "web_anchor": "uc-dedication",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Névjegy dedikáció",
+      "source_document": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "web_url": "https://jn86vi.github.io/apps/unit-converter.html#uc-dedication"
+    }
+  ],
+  "ott-e": [
+    {
+      "feature": "ott-start",
+      "source_sections": [
+        "FS §2–5, §17"
+      ],
+      "web_anchor": "ott-start",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Játék indítása a macskának",
+      "source_document": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ott-e.html#ott-start"
+    },
+    {
+      "feature": "ott-prey-one",
+      "source_sections": [
+        "FS §6, §20"
+      ],
+      "web_anchor": "ott-prey-one",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Légy, szúnyog és katica",
+      "source_document": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ott-e.html#ott-prey-one"
+    },
+    {
+      "feature": "ott-prey-two",
+      "source_sections": [
+        "FS §5–6, §9"
+      ],
+      "web_anchor": "ott-prey-two",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Bogár, csótány, szöcske és pók",
+      "source_document": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ott-e.html#ott-prey-two"
+    },
+    {
+      "feature": "ott-sound",
+      "source_sections": [
+        "FS §11–13"
+      ],
+      "web_anchor": "ott-sound",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hang, vizuális figyelem és rezgés",
+      "source_document": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ott-e.html#ott-sound"
+    },
+    {
+      "feature": "ott-time",
+      "source_sections": [
+        "FS §14, active session time"
+      ],
+      "web_anchor": "ott-time",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Játékidő és befejezés",
+      "source_document": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ott-e.html#ott-time"
+    },
+    {
+      "feature": "ott-owner",
+      "source_sections": [
+        "FS §15–15.1; settings invalidation"
+      ],
+      "web_anchor": "ott-owner",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Gazdi mód és folytatás",
+      "source_document": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ott-e.html#ott-owner"
+    },
+    {
+      "feature": "ott-interruptions",
+      "source_sections": [
+        "FS §18–20, §23"
+      ],
+      "web_anchor": "ott-interruptions",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Megszakítások és mentett beállítások",
+      "source_document": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ott-e.html#ott-interruptions"
+    },
+    {
+      "feature": "ott-egg",
+      "source_sections": [
+        "FS About Easter Egg; actual OttAboutEasterEgg.kt"
+      ],
+      "web_anchor": "ott-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Rejtett meglepetés a Névjegyben",
+      "source_document": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ott-e.html#ott-egg"
+    },
+    {
+      "feature": "ott-offline",
+      "source_sections": [
+        "FS §21–23"
+      ],
+      "web_anchor": "ott-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline és reklámmentes",
+      "source_document": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ott-e.html#ott-offline"
+    },
+    {
+      "feature": "ott-touches",
+      "source_sections": [
+        "FS §5, §9, §10"
+      ],
+      "web_anchor": "ott-touches",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Találatok és melléütések",
+      "source_document": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ott-e.html#ott-touches"
+    }
+  ],
+  "age-date-toolkit": [
+    {
+      "feature": "adt-age",
+      "source_sections": [
+        "ADT-AGE-001..004, ADT-LEAP-001"
+      ],
+      "web_anchor": "adt-age",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Pontos életkor",
+      "source_document": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/age-date-toolkit.html#adt-age"
+    },
+    {
+      "feature": "adt-difference",
+      "source_sections": [
+        "ADT-DIFF-001..005, ADT-REL-001..004"
+      ],
+      "web_anchor": "adt-difference",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Dátumkülönbség és visszaszámlálás",
+      "source_document": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/age-date-toolkit.html#adt-difference"
+    },
+    {
+      "feature": "adt-add",
+      "source_sections": [
+        "ADT-ADD-001..003, ADT-EOM-001"
+      ],
+      "web_anchor": "adt-add",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Naptári időszak hozzáadása és kivonása",
+      "source_document": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/age-date-toolkit.html#adt-add"
+    },
+    {
+      "feature": "adt-anniversary",
+      "source_sections": [
+        "ADT-ANN-001..003"
+      ],
+      "web_anchor": "adt-anniversary",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Következő születésnap vagy évforduló",
+      "source_document": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/age-date-toolkit.html#adt-anniversary"
+    },
+    {
+      "feature": "adt-info",
+      "source_sections": [
+        "ADT-INFO-001..003"
+      ],
+      "web_anchor": "adt-info",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Dátuminformáció",
+      "source_document": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/age-date-toolkit.html#adt-info"
+    },
+    {
+      "feature": "adt-save",
+      "source_sections": [
+        "ADT-SAVE-001..004; §3 copy; §17"
+      ],
+      "web_anchor": "adt-save",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mentett dátumok és másolás",
+      "source_document": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/age-date-toolkit.html#adt-save"
+    },
+    {
+      "feature": "adt-egg",
+      "source_sections": [
+        "ADT-EGG-001..007"
+      ],
+      "web_anchor": "adt-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Visszafelé járó óra meglepetés",
+      "source_document": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/age-date-toolkit.html#adt-egg"
+    },
+    {
+      "feature": "age-date-toolkit-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "age-date-toolkit-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/age-date-toolkit.html#age-date-toolkit-offline"
+    },
+    {
+      "feature": "age-date-toolkit-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "age-date-toolkit-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/age-date-toolkit.html#age-date-toolkit-settings"
+    },
+    {
+      "feature": "age-date-toolkit-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "age-date-toolkit-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/age-date-toolkit.html#age-date-toolkit-ads"
+    }
+  ],
+  "stopwatch-multi-timer": [
+    {
+      "feature": "stm-stopwatch",
+      "source_sections": [
+        "STM-SW-001..005, STM-LAP-001..003"
+      ],
+      "web_anchor": "stm-stopwatch",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Stopper és köridők",
+      "source_document": "Alapdoksik/appspec/Stopwatch_Multi_Timer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/stopwatch-multi-timer.html#stm-stopwatch"
+    },
+    {
+      "feature": "stm-timers",
+      "source_sections": [
+        "STM-TMR-001..008, STM-EXP-001..003, STM-UI-001..004"
+      ],
+      "web_anchor": "stm-timers",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Több független időzítő",
+      "source_document": "Alapdoksik/appspec/Stopwatch_Multi_Timer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/stopwatch-multi-timer.html#stm-timers"
+    },
+    {
+      "feature": "stm-presets",
+      "source_sections": [
+        "STM-PRESET-001..003, STM-HIST-001..004"
+      ],
+      "web_anchor": "stm-presets",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Sablonok és időzítőelőzmények",
+      "source_document": "Alapdoksik/appspec/Stopwatch_Multi_Timer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/stopwatch-multi-timer.html#stm-presets"
+    },
+    {
+      "feature": "stm-background",
+      "source_sections": [
+        "STM-TIME-001..004, STM-LIFE-001..004, STM-NOTIF-001..003, STM-FB-001..002"
+      ],
+      "web_anchor": "stm-background",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Háttérműködés és jelzések",
+      "source_document": "Alapdoksik/appspec/Stopwatch_Multi_Timer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/stopwatch-multi-timer.html#stm-background"
+    },
+    {
+      "feature": "stm-egg",
+      "source_sections": [
+        "STM-EGG-001..008"
+      ],
+      "web_anchor": "stm-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "A türelmetlen stopper",
+      "source_document": "Alapdoksik/appspec/Stopwatch_Multi_Timer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/stopwatch-multi-timer.html#stm-egg"
+    },
+    {
+      "feature": "stopwatch-multi-timer-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "stopwatch-multi-timer-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Stopwatch_Multi_Timer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/stopwatch-multi-timer.html#stopwatch-multi-timer-offline"
+    },
+    {
+      "feature": "stopwatch-multi-timer-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "stopwatch-multi-timer-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Stopwatch_Multi_Timer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/stopwatch-multi-timer.html#stopwatch-multi-timer-settings"
+    },
+    {
+      "feature": "stopwatch-multi-timer-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "stopwatch-multi-timer-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Stopwatch_Multi_Timer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/stopwatch-multi-timer.html#stopwatch-multi-timer-ads"
+    }
+  ],
+  "fraction-calculator": [
+    {
+      "feature": "frc-arithmetic",
+      "source_sections": [
+        "FRC-IN-001..003, FRC-ADD/SUB/MUL/DIV-001, FRC-SIMP-001"
+      ],
+      "web_anchor": "frc-arithmetic",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Négy alapművelet és egyszerűsítés",
+      "source_document": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/fraction-calculator.html#frc-arithmetic"
+    },
+    {
+      "feature": "frc-mixed",
+      "source_sections": [
+        "FRC-MIX-001..003"
+      ],
+      "web_anchor": "frc-mixed",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Vegyes számok és áltörtek",
+      "source_document": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/fraction-calculator.html#frc-mixed"
+    },
+    {
+      "feature": "frc-decimal",
+      "source_sections": [
+        "FRC-DEC-001..005, FRC-PCT-001..003"
+      ],
+      "web_anchor": "frc-decimal",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tizedesek, százalék és periodikus számok",
+      "source_document": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/fraction-calculator.html#frc-decimal"
+    },
+    {
+      "feature": "frc-steps",
+      "source_sections": [
+        "FRC-STEP-001..003, FRC-LCM-001..002"
+      ],
+      "web_anchor": "frc-steps",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Lépések, közös nevező és egyszerűsítés",
+      "source_document": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/fraction-calculator.html#frc-steps"
+    },
+    {
+      "feature": "frc-compare",
+      "source_sections": [
+        "FRC-RECIP-001, FRC-CMP-001; §3 copy; §16"
+      ],
+      "web_anchor": "frc-compare",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reciprok, összehasonlítás és másolás",
+      "source_document": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/fraction-calculator.html#frc-compare"
+    },
+    {
+      "feature": "frc-inch",
+      "source_sections": [
+        "FRC-INCH-001..004"
+      ],
+      "web_anchor": "frc-inch",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tört hüvelyk",
+      "source_document": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/fraction-calculator.html#frc-inch"
+    },
+    {
+      "feature": "frc-egg",
+      "source_sections": [
+        "FRC-EGG-001..005"
+      ],
+      "web_anchor": "frc-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Végtelen felezés",
+      "source_document": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/fraction-calculator.html#frc-egg"
+    },
+    {
+      "feature": "fraction-calculator-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "fraction-calculator-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/fraction-calculator.html#fraction-calculator-offline"
+    },
+    {
+      "feature": "fraction-calculator-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "fraction-calculator-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/fraction-calculator.html#fraction-calculator-settings"
+    },
+    {
+      "feature": "fraction-calculator-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "fraction-calculator-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/fraction-calculator.html#fraction-calculator-ads"
+    }
+  ],
+  "last-done": [
+    {
+      "feature": "ld-done",
+      "source_sections": [
+        "LD-DONE-001..004, LD-ELAPSED-001..004"
+      ],
+      "web_anchor": "ld-done",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Utoljára elvégzett tevékenység",
+      "source_document": "Alapdoksik/appspec/Last_Done_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/last-done.html#ld-done"
+    },
+    {
+      "feature": "ld-history",
+      "source_sections": [
+        "LD-HIST-001..004, LD-AVG-001..004"
+      ],
+      "web_anchor": "ld-history",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Előzmények és átlagos időköz",
+      "source_document": "Alapdoksik/appspec/Last_Done_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/last-done.html#ld-history"
+    },
+    {
+      "feature": "ld-due",
+      "source_sections": [
+        "LD-INT-001, LD-DUE-001..006, LD-EOM-001, LD-REM-001..006"
+      ],
+      "web_anchor": "ld-due",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Választható időközök és emlékeztetők",
+      "source_document": "Alapdoksik/appspec/Last_Done_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/last-done.html#ld-due"
+    },
+    {
+      "feature": "ld-organize",
+      "source_sections": [
+        "LD-CAT-001..004, LD-LIST-001, LD-ARCH-001..003"
+      ],
+      "web_anchor": "ld-organize",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kategóriák, listák és archiválás",
+      "source_document": "Alapdoksik/appspec/Last_Done_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/last-done.html#ld-organize"
+    },
+    {
+      "feature": "ld-egg",
+      "source_sections": [
+        "LD-EGG-001..007"
+      ],
+      "web_anchor": "ld-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Ne nyomd meg!",
+      "source_document": "Alapdoksik/appspec/Last_Done_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/last-done.html#ld-egg"
+    },
+    {
+      "feature": "last-done-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "last-done-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Last_Done_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/last-done.html#last-done-offline"
+    },
+    {
+      "feature": "last-done-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "last-done-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Last_Done_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/last-done.html#last-done-settings"
+    },
+    {
+      "feature": "last-done-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "last-done-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Last_Done_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/last-done.html#last-done-ads"
+    }
+  ],
+  "material-calculator": [
+    {
+      "feature": "mat-geometry",
+      "source_sections": [
+        "MAT-GEO-001..006, MAT-MULTI-001..003, MAT-DOM-001..002, MAT-UNIT-001..003"
+      ],
+      "web_anchor": "mat-geometry",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Területek, térfogatok és több helyiség",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-geometry"
+    },
+    {
+      "feature": "mat-paint",
+      "source_sections": [
+        "MAT-PAINT-001..004"
+      ],
+      "web_anchor": "mat-paint",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Festék",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-paint"
+    },
+    {
+      "feature": "mat-floor-tile",
+      "source_sections": [
+        "MAT-FLOOR-001..003, MAT-TILE-001..003"
+      ],
+      "web_anchor": "mat-floor-tile",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Laminált padló és csempe",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-floor-tile"
+    },
+    {
+      "feature": "mat-concrete",
+      "source_sections": [
+        "MAT-CONC-001..004"
+      ],
+      "web_anchor": "mat-concrete",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Beton",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-concrete"
+    },
+    {
+      "feature": "mat-garden",
+      "source_sections": [
+        "MAT-BULK-001..003"
+      ],
+      "web_anchor": "mat-garden",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mulcs, termőföld és kavics",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-garden"
+    },
+    {
+      "feature": "mat-wallpaper",
+      "source_sections": [
+        "MAT-WALL-001..005"
+      ],
+      "web_anchor": "mat-wallpaper",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tapéta és mintaillesztés",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-wallpaper"
+    },
+    {
+      "feature": "mat-packs",
+      "source_sections": [
+        "MAT-WASTE-001..003, MAT-PACK-001..005, MAT-RESULT-001..003, MAT-VAL-001..005"
+      ],
+      "web_anchor": "mat-packs",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Ráhagyás, egész csomag és maradék",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-packs"
+    },
+    {
+      "feature": "mat-presets",
+      "source_sections": [
+        "MAT-PRESET-001..004, MAT-PERSIST-001..002"
+      ],
+      "web_anchor": "mat-presets",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Saját mentett termékparaméterek",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-presets"
+    },
+    {
+      "feature": "mat-egg",
+      "source_sections": [
+        "MAT-EGG-001..006"
+      ],
+      "web_anchor": "mat-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Végtelen tapéta",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-egg"
+    },
+    {
+      "feature": "material-calculator-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "material-calculator-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#material-calculator-offline"
+    },
+    {
+      "feature": "material-calculator-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "material-calculator-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#material-calculator-settings"
+    },
+    {
+      "feature": "material-calculator-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "material-calculator-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#material-calculator-ads"
+    }
+  ],
+  "bubble-level-inclinometer": [
+    {
+      "feature": "bli-views",
+      "source_sections": [
+        "BLI-DUAL-001..003, BLI-BULL-001..003, BLI-INC-001..003, BLI-VIEW-001..004"
+      ],
+      "web_anchor": "bli-views",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Vízmérték és dőlésmérő nézetek",
+      "source_document": "Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/bubble-level-inclinometer.html#bli-views"
+    },
+    {
+      "feature": "bli-calibrate",
+      "source_sections": [
+        "BLI-CAL-001..005"
+      ],
+      "web_anchor": "bli-calibrate",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Gyors és kétállású kalibrálás",
+      "source_document": "Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/bubble-level-inclinometer.html#bli-calibrate"
+    },
+    {
+      "feature": "bli-zero-hold",
+      "source_sections": [
+        "BLI-ZERO-001..004, BLI-HOLD-001..004"
+      ],
+      "web_anchor": "bli-zero-hold",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Relatív nulla és kimerevítés",
+      "source_document": "Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/bubble-level-inclinometer.html#bli-zero-hold"
+    },
+    {
+      "feature": "bli-feedback",
+      "source_sections": [
+        "BLI-PREC-001..003, BLI-TOL-001..003, BLI-AUD-001..004, BLI-HAP-001..004, BLI-FILT-001..004"
+      ],
+      "web_anchor": "bli-feedback",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tűrés, hang és rezgés",
+      "source_document": "Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/bubble-level-inclinometer.html#bli-feedback"
+    },
+    {
+      "feature": "bli-device",
+      "source_sections": [
+        "BLI-ORI-001..004, BLI-SCREEN-001..003, BLI-SENS-001..004, BLI-PERM-001..002"
+      ],
+      "web_anchor": "bli-device",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tájolás, kijelző és készülékkorlátok",
+      "source_document": "Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/bubble-level-inclinometer.html#bli-device"
+    },
+    {
+      "feature": "bli-egg",
+      "source_sections": [
+        "BLI-EGG-001..008"
+      ],
+      "web_anchor": "bli-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "A kiszökő buborék",
+      "source_document": "Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/bubble-level-inclinometer.html#bli-egg"
+    },
+    {
+      "feature": "bubble-level-inclinometer-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "bubble-level-inclinometer-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/bubble-level-inclinometer.html#bubble-level-inclinometer-offline"
+    },
+    {
+      "feature": "bubble-level-inclinometer-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "bubble-level-inclinometer-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/bubble-level-inclinometer.html#bubble-level-inclinometer-settings"
+    },
+    {
+      "feature": "bubble-level-inclinometer-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "bubble-level-inclinometer-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/bubble-level-inclinometer.html#bubble-level-inclinometer-ads"
+    }
+  ],
+  "ruler-protractor": [
+    {
+      "feature": "rp-ruler",
+      "source_sections": [
+        "RP-RUL-001..004, RP-UNIT-001..004, RP-MARK-001..005, RP-TAB-001..003"
+      ],
+      "web_anchor": "rp-ruler",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Képernyőszéli vonalzó és két jelölő",
+      "source_document": "Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/ruler-protractor.html#rp-ruler"
+    },
+    {
+      "feature": "rp-calibrate",
+      "source_sections": [
+        "RP-CAL-001..008, RP-SCREEN-001..004, RP-PERSIST-003"
+      ],
+      "web_anchor": "rp-calibrate",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kalibrálás, mentés, ellenőrzés és visszaállítás",
+      "source_document": "Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/ruler-protractor.html#rp-calibrate"
+    },
+    {
+      "feature": "rp-zero",
+      "source_sections": [
+        "RP-ZERO-001, RP-PAD-001..004"
+      ],
+      "web_anchor": "rp-zero",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kezdőmargó és ideiglenes nullpont",
+      "source_document": "Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/ruler-protractor.html#rp-zero"
+    },
+    {
+      "feature": "rp-angles",
+      "source_sections": [
+        "RP-PRO-001..004, RP-PRO360-001..003, RP-ARM-001..004, RP-SNAP-001..004"
+      ],
+      "web_anchor": "rp-angles",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "180°-os és 360°-os szögmérő",
+      "source_document": "Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/ruler-protractor.html#rp-angles"
+    },
+    {
+      "feature": "rp-controls",
+      "source_sections": [
+        "RP-MAG-001..003, RP-HOLD-001..004, RP-ORI-001..004, RP-KEEP-001..003, RP-HAP-001..004"
+      ],
+      "web_anchor": "rp-controls",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nagyító, rögzítések és kijelzőkezelés",
+      "source_document": "Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/ruler-protractor.html#rp-controls"
+    },
+    {
+      "feature": "rp-egg",
+      "source_sections": [
+        "RP-EGG-001..008"
+      ],
+      "web_anchor": "rp-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Csak még egy centi",
+      "source_document": "Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/ruler-protractor.html#rp-egg"
+    },
+    {
+      "feature": "ruler-protractor-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "ruler-protractor-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/ruler-protractor.html#ruler-protractor-offline"
+    },
+    {
+      "feature": "ruler-protractor-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "ruler-protractor-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/ruler-protractor.html#ruler-protractor-settings"
+    },
+    {
+      "feature": "ruler-protractor-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "ruler-protractor-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/ruler-protractor.html#ruler-protractor-ads"
+    }
+  ],
+  "sound-meter": [
+    {
+      "feature": "sm-measure",
+      "source_sections": [
+        "SM-AUD-001..005, SM-LIVE-001..004, SM-STAT-001..004, SM-GRAPH-001..004, SM-SES-001..004"
+      ],
+      "web_anchor": "sm-measure",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Élő hangszint, statisztika és grafikon",
+      "source_document": "Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/sound-meter.html#sm-measure"
+    },
+    {
+      "feature": "sm-microphones",
+      "source_sections": [
+        "SM-IN-001..005, SM-CAL-001..006"
+      ],
+      "web_anchor": "sm-microphones",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mikrofonválasztás és korrekció",
+      "source_document": "Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/sound-meter.html#sm-microphones"
+    },
+    {
+      "feature": "sm-response",
+      "source_sections": [
+        "SM-RESP-001..005, SM-PEAK-001..003"
+      ],
+      "web_anchor": "sm-response",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "FAST, SLOW és csúcstartás",
+      "source_document": "Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/sound-meter.html#sm-response"
+    },
+    {
+      "feature": "sm-spl",
+      "source_sections": [
+        "SM-SPL-001..006"
+      ],
+      "web_anchor": "sm-spl",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hangnyomás és dB SPL kalkulátor",
+      "source_document": "Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/sound-meter.html#sm-spl"
+    },
+    {
+      "feature": "sm-limits",
+      "source_sections": [
+        "SM-LIMIT-001..005, SM-WGT-001..003, SM-REF-001..004, SM-SCREEN-001..002, SM-ORI-001..003, SM-PERM-001..003"
+      ],
+      "web_anchor": "sm-limits",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Készülékkorlátok és használat",
+      "source_document": "Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/sound-meter.html#sm-limits"
+    },
+    {
+      "feature": "sm-egg",
+      "source_sections": [
+        "SM-EGG-001..010"
+      ],
+      "web_anchor": "sm-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Éjszakai zajmérés poén",
+      "source_document": "Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/sound-meter.html#sm-egg"
+    },
+    {
+      "feature": "sound-meter-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "sound-meter-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/sound-meter.html#sound-meter-offline"
+    },
+    {
+      "feature": "sound-meter-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "sound-meter-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/sound-meter.html#sound-meter-settings"
+    },
+    {
+      "feature": "sound-meter-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "sound-meter-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/sound-meter.html#sound-meter-ads"
+    }
+  ],
+  "compass-altimeter": [
+    {
+      "feature": "ca-heading",
+      "source_sections": [
+        "CA-HEAD-001..003, CA-NORTH-001..004"
+      ],
+      "web_anchor": "ca-heading",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mágneses irány és valódi észak",
+      "source_document": "Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/compass-altimeter.html#ca-heading"
+    },
+    {
+      "feature": "ca-coordinates",
+      "source_sections": [
+        "CA-COORD-001..003"
+      ],
+      "web_anchor": "ca-coordinates",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Öt koordinátaformátum és másolás",
+      "source_document": "Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/compass-altimeter.html#ca-coordinates"
+    },
+    {
+      "feature": "ca-gps",
+      "source_sections": [
+        "CA-GPS-001..002, CA-ALT-001"
+      ],
+      "web_anchor": "ca-gps",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "GPS-magasság és pontosság",
+      "source_document": "Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/compass-altimeter.html#ca-gps"
+    },
+    {
+      "feature": "ca-barometer",
+      "source_sections": [
+        "CA-BARO-001..003, CA-ALT-001"
+      ],
+      "web_anchor": "ca-barometer",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyomás és kalibrált barométeres magasság",
+      "source_document": "Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/compass-altimeter.html#ca-barometer"
+    },
+    {
+      "feature": "ca-limits",
+      "source_sections": [
+        "CA-PRIV-001, CA-LIFE-001, CA-PERSIST-001"
+      ],
+      "web_anchor": "ca-limits",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Részleges elérhetőség és adatvédelem",
+      "source_document": "Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/compass-altimeter.html#ca-limits"
+    },
+    {
+      "feature": "ca-egg",
+      "source_sections": [
+        "CA-EGG-001"
+      ],
+      "web_anchor": "ca-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Észak ideiglenesen nem található",
+      "source_document": "Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/compass-altimeter.html#ca-egg"
+    },
+    {
+      "feature": "compass-altimeter-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "compass-altimeter-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/compass-altimeter.html#compass-altimeter-offline"
+    },
+    {
+      "feature": "compass-altimeter-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "compass-altimeter-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/compass-altimeter.html#compass-altimeter-settings"
+    },
+    {
+      "feature": "compass-altimeter-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "compass-altimeter-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/compass-altimeter.html#compass-altimeter-ads"
+    }
+  ],
+  "gps-speedometer": [
+    {
+      "feature": "gps-speed",
+      "source_sections": [
+        "GPS-SPD-001..004, GPS-UNIT-001..003, GPS-SES-001..003"
+      ],
+      "web_anchor": "gps-speed",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Aktuális GPS-sebesség",
+      "source_document": "Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/gps-speedometer.html#gps-speed"
+    },
+    {
+      "feature": "gps-stats",
+      "source_sections": [
+        "GPS-MAX-001..002, GPS-AVG-001..004, GPS-DIST-001..002, GPS-TIME-001..003"
+      ],
+      "web_anchor": "gps-stats",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Maximum, átlagok, távolság és idő",
+      "source_document": "Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/gps-speedometer.html#gps-stats"
+    },
+    {
+      "feature": "gps-quality",
+      "source_sections": [
+        "GPS-ACC-001..004, GPS-SMOOTH-001..004, GPS-STAT-001..003"
+      ],
+      "web_anchor": "gps-quality",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Jelminőség és stabil kijelzés",
+      "source_document": "Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/gps-speedometer.html#gps-quality"
+    },
+    {
+      "feature": "gps-hud",
+      "source_sections": [
+        "GPS-HUD-001..004, GPS-SCREEN-001..002"
+      ],
+      "web_anchor": "gps-hud",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nagy kijelző, tükrözés és ébren tartás",
+      "source_document": "Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/gps-speedometer.html#gps-hud"
+    },
+    {
+      "feature": "gps-privacy",
+      "source_sections": [
+        "GPS-LIFE-001..003, GPS-PRIV-001..002"
+      ],
+      "web_anchor": "gps-privacy",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Helyi mérés útvonalelőzmény nélkül",
+      "source_document": "Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/gps-speedometer.html#gps-privacy"
+    },
+    {
+      "feature": "gps-egg",
+      "source_sections": [
+        "GPS-EGG-001..010"
+      ],
+      "web_anchor": "gps-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Traffipax poén",
+      "source_document": "Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/gps-speedometer.html#gps-egg"
+    },
+    {
+      "feature": "gps-speedometer-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "gps-speedometer-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/gps-speedometer.html#gps-speedometer-offline"
+    },
+    {
+      "feature": "gps-speedometer-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "gps-speedometer-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/gps-speedometer.html#gps-speedometer-settings"
+    },
+    {
+      "feature": "gps-speedometer-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "gps-speedometer-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/gps-speedometer.html#gps-speedometer-ads"
+    }
+  ],
+  "device-info-diagnostics": [
+    {
+      "feature": "did-overview",
+      "source_sections": [
+        "DID-OV-001..003, DID-SRC-001..004, §7; DID-BAT-001, DID-STO-001"
+      ],
+      "web_anchor": "did-overview",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Áttekintés és részletes készülékadatok",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#did-overview"
+    },
+    {
+      "feature": "did-motion",
+      "source_sections": [
+        "DID-SENS-001..003, DID-LIVE-001..004, DID-MOTION-001..002, DID-MAG-001..004, DID-ORI-001..003"
+      ],
+      "web_anchor": "did-motion",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mozgás-, mágneses és dőléspróbák",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#did-motion"
+    },
+    {
+      "feature": "did-environment",
+      "source_sections": [
+        "DID-LIGHT-001..002, DID-PROX-001..002, DID-PRES-001..003"
+      ],
+      "web_anchor": "did-environment",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Fény-, közelség- és nyomáspróba",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#did-environment"
+    },
+    {
+      "feature": "did-touch-screen",
+      "source_sections": [
+        "DID-TOUCH-001..002, DID-DISP-001..002, DID-HAPT-001, DID-FLASH-001, DID-DIAG-001..005"
+      ],
+      "web_anchor": "did-touch-screen",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Érintés, képpontok, rezgés és vaku",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#did-touch-screen"
+    },
+    {
+      "feature": "did-camera-audio",
+      "source_sections": [
+        "DID-CAM-001..005, DID-MIC-001..005, DID-MIC-002A, DID-AUDIO-001..005, DID-MULTI-001..005"
+      ],
+      "web_anchor": "did-camera-audio",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kamera-, mikrofon- és hangkimeneti próbák",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#did-camera-audio"
+    },
+    {
+      "feature": "did-network",
+      "source_sections": [
+        "DID-NET-001..003, DID-FEAT-001..002"
+      ],
+      "web_anchor": "did-network",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hálózati állapot és támogatott képességek",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#did-network"
+    },
+    {
+      "feature": "did-reports",
+      "source_sections": [
+        "DID-COPY-001..002, DID-REP-001..005, DID-SHARE-001..002, DID-ID-001..003"
+      ],
+      "web_anchor": "did-reports",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Másolás, TXT/JSON-riport és megosztás",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#did-reports"
+    },
+    {
+      "feature": "did-verdict",
+      "source_sections": [
+        "DID-DIAG-001..005, DID-BAT-001"
+      ],
+      "web_anchor": "did-verdict",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mit jelent a próba eredménye?",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#did-verdict"
+    },
+    {
+      "feature": "did-egg",
+      "source_sections": [
+        "DID-EGG-001..007"
+      ],
+      "web_anchor": "did-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Túl alapos ellenőrzés",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#did-egg"
+    },
+    {
+      "feature": "device-info-diagnostics-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "device-info-diagnostics-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#device-info-diagnostics-offline"
+    },
+    {
+      "feature": "device-info-diagnostics-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "device-info-diagnostics-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#device-info-diagnostics-settings"
+    },
+    {
+      "feature": "device-info-diagnostics-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "device-info-diagnostics-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/device-info-diagnostics.html#device-info-diagnostics-ads"
+    }
+  ],
+  "image-resizer-compressor": [
+    {
+      "feature": "irc-resize",
+      "source_sections": [
+        "IRC-IO-001..005, IRC-RSZ-001..003, IRC-AR-001..002, IRC-MODE-001..003"
+      ],
+      "web_anchor": "irc-resize",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Átméretezés mérettel vagy százalékkal",
+      "source_document": "Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/image-resizer-compressor.html#irc-resize"
+    },
+    {
+      "feature": "irc-print",
+      "source_sections": [
+        "IRC-PPI-001..004"
+      ],
+      "web_anchor": "irc-print",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyomtatási méret és pixelsűrűség",
+      "source_document": "Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/image-resizer-compressor.html#irc-print"
+    },
+    {
+      "feature": "irc-compress",
+      "source_sections": [
+        "IRC-CMP-001..002, IRC-TARGET-001..005, IRC-FMT-001..004"
+      ],
+      "web_anchor": "irc-compress",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Minőség, célfájlméret és formátumok",
+      "source_document": "Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/image-resizer-compressor.html#irc-compress"
+    },
+    {
+      "feature": "irc-metadata",
+      "source_sections": [
+        "IRC-META-001..005, IRC-ORI-001..003"
+      ],
+      "web_anchor": "irc-metadata",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kísérőadatok és adatvédelmi tisztítás",
+      "source_document": "Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/image-resizer-compressor.html#irc-metadata"
+    },
+    {
+      "feature": "irc-preview-batch",
+      "source_sections": [
+        "IRC-PREV-001..002, IRC-COMPARE-001..003, IRC-BATCH-001..005, IRC-NAME-001..002, IRC-SHARE-001..003"
+      ],
+      "web_anchor": "irc-preview-batch",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Előnézet, összevetés, csoportos munka és megosztás",
+      "source_document": "Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/image-resizer-compressor.html#irc-preview-batch"
+    },
+    {
+      "feature": "irc-egg",
+      "source_sections": [
+        "IRC-EGG-001..009"
+      ],
+      "web_anchor": "irc-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Egypixeles tömörítési poén",
+      "source_document": "Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/image-resizer-compressor.html#irc-egg"
+    },
+    {
+      "feature": "image-resizer-compressor-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "image-resizer-compressor-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/image-resizer-compressor.html#image-resizer-compressor-offline"
+    },
+    {
+      "feature": "image-resizer-compressor-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "image-resizer-compressor-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/image-resizer-compressor.html#image-resizer-compressor-settings"
+    },
+    {
+      "feature": "image-resizer-compressor-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "image-resizer-compressor-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/image-resizer-compressor.html#image-resizer-compressor-ads"
+    }
+  ],
+  "voice-recorder": [
+    {
+      "feature": "vr-record",
+      "source_sections": [
+        "VR-REC-001..005, VR-WAVE-001..002, VR-LEVEL-001, VR-CLIP-001..002"
+      ],
+      "web_anchor": "vr-record",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Felvétel, szünet, folytatás és mentés",
+      "source_document": "Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/voice-recorder.html#vr-record"
+    },
+    {
+      "feature": "vr-quality",
+      "source_sections": [
+        "VR-FMT-001..004, VR-PROF-001..003, VR-CHAN-001..002, VR-IN-001..003"
+      ],
+      "web_anchor": "vr-quality",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Formátumok, profilok és mikrofonválasztás",
+      "source_document": "Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/voice-recorder.html#vr-quality"
+    },
+    {
+      "feature": "vr-markers-list",
+      "source_sections": [
+        "VR-MARK-001..005, VR-LIST-001, VR-SEARCH-001, VR-PLAY-001, VR-TAG-001, VR-EXP-001..002"
+      ],
+      "web_anchor": "vr-markers-list",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Jelölők, nevek, címkék és lejátszás",
+      "source_document": "Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/voice-recorder.html#vr-markers-list"
+    },
+    {
+      "feature": "vr-background",
+      "source_sections": [
+        "VR-BG-001..003, VR-NOTIF-001..002, VR-INT-001..003, VR-RECOV-001..003, VR-STO-001..002"
+      ],
+      "web_anchor": "vr-background",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kikapcsolt kijelzős felvétel és megszakítás",
+      "source_document": "Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/voice-recorder.html#vr-background"
+    },
+    {
+      "feature": "vr-local",
+      "source_sections": [
+        "VR-PRIV-001..004, VR-PERSIST-001"
+      ],
+      "web_anchor": "vr-local",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Helyi felvételek és saját megosztás",
+      "source_document": "Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/voice-recorder.html#vr-local"
+    },
+    {
+      "feature": "vr-egg",
+      "source_sections": [
+        "VR-EGG-001..009"
+      ],
+      "web_anchor": "vr-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "A kigubancolódott kazetta",
+      "source_document": "Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/voice-recorder.html#vr-egg"
+    },
+    {
+      "feature": "voice-recorder-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "voice-recorder-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/voice-recorder.html#voice-recorder-offline"
+    },
+    {
+      "feature": "voice-recorder-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "voice-recorder-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/voice-recorder.html#voice-recorder-settings"
+    },
+    {
+      "feature": "voice-recorder-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "voice-recorder-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/voice-recorder.html#voice-recorder-ads"
+    }
+  ],
+  "tuner-metronome": [
+    {
+      "feature": "tm-tuner",
+      "source_sections": [
+        "TM-TUN-001..005, TM-NOTE-001..002, TM-IN-001..003"
+      ],
+      "web_anchor": "tm-tuner",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kromatikus hangolás",
+      "source_document": "Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/tuner-metronome.html#tm-tuner"
+    },
+    {
+      "feature": "tm-reference",
+      "source_sections": [
+        "TM-A4-001..002, TM-TOL-001..003, TM-TONE-001..004"
+      ],
+      "web_anchor": "tm-reference",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Referenciahang és hangolási tűrés",
+      "source_document": "Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/tuner-metronome.html#tm-reference"
+    },
+    {
+      "feature": "tm-tempo",
+      "source_sections": [
+        "TM-MET-001..004, TM-TAP-001..002"
+      ],
+      "web_anchor": "tm-tempo",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Metronóm és tempókoppintás",
+      "source_document": "Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/tuner-metronome.html#tm-tempo"
+    },
+    {
+      "feature": "tm-rhythm",
+      "source_sections": [
+        "TM-SIG-001..003, TM-ACC-001, TM-SUB-001..003, TM-SND-001..002, TM-HAP-001, TM-VIS-001"
+      ],
+      "web_anchor": "tm-rhythm",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Ütemmutató, felosztás és jelzések",
+      "source_document": "Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/tuner-metronome.html#tm-rhythm"
+    },
+    {
+      "feature": "tm-presets-bg",
+      "source_sections": [
+        "TM-PRESET-001..004, TM-BG-001..004, TM-NOTIF-001..002, TM-HIST-001"
+      ],
+      "web_anchor": "tm-presets-bg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mentett tempók és háttérgyakorlás",
+      "source_document": "Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/tuner-metronome.html#tm-presets-bg"
+    },
+    {
+      "feature": "tm-egg",
+      "source_sections": [
+        "TM-EGG-001..009"
+      ],
+      "web_anchor": "tm-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Elszabadult metronóm",
+      "source_document": "Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/tuner-metronome.html#tm-egg"
+    },
+    {
+      "feature": "tuner-metronome-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "tuner-metronome-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/tuner-metronome.html#tuner-metronome-offline"
+    },
+    {
+      "feature": "tuner-metronome-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "tuner-metronome-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/tuner-metronome.html#tuner-metronome-settings"
+    },
+    {
+      "feature": "tuner-metronome-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "tuner-metronome-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/tuner-metronome.html#tuner-metronome-ads"
+    }
+  ],
+  "electrical-toolkit": [
+    {
+      "feature": "et-ohm-power",
+      "source_sections": [
+        "ET-OHM-001, ET-PWR-001..002"
+      ],
+      "web_anchor": "et-ohm-power",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Ohm-törvény és teljesítmény",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-ohm-power"
+    },
+    {
+      "feature": "et-charge-conductance",
+      "source_sections": [
+        "ET-CHARGE-001..002, ET-COND-001..002"
+      ],
+      "web_anchor": "et-charge-conductance",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Töltés és reciprok villamos mennyiségek",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-charge-conductance"
+    },
+    {
+      "feature": "et-wire",
+      "source_sections": [
+        "ET-WIRE-001..003"
+      ],
+      "web_anchor": "et-wire",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "AWG, vezetékellenállás és feszültségesés",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-wire"
+    },
+    {
+      "feature": "et-networks",
+      "source_sections": [
+        "ET-RSER-001, ET-RPAR-001, ET-RNET-001..002, ET-CSER-001, ET-CPAR-001, ET-CNET-001..002, ET-LSER-001, ET-LPAR-001, ET-LNET-001..002"
+      ],
+      "web_anchor": "et-networks",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Soros és párhuzamos alkatrészek",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-networks"
+    },
+    {
+      "feature": "et-divider-led",
+      "source_sections": [
+        "ET-DIV-001..003, ET-LED-001..006"
+      ],
+      "web_anchor": "et-divider-led",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Feszültségosztó és LED-előtét",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-divider-led"
+    },
+    {
+      "feature": "et-codes",
+      "source_sections": [
+        "ET-COLOR-001..004, ET-SMD-001..004, ET-CAPCODE-001..004"
+      ],
+      "web_anchor": "et-codes",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Ellenállásszínek, SMD- és kondenzátorkódok",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-codes"
+    },
+    {
+      "feature": "et-standard",
+      "source_sections": [
+        "ET-ESER-001..004"
+      ],
+      "web_anchor": "et-standard",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Ajánlott szabványos alkatrészértékek",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-standard"
+    },
+    {
+      "feature": "et-reactive",
+      "source_sections": [
+        "ET-XC-001, ET-XL-001, ET-RES-001, ET-EC-001, ET-EL-001"
+      ],
+      "web_anchor": "et-reactive",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reaktancia, rezonancia és tárolt energia",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-reactive"
+    },
+    {
+      "feature": "et-rc",
+      "source_sections": [
+        "ET-RC-001, ET-CTRANS-001..005"
+      ],
+      "web_anchor": "et-rc",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "RC-időállandó, töltés és kisütés",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-rc"
+    },
+    {
+      "feature": "et-555",
+      "source_sections": [
+        "ET-555-MONO-001..002, ET-555-AST-001..002, ET-555-003..004"
+      ],
+      "web_anchor": "et-555",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "NE555 egyszeri impulzus és oszcilláció",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-555"
+    },
+    {
+      "feature": "et-lm317",
+      "source_sections": [
+        "ET-LM317-001..005"
+      ],
+      "web_anchor": "et-lm317",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "LM317 feszültség és hőveszteségbecslés",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-lm317"
+    },
+    {
+      "feature": "et-filters-star",
+      "source_sections": [
+        "ET-FILT-RC-001, ET-FILT-RL-001, ET-FILT-RLC-001, ET-FILT-002..003, ET-YD-001..005"
+      ],
+      "web_anchor": "et-filters-star",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Egyszerű szűrők és csillag–háromszög hálózatok",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-filters-star"
+    },
+    {
+      "feature": "et-egg",
+      "source_sections": [
+        "ET-EGG-001..008"
+      ],
+      "web_anchor": "et-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Varázsfüst",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#et-egg"
+    },
+    {
+      "feature": "electrical-toolkit-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "electrical-toolkit-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#electrical-toolkit-offline"
+    },
+    {
+      "feature": "electrical-toolkit-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "electrical-toolkit-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#electrical-toolkit-settings"
+    },
+    {
+      "feature": "electrical-toolkit-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "electrical-toolkit-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "web_url": "https://jn86vi.github.io/apps/electrical-toolkit.html#electrical-toolkit-ads"
+    }
+  ],
+  "ham-tools": [
+    {
+      "feature": "rf-wavelength",
+      "source_sections": [
+        "RF-WL-001..003, RF-VF-001..003"
+      ],
+      "web_anchor": "rf-wavelength",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hullámhossz és rövidülési tényező",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#rf-wavelength"
+    },
+    {
+      "feature": "rf-power",
+      "source_sections": [
+        "RF-PWR-001, RF-CHAIN-001, RF-ERP-001..004, RF-PVI-001"
+      ],
+      "web_anchor": "rf-power",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Teljesítmény, nyereség/veszteség és kisugárzás",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#rf-power"
+    },
+    {
+      "feature": "rf-swr",
+      "source_sections": [
+        "RF-SWR-001..004, RF-FR-001..004"
+      ],
+      "web_anchor": "rf-swr",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Illesztés és visszavert teljesítmény",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#rf-swr"
+    },
+    {
+      "feature": "rf-coax",
+      "source_sections": [
+        "RF-COAX-001..006"
+      ],
+      "web_anchor": "rf-coax",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Koaxiális kábel vesztesége",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#rf-coax"
+    },
+    {
+      "feature": "rf-link-fresnel",
+      "source_sections": [
+        "RF-FSPL-001, RF-LINK-001..003, RF-FRES-001..004"
+      ],
+      "web_anchor": "rf-link-fresnel",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Szabad-téri veszteség, linkmérleg és Fresnel-zóna",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#rf-link-fresnel"
+    },
+    {
+      "feature": "rf-locations",
+      "source_sections": [
+        "RF-MH-001..003, RF-QTH-001..006, RF-MAP-001..003"
+      ],
+      "web_anchor": "rf-locations",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Maidenhead, távolság és irányszög",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#rf-locations"
+    },
+    {
+      "feature": "rf-morse",
+      "source_sections": [
+        "RF-MORSE-001..005"
+      ],
+      "web_anchor": "rf-morse",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Morse-átalakítás, referencia és lejátszás",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#rf-morse"
+    },
+    {
+      "feature": "rf-trainer",
+      "source_sections": [
+        "RF-TRAIN-001..009"
+      ],
+      "web_anchor": "rf-trainer",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Morse-gyakorlás",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#rf-trainer"
+    },
+    {
+      "feature": "rf-egg",
+      "source_sections": [
+        "RF-EGG-001..011"
+      ],
+      "web_anchor": "rf-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Csak még egy antenna",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#rf-egg"
+    },
+    {
+      "feature": "ham-tools-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "ham-tools-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#ham-tools-offline"
+    },
+    {
+      "feature": "ham-tools-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "ham-tools-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#ham-tools-settings"
+    },
+    {
+      "feature": "ham-tools-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "ham-tools-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/ham-tools.html#ham-tools-ads"
+    }
+  ],
+  "mini-games": [
+    {
+      "feature": "mg-2048",
+      "source_sections": [
+        "FS §17.1; G2048-BOARD/MOVE/MERGE/SCORE/WIN/GAMEOVER"
+      ],
+      "web_anchor": "mg-2048",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "2048",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-2048"
+    },
+    {
+      "feature": "mg-sudoku",
+      "source_sections": [
+        "FS §17.2; SDK-BOARD/RULE/DIFF/INPUT/NOTE/ERR/HINT/WIN"
+      ],
+      "web_anchor": "mg-sudoku",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Sudoku",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-sudoku"
+    },
+    {
+      "feature": "mg-mines",
+      "source_sections": [
+        "FS §17.3; MS-DIFF/FIRST/REVEAL/FLOOD/FLAG/CHORD/LOSS/WIN"
+      ],
+      "web_anchor": "mg-mines",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Aknakereső",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-mines"
+    },
+    {
+      "feature": "mg-snake",
+      "source_sections": [
+        "FS §17.4; SNK-DIR/FOOD/EAT/SPEED/LOSS/PAUSE"
+      ],
+      "web_anchor": "mg-snake",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kígyó",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-snake"
+    },
+    {
+      "feature": "mg-reversi",
+      "source_sections": [
+        "FS §17.5; REV-BOARD/MOVE/FLIP/PASS/END/WIN/AI"
+      ],
+      "web_anchor": "mg-reversi",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reversi",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-reversi"
+    },
+    {
+      "feature": "mg-15",
+      "source_sections": [
+        "FS §17.6; P15-BOARD/GOAL/MOVE/SHUFFLE/WIN"
+      ],
+      "web_anchor": "mg-15",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "15-ös kirakó",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-15"
+    },
+    {
+      "feature": "mg-gomoku",
+      "source_sections": [
+        "FS §17.7; GMK-RULESET/BOARD/TURN/MOVE/WIN/DRAW/AI"
+      ],
+      "web_anchor": "mg-gomoku",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Gomoku",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-gomoku"
+    },
+    {
+      "feature": "mg-morris",
+      "source_sections": [
+        "FS §17.8; NMM-BOARD/PIECE/PHASE1/MILL/CAPTURE/PHASE2/FLY/LOSS"
+      ],
+      "web_anchor": "mg-morris",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Malom",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-morris"
+    },
+    {
+      "feature": "mg-solitaire",
+      "source_sections": [
+        "FS §17.9; SOL-RULESET/DECK/DEAL/TABLEAU/FLIP/FOUND/STOCK/WIN/UNDO/AUTO"
+      ],
+      "web_anchor": "mg-solitaire",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Pasziánsz / Klondike",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-solitaire"
+    },
+    {
+      "feature": "mg-tic",
+      "source_sections": [
+        "FS §17.10; TTT-BOARD/START/TURN/MOVE/WIN/DRAW/AI"
+      ],
+      "web_anchor": "mg-tic",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Három egy sorban",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-tic"
+    },
+    {
+      "feature": "mg-blocks",
+      "source_sections": [
+        "FS §17.11, §18–27; BP-BOARD/TRAY/PLACE/CLEAR/SCORE/COMBO/PERFECT/GAMEOVER/PERSIST"
+      ],
+      "web_anchor": "mg-blocks",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "JN86 Block Puzzle",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-blocks"
+    },
+    {
+      "feature": "mg-saved",
+      "source_sections": [
+        "MG-STATE-003..004, MG-STAT-001..003, MG-V1C-001..003, FS §9, §11"
+      ],
+      "web_anchor": "mg-saved",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mentett játékok, rekordok és beállítások",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-saved"
+    },
+    {
+      "feature": "mg-egg",
+      "source_sections": [
+        "MG-EGG-001..008"
+      ],
+      "web_anchor": "mg-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Túl sok játék egyszerre",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mg-egg"
+    },
+    {
+      "feature": "mini-games-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "mini-games-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mini-games-offline"
+    },
+    {
+      "feature": "mini-games-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "mini-games-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mini-games-settings"
+    },
+    {
+      "feature": "mini-games-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "mini-games-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/mini-games.html#mini-games-ads"
+    }
+  ],
+  "readystock": [
+    {
+      "feature": "inv-items",
+      "source_sections": [
+        "INV-INV-001..002, INV-ITEM-001..004, INV-QTY-001..005"
+      ],
+      "web_anchor": "inv-items",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Több készlet, tétel és egység",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#inv-items"
+    },
+    {
+      "feature": "inv-batches",
+      "source_sections": [
+        "INV-BATCH-001..002, INV-TX-001..005, INV-LOC-001..003, INV-CAT-001..003, INV-TPL-001..003, INV-ARCH-001..003"
+      ],
+      "web_anchor": "inv-batches",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tételek adagjai, mozgások és előzmények",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#inv-batches"
+    },
+    {
+      "feature": "inv-replenish",
+      "source_sections": [
+        "INV-STATE-001..003, INV-REP-001..005, INV-QUICK-001..003"
+      ],
+      "web_anchor": "inv-replenish",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Minimum, cél és utánpótlási lista",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#inv-replenish"
+    },
+    {
+      "feature": "inv-expiry",
+      "source_sections": [
+        "INV-EXP-001..007, INV-ROT-001..006"
+      ],
+      "web_anchor": "inv-expiry",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Lejáratjelzés és korábbi készlet felhasználása",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#inv-expiry"
+    },
+    {
+      "feature": "inv-coverage",
+      "source_sections": [
+        "INV-RATE-001..002, INV-COV-001..005, INV-EMG-001..005, INV-GEN-001..003"
+      ],
+      "web_anchor": "inv-coverage",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Fogyás, fedezeti napok és vészkészletcél",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#inv-coverage"
+    },
+    {
+      "feature": "inv-scan",
+      "source_sections": [
+        "INV-QUICK-004..005, INV-BAR-001..005, INV-REG-001..004, INV-OCR-001..008, INV-OCR-PERM-001..002"
+      ],
+      "web_anchor": "inv-scan",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Helyi vonalkód- és szövegfelismerés",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#inv-scan"
+    },
+    {
+      "feature": "inv-dashboard",
+      "source_sections": [
+        "INV-DASH-001..002, FS §21, INV-NOTIF-001..005"
+      ],
+      "web_anchor": "inv-dashboard",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Áttekintés, keresés és emlékeztetők",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#inv-dashboard"
+    },
+    {
+      "feature": "inv-files",
+      "source_sections": [
+        "INV-IMPORT-001..004, INV-EXPORT-001..003, INV-BACKUP-001..004"
+      ],
+      "web_anchor": "inv-files",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Táblázatimport, export és teljes mentés",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#inv-files"
+    },
+    {
+      "feature": "inv-local",
+      "source_sections": [
+        "INV-REG-001..004, INV-OCR-PRIV-001..002, INV-PERSIST-001..004, INV-OFF-001, INV-PRIV-001..002"
+      ],
+      "web_anchor": "inv-local",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Helyi adatok és megerősített döntések",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#inv-local"
+    },
+    {
+      "feature": "readystock-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "readystock-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#readystock-offline"
+    },
+    {
+      "feature": "readystock-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "readystock-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#readystock-settings"
+    },
+    {
+      "feature": "readystock-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "readystock-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#readystock-ads"
+    },
+    {
+      "feature": "inv-egg",
+      "source_sections": [
+        "INV-EGG-001..008"
+      ],
+      "web_anchor": "inv-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Biztos, ami biztos",
+      "source_document": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/readystock.html#inv-egg"
+    }
+  ],
+  "workout-training": [
+    {
+      "feature": "wt-programs",
+      "source_sections": [
+        "WT-ENTRY-001..002, WT-PROG-001..003, WT-MOD-001..006, WT-EX-001..004, WT-MACH-001..003, WT-EXP-001..005"
+      ],
+      "web_anchor": "wt-programs",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Szakértői programok és gyakorlatútmutatók",
+      "source_document": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/workout-training.html#wt-programs"
+    },
+    {
+      "feature": "wt-log",
+      "source_sections": [
+        "WT-PLAN-001..003, WT-SES-001..003, WT-SET-001..004, WT-NOTE-001"
+      ],
+      "web_anchor": "wt-log",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Edzés követése és tényleges naplózás",
+      "source_document": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/workout-training.html#wt-log"
+    },
+    {
+      "feature": "wt-rest-reminder",
+      "source_sections": [
+        "WT-REST-001..004, WT-SCREEN-001, WT-NOTIF-001..004"
+      ],
+      "web_anchor": "wt-rest-reminder",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Pihenőidő, kijelző és emlékeztetők",
+      "source_document": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/workout-training.html#wt-rest-reminder"
+    },
+    {
+      "feature": "wt-progress",
+      "source_sections": [
+        "WT-HIST-001..003, WT-PROGRESS-001..003, WT-PR-001..003, WT-COMP-001..004"
+      ],
+      "web_anchor": "wt-progress",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Előzmények, haladás és négy személyes rekord",
+      "source_document": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/workout-training.html#wt-progress"
+    },
+    {
+      "feature": "wt-content",
+      "source_sections": [
+        "WT-MEDIA-001..008, WT-OFF-001..003, WT-COMP-003, WT-ENTRY-002"
+      ],
+      "web_anchor": "wt-content",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Letöltés, offline használat és tartalomfrissítés",
+      "source_document": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/workout-training.html#wt-content"
+    },
+    {
+      "feature": "wt-money",
+      "source_sections": [
+        "WT-MOD-001..006, WT-MON-001..007, WT-IAP-001..006"
+      ],
+      "web_anchor": "wt-money",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámmentes app és külön egyszeri modulok",
+      "source_document": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/workout-training.html#wt-money"
+    },
+    {
+      "feature": "wt-backup",
+      "source_sections": [
+        "WT-PERSIST-001..002, WT-BACKUP-001..005, WT-PROFILE-001, WT-SAFE-001, WT-PRIV-001..004"
+      ],
+      "web_anchor": "wt-backup",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Helyi napló, olvasható export és mentés",
+      "source_document": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/workout-training.html#wt-backup"
+    },
+    {
+      "feature": "workout-training-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "workout-training-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/workout-training.html#workout-training-offline"
+    },
+    {
+      "feature": "workout-training-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "workout-training-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/workout-training.html#workout-training-settings"
+    },
+    {
+      "feature": "wt-egg",
+      "source_sections": [
+        "AppSpec §35.1, WT-EGG-001..008"
+      ],
+      "web_anchor": "wt-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tréfás átalakulás a Névjegyben",
+      "source_document": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/workout-training.html#wt-egg"
+    }
+  ],
+  "meal-planner": [
+    {
+      "feature": "mp-today",
+      "source_sections": [
+        "MP-TODAY-001..002, MP-FLOW-001..002, MP-TAX-004"
+      ],
+      "web_anchor": "mp-today",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mit készítsek ma?",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-today"
+    },
+    {
+      "feature": "mp-home",
+      "source_sections": [
+        "MP-001, MP-HOME-001..006, MP-SHOP-004"
+      ],
+      "web_anchor": "mp-home",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Az otthoni alapanyagok",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-home"
+    },
+    {
+      "feature": "mp-leftovers",
+      "source_sections": [
+        "MP-LEFT-001..008, MP-DOM-001"
+      ],
+      "web_anchor": "mp-leftovers",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Elkészített maradék külön felhasználása",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-leftovers"
+    },
+    {
+      "feature": "mp-week",
+      "source_sections": [
+        "MP-WEEK-001..006"
+      ],
+      "web_anchor": "mp-week",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Hét nap, napi egy recept",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-week"
+    },
+    {
+      "feature": "mp-filters",
+      "source_sections": [
+        "MP-CUIS-001..006, MP-PREF-001..002, MP-FILT-001..004, MP-TAX-001..004"
+      ],
+      "web_anchor": "mp-filters",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Konyha, kategóriák és mentett preferenciák",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-filters"
+    },
+    {
+      "feature": "mp-recipes",
+      "source_sections": [
+        "MP-REC-001..005",
+        "MP-ING-001..002",
+        "MP-SUB-001..004",
+        "MP-SCALE-001..003",
+        "MP-COOK-001..002",
+        "MP-RATE-001..002"
+      ],
+      "web_anchor": "mp-recipes",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Saját recept, adag, főzési előzmény és értékelés",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-recipes"
+    },
+    {
+      "feature": "mp-recognition",
+      "source_sections": [
+        "MP-VIS-001..007, MP-OCR-001..004, MP-BAR-001..004, MP-PERSIST-001..002"
+      ],
+      "web_anchor": "mp-recognition",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Háromféle helyi felismerés",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-recognition"
+    },
+    {
+      "feature": "mp-shopping",
+      "source_sections": [
+        "MP-SHOP-001..005, MP-LEFT-005..006, MP-WEEK-005"
+      ],
+      "web_anchor": "mp-shopping",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Összevont bevásárlólista",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-shopping"
+    },
+    {
+      "feature": "mp-money",
+      "source_sections": [
+        "MP-MON-001..006, MP-V1C-001, MP-ADS-001..002"
+      ],
+      "web_anchor": "mp-money",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Ingyenes kézi használat és egyszeri Premium",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-money"
+    },
+    {
+      "feature": "mp-backup",
+      "source_sections": [
+        "MP-OFF-001..003, MP-RS-001, MP-CONT-005..009, MP-PERSIST-001..006, MP-BACKUP-001..006"
+      ],
+      "web_anchor": "mp-backup",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline adatok, tartalomfrissítés és mentés",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-backup"
+    },
+    {
+      "feature": "mp-egg",
+      "source_sections": [
+        "MP-EGG-001..007"
+      ],
+      "web_anchor": "mp-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Portrémeglepetés a Névjegyben",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#mp-egg"
+    },
+    {
+      "feature": "meal-planner-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "meal-planner-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#meal-planner-offline"
+    },
+    {
+      "feature": "meal-planner-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "meal-planner-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "web_url": "https://jn86vi.github.io/apps/meal-planner.html#meal-planner-settings"
+    }
+  ],
+  "work-manager": [
+    {
+      "feature": "wm-jobs",
+      "source_sections": [
+        "WM-JOB-001..004, WM-STATE-001..003, WM-TASK-001..003, WM-CLI-001..004"
+      ],
+      "web_anchor": "wm-jobs",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Munkák, ügyfelek, feladatok és állapot",
+      "source_document": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/work-manager.html#wm-jobs"
+    },
+    {
+      "feature": "wm-schedule",
+      "source_sections": [
+        "WM-DUE-001..002, WM-CAL-001, WM-REM-001..002, WM-TPL-001..002, WM-REC-001..003, WM-SEARCH-001, WM-DASH-001"
+      ],
+      "web_anchor": "wm-schedule",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mai lista, naptár, emlékeztető és ismétlődő munka",
+      "source_document": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/work-manager.html#wm-schedule"
+    },
+    {
+      "feature": "wm-cost-time",
+      "source_sections": [
+        "WM-MAT-001..003, WM-COST-001..005, WM-TIME-001..004"
+      ],
+      "web_anchor": "wm-cost-time",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Anyagok, kiadások, becslések és munkaidő",
+      "source_document": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/work-manager.html#wm-cost-time"
+    },
+    {
+      "feature": "wm-voice",
+      "source_sections": [
+        "WM-VOICE-001..009, WM-OFF-001; Android SpeechRecognizer official reference"
+      ],
+      "web_anchor": "wm-voice",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Új munka hanggal, majd megerősítéssel",
+      "source_document": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/work-manager.html#wm-voice"
+    },
+    {
+      "feature": "wm-contacts",
+      "source_sections": [
+        "WM-CLI-002..004, WM-CALL-001..006"
+      ],
+      "web_anchor": "wm-contacts",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Ügyféltelefonszám és rendszerhívás",
+      "source_document": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/work-manager.html#wm-contacts"
+    },
+    {
+      "feature": "wm-files",
+      "source_sections": [
+        "WM-ATT-001..003, WM-EXP-001..004, WM-BACKUP-001..005"
+      ],
+      "web_anchor": "wm-files",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Fotó, dokumentum, PDF-munkalap és offline mentés",
+      "source_document": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/work-manager.html#wm-files"
+    },
+    {
+      "feature": "wm-egg",
+      "source_sections": [
+        "WM-EGG-001..008"
+      ],
+      "web_anchor": "wm-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kész, majd újra folyamatban",
+      "source_document": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/work-manager.html#wm-egg"
+    },
+    {
+      "feature": "work-manager-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "work-manager-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/work-manager.html#work-manager-offline"
+    },
+    {
+      "feature": "work-manager-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "work-manager-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/work-manager.html#work-manager-settings"
+    },
+    {
+      "feature": "work-manager-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "work-manager-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "web_url": "https://jn86vi.github.io/apps/work-manager.html#work-manager-ads"
+    }
+  ],
+  "lottery-filter": [
+    {
+      "feature": "lf-purpose",
+      "source_sections": [
+        "LF-AGE-001, LF-SAFE-001..003, LF-NOPRED-001"
+      ],
+      "web_anchor": "lf-purpose",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Matematikai eszköz felnőtteknek",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-purpose"
+    },
+    {
+      "feature": "lf-profiles",
+      "source_sections": [
+        "LF-PROFILE-001..002, LF-POOL-001..014, LF-BUILTIN-001..008, LF-FP-001..003"
+      ],
+      "web_anchor": "lf-profiles",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Számszerkezetek és saját profilok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-profiles"
+    },
+    {
+      "feature": "lf-generate",
+      "source_sections": [
+        "LF-CONSTRAINT-001..012, LF-GEN-001..015, LF-EXHAUST-001..003"
+      ],
+      "web_anchor": "lf-generate",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kötelező/tiltott szám és generálás",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-generate"
+    },
+    {
+      "feature": "lf-saved",
+      "source_sections": [
+        "LF-COMB-001..014"
+      ],
+      "web_anchor": "lf-saved",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kézi kombináció, mentés és megosztás",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-saved"
+    },
+    {
+      "feature": "lf-history",
+      "source_sections": [
+        "LF-HIST-001..011, LF-IMPORT-001..010, LF-H001-001..009, LF-HMATCH-001..004"
+      ],
+      "web_anchor": "lf-history",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "CSV-húzáselőzmény és egyezési küszöb",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-history"
+    },
+    {
+      "feature": "lf-analysis",
+      "source_sections": [
+        "LF-STATS-001..006, LF-VALID-001..003, LF-HANALYZE-001..005, LF-IMPACT-001..009"
+      ],
+      "web_anchor": "lf-analysis",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Eredménystatisztika és szűrőhatás",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-analysis"
+    },
+    {
+      "feature": "lf-backup",
+      "source_sections": [
+        "LF-PERSIST-001, LF-BACKUP-001..017"
+      ],
+      "web_anchor": "lf-backup",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Teljes vagy kijelölt offline helyreállítás",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-backup"
+    },
+    {
+      "feature": "lf-egg",
+      "source_sections": [
+        "LF-EGG-001..008"
+      ],
+      "web_anchor": "lf-egg",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "A JN86 sorsolás",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-egg"
+    },
+    {
+      "feature": "lf-filter-r001",
+      "source_sections": [
+        "FS §7; LF-R001 requirements"
+      ],
+      "web_anchor": "lf-filter-r001",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Különálló szomszédos számpárok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r001"
+    },
+    {
+      "feature": "lf-filter-r002",
+      "source_sections": [
+        "FS §7; LF-R002 requirements"
+      ],
+      "web_anchor": "lf-filter-r002",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Ismétlődő távolságok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r002"
+    },
+    {
+      "feature": "lf-filter-r003",
+      "source_sections": [
+        "FS §7; LF-R003 requirements"
+      ],
+      "web_anchor": "lf-filter-r003",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Azonos utolsó számjegyek",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r003"
+    },
+    {
+      "feature": "lf-filter-r004",
+      "source_sections": [
+        "FS §7; LF-R004 requirements"
+      ],
+      "web_anchor": "lf-filter-r004",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Fibonacci-párok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r004"
+    },
+    {
+      "feature": "lf-filter-r005",
+      "source_sections": [
+        "FS §7; LF-R005 requirements"
+      ],
+      "web_anchor": "lf-filter-r005",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Első számjegyek sorozata",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r005"
+    },
+    {
+      "feature": "lf-filter-r006",
+      "source_sections": [
+        "FS §7; LF-R006 requirements"
+      ],
+      "web_anchor": "lf-filter-r006",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Utolsó számjegyek sorozata",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r006"
+    },
+    {
+      "feature": "lf-filter-r007",
+      "source_sections": [
+        "FS §7; LF-R007 requirements"
+      ],
+      "web_anchor": "lf-filter-r007",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tízes tartományeloszlás",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r007"
+    },
+    {
+      "feature": "lf-filter-r008",
+      "source_sections": [
+        "FS §7; LF-R008 requirements"
+      ],
+      "web_anchor": "lf-filter-r008",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Számtani sorok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r008"
+    },
+    {
+      "feature": "lf-filter-r009",
+      "source_sections": [
+        "FS §7; LF-R009 requirements"
+      ],
+      "web_anchor": "lf-filter-r009",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Váltakozó A–B lépésritmus",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r009"
+    },
+    {
+      "feature": "lf-filter-r010",
+      "source_sections": [
+        "FS §7; LF-R010 requirements"
+      ],
+      "web_anchor": "lf-filter-r010",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Kétszerezési kapcsolatok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r010"
+    },
+    {
+      "feature": "lf-filter-r011",
+      "source_sections": [
+        "FS §7; LF-R011 requirements"
+      ],
+      "web_anchor": "lf-filter-r011",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Külön végződéspárok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r011"
+    },
+    {
+      "feature": "lf-filter-r012",
+      "source_sections": [
+        "FS §7; LF-R012 requirements"
+      ],
+      "web_anchor": "lf-filter-r012",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tükörszámpárok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r012"
+    },
+    {
+      "feature": "lf-filter-r014",
+      "source_sections": [
+        "FS §7; LF-R014 requirements"
+      ],
+      "web_anchor": "lf-filter-r014",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Négyzetszámpárok és sorozatok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r014"
+    },
+    {
+      "feature": "lf-filter-r015",
+      "source_sections": [
+        "FS §7; LF-R015 requirements"
+      ],
+      "web_anchor": "lf-filter-r015",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Köbszámsorozatok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r015"
+    },
+    {
+      "feature": "lf-filter-r016",
+      "source_sections": [
+        "FS §7; LF-R016 requirements"
+      ],
+      "web_anchor": "lf-filter-r016",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Háromszögszámpárok és sorozatok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r016"
+    },
+    {
+      "feature": "lf-filter-r017",
+      "source_sections": [
+        "FS §7; LF-R017 requirements"
+      ],
+      "web_anchor": "lf-filter-r017",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Mértani sorozatok",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lf-filter-r017"
+    },
+    {
+      "feature": "lottery-filter-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "lottery-filter-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lottery-filter-offline"
+    },
+    {
+      "feature": "lottery-filter-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "lottery-filter-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lottery-filter-settings"
+    },
+    {
+      "feature": "lottery-filter-ads",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "lottery-filter-ads",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Reklámok és választható reklámmentesítés",
+      "source_document": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "web_url": "https://jn86vi.github.io/apps/lottery-filter.html#lottery-filter-ads"
+    }
+  ],
+  "dialer": [
+    {
+      "feature": "dia-role",
+      "source_sections": [
+        "DIA-ROLE-001, DIA-CALL-001, DIA-EMERGENCY-001; FS §19–20"
+      ],
+      "web_anchor": "dia-role",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Alapértelmezett Android-telefonapp",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-role"
+    },
+    {
+      "feature": "dia-dialpad",
+      "source_sections": [
+        "DIA-DIALPAD-001, DIA-SPEED-001; FS §3"
+      ],
+      "web_anchor": "dia-dialpad",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Tárcsázó, T9 és gyorstárcsázás",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-dialpad"
+    },
+    {
+      "feature": "dia-contacts-favorites",
+      "source_sections": [
+        "DIA-CONTACT-001, DIA-FAVORITE-001, DIA-SEARCH-001; FS §4, §12A"
+      ],
+      "web_anchor": "dia-contacts-favorites",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Névjegyek és kedvencek",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-contacts-favorites"
+    },
+    {
+      "feature": "dia-history",
+      "source_sections": [
+        "DIA-RECENT-001, DIA-IMPORT-001, DIA-SELECT-001; FS §5–5C"
+      ],
+      "web_anchor": "dia-history",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Híváselőzmény, csoport, címke és JSON-fájl",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-history"
+    },
+    {
+      "feature": "dia-incoming-active",
+      "source_sections": [
+        "DIA-CALL-001, DIA-UI-001; FS §6–7"
+      ],
+      "web_anchor": "dia-incoming-active",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Bejövő hívás és beszélgetéskezelés",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-incoming-active"
+    },
+    {
+      "feature": "dia-announce",
+      "source_sections": [
+        "DIA-ANNOUNCE-001; FS §6A"
+      ],
+      "web_anchor": "dia-announce",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Választható helyi hívásbemondás",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-announce"
+    },
+    {
+      "feature": "dia-notes",
+      "source_sections": [
+        "DIA-NOTE-001; FS §8"
+      ],
+      "web_anchor": "dia-notes",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Helyi hívásjegyzet és emlékeztető",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-notes"
+    },
+    {
+      "feature": "dia-blocking",
+      "source_sections": [
+        "DIA-BLOCK-001, DIA-IMPORT-001; FS §9"
+      ],
+      "web_anchor": "dia-blocking",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Szám, névjegy és biztonságos mintatiltás",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-blocking"
+    },
+    {
+      "feature": "dia-redial",
+      "source_sections": [
+        "DIA-REDIAL-001, DIA-OUTCOME-001; FS §10.1–10.6, §10.10"
+      ],
+      "web_anchor": "dia-redial",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Állítható automatikus újrahívás",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-redial"
+    },
+    {
+      "feature": "dia-redial-control",
+      "source_sections": [
+        "DIA-REDIAL-001; FS §10.7–10.10"
+      ],
+      "web_anchor": "dia-redial-control",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Leállítás, limit, beállítás és eredmény",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-redial-control"
+    },
+    {
+      "feature": "dia-sim",
+      "source_sections": [
+        "DIA-SIM-001; FS §11"
+      ],
+      "web_anchor": "dia-sim",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Két SIM és számonkénti választás",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-sim"
+    },
+    {
+      "feature": "dia-layout-money",
+      "source_sections": [
+        "DIA-PRO-001, DIA-THEME-001, DIA-UI-001; FS §12B–15"
+      ],
+      "web_anchor": "dia-layout-money",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Elrendezés, ingyenes telefon és Premium",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-layout-money"
+    },
+    {
+      "feature": "dia-privacy",
+      "source_sections": [
+        "DIA-PRIV-001, DIA-BACKUP-001; FS §16–17"
+      ],
+      "web_anchor": "dia-privacy",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Helyi adatok és eszközközi költözés",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-privacy"
+    },
+    {
+      "feature": "dialer-offline",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "dialer-offline",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Offline használat",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dialer-offline"
+    },
+    {
+      "feature": "dialer-settings",
+      "source_sections": [
+        "AppSpec: offline, localization, About/Support, monetization"
+      ],
+      "web_anchor": "dialer-settings",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Nyelv, beállítások és segítség",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dialer-settings"
+    },
+    {
+      "feature": "dia-preferences",
+      "source_sections": [
+        "AppSpec §6, §12B, §14"
+      ],
+      "web_anchor": "dia-preferences",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "function_hu": "Híváskezelési és megjelenítési beállítások",
+      "source_document": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "web_url": "https://jn86vi.github.io/apps/dialer.html#dia-preferences"
+    }
+  ]
+}

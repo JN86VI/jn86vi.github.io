@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="mini-games">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,45 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>An offline collection of 11 games, including 2048, Sudoku, Minesweeper, Snake, Reversi, Solitaire and a JN86 block puzzle.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>2048, Sudoku, Minesweeper, Snake and Reversi.</li><li>15 Puzzle, Gomoku, Nine Men’s Morris and Solitaire.</li><li>Tic-tac-toe and JN86 Block Puzzle.</li><li>Resume saved games and view local results.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Choose a game from the collection of eleven. Start a puzzle such as Sudoku or Minesweeper, or a board game such as Reversi; each game uses its own rules and controls. Resume a saved session instead of restarting, view local results and statistics, or reset statistics after confirmation. Sound and vibration are optional where supported.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Scores stay local. There is no online opponent, public leaderboard, chat, gambling or paid gameplay advantage. Availability of a statistic depends on the selected game.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">The core games do not need camera, microphone, location or contacts. Advertising and Play purchases are separate services; ads must not cover the board.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Saved game sessions, local records, statistics and preferences would stay on the device. No cloud account or cross-device game synchronization is planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">The eleven named games are the first-version collection. Chess, daily challenges, achievements and online multiplayer are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="mg-features" open>
+<summary data-content-section-title>Eleven games and their rules</summary>
+<div class="detail-items"><article id="mg-2048" data-content-item="mg-2048">
+<h3 data-content-item-title>2048</h3>
+<p data-content-item-text>Swipe on a 4×4 board to slide equal numbered tiles together; each pair doubles and adds its merged value to your score. New tiles appear after a move changes the board. Reach 2048 and keep playing if you wish. See score, best score and largest tile; the game ends when no move remains.</p></article><article id="mg-sudoku" data-content-item="mg-sudoku">
+<h3 data-content-item-title>Sudoku</h3>
+<p data-content-item-text>Fill 9×9 with 1–9 once per row, column and 3×3 region. Choose Easy, Medium, Hard or Expert, enter numbers or pencil candidates and use optional hints/error counting. Direct duplicates are marked. Completion shows time, difficulty and hint use, with best time by difficulty; no fixed three-error loss is required.</p></article><article id="mg-mines" data-content-item="mg-mines">
+<h3 data-content-item-title>Minesweeper</h3>
+<p data-content-item-text>Choose 9×9/10 mines, 16×16/40, 30×16/99 or a valid custom board. Reveal safe cells and flag suspected mines; numbers show adjacent mines and zero areas open together. First reveal is safe. Matching flags around a number allow neighbouring reveal. Find every non-mine cell to win; hitting a mine loses. Best times are kept by profile.</p></article><article id="mg-snake" data-content-item="mg-snake">
+<h3 data-content-item-title>Snake</h3>
+<p data-content-item-text>Choose Slow, Normal or Fast and swipe directions to guide a growing snake to food. Eating increases length and score and may gradually speed the game. Hitting a wall or your own body ends the run; direct reversal into the body is blocked. Pause or background stops movement; local best score is kept.</p></article><article id="mg-reversi" data-content-item="mg-reversi">
+<h3 data-content-item-title>Reversi</h3>
+<p data-content-item-text>On 8×8, place a disc where it brackets opponent discs with your own, flipping all valid horizontal, vertical and diagonal lines. No legal move means a pass; when neither can move or the board fills, more discs wins. Play a local partner or an Easy/Medium/Hard computer opponent.</p></article><article id="mg-15" data-content-item="mg-15">
+<h3 data-content-item-title>15 Puzzle</h3>
+<p data-content-item-text>Slide a tile adjacent to the empty cell on a 4×4 board to restore numbers 1–15 in order, with the empty space last. New boards are solvable. Time and move count show your result, with best time and fewest moves kept locally.</p></article><article id="mg-gomoku" data-content-item="mg-gomoku">
+<h3 data-content-item-title>Gomoku</h3>
+<p data-content-item-text>Take turns placing stones on 15×15, black first. Five or more of your stones in a continuous horizontal, vertical or diagonal line wins; a full board without a winner draws. This is freestyle Gomoku. Choose a local partner or an Easy/Medium/Hard computer opponent.</p></article><article id="mg-morris" data-content-item="mg-morris">
+<h3 data-content-item-title>Nine Men’s Morris</h3>
+<p data-content-item-text>Place nine pieces each on the 24-point board, then move to neighbouring empty points. Making three in a mill removes an opponent piece; protected mill pieces can be taken only if all theirs are in mills. With three left, fly to any empty point. Fewer than three or no move loses. Local play or three computer difficulty levels are available.</p></article><article id="mg-solitaire" data-content-item="mg-solitaire">
+<h3 data-content-item-title>Solitaire / Klondike</h3>
+<p data-content-item-text>Play Draw-1 Klondike with 52 cards and unlimited stock recycling. Build seven columns downward in alternating colours, move ordered face-up sequences and place kings in empty columns. Uncovered cards turn over. Build four same-suit foundations from ace to king to win. Undo recent moves or use the optional quick legal move to a foundation; it does not solve the whole game automatically.</p></article><article id="mg-tic" data-content-item="mg-tic">
+<h3 data-content-item-title>Tic-tac-toe</h3>
+<p data-content-item-text>Place X and O alternately on 3×3, X first. Three of your marks in a row, column or diagonal wins; a full board without that draws. Play a local partner or Easy, Medium or Hard computer difficulty; Hard uses optimal play.</p></article><article id="mg-blocks" data-content-item="mg-blocks">
+<h3 data-content-item-title>JN86 Block Puzzle</h3>
+<p data-content-item-text>Drag three offered shapes in any order onto empty cells of an 8×8 board, without rotating or mirroring them. Shapes include single blocks, lines, 2×2 squares, small rectangles, L/J, T, S/Z and corners. Full rows/columns clear together; consecutive clears build a combo, a completely empty board earns Perfect Clear. Place cells for points and pursue a high score; it ends only when none of the remaining shapes fits.</p></article><article id="mg-saved" data-content-item="mg-saved">
+<h3 data-content-item-title>Saved games, records and settings</h3>
+<p data-content-item-text>Choose any of the eleven games, start anew or continue a locally saved resumable session. View meaningful records per game, such as scores, wins/losses/draws, best times or fewest moves. Reset selected statistics with confirmation without clearing an active game. Sound and vibration are separately switchable; real-time games pause in the background.</p></article><article id="mg-egg" data-content-item="mg-egg">
+<h3 data-content-item-title>Too many games at once</h3>
+<p data-content-item-text>Tap the About logo seven times: familiar game pieces invade a tic-tac-toe board until playful chaos fills it. This offline scene starts no real game and changes no scores, statistics or saved sessions.</p></article></div></details><details class="detail-section" data-content-section="mini-games-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="mini-games-offline" data-content-item="mini-games-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="mini-games-settings" data-content-item="mini-games-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="mini-games-ads" data-content-item="mini-games-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +85,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

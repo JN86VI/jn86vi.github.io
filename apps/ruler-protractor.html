@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="ruler-protractor">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,31 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>A calibrated on-screen ruler with metric and imperial scales, plus 0–180° and 0–360° protractor modes for short objects and angles.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Metric and imperial ruler scales.</li><li>Move markers to measure between two points.</li><li>Protractor modes from 0–180° and 0–360°.</li><li>Calibrate against a known length.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">First calibrate the on-screen ruler against a known physical length. Choose centimetres, inches or both, align the object with the screen edge and move two markers to read their difference. For an angle, select the 180- or 360-degree protractor and align its two arms with the edges. Hold keeps the measurement steady.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Only short objects that fit the display can be measured directly. A case or inaccurate screen calibration can shift the result. No camera measurement or certified precision is offered.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">The first version uses the screen and touch input without camera or location permission.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Screen calibration and display preferences would stay locally. Current marker positions are temporary; no measurement history or PDF report is planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Camera-background angle measurement is a later candidate, not a first-version feature. Measurement history and reports are also excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="rp-features" open>
+<summary data-content-section-title>Measure lengths and angles on the screen</summary>
+<div class="detail-items"><article id="rp-ruler" data-content-item="rp-ruler">
+<h3 data-content-item-title>Screen-edge ruler and two markers</h3>
+<p data-content-item-text>Place a short object along the calibrated screen edge. Choose mm/cm, inches or both, and move markers A and B to its ends. Read their positions and the distance between them. Only length that physically fits on the screen is shown; a larger tablet gives more measuring space.</p></article><article id="rp-calibrate" data-content-item="rp-calibrate">
+<h3 data-content-item-title>Calibrate, save, check and reset</h3>
+<p data-content-item-text>Adjust the displayed scale to a known physical reference length and confirm before saving. Use Calibration Check to compare it again or Reset Calibration to return to the device baseline. Calibration belongs to that device; screen specifications alone do not guarantee an accurate physical ruler.</p></article><article id="rp-zero" data-content-item="rp-zero">
+<h3 data-content-item-title>Starting margin and temporary zero</h3>
+<p data-content-item-text>Shift the temporary measuring zero or starting margin to account for a case, curved screen edge or obstructed beginning. Lock the margin to prevent accidental movement and reset it separately. This moves the starting point while keeping the calibrated scale unchanged.</p></article><article id="rp-angles" data-content-item="rp-angles">
+<h3 data-content-item-title>180° and 360° protractors</h3>
+<p data-content-item-text>Choose the semicircle or full-circle view and align the two independently movable arms with the angle’s sides. Read the angle between them numerically. Optional angle snap helps position an arm at marked angles and can be switched off.</p></article><article id="rp-controls" data-content-item="rp-controls">
+<h3 data-content-item-title>Magnifier, locks and screen control</h3>
+<p data-content-item-text>A magnified view helps position a marker or angle arm hidden under your finger. Lock markers or arms for safe reading, then unlock explicitly. Portrait/landscape, optional screen-awake and short snap/lock vibration help during use. No camera is needed; measurements stay offline.</p></article><article id="rp-egg" data-content-item="rp-egg">
+<h3 data-content-item-title>Just one more centimetre</h3>
+<p data-content-item-text>Tap the About logo seven times: a playful ruler reaches the screen edge and keeps stretching to fit extra centimetres. Close this offline scene to return. It does not extend the real measuring range or change calibration.</p></article></div></details><details class="detail-section" data-content-section="ruler-protractor-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="ruler-protractor-offline" data-content-item="ruler-protractor-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="ruler-protractor-settings" data-content-item="ruler-protractor-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="ruler-protractor-ads" data-content-item="ruler-protractor-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +71,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

@@ -1,0 +1,195 @@
+{
+  "repository": "JN86VI/JN86",
+  "branch": "main",
+  "commit": "f571bd9da1e52097894049341e18b1e503be9594",
+  "remote_sha_verified": "f571bd9da1e52097894049341e18b1e503be9594",
+  "sources": [
+    {
+      "path": "Alapdoksik/UC_Functional_Specification_v1.5.md",
+      "blob": "351b1a57b8905050ecf691936ae92e0e507d9507",
+      "sha256": "5bb9292307875263fda79eba9c37a682d5fa5aa2448b3705ea5a1c75b1dacd84",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/UC_Functional_Specification_v1.5.md"
+    },
+    {
+      "path": "Alapdoksik/Ott_E_Functional_Specification_v1.2.md",
+      "blob": "e604e291d8fd211b94b56d186a9a3ac1df6cc5a6",
+      "sha256": "0387a650d2108b3a1c670dcc4f4d66459d10e00946e8a8edec08f2c56a5c8633",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/Ott_E_Functional_Specification_v1.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md",
+      "blob": "28ef006a6e8e26f2a2679b64ab6a9d747e58f196",
+      "sha256": "31146e66c64cb17333b39dcc1fe430ff0e4fc5e3c7a6936c245c8f4b46753753",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Age_Date_Toolkit_Functional_Specification_v0.2-1.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Stopwatch_Multi_Timer_Functional_Specification_v0.2.md",
+      "blob": "20cb26324a0679ececd409d4add9f86b761247bb",
+      "sha256": "bfb245ce828dfcd2061d8fe038e7d6e1f75b9cad89aa2789c4c9bf800cea778e",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Stopwatch_Multi_Timer_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md",
+      "blob": "cfdabbe2a861f4e5d7c3f3af22203e05c840c705",
+      "sha256": "2125c7c03f9ddf8c289b18a560d642da53b14b07e12897a4329ebf16d5e2b239",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Last_Done_Functional_Specification_v0.2.md",
+      "blob": "425be9ef19623ad67a6d073bb0a202c9a8c40e64",
+      "sha256": "bbb3ec034ffab63c60fa7d14aeb31973624df0bc78aad406c049a7530e12a16c",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Last_Done_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "blob": "1e1a49888d320e06810d92133f224370c813fcaa",
+      "sha256": "f3dcacb4963852f273f84c8ff2bd33d3c7030c1072d2e6c3dce5890a653b2524",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md",
+      "blob": "4ac13da7813344b4cd252ae9ae516f600f935e4d",
+      "sha256": "3e253d278cae28e893501af746054005699df2f913c012ce83ec41d741bfed1b",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Bubble_Level_Inclinometer_Functional_Specification_v0.1.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md",
+      "blob": "fa338c1ef2c88fda5cd1c8d77786e0b76321d98a",
+      "sha256": "a6b16f387c1cf86900347bd4363da8bf8fa3cd11a6aa5d93298eda3e1c3d4f56",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Ruler_Protractor_Functional_Specification_v0.1.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md",
+      "blob": "cdd6eba6d5e538228729bb44c2aa6ad41bca332d",
+      "sha256": "f99c76665908858b357bdc39429128be218557d17f939d05b025b2fe12f1377b",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Sound_Meter_Functional_Specification_v0.1.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md",
+      "blob": "a0400b3888d836348c42a070e7bc2016ed7e2095",
+      "sha256": "386560aa6030994d5204d63914149b297385d9e753e3fed6d96874b3b0d841c0",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Compass_Altimeter_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md",
+      "blob": "6bd2a1dcb95218e84d0b224fc1331b90538e443c",
+      "sha256": "ab7721320ccd4be9bd87b099831c489773f359897bd9b87cc90e8eda202521b5",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/GPS_Speedometer_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md",
+      "blob": "8069bc5e81792812e879c9b12e6cfac6a8e95204",
+      "sha256": "c538f32e2acd8ef9ba4e71b243205953ba5b241d46d01c17802e0dc278168666",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Device_Info_Diagnostics_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md",
+      "blob": "2601c17589ef60bd544c2e40b1f7d073e216a9ce",
+      "sha256": "581287fc9a952c1864835185ea7ddefc82cd84e3e167e34d673b8917fac3a201",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Image_Resizer_Compressor_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md",
+      "blob": "52881651b3d4db54c91be06e26d37b738d133634",
+      "sha256": "eff4a92be563cae5f9b5af7f020f1b3ed18ac0a33ec416206826ad86a04133c7",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Voice_Recorder_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md",
+      "blob": "2b99f2d9996f642fe3eb9b9b9610092ab075a53e",
+      "sha256": "01a552910e2994322b137a675ecb7e29a3d05d60dd7fda2214b0ed39aef6039a",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Tuner_Metronome_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md",
+      "blob": "0ba4b39cf86c6a5f0c05d3dd18df4b5aaeea59ff",
+      "sha256": "a3b499a302aec34e45889b6cfb907a3dbd8dfc8e1a4e886f0895d16a86f36506",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Electrical_Toolkit_Functional_Specification_v0.2-1.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md",
+      "blob": "277629de7dfdfcafbfe8a7765a2e8afb07686948",
+      "sha256": "4ede3ecff8add907d0b36f8148744a284f4f9a4088c4965acf3276ef02fa70dc",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Ham_Tools_Radio_RF_Toolkit_Functional_Specification_v0.2.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md",
+      "blob": "a127f166f50d9fc904b97ca832dd5ae0e88f26c4",
+      "sha256": "4e577136d6108efa4f6e141baf4f124282110abd08f82698a7db84c63c8138a7",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Mini_Games_Functional_Specification_v0.2_finetuned.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md",
+      "blob": "96ee4cc19d9a90c342e9bfefca94faf9fca534e2",
+      "sha256": "ad08564f4f470c03d61823e499725abfe40927db4cede14f7d305cadcccdf558",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Inventory_ReadyStock_Functional_Specification_v0.3_finetuned.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md",
+      "blob": "de5583bbfe9d0087ede1912d51e952e3f961236f",
+      "sha256": "c71f131e4287850592e45abb993c6fcbe853e51b02b5d57e34428719869bead5",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Workout_Training_Functional_Specification_v0.2_finetuned.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md",
+      "blob": "b9b5b71f6d51a45c7b043a5c2928916a8d2e57fb",
+      "sha256": "ac47b3b0bb103c4661593051f0a2e13e36b8a5f7b4b2c967e983092c5561d5ca",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Meal_Planner_Mit_fozzek_Functional_Specification_v0.2_finetuned.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md",
+      "blob": "85a79a811ff79f706d4c1fecd08682a2a6abcb0e",
+      "sha256": "5709c0fbcfc5d878ecbbdf063e9a22a20c3ae2948788f305d00b3133cf05f5d9",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Work_Manager_Functional_Specification_v0.1.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md",
+      "blob": "37343d5a315d637a499f053bc21c021de037b280",
+      "sha256": "b786caca85be1a80d0f2675def2831533f7cbfdcadf1810c574b1e056db42c4f",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Lottery_Filter_Functional_Specification_v0.8_math_patterns_audit_ready.md"
+    },
+    {
+      "path": "Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md",
+      "blob": "51b899af3e4f946748f3acb17b4db1d87ae70dc3",
+      "sha256": "e81fab1950161a06f502f9a54d4c7f97f24006ee63837ee8d8b026dd47ec657b",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/appspec/Dialer_Functional_Specification_v0.4.md"
+    },
+    {
+      "path": "Alapdoksik/00_Master_Index_v1.11.md",
+      "blob": "e4925ce245950932fe426b19120096cb99c7d11b",
+      "sha256": "6a3917bc464f1ab3e53af151d47a8ad541d0602c130dadb3626031fa25b74e07",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/00_Master_Index_v1.11.md",
+      "latest_blob": "e8e31961c90c32f0faa5ede59ebe891bc8860718",
+      "latest_sha256": "2685aa98d99bc6bc6368cf4620ae4321ca2d3352fe78bcda8f9fdd6e8229660d",
+      "latest_url": "https://github.com/JN86VI/JN86/blob/e277661b99686c72aa03536cd1e9bded5b07ea29/Alapdoksik/00_Master_Index_v1.11.md",
+      "current_delta_review": "Only Meal Planner research entry navigation added; no hierarchy or AppSpec requirements changed. No recipe/corpus research performed by this web task."
+    },
+    {
+      "path": "Alapdoksik/24_App_Current_Scope_v1.2.md",
+      "blob": "0cf595cd79f40cee61d6e48f948028ca04abe70a",
+      "sha256": "4a073a0003647ca07892bf78ac008e15c14749bc24f17f16f1e1f9423e452e0d",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/24_App_Current_Scope_v1.2.md"
+    },
+    {
+      "path": "Alapdoksik/App_Portfolio_es_Roadmap_v1.2.md",
+      "blob": "7302c7867a6d620db478dcd39753477339f5938a",
+      "sha256": "de2738326a73fe984d67566cc1e3a5b4a4b946b02756169d95dacf7695a31259",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/App_Portfolio_es_Roadmap_v1.2.md"
+    },
+    {
+      "path": "Alapdoksik/UC_Conversion_Data_Registry_v1.6.md",
+      "blob": "2eda26686911a13de504a0b5e4a79483ec728f88",
+      "sha256": "56256317ac3306d94de90f1b5e2c7a0b93a30d3143a3c869fc6019d207a7ca02",
+      "url": "https://github.com/JN86VI/JN86/blob/f571bd9da1e52097894049341e18b1e503be9594/Alapdoksik/UC_Conversion_Data_Registry_v1.6.md"
+    }
+  ],
+  "latest_main_verified": "e277661b99686c72aa03536cd1e9bded5b07ea29",
+  "all_29_source_blobs_unchanged": false,
+  "all_appspec_and_cdr_blobs_unchanged": true,
+  "latest_source_check": {
+    "checked": 29,
+    "unchanged": 28,
+    "navigation_only_delta": "Alapdoksik/00_Master_Index_v1.11.md",
+    "web_content_impact": false
+  }
+}

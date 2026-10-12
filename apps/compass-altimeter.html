@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="compass-altimeter">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,31 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>A practical aid for checking direction and height outdoors. Magnetic direction comes from the phone’s sensors; true north is shown only when reliable location and magnetic correction data are available. GPS and barometric altitude stay clearly distinguished, with quality information.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Magnetic north and, with reliable data, true north.</li><li>Choose from five coordinate formats and copy them.</li><li>Separate GPS and barometric altitude readings.</li><li>See the data source, quality and available accuracy.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Use the compass for magnetic direction and check its quality warning near metal or magnets. Select true north only when reliable location and magnetic correction are available. Copy coordinates in one of five formats. In the altitude view, compare clearly labelled GPS and barometer readings; set known reference pressure or height and use Relative Zero.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">A phone is not a certified navigation or surveying instrument. GPS altitude and barometric estimates are different sources. Missing sensors or denied location leave only the available functions active.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Location is requested for coordinates, GPS altitude and true-north correction while using those functions. Magnetic compass and available barometer functions can work without it; no background location is planned.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">North mode, coordinate format and barometer references would be local settings. Current coordinates and sensor samples are temporary; no route or location history is planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">No map navigation, waypoint storage, journey tracking or altitude history is included.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="ca-features" open>
+<summary data-content-section-title>Direction, coordinates, pressure and altitude</summary>
+<div class="detail-items"><article id="ca-heading" data-content-item="ca-heading">
+<h3 data-content-item-title>Magnetic heading and true north</h3>
+<p data-content-item-text>Hold the device to read its heading in degrees and one of 16 compass directions. Magnetic north uses available sensors. True north also needs reliable location and a valid correction for the difference between magnetic and geographic north; that difference is shown when available. Weak or disturbed sensing prompts calibration help.</p></article><article id="ca-coordinates" data-content-item="ca-coordinates">
+<h3 data-content-item-title>Five coordinate formats and copying</h3>
+<p data-content-item-text>With a valid location, choose decimal degrees (DD), degrees/decimal minutes (DMM), degrees/minutes/seconds (DMS), or UTM and MGRS grid references. Copy the selected form with its direction or grid labels for another app or note. Changing format represents the same place; missing location does not show an old fix as current.</p></article><article id="ca-gps" data-content-item="ca-gps">
+<h3 data-content-item-title>GPS altitude and accuracy</h3>
+<p data-content-item-text>Location altitude is labelled GPS and appears only when supplied by the fix. It refers to the Earth’s mathematical reference surface, not automatically sea level. Horizontal accuracy and available vertical accuracy are separate; absent accuracy is shown as unavailable, not zero uncertainty.</p></article><article id="ca-barometer" data-content-item="ca-barometer">
+<h3 data-content-item-title>Pressure and calibrated barometric altitude</h3>
+<p data-content-item-text>A working barometer shows pressure in hPa. Enter reference pressure or a known altitude to calculate barometric altitude; automatic reference needs reliable identified data. Set Zero shows relative height change and Reset Zero returns to the absolute reference. GPS and barometric heights remain separate, with source and quality labels.</p></article><article id="ca-limits" data-content-item="ca-limits">
+<h3 data-content-item-title>Partial availability and privacy</h3>
+<p data-content-item-text>Location permission is needed only for location-dependent features. Denying it leaves the magnetic compass and available barometer usable. Without a barometer, GPS altitude can still work; without valid true-north data, magnetic mode remains. Observation stops outside visible use; no route tracking or location history is kept.</p></article><article id="ca-egg" data-content-item="ca-egg">
+<h3 data-content-item-title>North temporarily missing</h3>
+<p data-content-item-text>Tap the About logo seven times for a playful compass needle that drifts then spins faster. Its message jokes that north cannot be found. The offline scene uses no real sensor or location and changes no measurement or setting.</p></article></div></details><details class="detail-section" data-content-section="compass-altimeter-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="compass-altimeter-offline" data-content-item="compass-altimeter-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="compass-altimeter-settings" data-content-item="compass-altimeter-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="compass-altimeter-ads" data-content-item="compass-altimeter-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +71,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="bubble-level-inclinometer">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,31 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Use available sensors for horizontal, vertical and two-axis leveling, slope and inclination readings, with calibration and relative zero. Accuracy depends on the device.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Horizontal, vertical and two-axis leveling.</li><li>Calibration and a relative zero point.</li><li>Freeze a reading for easier viewing.</li><li>Accuracy depends on your device and calibration.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Place the phone against a surface and choose horizontal, vertical or two-axis leveling. Read the bubble and numeric angle together. Use quick calibration on a known level surface, or the two-reading method with a 180-degree turn. Relative Zero compares a second slope with the first; Hold freezes a reading for easier viewing.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Accuracy depends on sensors, the case, placement and calibration. Missing sensors limit the available modes. It is not a certified industrial instrument and does not measure distance.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Core leveling uses device sensors without dangerous permission. Camera and location are not required.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Calibration, relative zero and display choices would be stored locally. Live sensor readings are temporary; no measurement history or server upload is planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Quick and two-reading calibration, Relative Zero and Hold are included. Advanced axis calibration, camera overlay and measurement reports are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="bli-features" open>
+<summary data-content-section-title>Leveling, calibration and easier readings</summary>
+<div class="detail-items"><article id="bli-views" data-content-item="bli-views">
+<h3 data-content-item-title>Level and inclinometer views</h3>
+<p data-content-item-text>Place the phone on a surface or along an edge. Horizontal and vertical bubbles, a dual-bubble view, a two-axis circular level and large numeric inclination show its tilt. Auto view switches between circular level and angle view; lock a chosen view manually when needed.</p></article><article id="bli-calibrate" data-content-item="bli-calibrate">
+<h3 data-content-item-title>Quick and two-position calibration</h3>
+<p data-content-item-text>Use a stable reference surface for Quick Calibration. Precision Calibration measures on that surface, then after turning the phone 180°, to estimate its fixed offset. An unstable or inconsistent pair is not accepted. The correction can be saved; it does not make the phone a certified instrument.</p></article><article id="bli-zero-hold" data-content-item="bli-zero-hold">
+<h3 data-content-item-title>Relative zero and frozen readings</h3>
+<p data-content-item-text>Zero makes the current stable angle a temporary reference for comparing two surfaces; Reset Zero restores the calibrated absolute reference. Hold freezes the displayed reading for easier inspection, with a clear paused indication. Resume returns to live measurements without changing calibration.</p></article><article id="bli-feedback" data-content-item="bli-feedback">
+<h3 data-content-item-title>Tolerance, sound and vibration</h3>
+<p data-content-item-text>Choose ±0.1°, ±0.2°, ±0.5° or ±1.0° for the level/vertical indication. Optional sound and short vibration help identify the target while smoothing reduces jitter. Tolerance affects the indication, not the measured angle. The normal 0.1° display step is resolution, not guaranteed accuracy.</p></article><article id="bli-device" data-content-item="bli-device">
+<h3 data-content-item-title>Orientation, screen and device limits</h3>
+<p data-content-item-text>Use portrait or landscape and optionally lock screen orientation or keep the screen awake during measurement. Readings require working motion sensors; an unsupported device is identified rather than showing invented values. No camera or location permission is needed for leveling.</p></article><article id="bli-egg" data-content-item="bli-egg">
+<h3 data-content-item-title>The escaping bubble</h3>
+<p data-content-item-text>Tap the About logo seven times for an offline joke: the level bubble escapes its tube and travels across the screen. The closing message jokes about a surface not being level. The scene is separate from real sensor readings and calibration.</p></article></div></details><details class="detail-section" data-content-section="bubble-level-inclinometer-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="bubble-level-inclinometer-offline" data-content-item="bubble-level-inclinometer-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="bubble-level-inclinometer-settings" data-content-item="bubble-level-inclinometer-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="bubble-level-inclinometer-ads" data-content-item="bubble-level-inclinometer-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +71,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="lottery-filter">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,69 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>An offline tool for adults aged 18 and over to organize number combinations and apply mathematical filters. Set required or excluded numbers, use number patterns and compare against past draws you import. It does not predict winning numbers or promise improved odds.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Required or excluded numbers and number patterns.</li><li>Save game settings and filter profiles.</li><li>Compare with past draws you import.</li><li>No winning-number predictions or promised better odds.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">For adults aged 18 and over: define the game’s number range and how many numbers to choose, with one or two pools. Add required and excluded numbers and select pattern filters. Generate or enter combinations, save separate game and filter profiles, and optionally import past draws to exclude matching combinations.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Filtering does not predict a draw or improve the chance of a valid ticket winning. Large combination spaces can take time or exceed a device limit. Imported history is supplied by you and is not an automatically verified official feed.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Core filtering needs no camera, microphone, contacts or location. Import uses Android file selection with access limited to chosen files.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Game profiles, filter rules, combinations and imported draws would remain locally. File import and offline backup are explicit. No betting account, ticket purchase or remote result lookup is planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Mathematical pattern filters and user-supplied history are included. Winning predictions, automatic betting and improved-odds promises are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="lf-workflow" open>
+<summary data-content-section-title>Profiles, generation and analysis</summary>
+<div class="detail-items"><article id="lf-purpose" data-content-item="lf-purpose">
+<h3 data-content-item-title>A mathematical tool for adults</h3>
+<p data-content-item-text>For adults 18+, this offline tool organises and filters number combinations using your rules. It does not predict winning numbers, improve a combination’s winning probability, sell tickets, take stakes or pay prizes. Historical draw comparisons describe the past, not the next draw.</p></article><article id="lf-profiles" data-content-item="lf-profiles">
+<h3 data-content-item-title>Number structures and your own profiles</h3>
+<p data-content-item-text>Choose a mathematical structure or define one/two separate number groups with range 1–99, how many you choose (at most 10 per group), and how many the actual draw contains. Structure examples are 5/50+2/12, 5/90, 6/45, 7/35, 6/49, 6/90, 5/49+1/10 and 6/40+1/5. Save, rename, edit, duplicate or delete your lottery and separate filter profiles; filters start off, with no factory recommended winning profile. For example, 5/90 means choosing five distinct numbers from 1 to 90; +2/12 adds a separate choice of two from 1 to 12.</p></article><article id="lf-generate" data-content-item="lf-generate">
+<h3 data-content-item-title>Required/excluded numbers and generation</h3>
+<p data-content-item-text>Mark required and excluded numbers separately in each group, then request 1–1000 combinations that satisfy all enabled conditions. A number cannot be both required and excluded. No complete combination repeats within a run; impossible or exhausted conditions report the actual result count without loosening your filters. Long runs can be cancelled, with finished valid results kept by your confirmation.</p></article><article id="lf-saved" data-content-item="lf-saved">
+<h3 data-content-item-title>Manual combinations, saved results and sharing</h3>
+<p data-content-item-text>Select your own numbers on separate grids and check every active filter and required/excluded condition. See all failed reasons, not just the first. Save even a filter-failing valid number set, name/note it, edit, duplicate or delete later. Save generated results singly, selected or all, then copy/share as plain text without any winning recommendation.</p></article><article id="lf-history" data-content-item="lf-history">
+<h3 data-content-item-title>CSV draw history and match thresholds</h3>
+<p data-content-item-text>Import your own draw CSV, map date and number-group columns, preview valid/invalid/duplicate rows and confirm. Good rows can be imported beside errors; adding is default, replacement asks again. Set a minimum previous-match count per group; when two groups are active, both must match the same draw. Dates are optional and imported history is not automatically certified official. A combination is rejected when a past draw meets the configured match threshold. CSV separators may be comma, semicolon or tab; review detected headings and choose the columns to use.</p></article><article id="lf-analysis" data-content-item="lf-analysis">
+<h3 data-content-item-title>Results statistics and filter impact</h3>
+<p data-content-item-text>See requested, produced, examined and rejected counts, acceptance ratio and running time. Analyse imported draws against a filter profile, or inspect how much of the mathematical combination space survives. Small spaces use exact analysis; larger ones may use a labelled estimate and can be stopped. Independent per-filter effect differs from the first rule that rejected a candidate; neither is a winning chance.</p></article><article id="lf-backup" data-content-item="lf-backup">
+<h3 data-content-item-title>Full or selected offline restore</h3>
+<p data-content-item-text>Back up lottery/filter profiles, draw history, saved combinations and settings to your chosen file. Restore all or selected categories after checking a preview. Merging is default; replacing current data needs explicit confirmation. Resolve name conflicts by keeping both, the existing or restored version. Data recovery does not grant ad-free purchase access.</p></article><article id="lf-egg" data-content-item="lf-egg">
+<h3 data-content-item-title>The JN86 draw</h3>
+<p data-content-item-text>Tap the About logo seven times for a drawn lottery drum releasing four balls marked J, N, 8 and 6. They spell JN86; this offline scene is not a generated lottery combination and changes no profiles or saved numbers.</p></article></div></details><details class="detail-section" data-content-section="lf-filters" open>
+<summary data-content-section-title>All mathematical pattern filters</summary>
+<p data-content-intro>Set each rule separately for each number group. Off disables it; a zero limit, where offered, actively permits no such pattern. Controls show only meaningful parameters for your chosen structure.</p><div class="detail-items"><article id="lf-filter-r001" data-content-item="lf-filter-r001">
+<h3 data-content-item-title>Separate adjacent-number pairs</h3>
+<p data-content-item-text>Set the maximum disjoint adjacent pairs allowed: 4–5 and 17–18 count as two; 4–5–6 is not two separate pairs.</p></article><article id="lf-filter-r002" data-content-item="lf-filter-r002">
+<h3 data-content-item-title>Repeated gaps</h3>
+<p data-content-item-text>Limit how often the same gap occurs between sorted neighbouring numbers. A limit of one allows no repeated gap; two allows each gap twice.</p></article><article id="lf-filter-r003" data-content-item="lf-filter-r003">
+<h3 data-content-item-title>Shared last digits</h3>
+<p data-content-item-text>Set how many chosen numbers may end in the same decimal digit. Each number group is checked separately, so an extra-number group does not affect the main one.</p></article><article id="lf-filter-r004" data-content-item="lf-filter-r004">
+<h3 data-content-item-title>Fibonacci pairs</h3>
+<p data-content-item-text>Limit neighbouring members of the Fibonacci sequence within the selected range. Overlapping links count separately: 5–8–13 contains two pairs.</p></article><article id="lf-filter-r005" data-content-item="lf-filter-r005">
+<h3 data-content-item-title>First-digit sequences</h3>
+<p data-content-item-text>Choose a minimum length of increasing or decreasing consecutive first digits. A pattern reaching that length or longer is rejected; fewer than three selected numbers makes this unavailable.</p></article><article id="lf-filter-r006" data-content-item="lf-filter-r006">
+<h3 data-content-item-title>Last-digit sequences</h3>
+<p data-content-item-text>Choose the minimum consecutive rising/falling last-digit pattern to reject. The sequence does not wrap from 9 to 0 and requires at least three chosen numbers.</p></article><article id="lf-filter-r007" data-content-item="lf-filter-r007">
+<h3 data-content-item-title>Distribution across tens groups</h3>
+<p data-content-item-text>Set the maximum selected from each natural group 1–10, 11–20 and so on, including a shorter final group. If the number range spans only one such group, this filter is unavailable.</p></article><article id="lf-filter-r008" data-content-item="lf-filter-r008">
+<h3 data-content-item-title>Arithmetic sequences</h3>
+<p data-content-item-text>Limit equal-step sequences of at least three numbers anywhere in the group. A maximal connected sequence counts once: 5–10–15–20 is one sequence, not several shorter ones.</p></article><article id="lf-filter-r009" data-content-item="lf-filter-r009">
+<h3 data-content-item-title>Alternating A–B step rhythm</h3>
+<p data-content-item-text>Reject a sufficiently long alternating gap pattern A–B–A–B where A differs from B, even within part of the sorted group. Set its minimum number length from five upward when possible.</p></article><article id="lf-filter-r010" data-content-item="lf-filter-r010">
+<h3 data-content-item-title>Doubling links</h3>
+<p data-content-item-text>Limit every x-to-2x link separately. For example 5–10–20 contains two links, and this check can apply even with only two selected numbers.</p></article><article id="lf-filter-r011" data-content-item="lf-filter-r011">
+<h3 data-content-item-title>Distinct paired endings</h3>
+<p data-content-item-text>Limit distinct last digits that occur exactly twice. A last digit shared by three numbers is not a pair for this rule; another digit shared by two still is.</p></article><article id="lf-filter-r012" data-content-item="lf-filter-r012">
+<h3 data-content-item-title>Mirror-number pairs</h3>
+<p data-content-item-text>Limit reversed two-digit pairs such as 12 and 21. A single-digit number has no such pair, and 11 does not form a pair with itself.</p></article><article id="lf-filter-r014" data-content-item="lf-filter-r014">
+<h3 data-content-item-title>Square-number pairs and sequences</h3>
+<p data-content-item-text>Set separate limits for disjoint pairs of neighbouring squares and a rejected minimum sequence length. 4–9 and 25–36 are two pairs; 4–9–16 is a sequence, while 4–16–36 is not consecutive in the square list.</p></article><article id="lf-filter-r015" data-content-item="lf-filter-r015">
+<h3 data-content-item-title>Cube-number sequences</h3>
+<p data-content-item-text>Choose a rejected pattern length among possible consecutive members of 1, 8, 27, 64. 1–8–27 is a three-member pattern, but 1–27–64 is not consecutive in that list.</p></article><article id="lf-filter-r016" data-content-item="lf-filter-r016">
+<h3 data-content-item-title>Triangular-number pairs and sequences</h3>
+<p data-content-item-text>Triangular numbers start 1, 3, 6, 10, 15, 21. Limit disjoint neighbouring pairs and rejected minimum sequence length separately; 10–15–21 is consecutive. Only values within your number range participate.</p></article><article id="lf-filter-r017" data-content-item="lf-filter-r017">
+<h3 data-content-item-title>Geometric sequences</h3>
+<p data-content-item-text>Reject a chosen length of at least three numbers multiplied each time by the same integer of two or more: 2–4–8–16 or 3–9–27. Two numbers alone are not a sequence for this check.</p></article></div></details><details class="detail-section" data-content-section="lottery-filter-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="lottery-filter-offline" data-content-item="lottery-filter-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="lottery-filter-settings" data-content-item="lottery-filter-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="lottery-filter-ads" data-content-item="lottery-filter-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +109,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

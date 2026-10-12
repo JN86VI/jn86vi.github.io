@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "source_commit": "e277661b99686c72aa03536cd1e9bded5b07ea29",
+  "source_path": "Apps/Unit-Converter/docs/w2a/dataset-projection.json",
+  "source_blob": "67750a6704c5f3d05032b18110e2234fef32dfe3",
+  "source_sha256": "73bc53c85ba27ef59991fc21833d1f9f4c61f6263fbf0fc30ef15f1b1d61d19d",
+  "features": 77,
+  "records": 399,
+  "feature_data_id_mapping": "EXACT",
+  "unit_symbol_lists_checked": 70,
+  "unit_symbol_lists": "EXACT",
+  "fs_fingerprint": "5bb9292307875263fda79eba9c37a682d5fa5aa2448b3705ea5a1c75b1dacd84",
+  "cdr_fingerprint": "56256317ac3306d94de90f1b5e2c7a0b93a30d3143a3c869fc6019d207a7ca02",
+  "errors": []
+}

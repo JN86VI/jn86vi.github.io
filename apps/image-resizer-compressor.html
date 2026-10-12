@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="image-resizer-compressor">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,31 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Make photos smaller for sharing or adjust their dimensions for printing. Process several images together, preview the changes and choose whether to keep their metadata. All image processing happens on your device.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Choose dimensions, quality or target file size.</li><li>Keep proportions or crop to fit.</li><li>Preview changes and control image metadata.</li><li>Calculate print size from pixels and print resolution.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Choose photos through Android’s picker, set width, height or percentage, and keep proportions or crop to fill. Choose quality or a target file size and compare the preview before saving new copies. Batch processing applies the choices to several images. For printing, enter pixels and print resolution to calculate physical size, or reverse the calculation.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Compression can reduce detail and a target size may not be achievable for every image. Formats depend on installed codecs. Originals are not automatically overwritten. Removing metadata is distinct from removing personal content visible in the picture.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Photo Picker or Android file selection grants access to chosen files; broad storage or camera access is not needed for the core resize flow.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Selected photos, processing and output copies stay on the device by plan. Metadata may include location or camera details; choose to keep supported metadata or remove unnecessary fields. No server image processing is planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Resize, batch, previews and print-size calculations are included. AI enlargement, RAW editing, cloud processing and a complete photo editor are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="irc-features" open>
+<summary data-content-section-title>Image dimensions, file size and print planning</summary>
+<div class="detail-items"><article id="irc-resize" data-content-item="irc-resize">
+<h3 data-content-item-title>Resize by dimensions or percentage</h3>
+<p data-content-item-text>Choose an image and enter width×height, only width or height, or a percentage, including 25/50/75% presets. Aspect-ratio lock starts on. Fit keeps proportions inside a frame, Fill/Crop fills it with cropping, and explicit Stretch can distort. Output is a new image; the original is not silently overwritten.</p></article><article id="irc-print" data-content-item="irc-print">
+<h3 data-content-item-title>Print size and pixels per inch</h3>
+<p data-content-item-text>Enter pixel dimensions and PPI, meaning image pixels per inch, to find print width/height in cm or inches. Or enter physical size plus PPI to find required whole pixel dimensions. Missing PPI must be supplied by you; changing a PPI label alone does not resize pixels. Printer DPI measures print dots, a different quantity.</p></article><article id="irc-compress" data-content-item="irc-compress">
+<h3 data-content-item-title>Quality, file-size target and formats</h3>
+<p data-content-item-text>Adjust JPEG or supported lossy WebP quality, or set a maximum file-size target such as 500 KB. Pixel reduction requires your permission; an unreachable target is reported. JPEG, PNG and WebP are planned, AVIF when the device can save it. PNG uses lossless handling; losing transparency prompts a warning.</p></article><article id="irc-metadata" data-content-item="irc-metadata">
+<h3 data-content-item-title>Metadata choices and Privacy Clean</h3>
+<p data-content-item-text>Choose to keep supported photo metadata or remove it. Privacy Clean removes unnecessary camera/device and location data, especially GPS tags. The visible image keeps its correct orientation even when rotation metadata is removed. Which photo fields can be retained depends on the image format.</p></article><article id="irc-preview-batch" data-content-item="irc-preview-batch">
+<h3 data-content-item-title>Preview, comparison, batches and sharing</h3>
+<p data-content-item-text>Compare original and new pixel/file dimensions and absolute/percentage savings. Final bytes are known only after saving. Process several images with one profile, follow each result, and cancel before further items start. Safe names avoid collisions. Save to your chosen place or share successful outputs; processing stays on the device.</p></article><article id="irc-egg" data-content-item="irc-egg">
+<h3 data-content-item-title>One-pixel compression joke</h3>
+<p data-content-item-text>Tap the About logo seven times: a built-in sample picture gets comically compressed until one large pixel remains. The offline surprise processes no personal image and changes no real output or settings.</p></article></div></details><details class="detail-section" data-content-section="image-resizer-compressor-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="image-resizer-compressor-offline" data-content-item="image-resizer-compressor-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="image-resizer-compressor-settings" data-content-item="image-resizer-compressor-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="image-resizer-compressor-ads" data-content-item="image-resizer-compressor-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +71,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

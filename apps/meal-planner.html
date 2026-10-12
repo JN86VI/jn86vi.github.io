@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="meal-planner">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,39 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Reduce the daily effort of deciding what to cook. Get up to three recipe suggestions based on your choices or ingredients at home, or use a separate option for prepared leftovers. Plan one recipe per day for seven days, keep the days you like and change others. The recipe selection and ingredient recognition are still being checked.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Up to three suitable recipe suggestions.</li><li>Separate options for ingredients and prepared leftovers.</li><li>Seven-day plan with one chosen recipe per day.</li><li>Own recipes, preferences and a combined shopping list.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Choose preferences or enter ingredients at home to receive up to three suitable recipe ideas. Prepared leftovers have a separate input and only validated uses are suggested. Build a seven-day plan with one chosen recipe each day; keep selected days and replace the rest. Save your own recipes, mark cooked dishes, and combine required ingredients into a shopping list. Confirm any camera recognition before use.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Recipe content, ingredient matches and substitutions still need validation. There is no allergen-free guarantee, medical diet advice or automatic leftover safety assessment. The weekly plan has one recipe per day, not breakfast, lunch and dinner slots.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Camera permission is requested only for recognition; chosen photos use Photo Picker or files. Manual ingredient and leftover entry remain available without camera.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Own recipes, preferences, ingredients, leftovers, plans, shopping lists and cooking notes would be local. Camera recognition is intended on-device. No required account or server-side AI is planned.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>Manual ingredients and basic planning remain free. Free camera recognition allows three scans in any rolling 24 hours, shared by visual recognition, text reading and barcodes. One-time Premium removes ads and the scan limit. No subscription is planned.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Planning and manual recipes are included in the proposed first version. AI-generated recipes, unvalidated substitutions and automatic food-safety claims are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="mp-features" open>
+<summary data-content-section-title>Daily suggestions, leftovers and the weekly plan</summary>
+<div class="detail-items"><article id="mp-today" data-content-item="mp-today">
+<h3 data-content-item-title>What should I make today?</h3>
+<p data-content-item-text>Choose your preferences and optional time, category or meal-use filters to get up to three matching recipes. If only one or two qualify, only those appear; with none, adjust choices yourself. Favorites, family tastes, available ingredients and recent meals help rank valid choices. Suggestions can include uncooked food, desserts, sauces or drinks, not just main dishes.</p></article><article id="mp-home" data-content-item="mp-home">
+<h3 data-content-item-title>The ingredients you have</h3>
+<p data-content-item-text>Enter or select even a few ingredients, including part-used packages; a complete pantry is unnecessary. See up to three recipes with usable/missing-ingredient status and a concrete missing list. Select servings to see required quantities; you decide whether your actual stock is enough. Missing ingredients can be added individually or together to shopping.</p></article><article id="mp-leftovers" data-content-item="mp-leftovers">
+<h3 data-content-item-title>Use prepared leftovers separately</h3>
+<p data-content-item-text>Enter a cooked dish/component, optional quantity and notes in the separate leftover mode. It offers up to three recipes only when an established compatible use exists; raw rice and cooked rice are not interchangeable. Accept the proposed use explicitly, see relevant steps and avoid allocating the same amount twice. Unknown matches prompt clarification, not an invented reuse recipe; edibility is not certified.</p></article><article id="mp-week" data-content-item="mp-week">
+<h3 data-content-item-title>Seven days, one recipe per day</h3>
+<p data-content-item-text>Build a seven-day plan with one general recipe slot each day. Lock accepted days and replace one day without changing the other six. Choose portions; ingredient reuse and variety help planning. Any supported category may fill the slot; no suitable recipe leaves it explained and empty rather than fabricating one. It is not a full breakfast/lunch/dinner daily diet.</p></article><article id="mp-filters" data-content-item="mp-filters">
+<h3 data-content-item-title>Cuisine, categories and saved preferences</h3>
+<p data-content-item-text>Choose a country/region and local-only or international cuisine selection separately from app language. Allow only the cuisines you want; favorites, disliked/excluded foods and allowing new dishes shape suggestions. Filter available validated categories, meal use, preparation time or vegetarian/vegan labels. Recipe/category selection is still being checked; allergen filtering is not included.</p></article><article id="mp-recipes" data-content-item="mp-recipes">
+<h3 data-content-item-title>Your recipes, portions, cooking history and ratings</h3>
+<p data-content-item-text>Create or edit your own recipe with ingredients, quantities, portions and steps; pictures are optional. Scale known amounts to a chosen number of servings, keeping taste-based or unknown quantities clearly marked. Use only established ingredient substitutions you accept. Mark I cooked it to record the occasion, add 1–5 stars and notes, and keep favorites. These local ratings are not public reviews.</p></article><article id="mp-recognition" data-content-item="mp-recognition">
+<h3 data-content-item-title>Three kinds of local recognition</h3>
+<p data-content-item-text>Camera ingredient recognition proposes possible unlabelled ingredients; text recognition reads packaging names/sizes; barcode scanning reuses local associations. Review, correct or remove suggestions and confirm before adding ingredients. Manual entry works when recognition fails. The recognised ingredient list/model is still being validated; prepared-food recognition is not offered as automatic leftover identification.</p></article><article id="mp-shopping" data-content-item="mp-shopping">
+<h3 data-content-item-title>Combined shopping list</h3>
+<p data-content-item-text>Merge compatible ingredients from the plan and selected recipes; subtract confirmed home quantities or accepted leftover allocations only once. Unknown quantities remain items to check, not zero. Add manual entries and tick bought items. Changing one plan day updates the list while preserving other days and locked choices.</p></article><article id="mp-money" data-content-item="mp-money">
+<h3 data-content-item-title>Free manual use and one-time Premium</h3>
+<p data-content-item-text>All four main modes, manual ingredient/leftover entry, recipe filters and weekly planning are free. Camera recognition has a shared limit of three starts in any rolling 24 hours across image, text and barcode methods; cancellation before capture does not count, but a failed captured attempt does. One-time Premium removes banners and this camera limit; it is not a subscription and Play supplies the current price.</p></article><article id="mp-backup" data-content-item="mp-backup">
+<h3 data-content-item-title>Offline data, content updates and backup</h3>
+<p data-content-item-text>Use your own and installed recipes, lists and plans offline without a required account or ReadyStock. Validated recipe updates keep personal favorites, ratings and history. Create an offline backup of recipes, ingredients, leftovers, plans/locks, shopping and notes, then review before restore. Purchase access is restored separately; missing recipe content is identified, not fabricated. Built-in recipes and recognition coverage are still being prepared and checked.</p></article><article id="mp-egg" data-content-item="mp-egg">
+<h3 data-content-item-title>An About portrait surprise</h3>
+<p data-content-item-text>Tap the About logo seven times for the planned offline portrait scene of JN86VI’s wife and chief cook. Close the stylised portrait to return; recipes, plans and personal data stay unchanged.</p></article></div></details><details class="detail-section" data-content-section="meal-planner-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="meal-planner-offline" data-content-item="meal-planner-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="meal-planner-settings" data-content-item="meal-planner-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +79,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

@@ -52,20 +52,36 @@ def extended_data():
     return json.loads((ROOT / 'assets/app-pages.json').read_text())
 
 
-def extended_sections(app):
-    data = extended_data()
-    entry = data['apps'].get(app['id'])
-    if not entry:
-        return ''
-    text = entry['copy']['en']
+def detail_data():
+    return json.loads((ROOT / 'assets/app-details.json').read_text())
+
+
+def restored_sections(app):
+    data = detail_data()
+    entry = data['apps'][app['id']]
     labels = data['labels']['en']
-    def section(key, title):
-        return f'<section class="section"><div class="wrap"><h2 data-detail-label="{title}">{html.escape(labels[title])}</h2><p data-detail="{key}">{html.escape(text[key])}</p></div></section>'
-    notice = labels['plannedNotice'] if entry['planned'] else labels['internal' if app['id'] == 'unit-converter' else 'soon']
-    return f'''<section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>{html.escape(notice)}</p></div></section>''' + section('workflow', 'workflowTitle') + section('limits', 'limitsTitle') + f'''<section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">{html.escape(labels['operationTitle'])}</h2><p data-detail-offline>{html.escape(text.get('offline', labels['offline']))}</p><p data-detail-android>{html.escape(labels['android'])}</p><h3 data-detail-label="permissionsTitle">{html.escape(labels['permissionsTitle'])}</h3><p data-detail="permissions">{html.escape(text['permissions'])}</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">{html.escape(labels['dataTitle'])}</h3><p data-detail="data">{html.escape(text['data'])}</p><h3 data-detail-label="moneyTitle">{html.escape(labels['moneyTitle'])}</h3><p data-detail-money>{html.escape(labels[entry['monetization']] if entry['planned'] or app['id'] == 'ott-e' else text['money'])}</p></div>
-    </div></section>''' + f'''<section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">{html.escape(labels['versionTitle'])}</h2><p data-detail-version>{html.escape(labels['version'] if entry['planned'] else text['version'])}</p><p data-detail="plans">{html.escape(text['plans'])}</p></div></section>'''
+    notice = labels['planned'] if app['productStage'] == 'planned' else labels['testing']
+    sections = []
+    for section in entry['sections']:
+        items = []
+        for item in section['items']:
+            units = ('<p class="detail-units"><strong data-content-units-label>' +
+                     html.escape(labels['units']) + '</strong> ' +
+                     html.escape(', '.join(item['units'])) + '</p>') if item.get('units') else ''
+            items.append(f'''<article id="{item['id']}" data-content-item="{item['id']}">
+<h3 data-content-item-title>{html.escape(item['title']['en'])}</h3>
+<p data-content-item-text>{html.escape(item['text']['en'])}</p>{units}</article>''')
+        intro = f'<p data-content-intro>{html.escape(section["intro"]["en"])}</p>' if section.get('intro') else ''
+        sections.append(f'''<details class="detail-section" data-content-section="{section['id']}" open>
+<summary data-content-section-title>{html.escape(section['title']['en'])}</summary>
+{intro}<div class="detail-items">{''.join(items)}</div></details>''')
+    return f'''<section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>{html.escape(notice)}</p>
+<h2 data-content-heading>{html.escape(labels['heading'])}</h2>{''.join(sections)}</div></section>'''
+
+
+def extended_sections(app):
+    return restored_sections(app)
 
 
 def privacy_page(app):
@@ -87,6 +103,8 @@ def privacy_page(app):
 
 
 def page(app):
+    detail_style = '<link rel="stylesheet" href="../assets/app-details.css">'
+    detail_scripts = '<script src="../assets/app-details-data.js"></script>\n<script src="../assets/app-details.js"></script>'
     esc = html.escape
     name = esc(app['name'])
     copy = app['copy']['en']
@@ -128,6 +146,7 @@ def page(app):
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  {detail_style}
 </head>
 <body data-app="{app['id']}">
 {header()}
@@ -151,11 +170,11 @@ def page(app):
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+{detail_scripts}
 </body>
 </html>
 '''
@@ -205,9 +224,13 @@ def released_page(apps):
 
 def outputs():
     apps = app_data()
+    if set(detail_data()['apps']) != {app['id'] for app in apps}:
+        raise ValueError('Detailed descriptions must cover the entire portfolio')
     pages = {ROOT / f"apps/{app['id']}.html": page(app) for app in apps}
     data = extended_data()
     pages[ROOT / 'assets/app-pages-data.js'] = '// Generated from app-pages.json.\nconst appPages = ' + json.dumps(data, ensure_ascii=False, indent=2) + ';\n'
+    if detail_data()['apps']:
+        pages[ROOT / 'assets/app-details-data.js'] = '// Generated from app-details.json.\nconst appDetails = ' + json.dumps(detail_data(), ensure_ascii=False, indent=2) + ';\n'
     for app in apps:
         if app['id'] in data['apps'] and app['id'] not in ['unit-converter', 'ott-e']:
             pages[ROOT / f"privacy/{app['id']}.html"] = privacy_page(app)
@@ -232,13 +255,15 @@ if __name__ == '__main__':
         app_id = sys.argv[sys.argv.index('--app') + 1]
         if app_id not in {app['id'] for app in app_data()}:
             raise SystemExit('Unknown app: ' + app_id)
-        generated = {p: t for p, t in generated.items() if p.stem == app_id or p.name == 'app-pages-data.js'}
+        generated = {p: t for p, t in generated.items() if p.stem == app_id or p.name in ['app-pages-data.js', 'app-details-data.js']}
     if '--check' in sys.argv:
         stale = [str(path.relative_to(ROOT)) for path, text in generated.items() if not path.exists() or path.read_text() != text]
         if stale:
             raise SystemExit('Stale generated pages: ' + ', '.join(stale))
-        print('PASS: all 25 detail pages, released-app page and sitemap match the shared template/data')
+        count = sum(path.parent == ROOT / 'apps' for path in generated)
+        print(f'PASS: {count} detail pages and their generated files match the template/data')
     else:
         for path, text in generated.items():
             path.write_text(text)
-        print('Generated 25 app pages, released-app page and updated the sitemap')
+        count = sum(path.parent == ROOT / 'apps' for path in generated)
+        print(f'Generated {count} detail pages and {len(generated) - count} related files')

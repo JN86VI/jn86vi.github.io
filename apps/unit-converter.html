@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="unit-converter">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -31,16 +32,213 @@
     <p class="eyebrow" data-i18n="detail_title">App details</p>
     <h1>Unit Converter</h1>
     <p class="lead" data-app-summary>Convert everyday and technical units, with useful calculators and quick access to your favorites.</p>
-    <div class="detail-meta"><span class="badge creating" data-app-status>In the works</span><span class="badge neutral" data-app-stage>In development</span><span class="badge neutral">Android</span></div>
+    <div class="detail-meta"><span class="badge soon" data-app-status>Coming soon</span><span class="badge neutral" data-app-stage>In development</span><span class="badge neutral">Android</span></div>
   </div></div></section>
   <section class="section"><div class="wrap split">
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Use Unit Converter when a recipe, measurement or technical task uses unfamiliar units. Enter a value once to see related results. Useful calculators cover density, data-transfer time, dilution, energy costs, lighting and concentration.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Length, temperature, mass, speed and more.</li><li>Several conversion results from one value.</li><li>Search, favorites and recent calculations.</li><li>Offline calculations without an account.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>The app is in internal Google Play testing, including active ads and optional ad removal. There is no verified public production download yet.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Choose a category or search for a unit, enter a value and select its source unit. The other result rows update as you type: for example, metres can be shown as feet and inches together. Separate calculators accept several inputs, such as power, usage time and your electricity tariff. Copy an individual result, save a favorite feature or reopen a calculation from History.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Results depend on the selected units and valid inputs. The standalone calculator accepts numbers and expressions; copying several labelled results together is not a single numeric input. This is a calculation aid, not a medical, engineering or calibration certificate.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>All conversions and calculations work offline. Advertising, consent updates, Play purchase checks and external links can use internet.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">The app uses network, Google Play Billing and advertising declarations. It requests no camera, microphone, GPS location or contacts access for calculations. Consent choices and Play purchases use separate Google connections.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Language and number settings, favorites, up to ten recent features and fifty History entries stay in app-private storage. The last valid input is stored separately; Clear removes it without clearing History. Android may back up the included settings and lists.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>All 77 features are free. A one-time Play purchase removes ads only; the current price appears in the Play purchase screen. Voluntary support does not grant ad-free access.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The current internal-test app provides the functions described above. This website does not announce a public release.</p><p data-detail="plans">The current set contains 77 free offline features, including six specialist calculators and number-base conversion. Broader radio tools and medical functions are not part of this app.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>The app is being tested. See Availability below for its current download status.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="uc-common" open>
+<summary data-content-section-title>Common</summary>
+<p data-content-intro>Choose a conversion below and enter a value in any unit’s row. All other results update together; any row can be your starting point.</p><div class="detail-items"><article id="uc-feature-length" data-content-item="uc-feature-length">
+<h3 data-content-item-title>Length</h3>
+<p data-content-item-text>Compare lengths and distances, such as furniture dimensions in centimetres and inches.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> nm, µm, mm, cm, m, km, in, ft, yd, mi, nmi</p></article><article id="uc-feature-mass" data-content-item="uc-feature-mass">
+<h3 data-content-item-title>Mass</h3>
+<p data-content-item-text>Convert mass values, such as a parcel labelled in kilograms or pounds.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> µg, mg, g, kg, t, oz, lb, st, ct</p></article><article id="uc-feature-area" data-content-item="uc-feature-area">
+<h3 data-content-item-title>Area</h3>
+<p data-content-item-text>Compare surface or land areas, from square metres to hectares, acres and the Hungarian négyszögöl.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mm², cm², m², km², in², ft², yd², ha, acre, öl²</p></article><article id="uc-feature-volume" data-content-item="uc-feature-volume">
+<h3 data-content-item-title>Volume</h3>
+<p data-content-item-text>Convert liquid or solid volumes. US and Imperial gallons, pints and fluid ounces remain separate; cups and spoons use US measures.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mL, cL, dL, L, cm³, dm³, m³, US fl oz, imp fl oz, US cup, US pt, imp pt, US gal, imp gal, US tsp, US tbsp</p></article><article id="uc-feature-speed" data-content-item="uc-feature-speed">
+<h3 data-content-item-title>Speed</h3>
+<p data-content-item-text>Convert travel or flow speeds, for example km/h to m/s. A knot means one nautical mile per hour.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> cm/s, m/s, km/h, mph, knot, ft/s</p></article><article id="uc-feature-temperature" data-content-item="uc-feature-temperature">
+<h3 data-content-item-title>Temperature</h3>
+<p data-content-item-text>Compare Celsius, Fahrenheit, Kelvin and Rankine temperatures. Values below absolute zero produce an error.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> °C, °F, K, °R</p></article><article id="uc-feature-time" data-content-item="uc-feature-time">
+<h3 data-content-item-title>Time</h3>
+<p data-content-item-text>Convert fixed durations from nanoseconds to weeks, for example minutes into hours and seconds.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> ns, µs, ms, s, min, h, d, wk</p></article><article id="uc-feature-fuel-consumption" data-content-item="uc-feature-fuel-consumption">
+<h3 data-content-item-title>Fuel consumption</h3>
+<p data-content-item-text>Compare litres per 100 km, kilometres per litre and miles per US or Imperial gallon. Reciprocal conversions require a positive input.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> L/100 km, km/L, mpg (US), mpg (Imp)</p></article></div></details><details class="detail-section" data-content-section="uc-engineering" open>
+<summary data-content-section-title>Engineering</summary>
+<p data-content-intro>Choose a conversion below and enter a value in any unit’s row. All other results update together; any row can be your starting point.</p><div class="detail-items"><article id="uc-feature-plane-angle" data-content-item="uc-feature-plane-angle">
+<h3 data-content-item-title>Plane angle</h3>
+<p data-content-item-text>Convert angles for drawings or rotations, using degrees, radians, revolutions, arcminutes or arcseconds.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> °, rad, mrad, gon, rev, arcmin (′), arcsec (″)</p></article><article id="uc-feature-pressure" data-content-item="uc-feature-pressure">
+<h3 data-content-item-title>Pressure</h3>
+<p data-content-item-text>Compare pressure readings expressed in bar, psi, pascals or millimetres of mercury, among other units.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> Pa, hPa, kPa, MPa, bar, mbar, atm, psi, mmHg, Torr, inHg, mmH₂O, inH₂O, kgf/cm²</p></article><article id="uc-feature-force" data-content-item="uc-feature-force">
+<h3 data-content-item-title>Force</h3>
+<p data-content-item-text>Convert pushing or pulling forces in newtons, kilogram-force or pound-force. These are force values, not masses.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> N, kN, gf, kgf, ozf, lbf</p></article><article id="uc-feature-torque" data-content-item="uc-feature-torque">
+<h3 data-content-item-title>Torque</h3>
+<p data-content-item-text>Convert torque values, such as tightening instructions in N·m and lbf·ft.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> N·cm, N·m, kN·m, kgf·cm, ozf·in, lbf·in, lbf·ft</p></article><article id="uc-feature-frequency" data-content-item="uc-feature-frequency">
+<h3 data-content-item-title>Frequency</h3>
+<p data-content-item-text>Express how often an event repeats each second in hertz and its multiples.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> Hz, kHz, MHz, GHz, THz</p></article><article id="uc-feature-mass-density" data-content-item="uc-feature-mass-density">
+<h3 data-content-item-title>Mass density</h3>
+<p data-content-item-text>Convert a material’s known mass per volume, for example g/cm³ to kg/m³. This converter takes density directly.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> kg/m³, kg/L, g/cm³, g/mL, lb/ft³, lb/in³</p></article><article id="uc-feature-specific-volume" data-content-item="uc-feature-specific-volume">
+<h3 data-content-item-title>Specific volume</h3>
+<p data-content-item-text>Convert the volume occupied per unit of mass, for example the space occupied by one kilogram of material.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> m³/kg, L/kg, cm³/g, ft³/lb, in³/lb</p></article><article id="uc-feature-mass-moment-of-inertia" data-content-item="uc-feature-mass-moment-of-inertia">
+<h3 data-content-item-title>Mass moment of inertia</h3>
+<p data-content-item-text>Convert a known value describing resistance to rotational acceleration. No shape or mass distribution is calculated.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> kg·m², kg·cm², g·cm², lb·ft², lb·in²</p></article><article id="uc-feature-heat-capacity" data-content-item="uc-feature-heat-capacity">
+<h3 data-content-item-title>Heat capacity</h3>
+<p data-content-item-text>Convert the energy needed to raise the temperature of a whole object by one degree.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> J/K, J/°C, kJ/K, cal/°C, Btu/°F</p></article><article id="uc-feature-cooling-capacity" data-content-item="uc-feature-cooling-capacity">
+<h3 data-content-item-title>Cooling capacity</h3>
+<p data-content-item-text>Compare a cooling appliance’s capacity in watts, Btu/h or refrigeration tons.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> W, kW, Btu/h, kcal/h, TR</p></article><article id="uc-feature-angular-velocity" data-content-item="uc-feature-angular-velocity">
+<h3 data-content-item-title>Angular velocity</h3>
+<p data-content-item-text>Convert rotation rates, for example revolutions per minute into radians per second.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> °/s, rad/s, rev/s, rpm</p></article><article id="uc-feature-angular-acceleration" data-content-item="uc-feature-angular-acceleration">
+<h3 data-content-item-title>Angular acceleration</h3>
+<p data-content-item-text>Convert the rate at which rotational speed changes, in degrees, radians or revolutions per second squared.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> °/s², rad/s², rev/s²</p></article><article id="uc-calc-001" data-content-item="uc-calc-001">
+<h3 data-content-item-title>Density / mass / volume</h3>
+<p data-content-item-text>Choose density, mass or volume to find, then enter the other two values with their units. For example, 1000 kg/m³ and 1 L give 1 kg. It assumes a uniform material; you supply its density.</p></article></div></details><details class="detail-section" data-content-section="uc-electricity" open>
+<summary data-content-section-title>Electrical</summary>
+<p data-content-intro>Choose a conversion below and enter a value in any unit’s row. All other results update together; any row can be your starting point.</p><div class="detail-items"><article id="uc-feature-electric-potential" data-content-item="uc-feature-electric-potential">
+<h3 data-content-item-title>Electric potential</h3>
+<p data-content-item-text>Convert voltage readings from microvolts to kilovolts, for example component or power-supply specifications.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> µV, mV, V, kV</p></article><article id="uc-feature-electric-current" data-content-item="uc-feature-electric-current">
+<h3 data-content-item-title>Electric current</h3>
+<p data-content-item-text>Convert electrical currents from nanoamps to kiloamps, for example mA into A.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> nA, µA, mA, A, kA</p></article><article id="uc-feature-resistance" data-content-item="uc-feature-resistance">
+<h3 data-content-item-title>Resistance</h3>
+<p data-content-item-text>Compare resistor values in milliohms, ohms and larger units when reading component specifications.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mΩ, Ω, kΩ, MΩ, GΩ</p></article><article id="uc-feature-conductance" data-content-item="uc-feature-conductance">
+<h3 data-content-item-title>Conductance</h3>
+<p data-content-item-text>Convert conductance, the reciprocal of resistance, in siemens and its smaller units.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> nS, µS, mS, S</p></article><article id="uc-feature-capacitance" data-content-item="uc-feature-capacitance">
+<h3 data-content-item-title>Capacitance</h3>
+<p data-content-item-text>Compare a capacitor’s capacitance in pF, nF, µF, mF and F.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> pF, nF, µF, mF, F</p></article><article id="uc-feature-inductance" data-content-item="uc-feature-inductance">
+<h3 data-content-item-title>Inductance</h3>
+<p data-content-item-text>Convert a coil’s inductance between nH, µH, mH and H.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> nH, µH, mH, H</p></article><article id="uc-feature-power" data-content-item="uc-feature-power">
+<h3 data-content-item-title>Power</h3>
+<p data-content-item-text>Compare watts, mechanical horsepower, metric horsepower, Btu/h, dBW and dBm. The horsepower definitions differ; logarithmic levels require positive power.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mW, W, kW, MW, GW, hp (mechanical), PS/LE (metric), Btu/h, dBW, dBm</p></article><article id="uc-feature-energy" data-content-item="uc-feature-energy">
+<h3 data-content-item-title>Energy</h3>
+<p data-content-item-text>Compare energy in joules, watt-hours, kilowatt-hours, calories and Btu, for consumption or heat-energy figures.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> J, kJ, MJ, GJ, Wh, kWh, MWh, Btu_IT, cal, kcal</p></article><article id="uc-feature-electrical-resistivity" data-content-item="uc-feature-electrical-resistivity">
+<h3 data-content-item-title>Electrical resistivity</h3>
+<p data-content-item-text>Convert a material’s resistivity, rather than the total resistance of a finished wire.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> Ω·m, Ω·mm²/m, Ω·cm, µΩ·cm</p></article><article id="uc-feature-electrical-conductivity" data-content-item="uc-feature-electrical-conductivity">
+<h3 data-content-item-title>Electrical conductivity</h3>
+<p data-content-item-text>Compare a material’s electrical conductivity in siemens per metre or centimetre and their multiples.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> µS/m, mS/m, S/m, MS/m, µS/cm, mS/cm, S/cm</p></article><article id="uc-feature-electric-charge" data-content-item="uc-feature-electric-charge">
+<h3 data-content-item-title>Electric charge</h3>
+<p data-content-item-text>Compare charge in coulombs and amp-hours, including mAh and Ah. This alone does not calculate battery energy.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> nC, µC, mC, C, kC, mAh, Ah</p></article><article id="uc-feature-current-density" data-content-item="uc-feature-current-density">
+<h3 data-content-item-title>Current density</h3>
+<p data-content-item-text>Convert current per unit of area, for example A/mm² into A/m².</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> A/m², A/mm², A/cm², mA/cm², A/in²</p></article><article id="uc-feature-linear-charge-density" data-content-item="uc-feature-linear-charge-density">
+<h3 data-content-item-title>Linear charge density</h3>
+<p data-content-item-text>Convert electrical charge per unit of length, for example data describing a charged conductor.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> nC/m, µC/m, mC/m, C/m</p></article><article id="uc-feature-surface-charge-density" data-content-item="uc-feature-surface-charge-density">
+<h3 data-content-item-title>Surface charge density</h3>
+<p data-content-item-text>Convert electrical charge per unit of surface area, including square-centimetre and square-metre measures.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> nC/m², µC/m², mC/m², C/m², µC/cm²</p></article><article id="uc-feature-volume-charge-density" data-content-item="uc-feature-volume-charge-density">
+<h3 data-content-item-title>Volume charge density</h3>
+<p data-content-item-text>Convert electrical charge per unit of volume, using coulombs and smaller charge units per cubic metre.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> nC/m³, µC/m³, mC/m³, C/m³</p></article><article id="uc-feature-electric-field-strength" data-content-item="uc-feature-electric-field-strength">
+<h3 data-content-item-title>Electric field strength</h3>
+<p data-content-item-text>Compare electric field strength in volts per metre, its multiples and newtons per coulomb.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mV/m, V/m, kV/m, MV/m, N/C</p></article><article id="uc-feature-permittivity" data-content-item="uc-feature-permittivity">
+<h3 data-content-item-title>Permittivity</h3>
+<p data-content-item-text>Convert permittivity, which describes a material’s response to an electric field, in farads per metre and smaller units.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> pF/m, nF/m, F/m</p></article><article id="uc-calc-004" data-content-item="uc-calc-004">
+<h3 data-content-item-title>Energy consumption / cost</h3>
+<p data-content-item-text>Enter power and usage time: 2 kW for three hours consumes 6 kWh. For cost, also enter your price per kWh and currency label. Without a price it shows energy only; no tariff or exchange rate is fetched.</p></article></div></details><details class="detail-section" data-content-section="uc-fluids" open>
+<summary data-content-section-title>Fluids</summary>
+<p data-content-intro>Choose a conversion below and enter a value in any unit’s row. All other results update together; any row can be your starting point.</p><div class="detail-items"><article id="uc-feature-dynamic-viscosity" data-content-item="uc-feature-dynamic-viscosity">
+<h3 data-content-item-title>Dynamic viscosity</h3>
+<p data-content-item-text>Compare dynamic viscosity, describing a liquid’s internal friction, in Pa·s and poise units.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> µPa·s, mPa·s, Pa·s, cP, P</p></article><article id="uc-feature-kinematic-viscosity" data-content-item="uc-feature-kinematic-viscosity">
+<h3 data-content-item-title>Kinematic viscosity</h3>
+<p data-content-item-text>Convert kinematic viscosity in m²/s and stokes units. It is a different quantity from dynamic viscosity.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mm²/s, m²/s, cSt, St</p></article><article id="uc-feature-volume-flow-rate" data-content-item="uc-feature-volume-flow-rate">
+<h3 data-content-item-title>Volume flow rate</h3>
+<p data-content-item-text>Convert the volume flowing per unit of time, for example L/min, m³/h or US gallons per minute.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> L/min, L/s, m³/h, m³/s, GPM (US), CFM</p></article><article id="uc-feature-amount-concentration" data-content-item="uc-feature-amount-concentration">
+<h3 data-content-item-title>Amount concentration</h3>
+<p data-content-item-text>Compare molarity, the amount of substance per volume of solution, in mol/L and mol/m³ with their smaller units.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> µmol/L, mmol/L, mol/L, mol/m³</p></article><article id="uc-feature-mass-concentration" data-content-item="uc-feature-mass-concentration">
+<h3 data-content-item-title>Mass concentration</h3>
+<p data-content-item-text>Convert the mass of dissolved material per volume, for example mg/L into g/m³.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> µg/L, mg/L, g/L, µg/m³, mg/m³, g/m³</p></article><article id="uc-feature-dimensionless-ratio" data-content-item="uc-feature-dimensionless-ratio">
+<h3 data-content-item-title>Dimensionless ratio</h3>
+<p data-content-item-text>Convert ratios on the same basis between percent, per mille, ppm (parts per million) and ppb (parts per billion).</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> %, ‰, ppm, ppb</p></article><article id="uc-feature-intrinsic-permeability" data-content-item="uc-feature-intrinsic-permeability">
+<h3 data-content-item-title>Intrinsic permeability</h3>
+<p data-content-item-text>Convert a known value of a porous material’s permeability in m², µm², darcy and millidarcy.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> m², µm², D, mD</p></article><article id="uc-feature-surface-tension" data-content-item="uc-feature-surface-tension">
+<h3 data-content-item-title>Surface tension</h3>
+<p data-content-item-text>Compare liquid surface-tension readings in N/m, mN/m and dyn/cm.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> N/m, mN/m, dyn/cm</p></article><article id="uc-feature-water-hardness" data-content-item="uc-feature-water-hardness">
+<h3 data-content-item-title>Water hardness</h3>
+<p data-content-item-text>Compare water hardness expressed as CaCO₃ concentration, mmol/L or German, French and English hardness degrees.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mg/L CaCO₃, ppm CaCO₃, mmol/L, °dH, °fH, °eH</p></article><article id="uc-calc-003" data-content-item="uc-calc-003">
+<h3 data-content-item-title>Dilution</h3>
+<p data-content-item-text>Choose molar concentration, mass concentration or volume ratio. Enter three of the two concentrations and two volumes to find the fourth and the diluent volume. 100 mL at 1 mol/L diluted to 0.5 mol/L needs 200 mL final volume, including 100 mL diluent. It assumes the same substance and additive volumes.</p></article><article id="uc-calc-006" data-content-item="uc-calc-006">
+<h3 data-content-item-title>Molarity / mass concentration</h3>
+<p data-content-item-text>Choose molarity to mass concentration or the reverse. Enter concentration and the same substance’s molar mass in g/mol. For example, 1 mol/L and 58.44 g/mol give 58.44 g/L. You provide the substance’s molar mass.</p></article></div></details><details class="detail-section" data-content-section="uc-thermodynamics" open>
+<summary data-content-section-title>Thermal</summary>
+<p data-content-intro>Choose a conversion below and enter a value in any unit’s row. All other results update together; any row can be your starting point.</p><div class="detail-items"><article id="uc-feature-specific-heat-capacity" data-content-item="uc-feature-specific-heat-capacity">
+<h3 data-content-item-title>Specific heat capacity</h3>
+<p data-content-item-text>Convert energy needed to raise one unit of mass by one degree, for example J/(kg·K) into cal/(g·°C).</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> J/(g·K), J/(kg·K), kJ/(kg·K), cal/(g·°C), Btu/(lb·°F)</p></article><article id="uc-feature-heat-flux-density" data-content-item="uc-feature-heat-flux-density">
+<h3 data-content-item-title>Heat flux density</h3>
+<p data-content-item-text>Compare heat power transferred per unit of area, for example W/m² and Btu/(h·ft²).</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> W/m², kW/m², W/cm², Btu/(h·ft²)</p></article><article id="uc-feature-thermal-conductivity" data-content-item="uc-feature-thermal-conductivity">
+<h3 data-content-item-title>Thermal conductivity</h3>
+<p data-content-item-text>Compare a material’s ability to conduct heat using metric and Imperial conductivity units.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mW/(m·K), W/(m·K), W/(m·°C), Btu/(h·ft·°F)</p></article><article id="uc-feature-heat-transfer-coefficient" data-content-item="uc-feature-heat-transfer-coefficient">
+<h3 data-content-item-title>Heat transfer coefficient</h3>
+<p data-content-item-text>Convert the coefficient describing heat transfer between a surface and its surroundings.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> W/(m²·K), W/(m²·°C), Btu/(h·ft²·°F)</p></article></div></details><details class="detail-section" data-content-section="uc-optics" open>
+<summary data-content-section-title>Optics</summary>
+<p data-content-intro>Choose a conversion below and enter a value in any unit’s row. All other results update together; any row can be your starting point.</p><div class="detail-items"><article id="uc-feature-luminous-intensity" data-content-item="uc-feature-luminous-intensity">
+<h3 data-content-item-title>Luminous intensity</h3>
+<p data-content-item-text>Convert light intensity emitted in one direction between millicandelas and candelas.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mcd, cd</p></article><article id="uc-feature-illuminance" data-content-item="uc-feature-illuminance">
+<h3 data-content-item-title>Illuminance</h3>
+<p data-content-item-text>Compare light arriving at a surface in lux, kilolux and foot-candles.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> lx, klx, foot-candle (fc)</p></article><article id="uc-feature-luminance" data-content-item="uc-feature-luminance">
+<h3 data-content-item-title>Luminance</h3>
+<p data-content-item-text>Convert the brightness of a surface viewed from one direction between cd/m² (also called nit) and foot-lamberts.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> cd/m² (nit), foot-lambert (fL)</p></article><article id="uc-calc-005" data-content-item="uc-calc-005">
+<h3 data-content-item-title>Lighting</h3>
+<p data-content-item-text>Choose luminous flux in lumens, illuminance in lux or area as the unknown and enter the other two. For example, 1000 lm over 10 m² gives 100 lx. The estimate assumes uniform light distribution without losses.</p></article></div></details><details class="detail-section" data-content-section="uc-magnetism" open>
+<summary data-content-section-title>Magnetism</summary>
+<p data-content-intro>Choose a conversion below and enter a value in any unit’s row. All other results update together; any row can be your starting point.</p><div class="detail-items"><article id="uc-feature-magnetic-flux-density" data-content-item="uc-feature-magnetic-flux-density">
+<h3 data-content-item-title>Magnetic flux density</h3>
+<p data-content-item-text>Compare magnetic flux density in teslas, gauss and smaller tesla units.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> nT, µT, mT, T, G</p></article><article id="uc-feature-magnetic-field-strength" data-content-item="uc-feature-magnetic-field-strength">
+<h3 data-content-item-title>Magnetic field strength</h3>
+<p data-content-item-text>Compare magnetic field strength in A/m, kA/m and oersteds.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> A/m, kA/m, Oe</p></article><article id="uc-feature-magnetic-flux" data-content-item="uc-feature-magnetic-flux">
+<h3 data-content-item-title>Magnetic flux</h3>
+<p data-content-item-text>Convert magnetic flux, the magnetic field passing through a surface, between webers and maxwells.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> µWb, mWb, Wb, Mx</p></article><article id="uc-feature-magnetic-permeability" data-content-item="uc-feature-magnetic-permeability">
+<h3 data-content-item-title>Magnetic permeability</h3>
+<p data-content-item-text>Convert magnetic permeability, describing how a material supports a magnetic field, in H/m and smaller units.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> µH/m, mH/m, H/m</p></article></div></details><details class="detail-section" data-content-section="uc-computing" open>
+<summary data-content-section-title>Computing</summary>
+<p data-content-intro>Choose a conversion below and enter a value in any unit’s row. All other results update together; any row can be your starting point.</p><div class="detail-items"><article id="uc-feature-data-amount" data-content-item="uc-feature-data-amount">
+<h3 data-content-item-title>Data amount</h3>
+<p data-content-item-text>Compare file sizes and stored data. One byte is eight bits. kB/MB/GB use steps of 1000; KiB/MiB/GiB use 1024.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> bit, kbit, Mbit, Gbit, Tbit, Byte, kB, MB, GB, TB, PB, KiB, MiB, GiB, TiB, PiB</p></article><article id="uc-feature-data-rate" data-content-item="uc-feature-data-rate">
+<h3 data-content-item-title>Data rate</h3>
+<p data-content-item-text>Convert data rates between bits per second, bytes per second, and their decimal or binary multiples.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> bit/s, kbit/s, Mbit/s, Gbit/s, Tbit/s, Byte/s, kB/s, MB/s, GB/s, TB/s, KiB/s, MiB/s, GiB/s</p></article><article id="uc-feature-pixel-count" data-content-item="uc-feature-pixel-count">
+<h3 data-content-item-title>Pixel count</h3>
+<p data-content-item-text>Express a pixel count in pixels, kilopixels, megapixels or gigapixels. This changes the count’s unit, not an image file’s size.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> px, kpx, Mpx, Gpx</p></article><article id="uc-calc-002" data-content-item="uc-calc-002">
+<h3 data-content-item-title>Data transfer time</h3>
+<p data-content-item-text>Enter the data amount and useful transfer rate to estimate duration: 1 GB at 100 Mbit/s takes 80 s. It assumes constant speed without network overhead or interruptions.</p></article><article id="uc-util-001" data-content-item="uc-util-001">
+<h3 data-content-item-title>Number base converter</h3>
+<p data-content-item-text>Choose binary, octal, decimal or hexadecimal and enter a signed integer. Other forms appear together: DEC 255 = HEX FF = OCT 377 = BIN 11111111. Fractions, 0x/0b prefixes and two’s-complement notation are not accepted.</p></article></div></details><details class="detail-section" data-content-section="uc-radiology" open>
+<summary data-content-section-title>Radiology</summary>
+<p data-content-intro>Choose a conversion below and enter a value in any unit’s row. All other results update together; any row can be your starting point. Only unit conversions are provided; no diagnosis, treatment or radiation-protection decision is made.</p><div class="detail-items"><article id="uc-feature-absorbed-dose" data-content-item="uc-feature-absorbed-dose">
+<h3 data-content-item-title>Absorbed dose</h3>
+<p data-content-item-text>Convert absorbed radiation dose between gray and rad, including the listed smaller units.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> µGy, mGy, Gy, rad</p></article><article id="uc-feature-radionuclide-activity" data-content-item="uc-feature-radionuclide-activity">
+<h3 data-content-item-title>Radionuclide activity</h3>
+<p data-content-item-text>Convert radioactive activity, the number of decays per unit of time, between becquerels and curies.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> Bq, kBq, MBq, GBq, TBq, µCi, mCi, Ci</p></article><article id="uc-feature-radiation-exposure" data-content-item="uc-feature-radiation-exposure">
+<h3 data-content-item-title>Radiation exposure</h3>
+<p data-content-item-text>Convert radiation exposure readings between C/kg and roentgen units.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mC/kg, C/kg, mR, R</p></article><article id="uc-feature-dose-equivalent" data-content-item="uc-feature-dose-equivalent">
+<h3 data-content-item-title>Dose equivalent</h3>
+<p data-content-item-text>Convert radiation-protection dose units between sieverts and rem. No biological weighting or gray-to-sievert calculation is performed.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> µSv, mSv, Sv, mrem, rem</p></article></div></details><details class="detail-section" data-content-section="uc-astronomy" open>
+<summary data-content-section-title>Astronomy</summary>
+<p data-content-intro>Choose a conversion below and enter a value in any unit’s row. All other results update together; any row can be your starting point.</p><div class="detail-items"><article id="uc-feature-astronomical-distance" data-content-item="uc-feature-astronomical-distance">
+<h3 data-content-item-title>Astronomical distance</h3>
+<p data-content-item-text>Compare astronomical distances in kilometres, astronomical units, light-years and parsecs.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> km, AU, ly, pc, kpc, Mpc, Gpc</p></article><article id="uc-feature-astronomical-mass" data-content-item="uc-feature-astronomical-mass">
+<h3 data-content-item-title>Astronomical mass</h3>
+<p data-content-item-text>Express mass in kilograms or in Earth, Jupiter and solar masses.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> kg, M⊕, M♃, M☉</p></article><article id="uc-feature-luminosity" data-content-item="uc-feature-luminosity">
+<h3 data-content-item-title>Luminosity</h3>
+<p data-content-item-text>Compare a star’s total emitted power in watts and solar luminosities. This is not its apparent brightness from Earth.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> W, L☉</p></article></div></details><details class="detail-section" data-content-section="uc-sizes" open>
+<summary data-content-section-title>Sizes</summary>
+<p data-content-intro>These advisory size comparisons help when shopping. Select a supported size and check the manufacturer’s own chart too.</p><div class="detail-items"><article id="uc-feature-shoe-size" data-content-item="uc-feature-shoe-size">
+<h3 data-content-item-title>Shoe size</h3>
+<p data-content-item-text>Choose a supported EU, UK, US men’s/women’s, JP/cm or foot-length-in-mm size. Other fields show advisory equivalents; intermediate values may show two neighbouring choices. Brands can differ.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> Mondopoint, EU, UK, US Men&#x27;s, US Women&#x27;s, JP/cm</p></article><article id="uc-feature-women-clothing-size" data-content-item="uc-feature-women-clothing-size">
+<h3 data-content-item-title>Women clothing size</h3>
+<p data-content-item-text>Choose a women’s EU, UK, US or international size. Other systems show a size or range. Equivalences are advisory and depend on brand and garment type.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> EU, UK, US, International</p></article><article id="uc-feature-men-clothing-size" data-content-item="uc-feature-men-clothing-size">
+<h3 data-content-item-title>Men clothing size</h3>
+<p data-content-item-text>Choose tops or trousers and a supported men’s size. Tops show a shared letter size and advisory chest measurements; trousers show EU, UK/US waist and international equivalents. Brands can differ.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> EU, UK, US, International</p></article></div></details><details class="detail-section" data-content-section="uc-everyday" open>
+<summary data-content-section-title>Quick access, settings and everyday use</summary>
+<div class="detail-items"><article id="uc-use" data-content-item="uc-use">
+<h3 data-content-item-title>Using simultaneous results</h3>
+<p data-content-item-text>Choose a function and edit any unit’s row. Other results update immediately: 1 m becomes 100 cm and about 3.28 ft together. Invalid or incomplete input does not show an old result as current.</p></article><article id="uc-search" data-content-item="uc-search">
+<h3 data-content-item-title>Search</h3>
+<p data-content-item-text>Search by category, function, unit name, symbol or familiar synonym. Searching lux can find both the illuminance converter and lighting calculator. Open a result to reach its function.</p></article><article id="uc-favorites" data-content-item="uc-favorites">
+<h3 data-content-item-title>Favorites and recent functions</h3>
+<p data-content-item-text>Use the star in the catalog or recent list to save a favorite function, then arrange favorites in your own order. Recent lists the last ten different functions opened; it does not store previous calculation inputs.</p></article><article id="uc-history" data-content-item="uc-history">
+<h3 data-content-item-title>History and saved input</h3>
+<p data-content-item-text>Up to fifty calculations stay locally. Reopen one to restore its function and input with freshly calculated results. Delete one or all history entries without deleting favorites. Clearing the current input is separate.</p></article><article id="uc-copy" data-content-item="uc-copy">
+<h3 data-content-item-title>Copying results</h3>
+<p data-content-item-text>Copy a labelled value with its row’s copy icon, or copy the complete result list together for a note or message. Size comparisons include their advisory warning in the copied text.</p></article><article id="uc-mini" data-content-item="uc-mini">
+<h3 data-content-item-title>Mini calculator</h3>
+<p data-content-item-text>The calculator icon opens a separate panel for +, −, × and ÷. Multiplication and division come first: 2 + 3 × 4 = 14. Use decimal point or comma, backspace and clear; parentheses are not supported. Paste one valid number or a single UC numeric result, not a whole results list. Copy the answer explicitly; it does not overwrite converter input.</p></article><article id="uc-settings" data-content-item="uc-settings">
+<h3 data-content-item-title>Language and number display</h3>
+<p data-content-item-text>Choose one of eight app languages. Use automatic precision or 0–10 fixed decimal places, scientific notation and optional thousands grouping. Very small nonzero values use scientific notation when needed. Changing display settings does not change calculation input.</p></article><article id="uc-offline" data-content-item="uc-offline">
+<h3 data-content-item-title>Offline use and local data</h3>
+<p data-content-item-text>All 77 functions work without internet or a user account. Favorites, history and settings stay on the device. Calculations need no camera, microphone, location or contacts access. Android 7.0 or newer is required.</p></article><article id="uc-money" data-content-item="uc-money">
+<h3 data-content-item-title>Ads and one-time ad removal</h3>
+<p data-content-item-text>Every function is free. Banner ads can appear and a one-time Google Play purchase removes them. Play shows the current price; purchase restoration is available. Ads, consent choices and purchase checks may need internet. Voluntary support is separate and does not remove ads.</p></article><article id="uc-dedication" data-content-item="uc-dedication">
+<h3 data-content-item-title>About dedication</h3>
+<p data-content-item-text>Tap the About logo seven times to open an offline dedication to Adorján, with a message about imagination and possibilities. Close the message to return; it changes no calculation or setting.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>The app is in internal Google Play testing, including active ads and optional ad removal. There is no verified public production download yet.</p>
@@ -49,10 +247,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

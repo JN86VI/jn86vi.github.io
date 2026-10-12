@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="readystock">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,39 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Keep track of food, household supplies and workshop parts, including their quantities, storage places and expiry dates. Use low-stock views and restock lists, and estimate reserve duration from your own consumption rates. Barcode and text recognition on the device help with entry; you confirm suggested details.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Quantities, storage locations and expiry dates.</li><li>Low-stock alerts and automatic restock lists.</li><li>Barcode and on-device text recognition help with entry.</li><li>Estimate how long reserves will last from your rates.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Create an inventory and add an item with quantity, unit and storage place. Record separate expiry batches, stock movements and a minimum or target amount. Low-stock views build a restock list; your own consumption rate estimates how many days remain. Optional camera barcode or text recognition suggests entry details that you confirm before saving.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">Recognition suggestions and reserve duration are estimates, not verified product or safety data. There is no required online product database, automatic financial valuation, accounting or multi-user warehouse system.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">Manual inventory needs no dangerous permission. Camera is requested only for scanning; selected images and import files use Android’s picker. Recognition is confirmed by you.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Items, quantities, batches, locations, stock movements and rates would remain locally. Imports, exports and offline backup are explicit user operations. Scan images and extracted details are intended for on-device processing.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Inventory, restock lists and local scan assistance are included. Cloud collaboration, online price tracking and automatic unconfirmed imports are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="inv-features" open>
+<summary data-content-section-title>Organise stock, expiry and replenishment</summary>
+<div class="detail-items"><article id="inv-items" data-content-item="inv-items">
+<h3 data-content-item-title>Several inventories, items and units</h3>
+<p data-content-item-text>Create separate home, pantry, workshop or emergency inventories. Give each item a name, stock unit and optional note, category, minimum and target. Units include pieces, kg/g, L/mL, metres, packs/boxes and your own units. Define package relationships yourself, such as one carton equals 12 pieces; unrelated units are not silently converted.</p></article><article id="inv-batches" data-content-item="inv-batches">
+<h3 data-content-item-title>Batches, stock changes and history</h3>
+<p data-content-item-text>Keep different expiry dates and storage locations as separate batches of one item. Add, consume, transfer, correct or discard expired stock; totals update from these changes. Quick actions offer undo through a recorded correction. Name categories and locations, reuse your own item templates and archive items; deletion with history needs confirmation.</p></article><article id="inv-replenish" data-content-item="inv-replenish">
+<h3 data-content-item-title>Minimum, target and replenishment list</h3>
+<p data-content-item-text>Set minimum and optional target stock. Zero or low stock is highlighted and below-minimum items enter the refill list; needed quantity reaches the target, or minimum when no target exists. Add manual shopping entries, check purchases and turn a bought item into stock-in; the list recalculates after each change.</p></article><article id="inv-expiry" data-content-item="inv-expiry">
+<h3 data-content-item-title>Expiry warnings and using older stock first</h3>
+<p data-content-item-text>Enter optional batch expiry and choose days/weeks/months of warning or turn reminders off. Consumption suggests the earliest expiring batch first; without dates it suggests the oldest acquired stock. Dated batches come before undated ones; equal expiry uses acquisition order. You can override the suggestion, and it changes no stock until confirmed.</p></article><article id="inv-coverage" data-content-item="inv-coverage">
+<h3 data-content-item-title>Consumption, coverage days and emergency targets</h3>
+<p data-content-item-text>Enter your quantity used per chosen period to estimate days of stock. View total coverage or usable coverage excluding expired batches; without a positive rate, days are unavailable. Optional emergency targets use your chosen days, and household size only when the rate is explicitly per person. Rates and expiry are not required for ordinary inventories.</p></article><article id="inv-scan" data-content-item="inv-scan">
+<h3 data-content-item-title>Local barcode and text recognition</h3>
+<p data-content-item-text>Scan EAN-8, EAN-13, UPC-A or UPC-E to find an item you previously linked, or enter data for an unknown code. Recognise a label, packaging or receipt from camera/chosen image for proposed name, quantity and expiry. Edit or reject each field and confirm before stock changes. Scanning can start stock-in or consumption; manual entry always remains available, with no online product database required.</p></article><article id="inv-dashboard" data-content-item="inv-dashboard">
+<h3 data-content-item-title>Dashboard, searching and reminders</h3>
+<p data-content-item-text>Tap dashboard counts to open active, zero/low, expired/expiring or replenishment lists. Search and filter by inventory, category, location and archive status; sort by name, stock, expiry, location or status. Optional alerts can be turned off globally or per expiry item. Denying Android notifications does not prevent managing stock.</p></article><article id="inv-files" data-content-item="inv-files">
+<h3 data-content-item-title>Spreadsheet import, export and full backup</h3>
+<p data-content-item-text>Import the documented emergency-stock XLSX columns or supported CSV, preview name, rate, quantity, expiry, place and notes, then confirm validated changes. Export JSON, CSV or XLSX for your chosen destination. Full offline backup/restore preserves related records and previews compatibility before replacement; a spreadsheet export alone is not necessarily a complete backup.</p></article><article id="inv-local" data-content-item="inv-local">
+<h3 data-content-item-title>Local data and your confirmed choices</h3>
+<p data-content-item-text>Inventory and recognition work locally without an account or server-side image analysis. Camera access is requested for scanning, not manual stock entry. Corrected barcode/text associations can be reused as editable local suggestions; source pictures are not automatically kept as long-term stock records. A failed save is shown as a failure, not a successful stock change.</p></article><article id="inv-egg" data-content-item="inv-egg">
+<h3 data-content-item-title>Just in case</h3>
+<p data-content-item-text>Tap the About logo seven times: supplies fill a shelf one by one until it becomes crowded and bends slightly. This offline joke changes no real inventory, quantities or reminders.</p></article></div></details><details class="detail-section" data-content-section="readystock-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="readystock-offline" data-content-item="readystock-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="readystock-settings" data-content-item="readystock-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="readystock-ads" data-content-item="readystock-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +79,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

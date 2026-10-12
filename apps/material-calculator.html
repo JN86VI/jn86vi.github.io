@@ -18,6 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
+  <link rel="stylesheet" href="../assets/app-details.css">
 </head>
 <body data-app="material-calculator">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -37,10 +38,37 @@
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Estimate paint, flooring, tile, concrete, wallpaper and other household DIY quantities from measurements, with waste allowance and common units.</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Calculate areas and volumes from measurements.</li><li>Allow for waste and subtract openings.</li><li>Round up to whole packs or boxes.</li><li>Metric and imperial units, offline.</li></ul></div>
   </div></section>
-  <section class="section alt"><div class="wrap"><p class="panel" data-detail-notice>This app is planned. The description presents documented plans, not an app available to download. The final design and app still need approval and testing; there is no announced release date.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="workflowTitle">How to use</h2><p data-detail="workflow">Choose paint, flooring, tiles, concrete or wallpaper. Enter measured lengths and widths, subtract doors or windows, and supply coverage, thickness or pack size from the product label. Add your waste allowance; the result shows the required quantity, whole packs rounded up and expected remainder. Save common material parameters as presets.</p></div></section><section class="section"><div class="wrap"><h2 data-detail-label="limitsTitle">Important limits</h2><p data-detail="limits">An estimate is only as good as your measurements and product parameters. The app does not choose hidden manufacturer values, calculate structural safety or replace a contractor’s assessment. It is not a price comparison or shop.</p></div></section><section class="section alt"><div class="wrap split">
-      <div><h2 data-detail-label="operationTitle">Offline use, permissions and purchases</h2><p data-detail-offline>The planned core functions run on the device without a JN86 account. Advertising, purchases, optional downloads and external links may need an internet connection. Offline core operation does not rule out separate service data flows.</p><p data-detail-android>Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.</p><h3 data-detail-label="permissionsTitle">Permissions</h3><p data-detail="permissions">The planned calculators need no camera, microphone, contacts or location. Measurements are entered by you, without automatic photo measurement.</p></div>
-      <div class="panel"><h3 data-detail-label="dataTitle">Local data</h3><p data-detail="data">Material presets and display preferences would be local. Calculations are processed on the device; saved projects and calculation history are not part of the first version.</p><h3 data-detail-label="moneyTitle">Advertising and purchases</h3><p data-detail-money>The plan keeps every core feature free, with banner advertising and an optional one-time Google Play purchase to remove ads. There is no subscription. Actual local prices will come from Play; advertising providers, consent choices and SDK data handling must be specified before launch.</p></div>
-    </div></section><section class="section"><div class="wrap"><h2 data-detail-label="versionTitle">First version and later ideas</h2><p data-detail-version>The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.</p><p data-detail="plans">Common material presets are included; saved projects, automatic product databases and structural calculations are excluded.</p></div></section>
+  <section class="section"><div class="wrap app-content">
+<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="mat-features" open>
+<summary data-content-section-title>Material estimates for home projects</summary>
+<div class="detail-items"><article id="mat-geometry" data-content-item="mat-geometry">
+<h3 data-content-item-title>Areas, volumes and several rooms</h3>
+<p data-content-item-text>Enter length and width for rectangular areas, plus depth for volumes. Add several walls or rooms and subtract door/window openings. If known, enter area or volume directly. Product coverage, thickness or pack size comes from your own data, not an assumed manufacturer database.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mm, cm, m, in, ft, m², ft², L, m³, ft³, yd³</p></article><article id="mat-paint" data-content-item="mat-paint">
+<h3 data-content-item-title>Paint</h3>
+<p data-content-item-text>Enter the net surface, number of coats and paint coverage per litre. See required paint volume, with allowance and pack rounding if supplied. Multiple walls and ceilings can share the calculation, after subtracting openings.</p></article><article id="mat-floor-tile" data-content-item="mat-floor-tile">
+<h3 data-content-item-title>Laminate flooring and tiles</h3>
+<p data-content-item-text>For laminate, enter floor area and coverage per pack to get whole packs. For tiles, enter tile width/height to get a whole-piece count, or box coverage for box count. Your waste allowance increases the required area before rounding.</p></article><article id="mat-concrete" data-content-item="mat-concrete">
+<h3 data-content-item-title>Concrete</h3>
+<p data-content-item-text>Enter dimensions of one or more sections, or known volume. The result is concrete volume with your allowance. Enter yield per bag to estimate whole bags. It does not choose a concrete mix or calculate structural strength.</p></article><article id="mat-garden" data-content-item="mat-garden">
+<h3 data-content-item-title>Mulch, topsoil and gravel</h3>
+<p data-content-item-text>Choose the material and enter area plus layer depth, or direct volume. See litres or cubic volume in the relevant units. A mass estimate needs density supplied by you; the app does not assume all soils or gravels weigh the same.</p></article><article id="mat-wallpaper" data-content-item="mat-wallpaper">
+<h3 data-content-item-title>Wallpaper and pattern repeat</h3>
+<p data-content-item-text>Choose area-based roll estimation or the strip method with wall height and roll dimensions. Optionally enter pattern repeat; each strip then rounds up to a compatible repeat length. See strip count, strips per roll and rolls needed. A roll too short for one strip is flagged.</p></article><article id="mat-packs" data-content-item="mat-packs">
+<h3 data-content-item-title>Allowance, whole packs and leftovers</h3>
+<p data-content-item-text>Set a nonnegative waste percentage and positive pack capacity. Results separate net need, allowance-adjusted need, whole packs rounded upward and expected leftovers. These are estimates based on your coverage and dimensions, not a guarantee of the product’s actual performance.</p></article><article id="mat-presets" data-content-item="mat-presets">
+<h3 data-content-item-title>Your saved product parameters</h3>
+<p data-content-item-text>Save, edit and delete reusable paint coverage, floor-pack area, tile size, wallpaper dimensions/repeat or concrete bag yield. Select a preset instead of entering the same values again. Presets stay locally; they are not a saved project or a calculation history.</p></article><article id="mat-egg" data-content-item="mat-egg">
+<h3 data-content-item-title>Endless wallpaper</h3>
+<p data-content-item-text>Tap the About logo seven times to see a patterned wallpaper roll unroll endlessly. Close the offline surprise to return; it does not change measurements, presets or settings. Reduced motion keeps the pattern understandable.</p></article></div></details><details class="detail-section" data-content-section="material-calculator-practical" open>
+<summary data-content-section-title>Use, settings and availability</summary>
+<div class="detail-items"><article id="material-calculator-offline" data-content-item="material-calculator-offline">
+<h3 data-content-item-title>Offline use</h3>
+<p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="material-calculator-settings" data-content-item="material-calculator-settings">
+<h3 data-content-item-title>Language, settings and help</h3>
+<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="material-calculator-ads" data-content-item="material-calculator-ads">
+<h3 data-content-item-title>Ads and optional ad removal</h3>
+<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
     <h2 data-i18n="availability_title">Availability</h2>
     <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
@@ -49,10 +77,11 @@
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=5"></script>
+<script src="../assets/portfolio-v2.js?v=6"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
 <script src="../assets/app-detail.js?v=3"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-pages.js?v=1"></script>
+<script src="../assets/app-details-data.js"></script>
+<script src="../assets/app-details.js"></script>
 </body>
 </html>

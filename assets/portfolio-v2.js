@@ -1,5 +1,5 @@
 // Public app presentations from the current canonical JN86 AppSpecs.
-// Public status policy: owner request, 2026-10-06.
+// Public status policy: owner requests, 2026-10-06 and UC update 2026-10-12.
 const APP_STATUSES = Object.freeze(['creating', 'soon', 'released']);
 
 // URL shape is checked here. Public production availability must be verified
@@ -28,7 +28,7 @@ const portfolioApps = [
   {
     "id": "unit-converter",
     "name": "Unit Converter",
-    "status": "creating",
+    "status": "soon",
     "icon": "assets/ic_unit_converter_512.png?v=18199c16b800",
     "copy": {
       "en": {
