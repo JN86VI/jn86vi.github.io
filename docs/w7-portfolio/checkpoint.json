@@ -27,7 +27,8 @@
     "lottery-filter",
     "dialer"
   ],
-  "uc_privacy": "PASS_LOCAL_8_LOCALES",
-  "publication": "NOT_STARTED",
-  "EXACT_CONTINUATION_POINT": "Finish W7/Play guide, validate all source and browser content, scope commit/push and verify live Pages."
+  "uc_privacy": "PASS_LIVE_8_LOCALES",
+  "publication": "PASS_LIVE",
+  "EXACT_CONTINUATION_POINT": "WEB_ALL_25_8_LOCALES_LIVE_PASS; only UC external/manual release gates and Library sync remain.",
+  "content_commit": "e9b5008453a5e8ffe21a42290d023d8596b84692"
 }

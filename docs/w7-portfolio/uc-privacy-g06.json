@@ -9,7 +9,11 @@
     "retentionText",
     "rightsText",
     "updated",
-    "googleLinks"
+    "googleLinks",
+    "googlePrivacy",
+    "googlePartners",
+    "googleRetention",
+    "googleControls"
   ],
   "preserved_original_legal_text_keys": [
     "retentionText",

@@ -1,6 +1,6 @@
 # JN86 teljes webportfólió — összevont zárójelentés
 
-**2026-10-12 · Helyi tartalom: PASS · éles publikálás: ELLENŐRZÉSRE VÁR.**
+**2026-10-12 · Helyi tartalom: PASS · éles publikálás: PASS.**
 
 KÉSZ: 25 részletes appoldal és 25 egyedi privacy URL, teljes tartalommal a nyolc jelenlegi nyelven: `en`, `hu`, `de`, `es`, `fr`, `pt-BR`, `pl`, `it`. A nyelvválasztó ugyanazon nyilvános URL tartalmát váltja; nincs bejelentkezési követelmény. Az új oldalak angol statikus tartalommal JavaScript nélkül is értelmezhetők.
 
@@ -10,31 +10,31 @@ A meglévő publikus Készül/Hamarosan/Megjelent modell és a csak Hamarosan ap
 
 | App | AppSpec fizikai változat / jóváhagyás | Státusz | Részletek | Adatvédelem | Nyelvek |
 |---|---|---|---|---|---|
-| Unit Converter | 1.5 / Approved | Készül / Fejlesztés alatt | [oldal](https://jn86vi.github.io/apps/unit-converter.html) | [privacy](https://jn86vi.github.io/privacy/unit-converter.html) | 8/8 PASS_LOCAL |
-| Ott e! | 1.2 / Approved | Hamarosan / Fejlesztés alatt | [oldal](https://jn86vi.github.io/apps/ott-e.html) | [privacy](https://jn86vi.github.io/privacy/ott-e.html) | 8/8 PASS_LOCAL |
-| Age & Date Toolkit | 0.2-1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/age-date-toolkit.html) | [privacy](https://jn86vi.github.io/privacy/age-date-toolkit.html) | 8/8 PASS_LOCAL |
-| Stopwatch & Multi Timer | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/stopwatch-multi-timer.html) | [privacy](https://jn86vi.github.io/privacy/stopwatch-multi-timer.html) | 8/8 PASS_LOCAL |
-| Fraction Calculator | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/fraction-calculator.html) | [privacy](https://jn86vi.github.io/privacy/fraction-calculator.html) | 8/8 PASS_LOCAL |
-| Last Done | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/last-done.html) | [privacy](https://jn86vi.github.io/privacy/last-done.html) | 8/8 PASS_LOCAL |
-| Material Calculator | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/material-calculator.html) | [privacy](https://jn86vi.github.io/privacy/material-calculator.html) | 8/8 PASS_LOCAL |
-| Bubble Level & Inclinometer | 0.1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/bubble-level-inclinometer.html) | [privacy](https://jn86vi.github.io/privacy/bubble-level-inclinometer.html) | 8/8 PASS_LOCAL |
-| Ruler & Protractor | 0.1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/ruler-protractor.html) | [privacy](https://jn86vi.github.io/privacy/ruler-protractor.html) | 8/8 PASS_LOCAL |
-| Sound Meter | 0.1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/sound-meter.html) | [privacy](https://jn86vi.github.io/privacy/sound-meter.html) | 8/8 PASS_LOCAL |
-| Compass & Altimeter | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/compass-altimeter.html) | [privacy](https://jn86vi.github.io/privacy/compass-altimeter.html) | 8/8 PASS_LOCAL |
-| GPS Speedometer | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/gps-speedometer.html) | [privacy](https://jn86vi.github.io/privacy/gps-speedometer.html) | 8/8 PASS_LOCAL |
-| Device Info & Diagnostics | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/device-info-diagnostics.html) | [privacy](https://jn86vi.github.io/privacy/device-info-diagnostics.html) | 8/8 PASS_LOCAL |
-| Image Resizer & Compressor | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/image-resizer-compressor.html) | [privacy](https://jn86vi.github.io/privacy/image-resizer-compressor.html) | 8/8 PASS_LOCAL |
-| Voice Recorder | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/voice-recorder.html) | [privacy](https://jn86vi.github.io/privacy/voice-recorder.html) | 8/8 PASS_LOCAL |
-| Tuner & Metronome | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/tuner-metronome.html) | [privacy](https://jn86vi.github.io/privacy/tuner-metronome.html) | 8/8 PASS_LOCAL |
-| Electrical Toolkit | 0.2-1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/electrical-toolkit.html) | [privacy](https://jn86vi.github.io/privacy/electrical-toolkit.html) | 8/8 PASS_LOCAL |
-| Ham Tools / Radio RF Toolkit | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/ham-tools.html) | [privacy](https://jn86vi.github.io/privacy/ham-tools.html) | 8/8 PASS_LOCAL |
-| Mini Games | 0.2_finetuned / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/mini-games.html) | [privacy](https://jn86vi.github.io/privacy/mini-games.html) | 8/8 PASS_LOCAL |
-| Inventory / ReadyStock | 0.3_finetuned / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/readystock.html) | [privacy](https://jn86vi.github.io/privacy/readystock.html) | 8/8 PASS_LOCAL |
-| Workout / Training | 0.2_finetuned / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/workout-training.html) | [privacy](https://jn86vi.github.io/privacy/workout-training.html) | 8/8 PASS_LOCAL |
-| Meal Planner — „Mit főzzek?” | 0.2_finetuned / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/meal-planner.html) | [privacy](https://jn86vi.github.io/privacy/meal-planner.html) | 8/8 PASS_LOCAL |
-| Work Manager | 0.1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/work-manager.html) | [privacy](https://jn86vi.github.io/privacy/work-manager.html) | 8/8 PASS_LOCAL |
-| Lottery Filter | 0.8_math_patterns_audit_ready / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/lottery-filter.html) | [privacy](https://jn86vi.github.io/privacy/lottery-filter.html) | 8/8 PASS_LOCAL |
-| Dialer | 0.4 / WORK, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/dialer.html) | [privacy](https://jn86vi.github.io/privacy/dialer.html) | 8/8 PASS_LOCAL |
+| Unit Converter | 1.5 / Approved | Készül / Fejlesztés alatt | [oldal](https://jn86vi.github.io/apps/unit-converter.html) | [privacy](https://jn86vi.github.io/privacy/unit-converter.html) | 8/8 PASS_LIVE |
+| Ott e! | 1.2 / Approved | Hamarosan / Fejlesztés alatt | [oldal](https://jn86vi.github.io/apps/ott-e.html) | [privacy](https://jn86vi.github.io/privacy/ott-e.html) | 8/8 PASS_LIVE |
+| Age & Date Toolkit | 0.2-1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/age-date-toolkit.html) | [privacy](https://jn86vi.github.io/privacy/age-date-toolkit.html) | 8/8 PASS_LIVE |
+| Stopwatch & Multi Timer | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/stopwatch-multi-timer.html) | [privacy](https://jn86vi.github.io/privacy/stopwatch-multi-timer.html) | 8/8 PASS_LIVE |
+| Fraction Calculator | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/fraction-calculator.html) | [privacy](https://jn86vi.github.io/privacy/fraction-calculator.html) | 8/8 PASS_LIVE |
+| Last Done | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/last-done.html) | [privacy](https://jn86vi.github.io/privacy/last-done.html) | 8/8 PASS_LIVE |
+| Material Calculator | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/material-calculator.html) | [privacy](https://jn86vi.github.io/privacy/material-calculator.html) | 8/8 PASS_LIVE |
+| Bubble Level & Inclinometer | 0.1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/bubble-level-inclinometer.html) | [privacy](https://jn86vi.github.io/privacy/bubble-level-inclinometer.html) | 8/8 PASS_LIVE |
+| Ruler & Protractor | 0.1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/ruler-protractor.html) | [privacy](https://jn86vi.github.io/privacy/ruler-protractor.html) | 8/8 PASS_LIVE |
+| Sound Meter | 0.1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/sound-meter.html) | [privacy](https://jn86vi.github.io/privacy/sound-meter.html) | 8/8 PASS_LIVE |
+| Compass & Altimeter | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/compass-altimeter.html) | [privacy](https://jn86vi.github.io/privacy/compass-altimeter.html) | 8/8 PASS_LIVE |
+| GPS Speedometer | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/gps-speedometer.html) | [privacy](https://jn86vi.github.io/privacy/gps-speedometer.html) | 8/8 PASS_LIVE |
+| Device Info & Diagnostics | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/device-info-diagnostics.html) | [privacy](https://jn86vi.github.io/privacy/device-info-diagnostics.html) | 8/8 PASS_LIVE |
+| Image Resizer & Compressor | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/image-resizer-compressor.html) | [privacy](https://jn86vi.github.io/privacy/image-resizer-compressor.html) | 8/8 PASS_LIVE |
+| Voice Recorder | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/voice-recorder.html) | [privacy](https://jn86vi.github.io/privacy/voice-recorder.html) | 8/8 PASS_LIVE |
+| Tuner & Metronome | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/tuner-metronome.html) | [privacy](https://jn86vi.github.io/privacy/tuner-metronome.html) | 8/8 PASS_LIVE |
+| Electrical Toolkit | 0.2-1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/electrical-toolkit.html) | [privacy](https://jn86vi.github.io/privacy/electrical-toolkit.html) | 8/8 PASS_LIVE |
+| Ham Tools / Radio RF Toolkit | 0.2 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/ham-tools.html) | [privacy](https://jn86vi.github.io/privacy/ham-tools.html) | 8/8 PASS_LIVE |
+| Mini Games | 0.2_finetuned / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/mini-games.html) | [privacy](https://jn86vi.github.io/privacy/mini-games.html) | 8/8 PASS_LIVE |
+| Inventory / ReadyStock | 0.3_finetuned / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/readystock.html) | [privacy](https://jn86vi.github.io/privacy/readystock.html) | 8/8 PASS_LIVE |
+| Workout / Training | 0.2_finetuned / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/workout-training.html) | [privacy](https://jn86vi.github.io/privacy/workout-training.html) | 8/8 PASS_LIVE |
+| Meal Planner — „Mit főzzek?” | 0.2_finetuned / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/meal-planner.html) | [privacy](https://jn86vi.github.io/privacy/meal-planner.html) | 8/8 PASS_LIVE |
+| Work Manager | 0.1 / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/work-manager.html) | [privacy](https://jn86vi.github.io/privacy/work-manager.html) | 8/8 PASS_LIVE |
+| Lottery Filter | 0.8_math_patterns_audit_ready / Draft, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/lottery-filter.html) | [privacy](https://jn86vi.github.io/privacy/lottery-filter.html) | 8/8 PASS_LIVE |
+| Dialer | 0.4 / WORK, nem Product Approved | Készül / Tervezett | [oldal](https://jn86vi.github.io/apps/dialer.html) | [privacy](https://jn86vi.github.io/privacy/dialer.html) | 8/8 PASS_LIVE |
 
 ## Forráshatár és tartalom
 
@@ -56,14 +56,14 @@ UC privacy: a G06 egyszer futott, mind a nyolc nyelven, aktív UMP/Ads/Billing s
 
 Az első módosítás előtt a webes munkafa tiszta volt, helyi HEAD és közvetlen remote main `1df0ae82adfb3dbcf6352b2f14d5271948f7ad85`. A felhasználó új kérésére megismételt ellenőrzésben a HEAD, origin/main és közvetlen remote main is ugyanaz; a megkezdett, nem commitolt fájlok e feladat saját változtatásai. [Részletes baseline](git-baseline.json). Nem történt reset, checkout, clean, stash, törlés vagy idegen munka felülírása.
 
-A weboldal külön repository: `JN86VI/jn86vi.github.io`; az authority/appkód repository `JN86VI/JN86`. Kizárólag tételes, áttekintett allowlist commitolható. Az AAB, kulcs, build output, cache és párhuzamos kutatási/audit fájlok nem részei a commitnak. A push utáni helyi HEAD/origin/main/közvetlen remote egyezés a végső, helyi Git-publication rekordba kerül; ennek státusza itt egyelőre PENDING.
+A weboldal külön repository: `JN86VI/jn86vi.github.io`; az authority/appkód repository `JN86VI/JN86`. Kizárólag tételes, áttekintett allowlist commitolható. Az AAB, kulcs, build output, cache és párhuzamos kutatási/audit fájlok nem részei a commitnak. A push utáni helyi HEAD/origin/main/közvetlen remote egyezés a végső, helyi Git-publication rekordba kerül; Az első push mindkét repositoryban igazolt: [first-push-equality.json](first-push-equality.json). A végső, kizárólag átadási dokumentációt érintő commitok saját SHA-ját az önhivatkozás elkerülésére a helyi `/home/meszaros/Asztal/JN86/Apps/Unit-Converter/build/w7-targeted-closeout/git-publication.json` rögzíti.
 
 ## NYITOTT / NEM KIADÁSI AKADÁLY
 
-NYITOTT ebben a checkpointban: scope-only Git commit/push, GitHub Pages workflow, tényleges élő HTTP-tartalom és a nyolcnyelvű éles böngészőellenőrzés. Web PASS csak ezek után jelölhető.
+KÉSZ: scope-only forráscommit és push mindkét repositoryban. A webtartalom commitja `e9b5008453a5e8ffe21a42290d023d8596b84692`; a Pages [38242216839-es deployment](https://github.com/JN86VI/jn86vi.github.io/actions/runs/38242216839) sikeres. [Élő HTTP-rekord](live-http.json): 58 URL, HTTP 200, minden tartalom bájtra egyezik. [Éles böngészőrekord](live-validation.json): 1464 állapot + 72 lifecycle, 0 hiba. Mind a 25 app és privacy teljes nyolcnyelvű tartalma ténylegesen elérhető. A mostani záró dokumentációs commit nem változtat webtartalmat; végső remote-egyezése a helyi Git-publication rekordban igazolandó.
 
 NEM KIADÁSI AKADÁLY a weboldalnál: a tervezett appok Product Approved hiánya, amíg tervekként és korlátokkal jelennek meg; belső tesztben lévő UC/Ott publikus Play-linkjének hiánya. Az appok tényleges release-kapui ettől függetlenek.
 
 A közös Play Console-frissítés a JN86 Gitben elkészült. A ChatGPT Könyvtár-példány külön szinkronja nyitott; külső fiókmódosítás vagy AAB-feltöltés nem történt.
 
-**EXACT_CONTINUATION_POINT:** minden app és a G06 helyi tartalma kész; végső scope commit/push, majd élő Pages-ellenőrzés. A 25 lezárt batch nem indítandó újra.
+**EXACT_CONTINUATION_POINT:** WEB_ALL_25_8_LOCALES_LIVE_PASS. Minden app és a G06 éles tartalma ellenőrzött. A teljes UC W7 külön külső/manuális kapui és a Könyvtár-szinkron következhetnek; új webbatch vagy automatikus Play-feltöltés nincs.

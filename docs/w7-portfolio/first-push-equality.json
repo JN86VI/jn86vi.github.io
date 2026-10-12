@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-12T11:27:00.731443+00:00",
+  "root": {
+    "head": "fed614c562ecab5fa697f7a8f36ba1185d412bdf",
+    "tracking_main": "fed614c562ecab5fa697f7a8f36ba1185d412bdf",
+    "direct_remote_main": "fed614c562ecab5fa697f7a8f36ba1185d412bdf",
+    "equal": true,
+    "tracked_status": ""
+  },
+  "web": {
+    "head": "e9b5008453a5e8ffe21a42290d023d8596b84692",
+    "tracking_main": "e9b5008453a5e8ffe21a42290d023d8596b84692",
+    "direct_remote_main": "e9b5008453a5e8ffe21a42290d023d8596b84692",
+    "equal": true,
+    "tracked_status": ""
+  }
+}
