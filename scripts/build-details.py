@@ -237,7 +237,8 @@ def outputs():
     if detail_data()['apps']:
         pages[ROOT / 'assets/app-details-data.js'] = '// Generated from app-details.json.\nconst appDetails = ' + json.dumps(detail_data(), ensure_ascii=False, indent=2) + ';\n'
     for app in apps:
-        if app['id'] in data['apps'] and app['id'] not in ['unit-converter', 'ott-e']:
+        # These privacy policies are maintained separately from the planned-app template.
+        if app['id'] in data['apps'] and app['id'] not in ['unit-converter', 'ott-e', 'fraction-calculator']:
             pages[ROOT / f"privacy/{app['id']}.html"] = privacy_page(app)
     pages[ROOT / 'released.html'] = released_page(apps)
     namespace = 'http://www.sitemaps.org/schemas/sitemap/0.9'
