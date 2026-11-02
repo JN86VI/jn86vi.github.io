@@ -219,7 +219,11 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
               const card = page.locator(`.app-card[data-app="${a.id}"]`);
               assert.equal(await card.locator('p').innerText(),a.copy[lang].summary);
               assert.equal(await card.locator(`.badge.${a.status}`).textContent(),await page.evaluate(([l,status])=>ui[l]['status_'+status],[lang,a.status]));
-              assert.equal(await card.locator('[data-app-stage]').textContent(),await page.evaluate(([l,stage])=>ui[l][stage === 'planned' ? 'status_plan' : 'status_dev'],[lang,a.productStage]));
+              if (a.status === 'released') {
+                assert.equal(await card.locator('[data-app-stage]').count(),0,'Released cards omit the development stage');
+              } else {
+                assert.equal(await card.locator('[data-app-stage]').textContent(),await page.evaluate(([l,stage])=>ui[l][stage === 'planned' ? 'status_plan' : 'status_dev'],[lang,a.productStage]));
+              }
               assert.equal(await card.locator('.app-icon').getAttribute('src'),a.icon);
               assert.equal(await card.locator('.app-icon').getAttribute('alt'),'');
               assert.equal(await card.locator('.play-link').count(),sandbox.getPlayUrl(a)?1:0);

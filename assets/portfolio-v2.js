@@ -1,5 +1,5 @@
 // Public app presentations from the current canonical JN86 AppSpecs.
-// Public status policy: owner requests, 2026-10-06 and UC update 2026-10-12.
+// Public status policy: owner requests, 2026-10-06, UC 2026-10-12 and Ott e! production 2026-11-02.
 const APP_STATUSES = Object.freeze(['creating', 'soon', 'released']);
 
 // URL shape is checked here. Public production availability must be verified
@@ -118,7 +118,7 @@ const portfolioApps = [
   {
     "id": "ott-e",
     "name": "Ott e!",
-    "status": "soon",
+    "status": "released",
     "icon": "assets/ic_otte_master_1024_reference.png",
     "copy": {
       "en": {
@@ -202,7 +202,7 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null,
+    "playUrl": "https://play.google.com/store/apps/details?id=hu.jn86.otte",
     "productStage": "development"
   },
   {

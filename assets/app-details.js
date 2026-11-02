@@ -8,7 +8,13 @@
     const labels = appDetails.labels[lang];
     if (!labels) throw new Error(`Missing description language: ${lang}`);
     document.querySelector('[data-content-heading]').textContent = labels.heading;
-    document.querySelector('[data-content-notice]').textContent = labels[app.productStage === 'planned' ? 'planned' : 'testing'];
+    const notice = document.querySelector('[data-content-notice]');
+    notice.hidden = app.status === 'released';
+    notice.textContent = notice.hidden ? '' : labels[app.productStage === 'planned' ? 'planned' : 'testing'];
+    if (entry.safety) {
+      document.querySelector('[data-screen-safety-title]').textContent = entry.safety.title[lang];
+      document.querySelector('[data-screen-safety-text]').textContent = entry.safety.text[lang];
+    }
     for (const section of entry.sections) {
       const node = document.querySelector(`[data-content-section="${section.id}"]`);
       node.querySelector('[data-content-section-title]').textContent = section.title[lang];

@@ -60,7 +60,12 @@ def restored_sections(app):
     data = detail_data()
     entry = data['apps'][app['id']]
     labels = data['labels']['en']
-    notice = labels['planned'] if app['productStage'] == 'planned' else labels['testing']
+    notice = '' if app['status'] == 'released' else labels['planned'] if app['productStage'] == 'planned' else labels['testing']
+    safety = entry.get('safety')
+    safety_html = f'''<aside class="panel pet-safety" aria-labelledby="screen-safety-title">
+<h2 id="screen-safety-title" data-screen-safety-title>{html.escape(safety['title']['en'])}</h2>
+<p data-screen-safety-text>{html.escape(safety['text']['en'])}</p></aside>
+''' if safety else ''
     sections = []
     for section in entry['sections']:
         items = []
@@ -76,8 +81,8 @@ def restored_sections(app):
 <summary data-content-section-title>{html.escape(section['title']['en'])}</summary>
 {intro}<div class="detail-items">{''.join(items)}</div></details>''')
     return f'''<section class="section"><div class="wrap app-content">
-<p class="panel" data-content-notice>{html.escape(notice)}</p>
-<h2 data-content-heading>{html.escape(labels['heading'])}</h2>{''.join(sections)}</div></section>'''
+<p class="panel" data-content-notice{' hidden' if not notice else ''}>{html.escape(notice)}</p>
+{safety_html}<h2 data-content-heading>{html.escape(labels['heading'])}</h2>{''.join(sections)}</div></section>'''
 
 
 def extended_sections(app):

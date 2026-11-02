@@ -366,7 +366,7 @@ const appPages = {
           "permissions": "The game requires no camera, microphone, contacts or location. Opening privacy, contact or voluntary support uses the browser or email app separately.",
           "plans": "The current game has seven prey species and timed play. Online competitions, cloud profiles and advertising are not included.",
           "offline": "All gameplay works offline; voluntary website and email actions are separate.",
-          "version": "The current implemented game is being prepared for public availability."
+          "version": "Ott e! is publicly available on Google Play."
         },
         "hu": {
           "workflow": "Az indítóképernyőn válassz egy vagy több fajt a hét zsákmány közül, egy–húsz perces játékidőt, valamint hangot vagy rezgést. Nyomd meg az Indítást, és helyezd biztonságosan a készüléket a macska elé. Egyszerre egy zsákmány mozog; az érintések megváltoztatják a viselkedését. Az időzítő lezárja a játékot, a beállítások nem érhetők el egyszerű játékérintéssel.",
@@ -375,7 +375,7 @@ const appPages = {
           "permissions": "A játékhoz nem kell kamera, mikrofon, kontaktlista vagy helyadat. Az adatvédelem, kapcsolat és önkéntes támogatás külön böngészőt vagy levelezőt nyit.",
           "plans": "A jelenlegi játék hét zsákmányfajt és időzített játékmenetet tartalmaz. Online verseny, felhőprofil és reklám nincs benne.",
           "offline": "A teljes játék offline működik; az önkéntes webes és e-mail műveletek külön utak.",
-          "version": "A jelenlegi implementált játék nyilvános elérhetőségét készítjük elő."
+          "version": "Az Ott e! nyilvánosan elérhető a Google Playen."
         },
         "de": {
           "workflow": "Wähle auf dem Startbildschirm eine oder mehrere der sieben Beutearten, eine bis zwanzig Minuten Spielzeit sowie Ton oder Vibration. Drücke Start und lege das Gerät sicher vor deine Katze. Eine Beute bewegt sich gleichzeitig; Berührungen verändern ihr Verhalten. Der Timer beendet die Sitzung, und normale Spielberührungen öffnen keine Einstellungen.",
@@ -384,7 +384,7 @@ const appPages = {
           "permissions": "Das Spiel benötigt weder Kamera, Mikrofon, Kontakte noch Standort. Datenschutz, Kontakt und freiwilliger Support öffnen separat Browser oder Mailprogramm.",
           "plans": "Das aktuelle Spiel umfasst sieben Beutearten und zeitbegrenzte Sitzungen. Online-Wettbewerbe, Cloudprofile und Werbung sind nicht enthalten.",
           "offline": "Das gesamte Spiel funktioniert offline; freiwillige Website- und E-Mail-Aktionen sind getrennt.",
-          "version": "Das aktuelle umgesetzte Spiel wird für die öffentliche Verfügbarkeit vorbereitet."
+          "version": "Ott e! ist bei Google Play öffentlich verfügbar."
         },
         "es": {
           "workflow": "En la pantalla inicial, elige una o varias de las siete presas, entre uno y veinte minutos y sonido o vibración. Pulsa Iniciar y coloca el dispositivo de forma segura delante del gato. Se mueve una presa a la vez y los toques cambian su comportamiento. El temporizador termina la sesión; los toques de juego no abren los ajustes.",
@@ -393,7 +393,7 @@ const appPages = {
           "permissions": "El juego no necesita cámara, micrófono, contactos ni ubicación. Privacidad, contacto y apoyo voluntario abren por separado navegador o correo.",
           "plans": "El juego actual incluye siete especies y sesiones temporizadas. No incluye competiciones en línea, perfiles en la nube ni publicidad.",
           "offline": "Todo el juego funciona sin conexión; las acciones web y de correo son independientes.",
-          "version": "El juego actual implementado se prepara para su disponibilidad pública."
+          "version": "Ott e! ya está disponible para todo el público en Google Play."
         },
         "fr": {
           "workflow": "Sur l’écran initial, choisissez une ou plusieurs des sept proies, une durée d’une à vingt minutes et le son ou les vibrations. Appuyez sur Démarrer puis placez l’appareil en sécurité devant le chat. Une proie bouge à la fois ; les touches modifient son comportement. Le minuteur termine la session et les touches du jeu n’ouvrent pas les réglages.",
@@ -402,7 +402,7 @@ const appPages = {
           "permissions": "Le jeu ne nécessite ni caméra, microphone, contacts ni localisation. Confidentialité, contact et soutien facultatif ouvrent séparément navigateur ou messagerie.",
           "plans": "Le jeu actuel comprend sept proies et des sessions minutées. Compétitions en ligne, profils cloud et publicités ne sont pas inclus.",
           "offline": "Tout le jeu fonctionne hors ligne ; les actions web et de messagerie sont distinctes.",
-          "version": "Le jeu réalisé actuel est préparé pour sa disponibilité publique."
+          "version": "Ott e! est disponible pour tous sur Google Play."
         },
         "pt-BR": {
           "workflow": "Na tela inicial, escolha uma ou mais das sete presas, de um a vinte minutos e som ou vibração. Toque em Iniciar e coloque o aparelho com segurança diante do gato. Uma presa se move por vez; os toques mudam seu comportamento. O timer encerra a sessão e os toques normais do jogo não abrem os ajustes.",
@@ -411,7 +411,7 @@ const appPages = {
           "permissions": "O jogo não exige câmera, microfone, contatos ou localização. Privacidade, contato e apoio voluntário abrem navegador ou e-mail separadamente.",
           "plans": "O jogo atual tem sete presas e sessões temporizadas. Não inclui competições online, perfis na nuvem ou anúncios.",
           "offline": "Todo o jogo funciona offline; ações web e de e-mail são separadas.",
-          "version": "O jogo atual implementado está sendo preparado para disponibilidade pública."
+          "version": "Ott e! está disponível ao público no Google Play."
         },
         "pl": {
           "workflow": "Na ekranie startowym wybierz jedną lub kilka z siedmiu zdobyczy, czas od jednej do dwudziestu minut oraz dźwięk lub wibracje. Naciśnij Start i bezpiecznie połóż urządzenie przed kotem. Porusza się jedna zdobycz naraz, a dotknięcia zmieniają jej zachowanie. Zegar kończy sesję; zwykłe dotknięcia podczas gry nie otwierają ustawień.",
@@ -420,7 +420,7 @@ const appPages = {
           "permissions": "Gra nie wymaga kamery, mikrofonu, kontaktów ani lokalizacji. Prywatność, kontakt i dobrowolne wsparcie otwierają osobno przeglądarkę lub pocztę.",
           "plans": "Obecna gra obejmuje siedem zdobyczy i sesje na czas. Nie zawiera rywalizacji online, profili w chmurze ani reklam.",
           "offline": "Cała gra działa offline; dobrowolne działania web i e-mail są oddzielne.",
-          "version": "Obecna wykonana gra jest przygotowywana do publicznej dostępności."
+          "version": "Gra Ott e! jest publicznie dostępna w Google Play."
         },
         "it": {
           "workflow": "Nella schermata iniziale scegli una o più delle sette prede, da uno a venti minuti e suono o vibrazione. Premi Avvia e sistema il dispositivo in sicurezza davanti al gatto. Si muove una preda alla volta; i tocchi ne modificano il comportamento. Il timer termina la sessione e i normali tocchi del gioco non aprono le impostazioni.",
@@ -429,7 +429,7 @@ const appPages = {
           "permissions": "Il gioco non richiede fotocamera, microfono, contatti o posizione. Privacy, contatto e supporto volontario aprono separatamente browser o posta.",
           "plans": "Il gioco attuale include sette prede e sessioni a tempo. Gare online, profili cloud e annunci non sono inclusi.",
           "offline": "Tutto il gioco funziona offline; le azioni web ed e-mail sono separate.",
-          "version": "Il gioco attuale realizzato viene preparato per la disponibilità pubblica."
+          "version": "Ott e! è disponibile per tutti su Google Play."
         }
       }
     },

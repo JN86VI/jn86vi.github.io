@@ -3135,7 +3135,29 @@ const appDetails = {
             }
           ]
         }
-      ]
+      ],
+      "safety": {
+        "title": {
+          "en": "Screen and device protection",
+          "hu": "A kijelző és a készülék védelme",
+          "de": "Schutz von Bildschirm und Gerät",
+          "es": "Protección de la pantalla y del dispositivo",
+          "fr": "Protection de l’écran et de l’appareil",
+          "pt-BR": "Proteção da tela e do dispositivo",
+          "pl": "Ochrona ekranu i urządzenia",
+          "it": "Protezione dello schermo e del dispositivo"
+        },
+        "text": {
+          "en": "Cats may scratch or damage the screen while playing. We recommend using a scratch-resistant screen or a suitable screen protector. Use with pets is at your own risk. JN86VI is not responsible for screen or device damage caused by pets.",
+          "hu": "A macska játék közben megkarcolhatja vagy megsértheti a kijelzőt. Karcálló kijelző vagy megfelelő kijelzővédő használatát javasoljuk. A háziállattal történő használat saját felelősségre történik. A háziállat által okozott kijelző- vagy eszközkárért a JN86VI nem vállal felelősséget.",
+          "de": "Katzen können beim Spielen den Bildschirm zerkratzen oder beschädigen. Wir empfehlen einen kratzfesten Bildschirm oder einen geeigneten Displayschutz. Die Nutzung mit Haustieren erfolgt auf eigene Gefahr. JN86VI übernimmt keine Verantwortung für durch Haustiere verursachte Schäden am Bildschirm oder Gerät.",
+          "es": "Los gatos pueden arañar o dañar la pantalla al jugar. Recomendamos usar una pantalla resistente a los arañazos o un protector de pantalla adecuado. El uso con mascotas es bajo tu responsabilidad. JN86VI no se hace responsable de los daños que las mascotas causen en la pantalla o el dispositivo.",
+          "fr": "Les chats peuvent rayer ou endommager l’écran en jouant. Nous recommandons un écran résistant aux rayures ou une protection d’écran adaptée. L’utilisation avec des animaux de compagnie se fait à vos propres risques. JN86VI décline toute responsabilité pour les dommages causés par des animaux à l’écran ou à l’appareil.",
+          "pt-BR": "Os gatos podem arranhar ou danificar a tela enquanto brincam. Recomendamos usar uma tela resistente a arranhões ou uma película protetora adequada. O uso com animais de estimação é por sua conta e risco. A JN86VI não se responsabiliza por danos à tela ou ao dispositivo causados por animais de estimação.",
+          "pl": "Koty mogą porysować lub uszkodzić ekran podczas zabawy. Zalecamy ekran odporny na zarysowania lub odpowiednią osłonę ekranu. Korzystanie z aplikacji ze zwierzętami domowymi odbywa się na własne ryzyko. JN86VI nie ponosi odpowiedzialności za uszkodzenia ekranu lub urządzenia spowodowane przez zwierzęta domowe.",
+          "it": "I gatti possono graffiare o danneggiare lo schermo mentre giocano. Consigliamo uno schermo resistente ai graffi o una protezione per lo schermo adatta. L’uso con animali domestici è a tuo rischio e pericolo. JN86VI non è responsabile dei danni allo schermo o al dispositivo causati da animali domestici."
+        }
+      }
     },
     "age-date-toolkit": {
       "sections": [

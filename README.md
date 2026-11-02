@@ -6,14 +6,16 @@ Polish and Italian.
 
 Content authority: the current JN86 App Portfolio and Roadmap, Design Guide
 and each app’s canonical Functional Specification in the separate JN86 repo.
-The owner requests of 2026-10-06 and 2026-10-12 set public statuses:
-Unit Converter and Ott e! are Coming soon; the other 23 apps are In the works.
+The owner updates of 2026-10-06, 2026-10-12 and 2026-11-02 set public statuses:
+Ott e! is Available; Unit Converter is Coming soon; the other 23 apps are In the works.
 Only Coming soon apps are featured.
-Currently no app has a verified public production release. Ott e!'s closed
-Google Play test is not a public release. No release date is published.
-The separate product stage distinguishes the two apps in development from
-the other 23 planned apps. This stage does not change the public lifecycle
-badge or imply production availability. Unit Converter's active internal
+Ott e!'s public production listing was verified without a tester account on
+2026-11-02: [Ott e! on Google Play](https://play.google.com/store/apps/details?id=hu.jn86.otte).
+Its closed test has ended according to the owner's publication update.
+No release date is promised for the remaining apps.
+The separate product-stage field distinguishes the two implemented apps from
+the other 23 planned apps. It is hidden for released apps and does not override
+the public lifecycle badge or establish production availability. Unit Converter's active internal
 Play test is described explicitly on its detail and privacy pages.
 
 `assets/portfolio-v2.js` contains names, statuses and all eight translations.
@@ -30,7 +32,8 @@ Icons are copied without redrawing or regenerating the canonical assets.
 
 Public lifecycle: `creating` (In the works) → `soon` (Coming soon) → `released`
 (Available). The home showcase includes only `soon`; `released.html` includes
-only `released`, and currently displays a localized empty state. The full
+only `released`, and currently lists Ott e!. A localized empty state is used
+when there are no released apps. The full
 portfolio retains every app with its own current status.
 
 To publish an app after its actual public production launch, set its status to
@@ -62,6 +65,12 @@ in all eight languages. The generated `app-details-data.js`, scoped
 expandable sections. The generator requires all 25 descriptions. Planned
 pages identify their planned availability; descriptions must be checked
 against actual implementations before launch.
+Ott e!'s optional `safety` entry supplies its screen/device damage warning
+in all eight languages. Released detail pages hide the testing notice.
+The production Play CTA uses the existing shared component on the app detail,
+full portfolio and released catalog pages. The home showcase remains Coming
+soon only and links to the released catalog. Ott e!'s help page also reflects
+its public availability in all eight languages.
 `assets/app-pages.json` and its generated data retain the existing privacy
 content and availability notices. The privacy renderer remains separate.
 `privacy/unit-converter.html` remains a separate legal source, updated once
