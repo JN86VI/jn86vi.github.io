@@ -1,0 +1,734 @@
+{
+  "date": "2026-11-06",
+  "scope": "UC and FC privacy pages only",
+  "pages": [
+    {
+      "path": "privacy/unit-converter.html",
+      "sha256": "946c63c21e1411f52ab0109aafe1ef515c0764c8de5de718ebeb1d980e2fa490",
+      "html5_errors": [],
+      "static_english": "PASS",
+      "navigation_style_scripts_preserved": "PASS",
+      "existing_links_preserved": "PASS",
+      "internal_links_and_assets_checked": 19,
+      "fragment_links_checked": 0,
+      "languages": [
+        {
+          "language": "en",
+          "translation_fields": 52,
+          "preserved_fields": 35,
+          "render_fingerprint": "bf639cb2",
+          "result": "PASS"
+        },
+        {
+          "language": "hu",
+          "translation_fields": 52,
+          "preserved_fields": 33,
+          "render_fingerprint": "54da80cf",
+          "result": "PASS"
+        },
+        {
+          "language": "de",
+          "translation_fields": 52,
+          "preserved_fields": 34,
+          "render_fingerprint": "c1f68a43",
+          "result": "PASS"
+        },
+        {
+          "language": "es",
+          "translation_fields": 52,
+          "preserved_fields": 33,
+          "render_fingerprint": "778d2983",
+          "result": "PASS"
+        },
+        {
+          "language": "fr",
+          "translation_fields": 52,
+          "preserved_fields": 34,
+          "render_fingerprint": "17a08327",
+          "result": "PASS"
+        },
+        {
+          "language": "pt-BR",
+          "translation_fields": 52,
+          "preserved_fields": 33,
+          "render_fingerprint": "0f086c7c",
+          "result": "PASS"
+        },
+        {
+          "language": "pl",
+          "translation_fields": 52,
+          "preserved_fields": 34,
+          "render_fingerprint": "98c4857e",
+          "result": "PASS"
+        },
+        {
+          "language": "it",
+          "translation_fields": 52,
+          "preserved_fields": 34,
+          "render_fingerprint": "5fb0ef53",
+          "result": "PASS"
+        }
+      ]
+    },
+    {
+      "path": "privacy/fraction-calculator.html",
+      "sha256": "b961d1c16d4bb48af9ad7b61aaab8b411c4d45ca171e3883da0ce299abaace40",
+      "html5_errors": [],
+      "static_english": "PASS",
+      "navigation_style_scripts_preserved": "PASS",
+      "existing_links_preserved": "PASS",
+      "internal_links_and_assets_checked": 30,
+      "fragment_links_checked": 12,
+      "languages": [
+        {
+          "language": "en",
+          "translation_fields": 49,
+          "preserved_fields": 28,
+          "render_fingerprint": "9dd6a8a0",
+          "result": "PASS"
+        },
+        {
+          "language": "hu",
+          "translation_fields": 49,
+          "preserved_fields": 28,
+          "render_fingerprint": "86fc95d2",
+          "result": "PASS"
+        },
+        {
+          "language": "de",
+          "translation_fields": 49,
+          "preserved_fields": 28,
+          "render_fingerprint": "20c0a701",
+          "result": "PASS"
+        },
+        {
+          "language": "es",
+          "translation_fields": 49,
+          "preserved_fields": 28,
+          "render_fingerprint": "c2631919",
+          "result": "PASS"
+        },
+        {
+          "language": "fr",
+          "translation_fields": 49,
+          "preserved_fields": 28,
+          "render_fingerprint": "efceb9e4",
+          "result": "PASS"
+        },
+        {
+          "language": "pt-BR",
+          "translation_fields": 49,
+          "preserved_fields": 28,
+          "render_fingerprint": "274c598f",
+          "result": "PASS"
+        },
+        {
+          "language": "pl",
+          "translation_fields": 49,
+          "preserved_fields": 28,
+          "render_fingerprint": "b3782d55",
+          "result": "PASS"
+        },
+        {
+          "language": "it",
+          "translation_fields": 49,
+          "preserved_fields": 28,
+          "render_fingerprint": "e6cacfda",
+          "result": "PASS"
+        }
+      ]
+    }
+  ],
+  "result": "PASS",
+  "javascript_syntax": "PASS (two inline scripts per page)",
+  "browser": {
+    "result": "PASS",
+    "anchorChecks": [
+      {
+        "exists": true,
+        "id": "local",
+        "top": 100.0703125,
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "stored",
+        "top": 99.84375,
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "delete",
+        "top": 100.1171875,
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "backup",
+        "top": 100.1640625,
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "share",
+        "top": 99.9375,
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "consent",
+        "top": 100.2109375,
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "ads",
+        "top": 99.984375,
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "billing",
+        "top": 99.8515625,
+        "activation": "keyboard",
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "security",
+        "top": 99.8984375,
+        "activation": "keyboard",
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "external",
+        "top": 99.9453125,
+        "activation": "keyboard",
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "rights",
+        "top": 100.21875,
+        "activation": "keyboard",
+        "result": "PASS"
+      },
+      {
+        "exists": true,
+        "id": "providers",
+        "top": 99.9921875,
+        "activation": "keyboard",
+        "result": "PASS"
+      }
+    ],
+    "mobileMenu": "PASS",
+    "languagePersistence": {
+      "crossPage": "PASS",
+      "reload": "PASS"
+    },
+    "consoleErrors": [],
+    "resolvedFindings": [
+      {
+        "finding": "Long German consent heading overflowed UC at 360 px",
+        "resolution": "Shortened the German heading in both notices; final 48 states passed."
+      },
+      {
+        "finding": "A multiline TOC link center fell between text lines in automation",
+        "resolution": "Confirmed the hit was LI whitespace; native keyboard activation reached the existing anchor. No implementation change."
+      }
+    ],
+    "states": [
+      {
+        "page": "unit-converter",
+        "viewport": 1440,
+        "language": "en",
+        "fields": 52,
+        "fingerprint": "bf639cb2",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 1440,
+        "language": "hu",
+        "fields": 52,
+        "fingerprint": "54da80cf",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 1440,
+        "language": "de",
+        "fields": 52,
+        "fingerprint": "c1f68a43",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 1440,
+        "language": "es",
+        "fields": 52,
+        "fingerprint": "778d2983",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 1440,
+        "language": "fr",
+        "fields": 52,
+        "fingerprint": "17a08327",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 1440,
+        "language": "pt-BR",
+        "fields": 52,
+        "fingerprint": "0f086c7c",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 1440,
+        "language": "pl",
+        "fields": 52,
+        "fingerprint": "98c4857e",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 1440,
+        "language": "it",
+        "fields": 52,
+        "fingerprint": "5fb0ef53",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 768,
+        "language": "en",
+        "fields": 52,
+        "fingerprint": "bf639cb2",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 768,
+        "language": "hu",
+        "fields": 52,
+        "fingerprint": "54da80cf",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 768,
+        "language": "de",
+        "fields": 52,
+        "fingerprint": "c1f68a43",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 768,
+        "language": "es",
+        "fields": 52,
+        "fingerprint": "778d2983",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 768,
+        "language": "fr",
+        "fields": 52,
+        "fingerprint": "17a08327",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 768,
+        "language": "pt-BR",
+        "fields": 52,
+        "fingerprint": "0f086c7c",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 768,
+        "language": "pl",
+        "fields": 52,
+        "fingerprint": "98c4857e",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 768,
+        "language": "it",
+        "fields": 52,
+        "fingerprint": "5fb0ef53",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 360,
+        "language": "en",
+        "fields": 52,
+        "fingerprint": "bf639cb2",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 360,
+        "language": "hu",
+        "fields": 52,
+        "fingerprint": "54da80cf",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 360,
+        "language": "de",
+        "fields": 52,
+        "fingerprint": "c1f68a43",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 360,
+        "language": "es",
+        "fields": 52,
+        "fingerprint": "778d2983",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 360,
+        "language": "fr",
+        "fields": 52,
+        "fingerprint": "17a08327",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 360,
+        "language": "pt-BR",
+        "fields": 52,
+        "fingerprint": "0f086c7c",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 360,
+        "language": "pl",
+        "fields": 52,
+        "fingerprint": "98c4857e",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "unit-converter",
+        "viewport": 360,
+        "language": "it",
+        "fields": 52,
+        "fingerprint": "5fb0ef53",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 1440,
+        "language": "en",
+        "fields": 49,
+        "fingerprint": "9dd6a8a0",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 1440,
+        "language": "hu",
+        "fields": 49,
+        "fingerprint": "86fc95d2",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 1440,
+        "language": "de",
+        "fields": 49,
+        "fingerprint": "20c0a701",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 1440,
+        "language": "es",
+        "fields": 49,
+        "fingerprint": "c2631919",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 1440,
+        "language": "fr",
+        "fields": 49,
+        "fingerprint": "efceb9e4",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 1440,
+        "language": "pt-BR",
+        "fields": 49,
+        "fingerprint": "274c598f",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 1440,
+        "language": "pl",
+        "fields": 49,
+        "fingerprint": "b3782d55",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 1440,
+        "language": "it",
+        "fields": 49,
+        "fingerprint": "e6cacfda",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 768,
+        "language": "en",
+        "fields": 49,
+        "fingerprint": "9dd6a8a0",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 768,
+        "language": "hu",
+        "fields": 49,
+        "fingerprint": "86fc95d2",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 768,
+        "language": "de",
+        "fields": 49,
+        "fingerprint": "20c0a701",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 768,
+        "language": "es",
+        "fields": 49,
+        "fingerprint": "c2631919",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 768,
+        "language": "fr",
+        "fields": 49,
+        "fingerprint": "efceb9e4",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 768,
+        "language": "pt-BR",
+        "fields": 49,
+        "fingerprint": "274c598f",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 768,
+        "language": "pl",
+        "fields": 49,
+        "fingerprint": "b3782d55",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 768,
+        "language": "it",
+        "fields": 49,
+        "fingerprint": "e6cacfda",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 360,
+        "language": "en",
+        "fields": 49,
+        "fingerprint": "9dd6a8a0",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 360,
+        "language": "hu",
+        "fields": 49,
+        "fingerprint": "86fc95d2",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 360,
+        "language": "de",
+        "fields": 49,
+        "fingerprint": "20c0a701",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 360,
+        "language": "es",
+        "fields": 49,
+        "fingerprint": "c2631919",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 360,
+        "language": "fr",
+        "fields": 49,
+        "fingerprint": "efceb9e4",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 360,
+        "language": "pt-BR",
+        "fields": 49,
+        "fingerprint": "274c598f",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 360,
+        "language": "pl",
+        "fields": 49,
+        "fingerprint": "b3782d55",
+        "overflow": false,
+        "result": "PASS"
+      },
+      {
+        "page": "fraction-calculator",
+        "viewport": 360,
+        "language": "it",
+        "fields": 49,
+        "fingerprint": "e6cacfda",
+        "overflow": false,
+        "result": "PASS"
+      }
+    ]
+  },
+  "http": [
+    {
+      "url": "/apps.html",
+      "status": 200
+    },
+    {
+      "url": "/apps/fraction-calculator.html",
+      "status": 200
+    },
+    {
+      "url": "/assets/JN86_Logo_Lockup_White_Transparent.png",
+      "status": 200
+    },
+    {
+      "url": "/assets/icons/fraction-calculator.png",
+      "status": 200
+    },
+    {
+      "url": "/assets/mobile-menu.js?v=6",
+      "status": 200
+    },
+    {
+      "url": "/assets/pages.css?v=3",
+      "status": 200
+    },
+    {
+      "url": "/assets/site.js?v=8",
+      "status": 200
+    },
+    {
+      "url": "/assets/style.css?v=10",
+      "status": 200
+    },
+    {
+      "url": "/contact.html",
+      "status": 200
+    },
+    {
+      "url": "/index.html",
+      "status": 200
+    },
+    {
+      "url": "/privacy.html",
+      "status": 200
+    },
+    {
+      "url": "/privacy/fraction-calculator.html",
+      "status": 200
+    },
+    {
+      "url": "/privacy/unit-converter.html",
+      "status": 200
+    },
+    {
+      "url": "/support.html",
+      "status": 200
+    }
+  ]
+}
