@@ -1,0 +1,1001 @@
+{
+  "status": "PASS",
+  "date": "2026-11-06",
+  "scope": "Targeted local website update: three privacy pages, four portfolio counters, Contact Play block; eight languages.",
+  "repository": "JN86VI/jn86vi.github.io",
+  "original_checkout": "/home/meszaros/Asztal/JN86/Web_Sync_site",
+  "worktree": "/home/meszaros/Asztal/JN86/.worktrees/web-privacy-contact-20261106",
+  "branch": "codex/web-privacy-contact-20261106",
+  "base_commit": "fec7e1c615abcb0c088312e6a595a0b7034351d6",
+  "verified_remote_main": "fec7e1c615abcb0c088312e6a595a0b7034351d6",
+  "original_checkout_clean": true,
+  "commit_created": false,
+  "push_performed": false,
+  "published": false,
+  "adt_session_touched": false,
+  "android_sources_builds_and_devices_touched": false,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "117e7ca1253fc7fcb0bbaa9262f3f9653d3bcd81122cf5c437c5dae5c984dd26"
+    },
+    {
+      "path": "assets/privacy.css",
+      "sha256": "80f02fc7060816a243e7aaf537ec974558b5a40bc454419d7009ec9290bdc7ee"
+    },
+    {
+      "path": "assets/showcase-i18n.js",
+      "sha256": "36534378ac5481b3c4723e409edd2dcc08850c6330fa069325ea9d611f3f7a7e"
+    },
+    {
+      "path": "assets/site.js",
+      "sha256": "828cc59f10bba8ae26ef509777a8d273c825033bb2066e31189d7d267006f215"
+    },
+    {
+      "path": "assets/style.css",
+      "sha256": "ac8da794ddf00a964af4715d58f1e09e11d316f1d87b68246cbb0bdf0f882375"
+    },
+    {
+      "path": "contact.html",
+      "sha256": "56aab943dbb332a0572d450c907962ea6e0b6e5d9e8076484bc8e61f58dded0e"
+    },
+    {
+      "path": "index.html",
+      "sha256": "325f20ed3358d125d096edc4dc4c9324819894c308fec0e9fd0eb5a3cd4af576"
+    },
+    {
+      "path": "privacy/fraction-calculator.html",
+      "sha256": "3b6d9f0883290d559cbac92d0b9d32f9c603dc7404fc550748d9e645b5e80626"
+    },
+    {
+      "path": "privacy/ott-e.html",
+      "sha256": "df5d5e52cb10fb08ae8855fc857753ef6ae3474d9b571183420d7b7872d92e99"
+    },
+    {
+      "path": "privacy/unit-converter.html",
+      "sha256": "7b8dea610e2436882a0a4e1cc88f3f1a93fc310cfd0da4229fe2cfc26fd02539"
+    }
+  ],
+  "canonical_sources": [
+    "/home/meszaros/Asztal/JN86/Alapdoksik/App_Portfolio_es_Roadmap_v1.2.md",
+    "/home/meszaros/Asztal/JN86/Alapdoksik/01_Design_Guide_v1.0.md",
+    "/home/meszaros/Asztal/JN86/Alapdoksik/appspec/Fraction_Calculator_Functional_Specification_v0.2.md#fc-d13-owner-20261102",
+    "README.md",
+    "assets/portfolio-v2.js"
+  ],
+  "audience_decision": "Approved FC 18+ target audience and no age/date-of-birth collection preserved verbatim in the new audience section in all eight languages. Package ID moved to subdued metadata. No product or Play setting changed.",
+  "legal_preservation": [
+    {
+      "page": "fraction-calculator",
+      "locales": 8,
+      "sections": 13,
+      "html5_errors": 0,
+      "legal_fields_preserved": true,
+      "original_links_preserved": true,
+      "original_ids_preserved": true
+    },
+    {
+      "page": "unit-converter",
+      "locales": 8,
+      "sections": 15,
+      "html5_errors": 0,
+      "legal_fields_preserved": true,
+      "original_links_preserved": true,
+      "original_ids_preserved": true
+    },
+    {
+      "page": "ott-e",
+      "locales": 8,
+      "sections": 7,
+      "html5_errors": 0,
+      "legal_fields_preserved": true,
+      "original_links_preserved": true,
+      "original_ids_preserved": true
+    }
+  ],
+  "google_play_verification": {
+    "url": "https://play.google.com/store/apps/details?id=hu.jn86.otte",
+    "status": 200,
+    "title": "Ott e! - Apps on Google Play",
+    "publisher_matches": true,
+    "authentication": "none",
+    "checked_date": "2026-11-06"
+  },
+  "official_target_audience_reference": "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+  "validation": {
+    "html5_errors": 0,
+    "html5_pages_checked": 5,
+    "javascript_syntax": "PASS",
+    "existing_static_validator": "PASS: 25 canonical icons, 200 complete translations, three statuses, Play URI guards, templates, JS syntax, 1330 local links",
+    "browser": {
+      "status": "PASS",
+      "states": [
+        {
+          "route": "index.html",
+          "lang": "en",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "hu",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "de",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "es",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "fr",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "pt-BR",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "pl",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "it",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "en",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "hu",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "de",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "es",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "fr",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "pt-BR",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "pl",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "it",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "en",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "hu",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "de",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "es",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "fr",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "pt-BR",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "pl",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "it",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "en",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "hu",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "de",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "es",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "fr",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "pt-BR",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "pl",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "it",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "en",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "hu",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "de",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "es",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "fr",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "pt-BR",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "pl",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "it",
+          "width": 1440,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "en",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "hu",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "de",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "es",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "fr",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "pt-BR",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "pl",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "it",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "en",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "hu",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "de",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "es",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "fr",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "pt-BR",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "pl",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "it",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "en",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "hu",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "de",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "es",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "fr",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "pt-BR",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "pl",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "it",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "en",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "hu",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "de",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "es",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "fr",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "pt-BR",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "pl",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "it",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "en",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "hu",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "de",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "es",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "fr",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "pt-BR",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "pl",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "it",
+          "width": 768,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "en",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "hu",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "de",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "es",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "fr",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "pt-BR",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "pl",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "index.html",
+          "lang": "it",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "en",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "hu",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "de",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "es",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "fr",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "pt-BR",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "pl",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "contact.html",
+          "lang": "it",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "en",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "hu",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "de",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "es",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "fr",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "pt-BR",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "pl",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/fraction-calculator.html",
+          "lang": "it",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "en",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "hu",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "de",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "es",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "fr",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "pt-BR",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "pl",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/unit-converter.html",
+          "lang": "it",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "en",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "hu",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "de",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "es",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "fr",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "pt-BR",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "pl",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "privacy/ott-e.html",
+          "lang": "it",
+          "width": 320,
+          "status": "PASS"
+        },
+        {
+          "route": "apps.html",
+          "lang": "en",
+          "width": 1440,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "apps.html",
+          "lang": "hu",
+          "width": 1440,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "released.html",
+          "lang": "en",
+          "width": 1440,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "released.html",
+          "lang": "hu",
+          "width": 1440,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "privacy.html",
+          "lang": "en",
+          "width": 1440,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "privacy.html",
+          "lang": "hu",
+          "width": 1440,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "apps.html",
+          "lang": "en",
+          "width": 320,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "apps.html",
+          "lang": "hu",
+          "width": 320,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "released.html",
+          "lang": "en",
+          "width": 320,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "released.html",
+          "lang": "hu",
+          "width": 320,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "privacy.html",
+          "lang": "en",
+          "width": 320,
+          "status": "PASS",
+          "regression": true
+        },
+        {
+          "route": "privacy.html",
+          "lang": "hu",
+          "width": 320,
+          "status": "PASS",
+          "regression": true
+        }
+      ],
+      "anchorsActivated": 560,
+      "consoleErrors": [],
+      "localHttpTargets": [
+        {
+          "url": "http://127.0.0.1:8796/index.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/apps.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/about.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/support.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/privacy.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/contact.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/released.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/apps/unit-converter.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/help.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/privacy/fraction-calculator.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/apps/fraction-calculator.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/privacy/unit-converter.html",
+          "status": 200
+        },
+        {
+          "url": "http://127.0.0.1:8796/privacy/ott-e.html",
+          "status": 200
+        }
+      ],
+      "noJavaScriptPages": 5,
+      "languagePersistence": "PASS",
+      "catalogDrivenCountsAndContact": "PASS",
+      "screenshots": [
+        "index-html-hu-1440.png",
+        "contact-html-hu-1440.png",
+        "privacy-fraction-calculator-html-hu-1440.png",
+        "privacy-fraction-calculator-html-hu-1440-cards.png",
+        "privacy-unit-converter-html-hu-1440.png",
+        "privacy-unit-converter-html-hu-1440-cards.png",
+        "privacy-ott-e-html-hu-1440.png",
+        "privacy-ott-e-html-hu-1440-cards.png",
+        "index-html-hu-320.png",
+        "contact-html-hu-320.png",
+        "privacy-fraction-calculator-html-hu-320.png",
+        "privacy-unit-converter-html-hu-320.png",
+        "privacy-ott-e-html-hu-320.png"
+      ]
+    },
+    "visual_review": "Desktop and 320px screenshots reviewed; common privacy cards, mobile TOC wrapping, four counts and Contact layout confirmed.",
+    "git_diff_check": "PASS"
+  },
+  "preview_url": "http://127.0.0.1:8796/",
+  "browser_check_script": "/tmp/jn86-web-polish-20261106/browser-check.cjs",
+  "screenshots_directory": "/tmp/jn86-web-polish-20261106",
+  "owner_decisions_required": [],
+  "remaining_blockers": []
+}

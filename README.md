@@ -19,7 +19,9 @@ the public lifecycle badge or establish production availability. Unit Converter'
 Play test is described explicitly on its detail and privacy pages.
 
 `assets/portfolio-v2.js` contains names, statuses and all eight translations.
-Cards, detail pages and the home showcase use this same data. There is no
+Cards, detail pages, the home showcase, all four home counters and the Contact
+page's released-app Play links use this same data. The current counters are
+25 portfolio apps = 1 released + 1 coming soon + 23 in the works. There is no
 per-app highlight list and no English fallback for app descriptions.
 `assets/app-detail.js` updates every detail page with the selected language.
 `scripts/build-details.py` generates the static pages from one shared template,
@@ -73,8 +75,14 @@ soon only and links to the released catalog. Ott e!'s help page also reflects
 its public availability in all eight languages.
 `assets/app-pages.json` and its generated data retain the existing privacy
 content and availability notices. The privacy renderer remains separate.
-`privacy/unit-converter.html` remains a separate legal source, updated once
-under W7/G06 for active UMP/Ads/Billing. Ott e! privacy bytes are preserved.
+`privacy/unit-converter.html`, `privacy/fraction-calculator.html` and
+`privacy/ott-e.html` are separately maintained legal sources, excluded from
+the planned-app generator. They share `assets/privacy.css` for their section
+cards and top contents navigation. Each contents link reuses its section's
+translated heading and points to a stable section ID. Preserve app-specific
+legal text and external provider links when changing this presentation.
+Fraction Calculator's approved 18+ audience and absence of age collection
+are stated in its dedicated audience section; its package ID is quiet metadata.
 The privacy catalog links to all 25 dedicated pages. Inventory, checkpoints
 and the Hungarian closeout report are under `docs/w7-portfolio/`.
 The validator checks full content localization on every app/privacy route,

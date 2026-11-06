@@ -22,4 +22,8 @@
 .badge.released{background:rgba(45,140,255,.12);color:#9CC8FF;border:1px solid rgba(45,140,255,.3)}
 .app-card .play-link{margin-top:14px;align-self:flex-start;text-align:center}
 [data-app-play]:empty{display:none}
+.home-hero .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 16px}
+.home-hero .stats>div{min-width:0}
+.home-hero .stats span{overflow-wrap:anywhere}
+@media(max-width:640px){.home-hero .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 24px}}
 @media(max-width:640px){[data-catalog="released"] .page-hero h1{font-size:clamp(2.2rem,8vw,3.2rem)}}

@@ -1,0 +1,69 @@
+/* Shared presentation for the three separately maintained privacy policies. */
+.privacy-policy h1,
+.privacy-policy h2,
+.privacy-policy h3,
+.privacy-policy a {
+  overflow-wrap: anywhere;
+}
+
+.privacy-policy .page-hero h1 {
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
+  line-height: 1.08;
+  hyphens: auto;
+}
+
+.privacy-policy .policy-meta {
+  color: var(--muted);
+  font-size: .85rem;
+  overflow-wrap: anywhere;
+}
+
+.policy-content { padding: 32px 0 72px; }
+.policy-toc { margin-bottom: 24px; }
+.policy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+.policy-card {
+  min-width: 0;
+  scroll-margin-top: 98px;
+}
+.policy-card--wide { grid-column: 1 / -1; }
+.policy-toc h2,
+.policy-card h2 {
+  margin: 0 0 16px;
+  font-size: clamp(1.35rem, 2.3vw, 1.8rem);
+  line-height: 1.25;
+  letter-spacing: -.03em;
+}
+.policy-card h3 { margin: 24px 0 12px; line-height: 1.35; }
+.policy-card p { max-width: 90ch; line-height: 1.75; }
+.policy-card > :last-child { margin-bottom: 0; }
+.policy-contents {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 32px;
+  margin: 0;
+  padding-left: 22px;
+}
+.policy-contents a { display: block; padding-block: 4px; }
+.policy-card ul { padding-left: 22px; }
+.policy-card li + li { margin-top: 12px; }
+.privacy-policy a:not(.btn) {
+  color: #8FC1FF;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+.policy-actions { margin-bottom: 0; }
+
+@media (max-width: 920px) {
+  .policy-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 640px) {
+  .policy-content { padding: 24px 0 54px; }
+  .policy-toc,
+  .policy-card { padding: 24px 20px; }
+  .policy-contents { grid-template-columns: minmax(0, 1fr); }
+}
