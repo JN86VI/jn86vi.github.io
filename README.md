@@ -83,6 +83,14 @@ translated heading and points to a stable section ID. Preserve app-specific
 legal text and external provider links when changing this presentation.
 Fraction Calculator's approved 18+ audience and absence of age collection
 are stated in its dedicated audience section; its package ID is quiet metadata.
+`assets/privacy-age-date-toolkit.json` is the independent eight-language legal
+source for `privacy/age-date-toolkit.html`. The generator embeds both complete
+English HTML and all translations in that page, using the shared privacy CSS,
+language selector and mobile menu. Regenerate it with
+`python3 scripts/build-details.py --app age-date-toolkit`; `--check` verifies
+source/output parity. ADT portfolio status and app-detail copy are separate
+and do not supply this privacy policy.
+
 The privacy catalog links to all 25 dedicated pages. Inventory, checkpoints
 and the Hungarian closeout report are under `docs/w7-portfolio/`.
 The validator checks full content localization on every app/privacy route,
