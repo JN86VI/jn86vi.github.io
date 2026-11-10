@@ -1,5 +1,5 @@
 // Public app presentations from the current canonical JN86 AppSpecs.
-// Public status policy: owner requests; Ott e! production 2026-11-02, Unit Converter production 2026-11-10.
+// Public status policy: owner requests; Ott e! and Unit Converter released, FC and ADT coming soon (2026-11-10).
 const APP_STATUSES = Object.freeze(['creating', 'soon', 'released']);
 
 // URL shape is checked here. Public production availability must be verified
@@ -208,7 +208,7 @@ const portfolioApps = [
   {
     "id": "age-date-toolkit",
     "name": "Age & Date Toolkit",
-    "status": "creating",
+    "status": "soon",
     "icon": "assets/icons/age-date-toolkit.png",
     "copy": {
       "en": {
@@ -293,7 +293,7 @@ const portfolioApps = [
       }
     },
     "playUrl": null,
-    "productStage": "planned"
+    "productStage": "development"
   },
   {
     "id": "stopwatch-multi-timer",
@@ -388,7 +388,7 @@ const portfolioApps = [
   {
     "id": "fraction-calculator",
     "name": "Fraction Calculator",
-    "status": "creating",
+    "status": "soon",
     "icon": "assets/icons/fraction-calculator.png",
     "copy": {
       "en": {
@@ -473,7 +473,7 @@ const portfolioApps = [
       }
     },
     "playUrl": null,
-    "productStage": "planned"
+    "productStage": "development"
   },
   {
     "id": "last-done",

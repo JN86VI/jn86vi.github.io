@@ -7,7 +7,8 @@ Polish and Italian.
 Content authority: the current JN86 App Portfolio and Roadmap, Design Guide
 and each app’s canonical Functional Specification in the separate JN86 repo.
 The owner updates through 2026-11-10 set public statuses:
-Ott e! and Unit Converter are Available; the other 23 apps are In the works.
+Ott e! and Unit Converter are Available; Fraction Calculator and Age & Date
+Toolkit are Coming soon; the other 21 apps are In the works.
 Only Coming soon apps are featured.
 Ott e!'s public production listing was verified without a tester account on
 2026-11-02: [Ott e! on Google Play](https://play.google.com/store/apps/details?id=hu.jn86.otte).
@@ -15,16 +16,18 @@ Its closed test has ended according to the owner's publication update.
 Unit Converter's public listing was verified without cookies or a signed-in
 account on 2026-11-10: [Unit Converter on Google Play](https://play.google.com/store/apps/details?id=hu.jn86.unitconverter).
 This owner update supersedes the older UC development status in the JN86
-Portfolio. FC and ADT retain their existing public statuses.
+Portfolio. The owner's 2026-11-10 correction confirms that FC and ADT are in
+closed testing and Coming soon, superseding their older planned statuses in
+the Portfolio. Neither has a public Play installation link.
 No release date is promised for the remaining apps.
-The separate product-stage field distinguishes the two implemented apps from
-the other 23 planned apps. It is hidden for released apps and does not override
+The separate product-stage field distinguishes the four implemented apps from
+the other 21 planned apps. It is hidden for released apps and does not override
 the public lifecycle badge or establish production availability.
 
 `assets/portfolio-v2.js` contains names, statuses and all eight translations.
 Cards, detail pages, the home showcase, all four home counters and the Contact
 page's released-app Play links use this same data. The current counters are
-25 portfolio apps = 2 released + 0 coming soon + 23 in the works. There is no
+25 portfolio apps = 2 released + 2 coming soon + 21 in the works. There is no
 per-app highlight list and no English fallback for app descriptions.
 `assets/app-detail.js` updates every detail page with the selected language.
 `scripts/build-details.py` generates the static pages from one shared template,

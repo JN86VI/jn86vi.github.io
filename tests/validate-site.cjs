@@ -30,8 +30,8 @@ const catalog = JSON.parse(fs.readFileSync(path.join(root, 'docs/w7-portfolio/ca
 assert.equal(catalog.apps.length, 25);
 for (const app of apps) {
   const entry = appPages.apps[app.id];
-  assert.equal(app.productStage, ['unit-converter', 'ott-e'].includes(app.id) ? 'development' : 'planned');
-  assert.equal(entry.planned, !['unit-converter', 'ott-e'].includes(app.id));
+  assert.equal(app.productStage, ['unit-converter', 'ott-e', 'fraction-calculator', 'age-date-toolkit'].includes(app.id) ? 'development' : 'planned');
+  assert.equal(entry.planned, !['unit-converter', 'ott-e', 'fraction-calculator', 'age-date-toolkit'].includes(app.id));
   assert.deepEqual(Object.keys(entry.copy).sort(), [...locales].sort());
   assert(fs.existsSync(path.join(root, 'privacy', `${app.id}.html`)), `${app.id}: missing privacy page`);
   for (const locale of locales) {

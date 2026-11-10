@@ -36,7 +36,7 @@ const appPages = {
       "version": "The functions above belong to the documented plan for the first version. Features mentioned below as excluded or later ideas are not promised as current capabilities.",
       "android": "Android 7.0 or newer is the common planned baseline. Individual sensor and platform features still depend on the device.",
       "internal": "The app is in internal Google Play testing, including active ads and optional ad removal. There is no verified public production download yet.",
-      "soon": "Coming soon. The game is implemented and being prepared for public availability; a closed test is not a public release.",
+      "soon": "Coming soon. The app is in closed testing and is not yet publicly available to download.",
       "catalogIntro": "All 25 apps have an individual privacy page. Planned apps describe intended handling that will be checked before publication.",
       "supportOnly": "The game works offline, without ads or in-app purchases. Optional support opens the JN86 website and gives no gameplay benefit.",
       "modules": "The plan is entirely ad-free: free baseline material plus separately purchased expert modules, each bought once. Download and purchase or restore may require internet; installed content works offline. The starting content still needs expert validation.",
@@ -68,7 +68,7 @@ const appPages = {
       "version": "A fenti funkciók az első változat dokumentált tervéhez tartoznak. Az alább kizártként vagy későbbi ötletként említett funkciókat nem ígérjük jelenlegi képességként.",
       "android": "A közös tervezett alap Android 7.0 vagy újabb. Egyes szenzoros és rendszerfunkciók a készülék képességeitől függnek.",
       "internal": "Az app belső Google Play-tesztelésben működik, aktív reklámokkal és opcionális reklámmentesítéssel. Igazolt nyilvános kiadás még nincs.",
-      "soon": "Hamarosan. A játék implementációja elkészült, a nyilvános elérhetőséget készítjük elő; a zárt teszt nem nyilvános kiadás.",
+      "soon": "Hamarosan. Az alkalmazás zárt tesztelés alatt áll, nyilvánosan még nem tölthető le.",
       "catalogIntro": "Mind a 25 app saját adatvédelmi oldalt kapott. A tervezett appok szándékolt adatkezelését megjelenés előtt ellenőrizzük.",
       "supportOnly": "A játék offline, reklámok és alkalmazáson belüli vásárlás nélkül működik. Az önkéntes támogatás a JN86 weboldalát nyitja meg, és nem ad játékbeli előnyt.",
       "modules": "A terv teljesen reklámmentes: ingyenes alapanyag és külön-külön, egyszer megvásárolható szakértői modulok. Letöltéshez, vásárláshoz és helyreállításhoz internet kellhet; a telepített tartalom offline használható. Az induló tartalom szakértői ellenőrzése még szükséges.",
@@ -100,7 +100,7 @@ const appPages = {
       "version": "Die genannten Funktionen gehören zum dokumentierten Plan der ersten Version. Ausgeschlossene Funktionen oder spätere Ideen werden nicht als aktuelle Fähigkeiten zugesagt.",
       "android": "Android 7.0 oder neuer ist die gemeinsame geplante Mindestversion. Einzelne Sensor- und Systemfunktionen hängen vom Gerät ab.",
       "internal": "Die App wird intern über Google Play getestet, mit aktiver Werbung und optionaler Werbeentfernung. Ein bestätigter öffentlicher Download liegt noch nicht vor.",
-      "soon": "Demnächst. Das Spiel ist umgesetzt und wird für die öffentliche Verfügbarkeit vorbereitet; ein geschlossener Test ist keine öffentliche Veröffentlichung.",
+      "soon": "Demnächst. Die App befindet sich im geschlossenen Test und ist noch nicht öffentlich zum Download verfügbar.",
       "catalogIntro": "Alle 25 Apps haben eine eigene Datenschutzseite. Bei geplanten Apps wird die vorgesehene Verarbeitung vor Veröffentlichung geprüft.",
       "supportOnly": "Das Spiel läuft offline, ohne Werbung oder In-App-Käufe. Freiwillige Unterstützung öffnet die JN86-Website und bringt keinen Spielvorteil.",
       "modules": "Der Plan ist vollständig werbefrei: kostenlose Basisinhalte und separat einmalig kaufbare Expertenmodule. Download, Kauf und Wiederherstellung können Internet benötigen; installierte Inhalte funktionieren offline. Die Startinhalte benötigen noch fachliche Prüfung.",
@@ -132,7 +132,7 @@ const appPages = {
       "version": "Las funciones anteriores pertenecen al plan documentado para la primera versión. Las funciones excluidas o propuestas para más adelante no se presentan como capacidades actuales.",
       "android": "La base común prevista es Android 7.0 o posterior. Las funciones de sensores y del sistema dependen del dispositivo.",
       "internal": "La app está en pruebas internas de Google Play, con anuncios activos y eliminación opcional de anuncios. Todavía no hay una descarga pública de producción verificada.",
-      "soon": "Próximamente. El juego está implementado y se prepara su disponibilidad pública; una prueba cerrada no es un lanzamiento público.",
+      "soon": "Próximamente. La app está en pruebas cerradas y aún no está disponible para su descarga pública.",
       "catalogIntro": "Las 25 apps tienen su propia página de privacidad. En las apps previstas, el tratamiento propuesto se comprobará antes de publicarse.",
       "supportOnly": "El juego funciona sin conexión, sin anuncios ni compras dentro de la app. El apoyo voluntario abre la web JN86 y no aporta ventajas en el juego.",
       "modules": "El plan no incluye anuncios: contenido básico gratuito y módulos de expertos comprados por separado una sola vez. Descargar, comprar o restaurar puede necesitar internet; el contenido instalado funciona sin conexión. El contenido inicial aún necesita validación profesional.",
@@ -164,7 +164,7 @@ const appPages = {
       "version": "Les fonctions ci-dessus appartiennent au plan documenté de la première version. Les exclusions et idées ultérieures ne sont pas présentées comme des capacités actuelles.",
       "android": "La base commune prévue est Android 7.0 ou ultérieur. Certaines fonctions système et certains capteurs dépendent de l’appareil.",
       "internal": "L’application est en test interne Google Play, avec publicités actives et suppression facultative des annonces. Aucun téléchargement public en production n’est encore confirmé.",
-      "soon": "Bientôt. Le jeu est réalisé et sa disponibilité publique est en préparation ; un test fermé n’est pas une publication publique.",
+      "soon": "Bientôt. L’application est en test fermé et n’est pas encore disponible au téléchargement pour le public.",
       "catalogIntro": "Les 25 applications ont une page de confidentialité individuelle. Pour les applications prévues, le traitement envisagé sera vérifié avant publication.",
       "supportOnly": "Le jeu fonctionne hors ligne, sans publicité ni achat intégré. Le soutien facultatif ouvre le site JN86 et ne donne aucun avantage dans le jeu.",
       "modules": "Le plan est sans publicité : contenu de base gratuit et modules experts achetés séparément une seule fois. Téléchargement, achat et restauration peuvent nécessiter internet ; le contenu installé fonctionne hors ligne. Le contenu initial doit encore être validé par des spécialistes.",
@@ -196,7 +196,7 @@ const appPages = {
       "version": "As funções acima pertencem ao plano documentado da primeira versão. Funções excluídas ou ideias futuras não são anunciadas como capacidades atuais.",
       "android": "A base comum planejada é Android 7.0 ou superior. Certas funções do sistema e sensores dependem do aparelho.",
       "internal": "O app está em testes internos no Google Play, com anúncios ativos e remoção opcional de anúncios. Ainda não há download público de produção verificado.",
-      "soon": "Em breve. O jogo está implementado e sua disponibilidade pública está sendo preparada; um teste fechado não é lançamento público.",
+      "soon": "Em breve. O app está em teste fechado e ainda não está disponível para download público.",
       "catalogIntro": "Os 25 apps têm uma página de privacidade própria. Nos apps planejados, o tratamento proposto será verificado antes da publicação.",
       "supportOnly": "O jogo funciona offline, sem anúncios nem compras no app. O apoio voluntário abre o site JN86 e não dá vantagem no jogo.",
       "modules": "O plano é totalmente sem anúncios: conteúdo básico gratuito e módulos de especialistas comprados separadamente uma única vez. Downloads, compras e restauração podem exigir internet; o conteúdo instalado funciona offline. O conteúdo inicial ainda precisa de validação especializada.",
@@ -228,7 +228,7 @@ const appPages = {
       "version": "Powyższe funkcje należą do udokumentowanego planu pierwszej wersji. Wyłączenia i późniejsze pomysły nie są obiecywane jako obecne możliwości.",
       "android": "Wspólną planowaną podstawą jest Android 7.0 lub nowszy. Poszczególne funkcje systemowe i czujniki zależą od urządzenia.",
       "internal": "Aplikacja jest testowana wewnętrznie w Google Play, z aktywnymi reklamami i opcjonalnym ich usunięciem. Nie potwierdzono jeszcze publicznego pobierania wersji produkcyjnej.",
-      "soon": "Wkrótce. Gra została wykonana i jest przygotowywana do publicznej dostępności; test zamknięty nie jest publiczną premierą.",
+      "soon": "Wkrótce. Aplikacja jest w fazie testów zamkniętych i nie jest jeszcze dostępna do publicznego pobrania.",
       "catalogIntro": "Wszystkie 25 aplikacji mają osobną stronę prywatności. W aplikacjach planowanych sposób przetwarzania zostanie sprawdzony przed publikacją.",
       "supportOnly": "Gra działa offline, bez reklam i zakupów w aplikacji. Dobrowolne wsparcie otwiera stronę JN86 i nie daje przewagi w grze.",
       "modules": "Plan jest całkowicie bez reklam: darmowe materiały podstawowe i osobno kupowane jednorazowo moduły ekspertów. Pobranie, zakup lub przywrócenie mogą wymagać internetu; zainstalowane treści działają offline. Materiały początkowe nadal wymagają weryfikacji specjalistów.",
@@ -260,7 +260,7 @@ const appPages = {
       "version": "Le funzioni sopra appartengono al piano documentato della prima versione. Funzioni escluse o idee future non sono promesse come capacità attuali.",
       "android": "La base comune prevista è Android 7.0 o successivo. Singole funzioni del sistema e sensori dipendono dal dispositivo.",
       "internal": "L’app è in test interno su Google Play, con annunci attivi e rimozione facoltativa. Non è ancora verificato un download pubblico di produzione.",
-      "soon": "In arrivo. Il gioco è realizzato e si prepara la disponibilità pubblica; un test chiuso non è una pubblicazione pubblica.",
+      "soon": "In arrivo. L’app è in fase di test chiuso e non è ancora disponibile pubblicamente per il download.",
       "catalogIntro": "Tutte le 25 app hanno una pagina di privacy individuale. Per le app pianificate, il trattamento previsto sarà verificato prima della pubblicazione.",
       "supportOnly": "Il gioco funziona offline, senza annunci né acquisti in-app. Il supporto volontario apre il sito JN86 e non offre vantaggi nel gioco.",
       "modules": "Il piano è interamente senza annunci: contenuto base gratuito e moduli esperti acquistabili separatamente una sola volta. Download, acquisto e ripristino possono richiedere internet; i contenuti installati funzionano offline. Il contenuto iniziale richiede ancora validazione specialistica.",
@@ -434,7 +434,7 @@ const appPages = {
       }
     },
     "age-date-toolkit": {
-      "planned": true,
+      "planned": false,
       "monetization": "ads",
       "copy": {
         "en": {
@@ -558,7 +558,7 @@ const appPages = {
       }
     },
     "fraction-calculator": {
-      "planned": true,
+      "planned": false,
       "monetization": "ads",
       "copy": {
         "en": {
