@@ -20,4 +20,9 @@ Dátum: 2026-11-10. Repository: `JN86VI/jn86vi.github.io`, ág: `main`.
 
 ## Közzététel
 
-A helyi ellenőrzések lezárultak. A `main` push utáni GitHub Pages-futás és az éles visszaellenőrzés eredménye a közzététel után kerül ide.
+- **PASS:** a tartalmi commit [`d9c98abbd1ad8830f3b0780cfce91bba5db870fb`](https://github.com/JN86VI/jn86vi.github.io/commit/d9c98abbd1ad8830f3b0780cfce91bba5db870fb) a távoli `main` ágon van. A GitHub-integrációval közzétett Git-fa pontosan megegyezik a helyben ellenőrzött változattal; a helyi ág szinkronizálva.
+- **PASS:** [GitHub Pages build és deployment](https://github.com/JN86VI/jn86vi.github.io/actions/runs/42800816606), `completed / success`.
+- **PASS:** a hat érintett HTML/JavaScript-fájl éles HTTP 200 válasza bájtra megegyezik a helyi forrással. Az éles oldalon is 96/96 nyelv–oldal–képernyőszélesség állapot PASS; a főoldali navigáció és a UC Play-gombja tényleges kattintással ellenőrizve.
+- Éles eredmény: [Megjelent alkalmazások](https://jn86vi.github.io/released.html), [Unit Converter](https://jn86vi.github.io/apps/unit-converter.html).
+
+Összesített eredmény: **PASS**. Ez a lezáró jelentésfrissítés csak dokumentációt módosít.
