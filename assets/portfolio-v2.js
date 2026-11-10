@@ -1,5 +1,5 @@
 // Public app presentations from the current canonical JN86 AppSpecs.
-// Public status policy: owner requests, 2026-10-06, UC 2026-10-12 and Ott e! production 2026-11-02.
+// Public status policy: owner requests; Ott e! production 2026-11-02, Unit Converter production 2026-11-10.
 const APP_STATUSES = Object.freeze(['creating', 'soon', 'released']);
 
 // URL shape is checked here. Public production availability must be verified
@@ -28,7 +28,7 @@ const portfolioApps = [
   {
     "id": "unit-converter",
     "name": "Unit Converter",
-    "status": "soon",
+    "status": "released",
     "icon": "assets/ic_unit_converter_512.png?v=18199c16b800",
     "copy": {
       "en": {
@@ -112,7 +112,7 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null,
+    "playUrl": "https://play.google.com/store/apps/details?id=hu.jn86.unitconverter",
     "productStage": "development"
   },
   {
