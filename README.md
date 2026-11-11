@@ -98,11 +98,14 @@ source/output parity. ADT portfolio status and app-detail copy are separate
 and do not supply this privacy policy.
 
 `assets/privacy-material-calculator.json` uses the same dedicated renderer for
-MC's current offline preview. It distinguishes local presets/settings and
-Android backups from the inactive planned Ads/UMP/Billing integration.
-Regenerate with `python3 scripts/build-details.py --app material-calculator`.
-The app's preview package differs from its eventual production package;
-this policy currently identifies the preview. ADT's generated page is unchanged.
+MC's approved V1 privacy policy, including local presets/settings, Android
+backup, AdMob, UMP, Play Billing and external services. It identifies the final
+`hu.jn86.materialcalculator` package. The owner's 2026-11-11 decision makes the
+approved V1 behavior the policy authority; preview readiness is recorded in the
+Android implementation report, not the public policy. Reconcile actual M2-B
+differences through targeted policy updates before release. Regenerate with
+`python3 scripts/build-details.py --app material-calculator`.
+ADT's generated page remains unchanged.
 
 The privacy catalog links to all 25 dedicated pages. Inventory, checkpoints
 and the Hungarian closeout report are under `docs/w7-portfolio/`.

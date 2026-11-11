@@ -94,7 +94,7 @@ def dedicated_privacy_page(app):
     slug = app['id']
     short = {'age-date-toolkit': 'ADT', 'material-calculator': 'MC'}[slug]
     package = {'age-date-toolkit': 'hu.jn86.agedatetoolkit',
-               'material-calculator': 'hu.jn86.materialcalculator.m2preview'}[slug]
+               'material-calculator': 'hu.jn86.materialcalculator'}[slug]
     data = json.loads((ROOT / f'assets/privacy-{slug}.json').read_text())
     locales = ['en', 'hu', 'de', 'es', 'fr', 'pt-BR', 'pl', 'it']
     if data['locales'] != locales or set(data['copy']) != set(locales):
