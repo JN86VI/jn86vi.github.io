@@ -97,6 +97,13 @@ language selector and mobile menu. Regenerate it with
 source/output parity. ADT portfolio status and app-detail copy are separate
 and do not supply this privacy policy.
 
+`assets/privacy-material-calculator.json` uses the same dedicated renderer for
+MC's current offline preview. It distinguishes local presets/settings and
+Android backups from the inactive planned Ads/UMP/Billing integration.
+Regenerate with `python3 scripts/build-details.py --app material-calculator`.
+The app's preview package differs from its eventual production package;
+this policy currently identifies the preview. ADT's generated page is unchanged.
+
 The privacy catalog links to all 25 dedicated pages. Inventory, checkpoints
 and the Hungarian closeout report are under `docs/w7-portfolio/`.
 The validator checks full content localization on every app/privacy route,
