@@ -60,7 +60,7 @@ def restored_sections(app):
     data = detail_data()
     entry = data['apps'][app['id']]
     labels = data['labels']['en']
-    notice = '' if app['status'] == 'released' else labels['planned'] if app['productStage'] == 'planned' else labels['testing']
+    notice = '' if app['status'] == 'released' or app.get('showDevelopmentStatus') is False else labels['planned'] if app['productStage'] == 'planned' else labels['testing']
     safety = entry.get('safety')
     safety_html = f'''<aside class="panel pet-safety" aria-labelledby="screen-safety-title">
 <h2 id="screen-safety-title" data-screen-safety-title>{html.escape(safety['title']['en'])}</h2>
@@ -87,6 +87,19 @@ def restored_sections(app):
 
 def extended_sections(app):
     return restored_sections(app)
+
+
+def holiday_card(app):
+    if app['id'] != 'unit-converter':
+        return ''
+    url = play_url(app)
+    if not url:
+        raise ValueError('UC holiday notice requires its verified Play listing')
+    return f'''<div class="wrap"><aside class="panel uc-holiday" id="uc-holiday" hidden aria-labelledby="uc-holiday-title">
+<h2 id="uc-holiday-title"></h2><p></p>
+<a class="btn secondary" href="{html.escape(url, quote=True)}"></a>
+</aside></div>
+  '''
 
 
 def dedicated_privacy_page(app):
@@ -208,8 +221,12 @@ def privacy_page(app):
 
 
 def page(app):
-    detail_style = '<link rel="stylesheet" href="../assets/app-details.css">'
-    detail_scripts = '<script src="../assets/app-details-data.js"></script>\n<script src="../assets/app-details.js"></script>'
+    refreshed = app['id'] in {'material-calculator', 'unit-converter'}
+    revision = '?v=20261113' if refreshed else ''
+    detail_style = f'<link rel="stylesheet" href="../assets/app-details.css{revision}">'
+    detail_scripts = f'<script src="../assets/app-details-data.js{revision}"></script>\n<script src="../assets/app-details.js{revision}"></script>'
+    if app['id'] == 'unit-converter':
+        detail_scripts += '\n<script src="../assets/uc-holiday.js"></script>'
     esc = html.escape
     name = esc(app['name'])
     copy = app['copy']['en']
@@ -219,6 +236,9 @@ def page(app):
     icon = f'<img class="detail-icon" src="../{app["icon"]}" width="150" height="150" alt="">' if app['icon'] else ''
     status = {'soon': 'Coming soon', 'creating': 'In the works', 'released': 'Available'}[app['status']]
     stage = 'Planned' if app['productStage'] == 'planned' else 'In development'
+    hide_development = app.get('showDevelopmentStatus') is False
+    if hide_development:
+        status = stage = ''
     features = ''.join(f'<li>{esc(text)}</li>' for text in copy['features'])
     availability = {'soon': 'Coming soon. This app is not yet available to download.',
                     'creating': 'This app is being created. The features described here are planned; it is not yet available to download.',
@@ -226,6 +246,8 @@ def page(app):
     entry = extended_data()['apps'].get(app['id'])
     if entry and not entry['planned'] and app['status'] != 'released':
         availability = extended_data()['labels']['en']['internal' if app['id'] == 'unit-converter' else 'soon']
+    if hide_development:
+        availability = ''
     url_to_play = play_url(app)
     play = f'<a class="btn primary play-link" href="{esc(url_to_play, quote=True)}" aria-label="View on Google Play: {name}">View on Google Play</a>' if url_to_play else ''
     related = f'<a class="btn secondary" href="../privacy/{app["id"]}.html" data-i18n="nav_privacy">Privacy</a>'
@@ -260,24 +282,24 @@ def page(app):
     <p class="eyebrow" data-i18n="detail_title">App details</p>
     <h1>{name}</h1>
     <p class="lead" data-app-summary>{esc(copy['summary'])}</p>
-    <div class="detail-meta"><span class="badge {app['status']}" data-app-status>{status}</span><span class="badge neutral" data-app-stage{' hidden' if app['status'] == 'released' else ''}>{stage}</span><span class="badge neutral">Android</span></div>
+    <div class="detail-meta"><span class="badge {app['status']}" data-app-status{' hidden' if hide_development else ''}>{status}</span><span class="badge neutral" data-app-stage{' hidden' if app['status'] == 'released' or hide_development else ''}>{stage}</span><span class="badge neutral">Android</span></div>
   </div></div></section>
   <section class="section"><div class="wrap split">
     <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>{esc(copy['overview'])}</p></div>
     <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features>{features}</ul></div>
   </div></section>
-  {extended_sections(app)}
+  {holiday_card(app)}{extended_sections(app)}
   <section class="section alt"><div class="wrap">
-    <h2 data-i18n="availability_title">Availability</h2>
-    <p class="lead" data-app-availability>{availability}</p>
+    <h2 data-i18n="availability_title"{' hidden' if hide_development else ''}>Availability</h2>
+    <p class="lead" data-app-availability{' hidden' if hide_development else ''}>{availability}</p>
     <div class="hero-actions"><a class="btn secondary" href="../apps.html" data-i18n="back_apps">← Back to apps</a>{related}<span data-app-play>{play}</span></div>
   </div></section>
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
-<script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=6"></script>
+<script src="../assets/site.js?v={9 if refreshed else 8}"></script>
+<script src="../assets/portfolio-v2.js?v={7 if refreshed else 6}"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
-<script src="../assets/app-detail.js?v=3"></script>
+<script src="../assets/app-detail.js?v={4 if refreshed else 3}"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
 {detail_scripts}
 </body>

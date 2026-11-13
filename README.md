@@ -23,6 +23,10 @@ No release date is promised for the remaining apps.
 The separate product-stage field distinguishes the four implemented apps from
 the other 21 planned apps. It is hidden for released apps and does not override
 the public lifecycle badge or establish production availability.
+The owner's 2026-11-13 instruction sets MC public descriptions to the approved
+final functionality. Its `showDevelopmentStatus: false` omits development
+badges and notices on the detail page and portfolio card without marking it
+released or adding an unverified Play link. Internal catalog totals are unchanged.
 
 `assets/portfolio-v2.js` contains names, statuses and all eight translations.
 Cards, detail pages, the home showcase, all four home counters and the Contact
@@ -106,6 +110,21 @@ Android implementation report, not the public policy. Reconcile actual M2-B
 differences through targeted policy updates before release. Regenerate with
 `python3 scripts/build-details.py --app material-calculator`.
 ADT's generated page remains unchanged.
+
+The 2026-11-13 MC update follows the approved UI-39–44 / MC-FUNC-02 supplement:
+manual project saving, material totals, shopping lists, PDF and complete backup.
+`assets/privacy-material-calculator.json` also covers these data flows while
+preserving Ads, UMP, Billing and external-service disclosures. Match the final
+Android implementation and Play Data Safety declaration before app release.
+
+UC's single holiday notice uses `assets/uc-holiday.js` and the existing detail
+card style. It is visible from publication, describes the approved Play window,
+and is hidden from `2027-01-05T00:00:00Z`, including open or resumed pages.
+Initial HTML is hidden, so JavaScript-disabled visits cannot show a stale offer.
+There are no numeric prices or percentage discounts. No scheduled commit is needed.
+Run `tests/validate-web-uc-mc-20261113.cjs` against the local server or `BASE_URL`
+for the eight-language, responsive, UTC boundary and no-JavaScript checks;
+`OUTPUT_DIR` writes evidence outside the source tree.
 
 The privacy catalog links to all 25 dedicated pages. Inventory, checkpoints
 and the Hungarian closeout report are under `docs/w7-portfolio/`.

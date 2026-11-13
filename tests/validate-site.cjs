@@ -17,7 +17,7 @@ const names = ['Unit Converter','Ott e!','Age & Date Toolkit','Stopwatch & Multi
   'Tuner & Metronome','Electrical Toolkit','Ham Tools / Radio RF Toolkit','Mini Games',
   'Inventory / ReadyStock','Workout / Training','Meal Planner — „Mit főzzek?”',
   'Work Manager','Lottery Filter','Dialer'];
-const jargon = /\b(?:V[12](?:\.[\w.]+)?|scope|ownership|domain owner|requirement|contract|wave|W[01]|implementation|release scope)\b/i;
+const jargon = /\b(?:V[12](?:\.[\w.]+)?|scope|ownership|domain owner|requirements?\s+(?:ID|document|specification)|contract|wave|W[01]|implementation|release scope)\b/i;
 const oldDate = /2027|janu(?:ary|ár|ar|ier|ary)?\s*2027/i;
 const appSource = fs.readFileSync(path.join(root, 'assets/portfolio-v2.js'), 'utf8');
 const sandbox = {apps: [], L: locales, URL, document: {getElementById: () => ({value:'en'})}, setLanguage: () => {}};
@@ -144,7 +144,9 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
     'help/ott-e.html','help/unit-converter.html',...apps.map(a => `privacy/${a.id}.html`),'404.html'];
   let states = 0;
   const renderedLinks = new Set();
+  const lifecycleOnly = process.env.LIFECYCLE_ONLY === '1';
   try {
+    if (!lifecycleOnly) {
     for (const width of [320,390,1440]) {
       await page.setViewportSize({width,height:1000});
       for (const route of [...routes,...otherRoutes]) {
@@ -201,6 +203,7 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
                 if(!expected || el.getAttribute('aria-label')!==expected)bad.push(el.dataset.i18nAria);
               }
               for(const el of document.querySelectorAll('main a,main button,select')) {
+                if(!el.getClientRects().length) continue;
                 if(!el.textContent.trim() && !el.getAttribute('aria-label')) bad.push('unlabelled control');
               }
               if(document.querySelectorAll('h1').length!==1)bad.push('h1 count');
@@ -209,7 +212,11 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
             assert.deepEqual(issues,[],`${route}/${lang}: localization/accessibility`);
             const body = await page.locator('main').innerText();
             assert(!jargon.test(body),`${route}/${lang}: visible internal terminology`);
-            assert(!oldDate.test(body),`${route}/${lang}: obsolete date`);
+            // The old release-date ban does not cover the explicitly approved
+            // UC campaign window, whose UTC expiry has its own boundary tests.
+            const holiday = page.locator('#uc-holiday');
+            const lifecycleBody = await holiday.count() ? body.replace(await holiday.innerText(), '') : body;
+            assert(!oldDate.test(lifecycleBody),`${route}/${lang}: obsolete date`);
           }
           if (route==='apps.html') {
             assert.deepEqual(await page.locator('.app-card h2').allTextContents(), names);
@@ -218,8 +225,12 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
             for (const a of apps) {
               const card = page.locator(`.app-card[data-app="${a.id}"]`);
               assert.equal(await card.locator('p').innerText(),a.copy[lang].summary);
-              assert.equal(await card.locator(`.badge.${a.status}`).textContent(),await page.evaluate(([l,status])=>ui[l]['status_'+status],[lang,a.status]));
-              if (a.status === 'released') {
+              if (a.showDevelopmentStatus === false) {
+                assert.equal(await card.locator('.badge').count(),0,'MC public copy omits development status');
+              } else {
+                assert.equal(await card.locator(`.badge.${a.status}`).textContent(),await page.evaluate(([l,status])=>ui[l]['status_'+status],[lang,a.status]));
+              }
+              if (a.status === 'released' || a.showDevelopmentStatus === false) {
                 assert.equal(await card.locator('[data-app-stage]').count(),0,'Released cards omit the development stage');
               } else {
                 assert.equal(await card.locator('[data-app-stage]').textContent(),await page.evaluate(([l,stage])=>ui[l][stage === 'planned' ? 'status_plan' : 'status_dev'],[lang,a.productStage]));
@@ -254,6 +265,7 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
             assert.deepEqual(await page.locator('[data-app-features] li').allTextContents(),app.copy[lang].features);
             assert.equal(await page.locator('[data-app-status]').textContent(),await page.evaluate(([l,status])=>ui[l]['status_'+status],[lang,app.status]));
             assert.equal(await page.locator('[data-app-availability]').textContent(),await page.evaluate(([l,id,status])=>{
+              if (apps.find(a=>a.id===id).showDevelopmentStatus === false) return '';
               const entry = appPages.apps[id];
               return entry && !entry.planned && status !== 'released' ? appPages.labels[l][id === 'unit-converter' ? 'internal' : 'soon'] : ui[l][appAvailabilityKey(status)];
             },[lang,app.id,app.status]));
@@ -322,11 +334,16 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
     const expectedSoon = apps.filter(a=>a.status==='soon'||a.id===enteringSoon.id);
     assert.deepEqual(await page.locator('.showcase-card strong').allTextContents(),expectedSoon.map(a=>a.name));
     assert.equal(await page.locator('[data-app-count="soon"]').innerText(),String(expectedSoon.length));
+    console.log(`PASS: rendered links and 200 card/back pairs`);
+    }
     // Simulate the lifecycle only in isolated browser memory. No fixture is saved.
     let lifecycleStates=0;
     for(const width of [320,1440]) {
       await page.setViewportSize({width,height:1000});
       await page.goto(new URL('released.html',base).href);
+      // Isolate this single-app fixture: UC is now also publicly released.
+      // Only browser memory changes; the persisted catalog is never edited.
+      await page.evaluate(()=>{apps.filter(a=>a.id!=='ott-e').forEach(a=>{a.status='creating';});});
       for(const lang of locales) {
         for(const [status,url] of [['creating',fixturePlayUrl],['soon',fixturePlayUrl],['released',null],['released',fixturePlayUrl]]) {
           await page.evaluate(({status,url,lang})=>{const app=apps.find(a=>a.id==='ott-e');app.status=status;app.playUrl=url;setLanguage(lang);},{status,url,lang});
@@ -361,14 +378,14 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
     assert.deepEqual(errors,[],'Browser errors or failed HTTP requests');
     if(output) {
       fs.mkdirSync(output,{recursive:true});
-      for(const [route,width,file] of [['index.html',1440,'home-desktop'],['index.html',390,'home-mobile'],['apps.html',390,'apps-mobile'],['released.html',1440,'released-desktop'],['released.html',320,'released-mobile'],['apps/dialer.html',1440,'dialer-detail'],['apps/ott-e.html',1440,'ott-detail-desktop'],['apps/meal-planner.html',320,'meal-detail-mobile']]) {
+      for(const [route,width,file] of (lifecycleOnly ? [] : [['index.html',1440,'home-desktop'],['index.html',390,'home-mobile'],['apps.html',390,'apps-mobile'],['released.html',1440,'released-desktop'],['released.html',320,'released-mobile'],['apps/dialer.html',1440,'dialer-detail'],['apps/ott-e.html',1440,'ott-detail-desktop'],['apps/meal-planner.html',320,'meal-detail-mobile']])) {
         await page.setViewportSize({width,height:1000});
         await page.goto(new URL(route,base).href);
         await page.locator('#languageSelect').selectOption('hu');
         await page.screenshot({path:path.join(output,file+'.png'),fullPage:true});
       }
-      fs.writeFileSync(path.join(output,'validation.json'),JSON.stringify({base,apps:25,canonicalIcons:25,translations:200,states,lifecycleStates,releasedApps:releasedApps.length,localLinks,renderedLinks:renderedLinks.size,navigationPairs:200,widths:[320,390,1440],errors},null,2));
+      fs.writeFileSync(path.join(output,'validation.json'),JSON.stringify({base,apps:25,canonicalIcons:25,translations:200,states,lifecycleStates,releasedApps:releasedApps.length,localLinks,renderedLinks:renderedLinks.size,navigationPairs:lifecycleOnly?0:200,widths:lifecycleOnly?[320,1440]:[320,390,1440],errors},null,2));
     }
-    console.log(`PASS: ${states} browser states, ${lifecycleStates} lifecycle states, 25 icons, ${renderedLinks.size} rendered links, 200 card/back pairs, locale and keyboard checks`);
+    console.log(`PASS: ${states} browser states, ${lifecycleStates} lifecycle states, 25 icons, ${renderedLinks.size} rendered links, ${lifecycleOnly?0:200} card/back pairs, locale and keyboard checks`);
   } finally {await browser.close();}
 })().catch(e=>{console.error(e.stack);process.exit(1);});

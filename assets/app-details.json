@@ -4127,37 +4127,37 @@
         {
           "id": "mat-features",
           "title": {
-            "en": "Material estimates for home projects",
-            "hu": "Anyagbecslések otthoni munkákhoz",
-            "de": "Materialschätzungen für Arbeiten zu Hause",
-            "es": "Estimaciones de materiales para casa",
-            "fr": "Estimations de matériaux pour la maison",
-            "pt-BR": "Estimativas de materiais para casa",
-            "pl": "Szacunki materiałów do prac domowych",
-            "it": "Stime di materiali per lavori domestici"
+            "en": "Eight material calculators",
+            "hu": "Nyolc anyagkalkulátor",
+            "de": "Acht Materialrechner",
+            "es": "Ocho calculadoras de materiales",
+            "fr": "Huit calculateurs de matériaux",
+            "pt-BR": "Oito calculadoras de materiais",
+            "pl": "Osiem kalkulatorów materiałów",
+            "it": "Otto calcolatori di materiali"
           },
           "items": [
             {
               "id": "mat-geometry",
               "title": {
-                "en": "Areas, volumes and several rooms",
-                "hu": "Területek, térfogatok és több helyiség",
-                "de": "Flächen, Volumen und mehrere Räume",
-                "es": "Áreas, volúmenes y varias habitaciones",
-                "fr": "Surfaces, volumes et plusieurs pièces",
-                "pt-BR": "Áreas, volumes e vários cômodos",
-                "pl": "Powierzchnie, objętości i kilka pomieszczeń",
-                "it": "Aree, volumi e più stanze"
+                "en": "Measurements, surfaces and units",
+                "hu": "Méretek, felületek és egységek",
+                "de": "Maße, Flächen und Einheiten",
+                "es": "Medidas, superficies y unidades",
+                "fr": "Mesures, surfaces et unités",
+                "pt-BR": "Medidas, superfícies e unidades",
+                "pl": "Wymiary, powierzchnie i jednostki",
+                "it": "Misure, superfici e unità"
               },
               "text": {
-                "en": "Enter length and width for rectangular areas, plus depth for volumes. Add several walls or rooms and subtract door/window openings. If known, enter area or volume directly. Product coverage, thickness or pack size comes from your own data, not an assumed manufacturer database.",
-                "hu": "Téglalaphoz adj meg hosszúságot és szélességet, térfogathoz mélységet is. Több falat vagy helyiséget összeadhatsz, ajtót/ablakot levonhatsz. Ismert terület vagy térfogat közvetlenül beírható. A fedőképesség, vastagság és csomagméret saját adat, nem feltételezett gyártói adatbázis.",
-                "de": "Gib Länge und Breite für Rechtecke, zusätzlich Tiefe für Volumen ein. Addiere Wände oder Räume und ziehe Türen/Fenster ab. Bekannte Fläche oder Volumen ist direkt eingebbar. Deckkraft, Dicke und Packungsgröße stammen von dir, nicht aus angenommenen Herstellerdaten.",
-                "es": "Introduce largo y ancho para áreas rectangulares, y profundidad para volúmenes. Suma paredes o habitaciones y resta puertas/ventanas. Puedes introducir área o volumen conocido directamente. Rendimiento, espesor y tamaño del paquete son tus datos, no una base supuesta de fabricantes.",
-                "fr": "Saisissez longueur et largeur pour les rectangles, et profondeur pour les volumes. Additionnez murs ou pièces et soustrayez portes/fenêtres. Une surface ou un volume connu peut être saisi directement. Rendement, épaisseur et paquet viennent de vos données, pas d’une base fabricant supposée.",
-                "pt-BR": "Informe comprimento e largura para retângulos, mais profundidade para volumes. Some paredes ou cômodos e desconte portas/janelas. Área ou volume conhecido pode ser informado diretamente. Rendimento, espessura e pacote vêm dos seus dados, não de uma base presumida de fabricantes.",
-                "pl": "Podaj długość i szerokość prostokątów oraz głębokość objętości. Sumuj ściany lub pomieszczenia i odejmuj drzwi/okna. Znaną powierzchnię lub objętość wpisz bezpośrednio. Wydajność, grubość i opakowanie pochodzą z twoich danych, nie domniemanej bazy producenta.",
-                "it": "Inserisci lunghezza e larghezza dei rettangoli e profondità dei volumi. Somma pareti o stanze e sottrai porte/finestre. Area o volume noto si inserisce direttamente. Copertura, spessore e confezione provengono dai tuoi dati, non da un database presunto."
+                "en": "Name and add rectangular surfaces using length and width; add depth for volumes. Where supported, enter a known area or volume instead. In area calculations, subtract openings such as doors and windows. Choose metric or imperial units. Supply product parameters yourself or load a saved product; editable starter products are also available. There is no separate room database or automatic manufacturer catalog.",
+                "hu": "Nevezd el és add össze a téglalap alakú felületeket hosszúság és szélesség alapján; térfogathoz mélységet is adj meg. Ahol támogatott, ismert területet vagy térfogatot is beírhatsz helyettük. Területszámításnál levonhatod például az ajtókat és ablakokat. Metrikus és angolszász egységek választhatók. A termékparamétereket megadhatod vagy mentett termékből töltheted be; szerkeszthető kezdőtermékek is rendelkezésre állnak. Nincs külön helyiségadatbázis vagy automatikus gyártói katalógus.",
+                "de": "Benenne und addiere rechteckige Flächen aus Länge und Breite; für Volumen kommt die Tiefe hinzu. Wo unterstützt, kannst du stattdessen eine bekannte Fläche oder ein Volumen eingeben. Ziehe bei Flächenberechnungen Öffnungen wie Türen und Fenster ab. Wähle metrische oder imperiale Einheiten. Gib Produktparameter selbst ein oder lade ein gespeichertes Produkt; bearbeitbare Startprodukte sind ebenfalls vorhanden. Es gibt keine separate Raumdatenbank und keinen automatischen Herstellerkatalog.",
+                "es": "Asigna nombres y suma superficies rectangulares con largo y ancho; añade profundidad para los volúmenes. Cuando se admita, introduce directamente un área o volumen conocido. En los cálculos de superficie puedes restar huecos como puertas y ventanas. Elige unidades métricas o imperiales. Introduce los parámetros del producto o carga uno guardado; también hay productos iniciales editables. No hay una base de habitaciones independiente ni un catálogo automático de fabricantes.",
+                "fr": "Nommez et additionnez des surfaces rectangulaires à partir de leur longueur et largeur ; ajoutez la profondeur pour les volumes. Lorsque le calcul le permet, saisissez plutôt une surface ou un volume connu. Déduisez les ouvertures, comme les portes et fenêtres, des calculs de surface. Choisissez les unités métriques ou impériales. Saisissez les paramètres du produit ou chargez un produit enregistré ; des produits de départ modifiables sont également proposés. Il n’y a ni base de pièces distincte ni catalogue automatique de fabricants.",
+                "pt-BR": "Dê nomes e some superfícies retangulares usando comprimento e largura; acrescente a profundidade para volumes. Quando disponível, informe diretamente uma área ou um volume conhecido. Nos cálculos de área, desconte aberturas como portas e janelas. Escolha unidades métricas ou imperiais. Informe os parâmetros do produto ou carregue um produto salvo; também há produtos iniciais editáveis. Não existe banco separado de cômodos nem catálogo automático de fabricantes.",
+                "pl": "Nazwij i dodaj prostokątne powierzchnie, podając długość i szerokość, a dla objętości także głębokość. Tam, gdzie to możliwe, wpisz zamiast tego znaną powierzchnię lub objętość. W obliczeniach powierzchni odejmuj otwory, np. drzwi i okna. Wybierz jednostki metryczne lub imperialne. Wpisz parametry produktu albo wczytaj zapisany produkt; dostępne są też edytowalne produkty początkowe. Nie ma osobnej bazy pomieszczeń ani automatycznego katalogu producentów.",
+                "it": "Assegna nomi e somma superfici rettangolari usando lunghezza e larghezza; aggiungi la profondità per i volumi. Dove previsto, inserisci invece un’area o un volume noto. Nei calcoli di superficie puoi sottrarre aperture come porte e finestre. Scegli unità metriche o imperiali. Inserisci i parametri del prodotto o carica un prodotto salvato; sono disponibili anche prodotti iniziali modificabili. Non esiste un archivio separato di stanze né un catalogo automatico dei produttori."
               },
               "units": [
                 "mm",
@@ -4183,40 +4183,109 @@
                 "fr": "Peinture",
                 "pt-BR": "Tinta",
                 "pl": "Farba",
-                "it": "Pittura"
+                "it": "Vernice"
               },
               "text": {
-                "en": "Enter the net surface, number of coats and paint coverage per litre. See required paint volume, with allowance and pack rounding if supplied. Multiple walls and ceilings can share the calculation, after subtracting openings.",
-                "hu": "Add meg a nettó felületet, rétegszámot és a festék literenkénti fedőképességét. Szükséges festéktérfogatot kapsz, megadott ráhagyással és kiszerelésre kerekítéssel. Több fal és mennyezet együtt számolható a nyílások levonása után.",
-                "de": "Gib Nettofläche, Anstrichzahl und Reichweite pro Liter ein. Du erhältst Farbvolumen mit angegebener Reserve und Packungsrundung. Mehrere Wände und Decken können nach Abzug von Öffnungen gemeinsam berechnet werden.",
-                "es": "Introduce superficie neta, capas y cobertura por litro. Ves volumen necesario con margen y redondeo a envases si los indicas. Varias paredes y techos pueden calcularse juntos tras restar huecos.",
-                "fr": "Saisissez surface nette, couches et rendement par litre. Voyez volume nécessaire avec marge et arrondi aux pots si renseignés. Plusieurs murs et plafonds se calculent ensemble après déduction des ouvertures.",
-                "pt-BR": "Informe área líquida, demãos e cobertura por litro. Veja volume necessário com sobra e arredondamento de embalagens quando informados. Várias paredes e tetos podem ser calculados juntos após descontar aberturas.",
-                "pl": "Podaj powierzchnię netto, liczbę warstw i wydajność na litr. Zobacz potrzebną objętość z zapasem i zaokrągleniem do opakowań, jeśli podane. Ściany i sufity można liczyć razem po odjęciu otworów.",
-                "it": "Inserisci superficie netta, mani e copertura per litro. Vedi volume necessario con margine e arrotondamento alle confezioni se indicati. Pareti e soffitti possono calcolarsi insieme dopo sottrazione delle aperture."
+                "en": "Enter wall and ceiling dimensions or a known area, subtract openings, then specify coats, coverage in m²/L, container volume and allowance. The result shows net surface, coverage across all coats, required paint volume, whole containers and estimated leftover. In the project summary, matching paints add up in litres; container sizes are guidance, and you decide what to buy.",
+                "hu": "Add meg a falak és mennyezet méreteit vagy az ismert területet, vond le a nyílásokat, majd állítsd be a rétegszámot, a fedőképességet m²/L-ben, a kiszerelés térfogatát és a ráhagyást. Az eredmény megmutatja a nettó felületet, az összes réteg fedendő területét, a festékszükségletet, az egész kiszerelések számát és a becsült maradékot. A projektösszesítő az azonos festékeket literben adja össze; a kiszerelés tájékoztató, a vásárlásról te döntesz.",
+                "de": "Gib Wand- und Deckenmaße oder eine bekannte Fläche ein, ziehe Öffnungen ab und lege Anstrichzahl, Ergiebigkeit in m²/L, Gebindevolumen und Zuschlag fest. Das Ergebnis zeigt Nettofläche, Fläche über alle Anstriche, Farbbedarf, ganze Gebinde und geschätzten Rest. In der Projektübersicht werden gleiche Farben in Litern addiert; Gebindegrößen dienen als Orientierung, du entscheidest über den Einkauf.",
+                "es": "Introduce las dimensiones de paredes y techos o un área conocida, resta huecos y define las capas, el rendimiento en m²/L, el volumen del envase y el margen. El resultado muestra la superficie neta, la superficie de todas las capas, la pintura necesaria, los envases enteros y el sobrante estimado. El resumen del proyecto suma las pinturas iguales en litros; los envases son orientativos y tú decides la compra.",
+                "fr": "Saisissez les dimensions des murs et plafonds ou une surface connue, déduisez les ouvertures, puis indiquez le nombre de couches, le rendement en m²/L, le volume du pot et la marge. Le résultat présente la surface nette, la surface à couvrir sur toutes les couches, le volume de peinture, les pots entiers et le reste estimé. Le récapitulatif du projet additionne les peintures identiques en litres ; les conditionnements sont indicatifs, vous décidez de l’achat.",
+                "pt-BR": "Informe as dimensões de paredes e tetos ou uma área conhecida, desconte aberturas e defina demãos, rendimento em m²/L, volume da embalagem e margem. O resultado mostra área líquida, área de todas as demãos, volume de tinta necessário, embalagens inteiras e sobra estimada. No resumo do projeto, tintas iguais são somadas em litros; os tamanhos das embalagens são uma referência e você decide a compra.",
+                "pl": "Podaj wymiary ścian i sufitów lub znaną powierzchnię, odejmij otwory i określ liczbę warstw, wydajność w m²/L, pojemność opakowania oraz zapas. Wynik pokazuje powierzchnię netto, powierzchnię wszystkich warstw, potrzebną objętość farby, pełne opakowania i szacowaną resztę. Podsumowanie projektu sumuje takie same farby w litrach; opakowania są wskazówką, a o zakupie decydujesz samodzielnie.",
+                "it": "Inserisci le dimensioni di pareti e soffitti o un’area nota, sottrai le aperture e specifica mani, resa in m²/L, volume della confezione e margine. Il risultato mostra superficie netta, superficie di tutte le mani, volume di vernice necessario, confezioni intere e avanzo stimato. Il riepilogo del progetto somma le vernici uguali in litri; i formati delle confezioni sono indicativi e decidi tu cosa acquistare."
+              }
+            },
+            {
+              "id": "mat-wallpaper",
+              "title": {
+                "en": "Wallpaper: area mode",
+                "hu": "Tapéta: terület alapján",
+                "de": "Tapete: Flächenmodus",
+                "es": "Papel pintado: por superficie",
+                "fr": "Papier peint : mode surface",
+                "pt-BR": "Papel de parede: por área",
+                "pl": "Tapeta: według powierzchni",
+                "it": "Carta da parati: modalità area"
+              },
+              "text": {
+                "en": "Enter surface dimensions or a known wall area, subtract openings, and provide roll width, roll length and allowance. The calculator divides the required area, including allowance, by the area of one roll and rounds up to whole rolls. It shows the estimated leftover. Use the separate strip mode when wall height and pattern matching matter.",
+                "hu": "Add meg a felületek méreteit vagy az ismert falfelületet, vond le a nyílásokat, és írd be a tekercsszélességet, tekercshosszt és ráhagyást. A kalkulátor a ráhagyással növelt szükséges területet egy tekercs területével osztja, majd egész tekercsre kerekít felfelé. A becsült maradékot is mutatja. Ha a falmagasság és a mintaillesztés számít, válaszd a külön csíkos módot.",
+                "de": "Gib Flächenmaße oder eine bekannte Wandfläche ein, ziehe Öffnungen ab und trage Rollenbreite, Rollenlänge und Zuschlag ein. Der Rechner teilt die benötigte Fläche einschließlich Zuschlag durch die Fläche einer Rolle und rundet auf ganze Rollen auf. Er zeigt den geschätzten Rest. Wenn Wandhöhe und Musteranpassung wichtig sind, nutze den separaten Bahnenmodus.",
+                "es": "Introduce las dimensiones o una superficie de pared conocida, resta huecos e indica ancho y largo del rollo y margen. La calculadora divide la superficie necesaria, con margen, entre la superficie de un rollo y redondea a rollos enteros. Muestra el sobrante estimado. Usa el modo de tiras cuando importen la altura de la pared y el ajuste del dibujo.",
+                "fr": "Saisissez les dimensions ou une surface murale connue, déduisez les ouvertures, puis indiquez largeur et longueur du rouleau ainsi que la marge. Le calculateur divise la surface nécessaire, marge comprise, par celle d’un rouleau et arrondit au rouleau entier supérieur. Il affiche le reste estimé. Utilisez le mode lés lorsque la hauteur du mur et le raccord du motif comptent.",
+                "pt-BR": "Informe as dimensões ou uma área de parede conhecida, desconte aberturas e indique largura e comprimento do rolo e margem. A calculadora divide a área necessária, com margem, pela área de um rolo e arredonda para rolos inteiros. Ela mostra a sobra estimada. Use o modo de faixas quando a altura da parede e o encaixe do desenho forem importantes.",
+                "pl": "Podaj wymiary lub znaną powierzchnię ściany, odejmij otwory oraz wpisz szerokość i długość rolki i zapas. Kalkulator dzieli potrzebną powierzchnię z zapasem przez powierzchnię jednej rolki i zaokrągla w górę do pełnych rolek. Pokazuje szacowaną resztę. Gdy ważna jest wysokość ściany i dopasowanie wzoru, wybierz osobny tryb pasów.",
+                "it": "Inserisci le dimensioni o un’area di parete nota, sottrai le aperture e indica larghezza e lunghezza del rotolo e margine. Il calcolatore divide l’area necessaria, margine incluso, per l’area di un rotolo e arrotonda per eccesso a rotoli interi. Mostra l’avanzo stimato. Usa la modalità a strisce quando contano l’altezza della parete e l’allineamento del motivo."
+              }
+            },
+            {
+              "id": "mat-wallpaper-strips",
+              "title": {
+                "en": "Wallpaper: strips and rolls",
+                "hu": "Tapéta: csíkok és tekercsek",
+                "de": "Tapete: Bahnen und Rollen",
+                "es": "Papel pintado: tiras y rollos",
+                "fr": "Papier peint : lés et rouleaux",
+                "pt-BR": "Papel de parede: faixas e rolos",
+                "pl": "Tapeta: pasy i rolki",
+                "it": "Carta da parati: strisce e rotoli"
+              },
+              "text": {
+                "en": "Enter each wall’s width and height, roll dimensions, allowance and optional pattern repeat. A positive repeat rounds each cut length up to the next matching pattern; zero adds no pattern correction. See strip counts before and after allowance, cut length, strips per roll, whole rolls and leftover. This mode uses full wall strips without area deductions. A roll too short for one strip is flagged. Project totals add the rolls from separate calculations without joint cutting optimization.",
+                "hu": "Add meg a falak szélességét és magasságát, a tekercsméreteket, a ráhagyást és az opcionális mintaillesztési hosszt, vagyis rapportot. Pozitív rapportnál a vágási hossz a következő illeszkedő mintáig nő; nullánál nincs mintakorrekció. Látható az alap és ráhagyásos csíkszám, a vágási hossz, az egy tekercsből kijövő csíkok, az egész tekercsek és a maradék. Ez a mód teljes falcsíkokkal, területlevonás nélkül számol. A túl rövid tekercset jelzi. A projekt a külön számítások tekercseit adja össze, közös vágásoptimalizálás nélkül.",
+                "de": "Gib Breite und Höhe jeder Wand, Rollenmaße, Zuschlag und optional den Musterrapport ein. Ein positiver Rapport verlängert den Zuschnitt bis zum nächsten passenden Muster; bei null entfällt die Musterkorrektur. Angezeigt werden Bahnenzahl vor und nach Zuschlag, Zuschnittlänge, Bahnen je Rolle, ganze Rollen und Rest. Dieser Modus rechnet mit vollständigen Wandbahnen ohne Flächenabzüge. Zu kurze Rollen werden gemeldet. Projektsummen addieren die Rollen einzelner Berechnungen ohne gemeinsame Zuschnittoptimierung.",
+                "es": "Introduce ancho y alto de cada pared, dimensiones del rollo, margen y repetición opcional del dibujo. Una repetición positiva alarga cada corte hasta el siguiente punto de coincidencia; cero no añade corrección. Consulta las tiras antes y después del margen, longitud de corte, tiras por rollo, rollos enteros y sobrante. Este modo usa tiras completas sin descontar áreas. Se avisa si el rollo es demasiado corto. El proyecto suma los rollos de cada cálculo sin optimizar los cortes entre cálculos.",
+                "fr": "Indiquez largeur et hauteur de chaque mur, dimensions du rouleau, marge et répétition facultative du motif. Une répétition positive allonge la coupe jusqu’au prochain raccord ; zéro n’ajoute aucune correction. Consultez le nombre de lés avant et après marge, la longueur de coupe, les lés par rouleau, les rouleaux entiers et le reste. Ce mode utilise des lés complets sans déduction de surface. Un rouleau trop court est signalé. Le projet additionne les rouleaux des calculs séparés sans optimisation commune des coupes.",
+                "pt-BR": "Informe largura e altura de cada parede, dimensões do rolo, margem e repetição opcional do desenho. Uma repetição positiva aumenta o corte até o próximo encaixe; zero não aplica correção. Veja faixas antes e depois da margem, comprimento de corte, faixas por rolo, rolos inteiros e sobra. Esse modo usa faixas completas sem descontos de área. Um rolo curto demais é sinalizado. O projeto soma os rolos de cálculos separados, sem otimizar cortes entre eles.",
+                "pl": "Wpisz szerokość i wysokość każdej ściany, wymiary rolki, zapas i opcjonalny raport wzoru. Dodatni raport wydłuża cięcie do następnego pasującego powtórzenia; zero nie dodaje korekty. Zobacz liczbę pasów przed i po dodaniu zapasu, długość cięcia, pasy z rolki, pełne rolki i resztę. Ten tryb uwzględnia pełne pasy bez odliczeń powierzchni. Zbyt krótka rolka jest sygnalizowana. Projekt sumuje rolki z osobnych obliczeń bez wspólnej optymalizacji cięcia.",
+                "it": "Inserisci larghezza e altezza di ogni parete, dimensioni del rotolo, margine e ripetizione facoltativa del motivo. Una ripetizione positiva allunga il taglio fino al raccordo successivo; zero non aggiunge correzioni. Visualizza strisce prima e dopo il margine, lunghezza di taglio, strisce per rotolo, rotoli interi e avanzo. Questa modalità usa strisce complete senza detrazioni di area. Un rotolo troppo corto viene segnalato. Il progetto somma i rotoli dei singoli calcoli senza ottimizzare insieme i tagli."
               }
             },
             {
               "id": "mat-floor-tile",
               "title": {
-                "en": "Laminate flooring and tiles",
-                "hu": "Laminált padló és csempe",
-                "de": "Laminat und Fliesen",
-                "es": "Suelo laminado y baldosas",
-                "fr": "Sol stratifié et carrelage",
-                "pt-BR": "Piso laminado e azulejos",
-                "pl": "Panele i płytki",
-                "it": "Pavimento laminato e piastrelle"
+                "en": "Laminate flooring",
+                "hu": "Laminált padló",
+                "de": "Laminatboden",
+                "es": "Suelo laminado",
+                "fr": "Sol stratifié",
+                "pt-BR": "Piso laminado",
+                "pl": "Panele laminowane",
+                "it": "Pavimento laminato"
               },
               "text": {
-                "en": "For laminate, enter floor area and coverage per pack to get whole packs. For tiles, enter tile width/height to get a whole-piece count, or box coverage for box count. Your waste allowance increases the required area before rounding.",
-                "hu": "Laminálthoz padlóterület és csomagfedés alapján egész csomagszámot kapsz. Csempénél szélesség/magasság alapján egész darabszámot, vagy dobozfedés alapján dobozszámot számol. A saját ráhagyásod kerekítés előtt növeli a szükséges területet.",
-                "de": "Bei Laminat liefern Fläche und Packungsreichweite ganze Packungen. Bei Fliesen ergeben Breite/Höhe eine ganze Stückzahl oder Kartonreichweite die Kartonzahl. Deine Reserve erhöht die Fläche vor dem Aufrunden.",
-                "es": "Para laminado, área y cobertura por paquete dan paquetes enteros. Para baldosas, ancho/alto dan piezas enteras, o cobertura por caja da cajas. Tu margen aumenta el área antes de redondear.",
-                "fr": "Pour le stratifié, surface et couverture par paquet donnent les paquets entiers. Pour le carrelage, largeur/hauteur donnent les pièces ou couverture par boîte donne les boîtes. Votre marge augmente la surface avant l’arrondi.",
-                "pt-BR": "Para laminado, área e cobertura por pacote dão pacotes inteiros. Para azulejos, largura/altura dão peças inteiras, ou cobertura por caixa dá caixas. Sua sobra aumenta a área antes de arredondar.",
-                "pl": "Dla paneli powierzchnia i pokrycie opakowania dają całe opakowania. Dla płytek szerokość/wysokość daje pełną liczbę sztuk lub pokrycie pudełka liczbę pudełek. Zapas zwiększa powierzchnię przed zaokrągleniem.",
-                "it": "Per laminato, area e copertura per pacco danno pacchi interi. Per piastrelle, larghezza/altezza danno pezzi interi o copertura per scatola dà scatole. Il margine aumenta l’area prima dell’arrotondamento."
+                "en": "Enter floor dimensions or a known area, any area deductions, waste allowance and coverage per pack in m² or ft². See net area, area with allowance, whole packs rounded up and estimated leftover. For identical compatible products, the project first adds the required areas and then rounds to whole packs using their shared pack coverage.",
+                "hu": "Add meg a padló méreteit vagy az ismert területet, az esetleges területlevonásokat, a ráhagyást és a csomagfedést m²-ben vagy ft²-ben. Megkapod a nettó és ráhagyásos területet, a felfelé kerekített egész csomagszámot és a becsült maradékot. Azonos, kompatibilis terméknél a projekt előbb a szükséges területeket adja össze, és csak utána kerekít egész csomagra az egyező csomagfedéssel.",
+                "de": "Gib Bodenmaße oder eine bekannte Fläche, eventuelle Flächenabzüge, Verschnittzuschlag und Packungsinhalt in m² oder ft² ein. Du erhältst Nettofläche, Fläche mit Zuschlag, aufgerundete ganze Packungen und geschätzten Rest. Bei identischen kompatiblen Produkten addiert das Projekt zuerst die benötigten Flächen und rundet dann anhand der gemeinsamen Packungsfläche auf.",
+                "es": "Introduce las dimensiones del suelo o un área conocida, las deducciones, el margen de desperdicio y la cobertura por paquete en m² o ft². Obtén área neta, área con margen, paquetes enteros redondeados al alza y sobrante estimado. Para productos idénticos y compatibles, el proyecto suma primero las áreas necesarias y después redondea a paquetes con la cobertura común.",
+                "fr": "Indiquez les dimensions du sol ou une surface connue, les déductions éventuelles, la marge de perte et la surface par paquet en m² ou ft². Consultez la surface nette, la surface avec marge, les paquets entiers arrondis au supérieur et le reste estimé. Pour des produits identiques et compatibles, le projet additionne d’abord les surfaces nécessaires, puis calcule les paquets avec leur couverture commune.",
+                "pt-BR": "Informe as dimensões do piso ou uma área conhecida, os descontos, a margem de perda e a cobertura por pacote em m² ou ft². Veja área líquida, área com margem, pacotes inteiros arredondados para cima e sobra estimada. Para produtos idênticos e compatíveis, o projeto primeiro soma as áreas necessárias e depois calcula os pacotes com a cobertura comum.",
+                "pl": "Podaj wymiary podłogi lub znaną powierzchnię, ewentualne odliczenia, zapas na odpady i powierzchnię paczki w m² lub ft². Zobacz powierzchnię netto, powierzchnię z zapasem, pełne paczki zaokrąglone w górę i szacowaną resztę. Dla identycznych zgodnych produktów projekt najpierw sumuje potrzebne powierzchnie, a następnie zaokrągla liczbę paczek według ich wspólnej wydajności.",
+                "it": "Inserisci le dimensioni del pavimento o un’area nota, le eventuali detrazioni, il margine per scarti e la copertura per confezione in m² o ft². Ottieni area netta, area con margine, confezioni intere arrotondate per eccesso e avanzo stimato. Per prodotti identici e compatibili, il progetto somma prima le aree necessarie e poi calcola le confezioni con la copertura comune."
+              }
+            },
+            {
+              "id": "mat-tile",
+              "title": {
+                "en": "Wall and floor tiles",
+                "hu": "Csempe és járólap",
+                "de": "Wand- und Bodenfliesen",
+                "es": "Azulejos y baldosas",
+                "fr": "Carrelage mural et de sol",
+                "pt-BR": "Revestimentos e pisos cerâmicos",
+                "pl": "Płytki ścienne i podłogowe",
+                "it": "Piastrelle per pareti e pavimenti"
+              },
+              "text": {
+                "en": "Enter surface dimensions or known area, deductions, allowance, and tile width and height. The result includes required area, whole tiles and estimated leftover area. Optional box coverage in m² per box adds a box count; no pieces-per-box field is needed. Compatible identical products combine by area before project box rounding. Detailed grout-width correction is not included.",
+                "hu": "Add meg a felület méreteit vagy az ismert területet, a levonásokat, a ráhagyást, valamint a lap szélességét és magasságát. Az eredmény tartalmazza a szükséges területet, az egész lapok számát és a becsült maradék területét. Az opcionális m²/doboz fedés megadásával dobozszámot is kapsz; nincs szükség db/doboz mezőre. A kompatibilis, azonos termékek területe a projektszintű dobozkerekítés előtt összeadódik. Részletes fugaszélesség-korrekció nincs.",
+                "de": "Gib Flächenmaße oder eine bekannte Fläche, Abzüge, Zuschlag sowie Fliesenbreite und -höhe ein. Das Ergebnis enthält benötigte Fläche, ganze Fliesen und geschätzte Restfläche. Optional ergänzt die Kartonfläche in m² pro Karton eine Kartonanzahl; Stück pro Karton werden nicht benötigt. Gleiche kompatible Produkte werden vor der Kartonrundung im Projekt nach Fläche zusammengefasst. Eine detaillierte Fugenbreitenkorrektur ist nicht enthalten.",
+                "es": "Introduce dimensiones o área conocida, deducciones, margen, ancho y alto de la pieza. El resultado incluye área necesaria, piezas enteras y superficie sobrante estimada. La cobertura opcional en m² por caja permite calcular cajas; no hace falta indicar piezas por caja. Los productos iguales y compatibles se suman por área antes de redondear las cajas del proyecto. No se incluye corrección detallada por ancho de junta.",
+                "fr": "Saisissez les dimensions ou une surface connue, les déductions, la marge, puis la largeur et la hauteur du carreau. Le résultat comprend la surface nécessaire, les carreaux entiers et le reste estimé en surface. La couverture facultative en m² par carton permet de calculer les cartons ; aucun nombre de pièces par carton n’est nécessaire. Les produits identiques et compatibles sont regroupés par surface avant l’arrondi des cartons du projet. La largeur des joints ne fait pas l’objet d’une correction détaillée.",
+                "pt-BR": "Informe dimensões ou área conhecida, descontos, margem, largura e altura da peça. O resultado inclui área necessária, peças inteiras e sobra estimada em área. A cobertura opcional em m² por caixa permite calcular caixas; não é preciso informar peças por caixa. Produtos iguais e compatíveis são somados por área antes do arredondamento das caixas do projeto. Não há correção detalhada pela largura do rejunte.",
+                "pl": "Podaj wymiary lub znaną powierzchnię, odliczenia, zapas oraz szerokość i wysokość płytki. Wynik obejmuje potrzebną powierzchnię, pełne płytki i szacowaną powierzchnię reszty. Opcjonalna powierzchnia w m² na pudełko dodaje liczbę pudełek; nie trzeba podawać sztuk na pudełko. Zgodne identyczne produkty łączą się według powierzchni przed zaokrągleniem pudełek w projekcie. Szczegółowa korekta szerokości fug nie jest uwzględniona.",
+                "it": "Inserisci dimensioni o area nota, detrazioni, margine, larghezza e altezza della piastrella. Il risultato include area necessaria, piastrelle intere e avanzo stimato in area. La copertura facoltativa in m² per scatola aggiunge il numero di scatole; non occorre indicare i pezzi per scatola. I prodotti uguali e compatibili si sommano per area prima dell’arrotondamento delle scatole nel progetto. Non è inclusa una correzione dettagliata per la larghezza delle fughe."
               }
             },
             {
@@ -4232,60 +4301,83 @@
                 "it": "Calcestruzzo"
               },
               "text": {
-                "en": "Enter dimensions of one or more sections, or known volume. The result is concrete volume with your allowance. Enter yield per bag to estimate whole bags. It does not choose a concrete mix or calculate structural strength.",
-                "hu": "Adj meg egy vagy több szakaszméretet, vagy ismert térfogatot. Ráhagyásos betontérfogatot kapsz. Zsákonkénti kihozatallal egész zsákszám becsülhető. Betonkeveréket és szerkezeti szilárdságot nem választ vagy számol.",
-                "de": "Gib Maße von Abschnitten oder bekanntes Volumen ein. Das Ergebnis ist Betonvolumen mit Reserve. Mit Ertrag pro Sack erhältst du ganze Säcke. Betonmischung und Tragfähigkeit werden nicht berechnet.",
-                "es": "Introduce dimensiones de tramos o volumen conocido. Obtienes volumen de hormigón con margen. Indica rendimiento por saco para sacos enteros. No elige mezcla ni calcula resistencia estructural.",
-                "fr": "Saisissez dimensions de sections ou volume connu. Voyez volume de béton avec marge. Indiquez rendement par sac pour estimer les sacs entiers. Ni formulation ni résistance structurelle calculée.",
-                "pt-BR": "Informe dimensões de trechos ou volume conhecido. Veja volume de concreto com sobra. Informe rendimento por saco para estimar sacos inteiros. Não escolhe mistura nem calcula resistência estrutural.",
-                "pl": "Podaj wymiary odcinków lub znaną objętość. Wynik to objętość betonu z zapasem. Wydajność worka daje całe worki. Nie dobiera mieszanki ani nie oblicza wytrzymałości konstrukcji.",
-                "it": "Inserisci dimensioni di sezioni o volume noto. Vedi volume di calcestruzzo con margine. Indica resa per sacco per stimare sacchi interi. Non sceglie miscela né calcola resistenza strutturale."
+                "en": "Enter length, width and depth for one or more sections, or a known volume, then set allowance. See the required volume in L, m³, ft³ or yd³. Optional yield per bag gives whole bags and estimated leftover; volume alone is enough for ready-mix or bulk supply. The app does not choose a concrete recipe or calculate structural strength.",
+                "hu": "Egy vagy több szakasz hosszúságát, szélességét és mélységét vagy az ismert térfogatot add meg, majd állítsd be a ráhagyást. A szükséges térfogat L, m³, ft³ vagy yd³ egységben látható. Opcionális zsákkiadósságból egész zsákszám és becsült maradék számítható; mixer- vagy ömlesztett betonhoz a térfogat önmagában elég. Az app nem választ betonreceptet, és nem végez statikai számítást.",
+                "de": "Gib Länge, Breite und Tiefe eines oder mehrerer Abschnitte oder ein bekanntes Volumen ein und lege den Zuschlag fest. Das benötigte Volumen erscheint in L, m³, ft³ oder yd³. Optional ergibt die Ergiebigkeit pro Sack ganze Säcke und einen geschätzten Rest; für Transportbeton oder lose Lieferung genügt das Volumen. Die App wählt keine Betonrezeptur und berechnet keine Tragfähigkeit.",
+                "es": "Introduce largo, ancho y profundidad de una o varias secciones, o un volumen conocido, y define el margen. Consulta el volumen necesario en L, m³, ft³ o yd³. El rendimiento opcional por saco permite obtener sacos enteros y sobrante estimado; para suministro a granel o preparado basta el volumen. La app no elige una mezcla ni calcula resistencia estructural.",
+                "fr": "Indiquez longueur, largeur et profondeur d’une ou plusieurs sections, ou un volume connu, puis la marge. Consultez le volume nécessaire en L, m³, ft³ ou yd³. Le rendement facultatif par sac donne les sacs entiers et le reste estimé ; le volume seul suffit pour une livraison de béton prêt à l’emploi ou en vrac. L’app ne choisit pas de recette et ne calcule pas la résistance structurelle.",
+                "pt-BR": "Informe comprimento, largura e profundidade de uma ou mais seções, ou um volume conhecido, e defina a margem. Veja o volume necessário em L, m³, ft³ ou yd³. O rendimento opcional por saco fornece sacos inteiros e sobra estimada; para concreto usinado ou a granel basta o volume. O app não escolhe traços nem calcula resistência estrutural.",
+                "pl": "Podaj długość, szerokość i głębokość jednego lub kilku odcinków albo znaną objętość i ustaw zapas. Zobacz potrzebną objętość w L, m³, ft³ lub yd³. Opcjonalna wydajność worka pozwala obliczyć pełne worki i szacowaną resztę; dla betonu towarowego lub dostawy luzem wystarczy objętość. Aplikacja nie dobiera receptury ani nie oblicza wytrzymałości konstrukcji.",
+                "it": "Inserisci lunghezza, larghezza e profondità di una o più sezioni, oppure un volume noto, e imposta il margine. Visualizza il volume necessario in L, m³, ft³ o yd³. La resa facoltativa per sacco fornisce sacchi interi e avanzo stimato; per calcestruzzo preconfezionato o sfuso basta il volume. L’app non sceglie una ricetta e non calcola la resistenza strutturale."
               }
             },
             {
               "id": "mat-garden",
               "title": {
-                "en": "Mulch, topsoil and gravel",
-                "hu": "Mulcs, termőföld és kavics",
-                "de": "Mulch, Erde und Kies",
-                "es": "Mantillo, tierra y grava",
-                "fr": "Paillis, terre et gravier",
-                "pt-BR": "Cobertura vegetal, terra e cascalho",
-                "pl": "Ściółka, ziemia i żwir",
-                "it": "Pacciame, terriccio e ghiaia"
+                "en": "Mulch",
+                "hu": "Mulcs",
+                "de": "Mulch",
+                "es": "Acolchado",
+                "fr": "Paillage",
+                "pt-BR": "Cobertura morta",
+                "pl": "Ściółka",
+                "it": "Pacciamatura"
               },
               "text": {
-                "en": "Choose the material and enter area plus layer depth, or direct volume. See litres or cubic volume in the relevant units. A mass estimate needs density supplied by you; the app does not assume all soils or gravels weigh the same.",
-                "hu": "Válassz anyagot, és adj meg területet és rétegvastagságot, vagy közvetlen térfogatot. Litert vagy köbös térfogatot látsz a megfelelő egységben. Tömegbecsléshez saját sűrűség kell; nem feltételezi, hogy minden föld vagy kavics egyforma tömegű.",
-                "de": "Wähle Material und gib Fläche plus Schichttiefe oder direkt Volumen ein. Sieh Liter oder Kubikvolumen in passenden Einheiten. Masse benötigt deine Dichteangabe; Erde und Kies werden nicht als gleich schwer angenommen.",
-                "es": "Elige material e introduce área y espesor de capa, o volumen directo. Ves litros o volumen cúbico en unidades pertinentes. Estimar masa requiere tu densidad; no supone que todas las tierras o gravas pesen igual.",
-                "fr": "Choisissez matériau et saisissez surface avec épaisseur, ou volume direct. Voyez litres ou volume cubique dans les unités adaptées. La masse exige votre densité ; toutes les terres ou graviers ne sont pas supposés de même poids.",
-                "pt-BR": "Escolha material e informe área e espessura, ou volume direto. Veja litros ou volume cúbico nas unidades adequadas. Massa exige sua densidade; não supõe que toda terra ou cascalho pese igual.",
-                "pl": "Wybierz materiał i podaj powierzchnię oraz grubość warstwy lub objętość bezpośrednio. Zobacz litry lub objętość sześcienną w odpowiednich jednostkach. Masa wymaga podanej gęstości; ziemie i żwiry nie mają założonej tej samej masy.",
-                "it": "Scegli materiale e inserisci area e spessore o volume diretto. Vedi litri o volume cubico nelle unità adatte. La massa richiede la tua densità; non presume che tutte le terre o ghiaie pesino uguale."
+                "en": "Enter bed dimensions or known area and layer depth, with any area deductions, or enter volume directly. Add allowance to see the required volume in L, m³, ft³ or yd³. Optional bag volume gives whole bags and leftover. A mass estimate in kg requires density in kg/m³ supplied by you. Bulk purchase is also possible.",
+                "hu": "Add meg az ágyás méreteit vagy ismert területét és a rétegvastagságot, az esetleges területlevonásokkal, vagy írd be közvetlenül a térfogatot. Ráhagyással megkapod a szükséges térfogatot L, m³, ft³ vagy yd³ egységben. Opcionális zsáktérfogatból egész zsákszám és maradék számítható. A kg-ban jelzett tömegbecsléshez neked kell megadnod a sűrűséget kg/m³-ben. Ömlesztett beszerzés is lehetséges.",
+                "de": "Gib Beetmaße oder eine bekannte Fläche und Schichtdicke mit eventuellen Flächenabzügen ein, oder direkt das Volumen. Mit Zuschlag erhältst du das benötigte Volumen in L, m³, ft³ oder yd³. Optional liefert das Sackvolumen ganze Säcke und Rest. Für eine Massenschätzung in kg musst du die Dichte in kg/m³ angeben. Auch lose Beschaffung ist möglich.",
+                "es": "Introduce dimensiones del parterre o área conocida y espesor de capa, con deducciones de área, o introduce el volumen directamente. Añade margen para ver el volumen necesario en L, m³, ft³ o yd³. El volumen opcional del saco da sacos enteros y sobrante. La masa estimada en kg requiere que indiques la densidad en kg/m³. También puedes comprar a granel.",
+                "fr": "Indiquez les dimensions du massif ou sa surface connue et l’épaisseur de couche, avec les déductions de surface, ou saisissez directement le volume. Ajoutez une marge pour obtenir le volume nécessaire en L, m³, ft³ ou yd³. Le volume facultatif du sac donne les sacs entiers et le reste. L’estimation de masse en kg nécessite votre densité en kg/m³. L’achat en vrac est également possible.",
+                "pt-BR": "Informe dimensões do canteiro ou área conhecida e espessura da camada, com descontos de área, ou informe o volume diretamente. Acrescente margem para ver o volume necessário em L, m³, ft³ ou yd³. O volume opcional do saco fornece sacos inteiros e sobra. A estimativa de massa em kg exige a densidade em kg/m³ informada por você. Também é possível comprar a granel.",
+                "pl": "Podaj wymiary rabaty lub znaną powierzchnię i grubość warstwy, z odliczeniami powierzchni, albo wpisz objętość bezpośrednio. Dodaj zapas, aby uzyskać potrzebną objętość w L, m³, ft³ lub yd³. Opcjonalna pojemność worka daje pełne worki i resztę. Oszacowanie masy w kg wymaga podania gęstości w kg/m³. Możliwy jest też zakup luzem.",
+                "it": "Inserisci le dimensioni dell’aiuola o l’area nota e lo spessore dello strato, con eventuali detrazioni di area, oppure direttamente il volume. Aggiungi il margine per ottenere il volume necessario in L, m³, ft³ o yd³. Il volume facoltativo del sacco fornisce sacchi interi e avanzo. La stima della massa in kg richiede una densità in kg/m³ fornita da te. È possibile anche l’acquisto sfuso."
               }
             },
             {
-              "id": "mat-wallpaper",
+              "id": "mat-soil",
               "title": {
-                "en": "Wallpaper and pattern repeat",
-                "hu": "Tapéta és mintaillesztés",
-                "de": "Tapete und Musterrapport",
-                "es": "Papel pintado y repetición",
-                "fr": "Papier peint et raccord",
-                "pt-BR": "Papel de parede e repetição",
-                "pl": "Tapeta i dopasowanie wzoru",
-                "it": "Carta da parati e rapporto del motivo"
+                "en": "Topsoil",
+                "hu": "Termőföld",
+                "de": "Mutterboden",
+                "es": "Tierra vegetal",
+                "fr": "Terre végétale",
+                "pt-BR": "Terra vegetal",
+                "pl": "Ziemia ogrodowa",
+                "it": "Terriccio"
               },
               "text": {
-                "en": "Choose area-based roll estimation or the strip method with wall height and roll dimensions. Optionally enter pattern repeat; each strip then rounds up to a compatible repeat length. See strip count, strips per roll and rolls needed. A roll too short for one strip is flagged.",
-                "hu": "Válassz területből számolt tekercsbecslést vagy csíkos módot falmagassággal és tekercsméretekkel. Opcionálisan add meg a minta ismétlődését; a csíkhossz illeszthető ismétlődési hosszra nő. Csíkszámot, tekercsenkénti csíkot és tekercsszámot látsz. Egy csíkhoz rövid tekercs hibajelzést kap.",
-                "de": "Wähle Flächenmethode oder Bahnenmethode mit Wandhöhe und Rollenmaßen. Optionaler Rapport rundet jede Bahn auf eine passende Wiederholungslänge auf. Sieh Bahnenzahl, Bahnen pro Rolle und nötige Rollen. Zu kurze Rollen werden gemeldet.",
-                "es": "Elige cálculo por área o tiras con altura de pared y dimensiones del rollo. La repetición opcional redondea cada tira a longitud compatible. Ves tiras, tiras por rollo y rollos necesarios. Un rollo demasiado corto se señala.",
-                "fr": "Choisissez méthode par surface ou lés avec hauteur du mur et dimensions du rouleau. Le raccord facultatif allonge chaque lé à une répétition compatible. Voyez nombre de lés, lés par rouleau et rouleaux nécessaires. Un rouleau trop court est signalé.",
-                "pt-BR": "Escolha método por área ou faixas com altura da parede e dimensões do rolo. A repetição opcional aumenta cada faixa para um comprimento compatível. Veja faixas, faixas por rolo e rolos necessários. Um rolo curto demais é sinalizado.",
-                "pl": "Wybierz metodę powierzchniową lub pasy z wysokością ściany i wymiarami rolki. Opcjonalny raport wzoru wydłuża pas do zgodnego powtórzenia. Zobacz liczbę pasów, pasy na rolkę i rolki. Zbyt krótka rolka jest oznaczona.",
-                "it": "Scegli metodo per area o strisce con altezza parete e misure del rotolo. Il rapporto facoltativo allunga ogni striscia a una ripetizione compatibile. Vedi strisce, strisce per rotolo e rotoli necessari. Un rotolo troppo corto è segnalato."
+                "en": "Calculate soil volume from dimensions or known area and layer depth, subtracting excluded areas where needed, or enter a known volume. Set allowance; optional bag volume and your density add bag count, leftover and estimated mass. Results use L, m³, ft³ or yd³, with mass in kg. Density is not assumed, and volume alone supports bulk orders.",
+                "hu": "Méretekből vagy ismert területből és rétegvastagságból számolhatsz földtérfogatot, szükség esetén területlevonással, vagy beírhatod az ismert térfogatot. Állítsd be a ráhagyást; az opcionális zsáktérfogat és saját sűrűségadat zsákszámot, maradékot és becsült tömeget ad. Az eredmény L, m³, ft³ vagy yd³, a tömeg kg. Nincs feltételezett sűrűség, ömlesztett rendeléshez a térfogat is elegendő.",
+                "de": "Berechne Erdvolumen aus Maßen oder bekannter Fläche und Schichtdicke, bei Bedarf mit Flächenabzügen, oder gib ein bekanntes Volumen ein. Lege den Zuschlag fest; optionales Sackvolumen und eigene Dichte ergänzen Sackzahl, Rest und geschätzte Masse. Ergebnisse erscheinen in L, m³, ft³ oder yd³, Masse in kg. Eine Dichte wird nicht angenommen; für lose Bestellungen reicht das Volumen.",
+                "es": "Calcula el volumen de tierra con dimensiones o área conocida y espesor, descontando áreas si hace falta, o introduce un volumen conocido. Define el margen; el volumen opcional del saco y tu densidad añaden sacos, sobrante y masa estimada. Los resultados usan L, m³, ft³ o yd³ y kg para la masa. No se presupone densidad; el volumen basta para pedidos a granel.",
+                "fr": "Calculez le volume de terre à partir de dimensions ou d’une surface connue et de l’épaisseur, avec déductions de surface si nécessaire, ou saisissez un volume connu. Définissez la marge ; le volume facultatif du sac et votre densité ajoutent sacs, reste et masse estimée. Les résultats utilisent L, m³, ft³ ou yd³, et kg pour la masse. Aucune densité n’est supposée ; le volume suffit pour commander en vrac.",
+                "pt-BR": "Calcule o volume de terra com dimensões ou área conhecida e espessura, descontando áreas quando necessário, ou informe um volume conhecido. Defina a margem; o volume opcional do saco e sua densidade acrescentam sacos, sobra e massa estimada. Os resultados usam L, m³, ft³ ou yd³, e kg para massa. A densidade não é presumida; o volume basta para pedidos a granel.",
+                "pl": "Oblicz objętość ziemi z wymiarów lub znanej powierzchni i grubości warstwy, odejmując wyłączone obszary, albo wpisz znaną objętość. Ustaw zapas; opcjonalna pojemność worka i własna gęstość dodają liczbę worków, resztę i szacowaną masę. Wyniki są w L, m³, ft³ lub yd³, a masa w kg. Gęstość nie jest zakładana; do zamówień luzem wystarczy objętość.",
+                "it": "Calcola il volume di terra da dimensioni o area nota e spessore, sottraendo aree se necessario, oppure inserisci un volume noto. Imposta il margine; il volume facoltativo del sacco e la densità fornita da te aggiungono sacchi, avanzo e massa stimata. I risultati usano L, m³, ft³ o yd³, e kg per la massa. Non viene presunta una densità; per ordinare sfuso basta il volume."
+              }
+            },
+            {
+              "id": "mat-gravel",
+              "title": {
+                "en": "Gravel",
+                "hu": "Kavics",
+                "de": "Kies",
+                "es": "Grava",
+                "fr": "Gravier",
+                "pt-BR": "Cascalho",
+                "pl": "Żwir",
+                "it": "Ghiaia"
+              },
+              "text": {
+                "en": "Enter the area and layer depth of paths or surfaces, using dimensions or a known area with deductions, or supply volume directly. The calculation includes your allowance and shows volume in L, m³, ft³ or yd³. Optional bag volume gives whole bags and leftover; your density in kg/m³ gives estimated kg. Different gravel types are not assumed to have the same density. Bulk supply needs no bag size.",
+                "hu": "Utak vagy felületek területét és rétegvastagságát adhatod meg méretekkel vagy ismert területtel és levonásokkal, vagy közvetlen térfogattal számolhatsz. Az eredmény a saját ráhagyásoddal növelt térfogat L, m³, ft³ vagy yd³ egységben. Opcionális zsáktérfogat egész zsákszámot és maradékot, a kg/m³-ben megadott sűrűség becsült kg-ot ad. A különböző kavicsokhoz nem feltételez azonos sűrűséget. Ömlesztett beszerzéshez nem kell zsákméret.",
+                "de": "Gib Fläche und Schichtdicke von Wegen oder Flächen über Maße oder eine bekannte Fläche mit Abzügen ein, oder direkt das Volumen. Die Berechnung berücksichtigt deinen Zuschlag und zeigt das Volumen in L, m³, ft³ oder yd³. Optionales Sackvolumen liefert ganze Säcke und Rest; deine Dichte in kg/m³ ergibt geschätzte kg. Unterschiedlichen Kiesarten wird keine gleiche Dichte unterstellt. Für lose Lieferung ist keine Sackgröße nötig.",
+                "es": "Introduce el área y espesor de caminos o superficies mediante dimensiones o área conocida con deducciones, o indica el volumen directamente. El cálculo incluye tu margen y muestra volumen en L, m³, ft³ o yd³. El volumen opcional del saco da sacos enteros y sobrante; tu densidad en kg/m³ da kg estimados. No se supone igual densidad para todas las gravas. El suministro a granel no necesita tamaño de saco.",
+                "fr": "Indiquez la surface et l’épaisseur de chemins ou d’autres surfaces à partir de dimensions ou d’une surface connue avec déductions, ou directement le volume. Le calcul inclut votre marge et affiche le volume en L, m³, ft³ ou yd³. Le volume facultatif du sac donne les sacs entiers et le reste ; votre densité en kg/m³ fournit une estimation en kg. Les graviers ne sont pas supposés avoir tous la même densité. La livraison en vrac ne nécessite pas de taille de sac.",
+                "pt-BR": "Informe área e espessura de caminhos ou superfícies usando dimensões ou área conhecida com descontos, ou indique o volume diretamente. O cálculo inclui sua margem e mostra volume em L, m³, ft³ ou yd³. O volume opcional do saco fornece sacos inteiros e sobra; sua densidade em kg/m³ fornece kg estimados. Tipos diferentes de cascalho não são considerados de mesma densidade. Compra a granel dispensa tamanho de saco.",
+                "pl": "Podaj powierzchnię i grubość warstwy ścieżek lub innych obszarów, używając wymiarów albo znanej powierzchni z odliczeniami, lub wpisz objętość. Obliczenie uwzględnia Twój zapas i pokazuje objętość w L, m³, ft³ lub yd³. Opcjonalna pojemność worka daje pełne worki i resztę, a Twoja gęstość w kg/m³ — szacowaną masę w kg. Różnym żwirom nie przypisuje się tej samej gęstości. Dostawa luzem nie wymaga pojemności worka.",
+                "it": "Inserisci area e spessore di vialetti o superfici tramite dimensioni o area nota con detrazioni, oppure direttamente il volume. Il calcolo include il tuo margine e mostra il volume in L, m³, ft³ o yd³. Il volume facoltativo del sacco fornisce sacchi interi e avanzo; la tua densità in kg/m³ dà i kg stimati. Tipi diversi di ghiaia non hanno una densità presunta uguale. Per la fornitura sfusa non serve il formato del sacco."
               }
             },
             {
@@ -4310,28 +4402,219 @@
                 "pl": "Ustaw nieujemny zapas i dodatnią pojemność opakowania. Wyniki rozdzielają potrzeby netto, z zapasem, całe opakowania w górę i spodziewane resztki. To szacunek z twoich wymiarów i wydajności, nie gwarancja produktu.",
                 "it": "Imposta margine non negativo e capacità positiva della confezione. Vedi fabbisogno netto, con margine, confezioni intere arrotondate in alto e avanzo previsto. Stime da misure e copertura, non garanzie del prodotto."
               }
+            }
+          ]
+        },
+        {
+          "id": "mat-projects",
+          "title": {
+            "en": "Projects, shopping and documents",
+            "hu": "Projektek, bevásárlás és dokumentumok",
+            "de": "Projekte, Einkauf und Dokumente",
+            "es": "Proyectos, compras y documentos",
+            "fr": "Projets, achats et documents",
+            "pt-BR": "Projetos, compras e documentos",
+            "pl": "Projekty, zakupy i dokumenty",
+            "it": "Progetti, acquisti e documenti"
+          },
+          "items": [
+            {
+              "id": "mat-project-save",
+              "title": {
+                "en": "Save calculations in projects",
+                "hu": "Számítások mentése projektekbe",
+                "de": "Berechnungen in Projekten speichern",
+                "es": "Guardar cálculos en proyectos",
+                "fr": "Enregistrer les calculs dans des projets",
+                "pt-BR": "Salvar cálculos em projetos",
+                "pl": "Zapisywanie obliczeń w projektach",
+                "it": "Salvare calcoli nei progetti"
+              },
+              "text": {
+                "en": "Save a result manually to a new or existing project, with separate names for the calculation and project. Every saved calculation belongs to a project; a project can contain just one calculation or several material types. There is no automatic calculation history. Create, rename or delete projects. When deleting a project, confirm deletion of its calculations or move them to another new or existing project first.",
+                "hu": "Az eredményt kézzel mentheted új vagy meglévő projektbe; a számításnak és a projektnek külön nevet adhatsz. Minden mentett számítás projekthez tartozik, amelyben akár egyetlen számítás vagy többféle anyag számítása is lehet. Nincs automatikus számítási előzménylista. Projekteket létrehozhatsz, átnevezhetsz és törölhetsz. Projekttörléskor megerősítheted a számítások törlését, vagy előbb másik új vagy meglévő projektbe helyezheted őket.",
+                "de": "Speichere ein Ergebnis manuell in einem neuen oder vorhandenen Projekt, mit eigenen Namen für Berechnung und Projekt. Jede gespeicherte Berechnung gehört zu einem Projekt; dieses kann nur eine Berechnung oder mehrere Materialarten enthalten. Es gibt keinen automatischen Berechnungsverlauf. Erstelle, benenne oder lösche Projekte. Bestätige beim Löschen auch die Löschung der Berechnungen oder verschiebe sie zuvor in ein anderes neues oder vorhandenes Projekt.",
+                "es": "Guarda manualmente un resultado en un proyecto nuevo o existente, con nombres propios para cálculo y proyecto. Cada cálculo guardado pertenece a un proyecto, que puede contener uno solo o varios tipos de material. No hay historial automático de cálculos. Crea, renombra o elimina proyectos. Al eliminar uno, confirma también la eliminación de sus cálculos o muévelos antes a otro proyecto nuevo o existente.",
+                "fr": "Enregistrez manuellement un résultat dans un projet nouveau ou existant, avec un nom pour le calcul et un autre pour le projet. Chaque calcul enregistré appartient à un projet, qui peut contenir un seul calcul ou plusieurs types de matériaux. Il n’y a pas d’historique automatique. Créez, renommez ou supprimez des projets. Lors de la suppression, confirmez celle des calculs ou déplacez-les d’abord vers un autre projet nouveau ou existant.",
+                "pt-BR": "Salve manualmente um resultado em um projeto novo ou existente, com nomes próprios para cálculo e projeto. Todo cálculo salvo pertence a um projeto, que pode conter apenas um cálculo ou vários tipos de material. Não há histórico automático de cálculos. Crie, renomeie ou exclua projetos. Ao excluir um projeto, confirme a exclusão dos cálculos ou mova-os antes para outro projeto novo ou existente.",
+                "pl": "Zapisz wynik ręcznie w nowym lub istniejącym projekcie, nadając osobne nazwy obliczeniu i projektowi. Każde zapisane obliczenie należy do projektu; może on zawierać tylko jedno obliczenie lub kilka rodzajów materiałów. Nie ma automatycznej historii obliczeń. Twórz, zmieniaj nazwy i usuwaj projekty. Przy usuwaniu potwierdź usunięcie obliczeń albo najpierw przenieś je do innego nowego lub istniejącego projektu.",
+                "it": "Salva manualmente un risultato in un progetto nuovo o esistente, con nomi separati per calcolo e progetto. Ogni calcolo salvato appartiene a un progetto, che può contenere anche un solo calcolo o diversi tipi di materiale. Non c’è una cronologia automatica dei calcoli. Crea, rinomina o elimina progetti. Quando elimini un progetto, conferma anche l’eliminazione dei calcoli oppure spostali prima in un altro progetto nuovo o esistente."
+              }
             },
+            {
+              "id": "mat-project-edit",
+              "title": {
+                "en": "Edit, copy and keep alternatives",
+                "hu": "Szerkesztés, másolás és alternatívák",
+                "de": "Bearbeiten, kopieren und Varianten behalten",
+                "es": "Editar, copiar y conservar alternativas",
+                "fr": "Modifier, copier et conserver des variantes",
+                "pt-BR": "Editar, copiar e manter alternativas",
+                "pl": "Edycja, kopiowanie i warianty",
+                "it": "Modificare, copiare e conservare alternative"
+              },
+              "text": {
+                "en": "Open, edit, rename or delete saved calculations, copy them within or between projects, or move them to another project. Save changes by updating the original or creating a separate copy. Each calculation keeps its original product parameters even if that product is later edited or deleted. Turn off “Include in project total” to retain an alternative without adding it to the summary or shopping list. Leaving an edited saved calculation offers Save, Discard or Cancel; unchanged data needs no confirmation.",
+                "hu": "Megnyithatod, szerkesztheted, átnevezheted vagy törölheted a mentett számításokat, másolhatod őket ugyanabba vagy másik projektbe, illetve áthelyezheted őket projektek között. A módosítást a meglévő frissítéseként vagy külön másolatként mentheted. A számítás megőrzi eredeti termékparamétereit akkor is, ha a terméket később módosítod vagy törlöd. A „Beleszámít a projektösszesítésbe” kapcsoló kikapcsolásával az alternatíva megmarad, de nem kerül az összesítőbe és a bevásárlólistába. Módosított mentett számítás elhagyásakor Mentés, Elvetés vagy Mégse választható; változatlan adatnál nincs megerősítés.",
+                "de": "Öffne, bearbeite, benenne oder lösche gespeicherte Berechnungen, kopiere sie im selben oder in ein anderes Projekt oder verschiebe sie zwischen Projekten. Speichere Änderungen im Original oder als eigene Kopie. Jede Berechnung behält ihre ursprünglichen Produktparameter, auch wenn das Produkt später geändert oder gelöscht wird. Schalte „In Projektsumme einbeziehen“ aus, um eine Variante ohne Einfluss auf Übersicht und Einkaufsliste zu behalten. Beim Verlassen einer geänderten gespeicherten Berechnung stehen Speichern, Verwerfen und Abbrechen zur Wahl; unveränderte Daten benötigen keine Bestätigung.",
+                "es": "Abre, edita, renombra o elimina cálculos guardados, cópialos en el mismo proyecto o en otro, o muévelos entre proyectos. Guarda actualizando el original o creando una copia. Cada cálculo conserva sus parámetros originales aunque el producto se edite o elimine después. Desactiva «Incluir en el total del proyecto» para conservar una alternativa sin añadirla al resumen ni a la lista de compra. Al salir de un cálculo guardado modificado puedes guardar, descartar o cancelar; sin cambios no se pide confirmación.",
+                "fr": "Ouvrez, modifiez, renommez ou supprimez les calculs enregistrés, copiez-les dans le même projet ou un autre, ou déplacez-les entre projets. Mettez à jour l’original ou créez une copie séparée. Chaque calcul conserve ses paramètres produit d’origine, même si le produit est ensuite modifié ou supprimé. Désactivez « Inclure dans le total du projet » pour garder une variante sans l’ajouter au récapitulatif ni à la liste d’achats. En quittant un calcul enregistré modifié, choisissez Enregistrer, Ignorer ou Annuler ; sans changement, aucune confirmation n’est demandée.",
+                "pt-BR": "Abra, edite, renomeie ou exclua cálculos salvos, copie-os no mesmo projeto ou em outro, ou mova-os entre projetos. Salve atualizando o original ou criando uma cópia separada. Cada cálculo mantém seus parâmetros originais mesmo que o produto seja editado ou excluído depois. Desative «Incluir no total do projeto» para manter uma alternativa fora do resumo e da lista de compras. Ao sair de um cálculo salvo com alterações, escolha Salvar, Descartar ou Cancelar; sem alterações, não há confirmação.",
+                "pl": "Otwieraj, edytuj, zmieniaj nazwy i usuwaj zapisane obliczenia, kopiuj je w tym samym lub innym projekcie albo przenoś między projektami. Zapisuj zmiany w oryginale lub jako osobną kopię. Każde obliczenie zachowuje pierwotne parametry produktu, nawet gdy produkt zostanie później zmieniony lub usunięty. Wyłącz „Uwzględnij w sumie projektu”, aby zachować wariant poza podsumowaniem i listą zakupów. Przy wychodzeniu ze zmienionego zapisanego obliczenia wybierz Zapisz, Odrzuć lub Anuluj; bez zmian potwierdzenie nie jest potrzebne.",
+                "it": "Apri, modifica, rinomina o elimina i calcoli salvati, copiali nello stesso progetto o in un altro oppure spostali tra progetti. Aggiorna l’originale oppure salva una copia separata. Ogni calcolo conserva i parametri originali anche se il prodotto viene modificato o eliminato in seguito. Disattiva «Includi nel totale del progetto» per conservare un’alternativa senza aggiungerla al riepilogo o alla lista della spesa. Uscendo da un calcolo salvato modificato, scegli Salva, Scarta o Annulla; senza modifiche non serve conferma."
+              }
+            },
+            {
+              "id": "mat-transfer",
+              "title": {
+                "en": "Reuse compatible measurements",
+                "hu": "Kompatibilis méretek átvétele",
+                "de": "Kompatible Maße übernehmen",
+                "es": "Reutilizar medidas compatibles",
+                "fr": "Réutiliser des mesures compatibles",
+                "pt-BR": "Reutilizar medidas compatíveis",
+                "pl": "Ponowne użycie zgodnych wymiarów",
+                "it": "Riutilizzare misure compatibili"
+              },
+              "text": {
+                "en": "Select a saved calculation to transfer compatible surfaces and dimensions into another calculator, with unit conversion. Add them to existing inputs or replace the selected input groups with confirmation. Area deductions are selected separately and are off by default. Product parameters, allowance and old results are not transferred. The source stays unchanged, and transferring does not save a new calculation automatically.",
+                "hu": "Válassz egy mentett számítást, és vedd át a kompatibilis felületeket és méreteket másik kalkulátorba, egységátváltással. Hozzáadhatod őket a meglévő adatokhoz, vagy megerősítés után lecserélheted a kiválasztott adatcsoportokat. A területlevonások külön választhatók, alapból kikapcsolva. Termékparaméter, ráhagyás és régi eredmény nem kerül át. A forrás változatlan marad, az átvétel nem ment automatikusan új számítást.",
+                "de": "Wähle eine gespeicherte Berechnung, um kompatible Flächen und Maße mit Einheitenumrechnung in einen anderen Rechner zu übernehmen. Ergänze vorhandene Eingaben oder ersetze ausgewählte Gruppen nach Bestätigung. Flächenabzüge sind separat wählbar und standardmäßig aus. Produktparameter, Zuschlag und alte Ergebnisse werden nicht übernommen. Die Quelle bleibt unverändert; die Übernahme speichert keine neue Berechnung automatisch.",
+                "es": "Selecciona un cálculo guardado para pasar superficies y medidas compatibles a otra calculadora, convirtiendo unidades. Añádelas a los datos actuales o sustituye los grupos elegidos tras confirmar. Las deducciones de área se eligen aparte y están desactivadas por defecto. No se transfieren parámetros de producto, margen ni resultados anteriores. El origen no cambia y la transferencia no guarda un cálculo automáticamente.",
+                "fr": "Sélectionnez un calcul enregistré pour transférer les surfaces et dimensions compatibles vers un autre calculateur, avec conversion des unités. Ajoutez-les aux données existantes ou remplacez les groupes choisis après confirmation. Les déductions de surface se choisissent séparément et sont désactivées par défaut. Les paramètres produit, la marge et les anciens résultats ne sont pas transférés. La source reste intacte et le transfert n’enregistre pas automatiquement un calcul.",
+                "pt-BR": "Selecione um cálculo salvo para transferir superfícies e dimensões compatíveis para outra calculadora, com conversão de unidades. Adicione aos dados atuais ou substitua os grupos escolhidos após confirmação. Descontos de área são selecionados separadamente e ficam desativados por padrão. Parâmetros do produto, margem e resultados antigos não são transferidos. A origem permanece intacta e a transferência não salva um cálculo automaticamente.",
+                "pl": "Wybierz zapisane obliczenie, aby przenieść zgodne powierzchnie i wymiary do innego kalkulatora z przeliczeniem jednostek. Dodaj je do obecnych danych lub po potwierdzeniu zastąp wybrane grupy. Odliczenia powierzchni wybiera się osobno; domyślnie są wyłączone. Parametry produktu, zapas i stare wyniki nie są przenoszone. Źródło pozostaje bez zmian, a przeniesienie nie zapisuje automatycznie nowego obliczenia.",
+                "it": "Scegli un calcolo salvato per trasferire superfici e dimensioni compatibili in un altro calcolatore, con conversione delle unità. Aggiungile ai dati esistenti oppure sostituisci i gruppi selezionati dopo conferma. Le detrazioni di area si scelgono separatamente e sono disattivate per impostazione iniziale. Parametri del prodotto, margine e vecchi risultati non vengono trasferiti. L’origine resta invariata e il trasferimento non salva automaticamente un nuovo calcolo."
+              }
+            },
+            {
+              "id": "mat-project-totals",
+              "title": {
+                "en": "Project totals by material",
+                "hu": "Projektösszesítő anyagonként",
+                "de": "Projektsummen je Material",
+                "es": "Totales del proyecto por material",
+                "fr": "Totaux du projet par matériau",
+                "pt-BR": "Totais do projeto por material",
+                "pl": "Sumy projektu według materiału",
+                "it": "Totali del progetto per materiale"
+              },
+              "text": {
+                "en": "The summary uses included saved calculations and their allowance-adjusted quantities, without adding allowance again. Only reliably identical products with compatible saved parameters can combine; different or unknown products stay separate. Paint adds in litres; wallpaper adds each calculation’s whole rolls, without shared cutting optimization. Laminate and tiles combine required areas before pack or box rounding. Concrete, mulch, topsoil and gravel combine volumes, with optional bags and, for garden materials, density-based mass. Quantities and packaging are estimates to guide your purchase, not a purchase obligation.",
+                "hu": "Az összesítő a beleszámító mentett számítások már ráhagyásos mennyiségeit használja, újabb ráhagyás nélkül. Csak megbízhatóan azonos termékek vonhatók össze kompatibilis mentett paraméterekkel; eltérő vagy ismeretlen termékek külön maradnak. Festéknél literek, tapétánál a külön számítások egész tekercsei adódnak össze, közös vágásoptimalizálás nélkül. Lamináltnál és csempénél a szükséges terület összeadása előzi meg a csomag- vagy dobozkerekítést. Beton, mulcs, termőföld és kavics esetén térfogat, opcionálisan zsákszám, a kerti anyagoknál sűrűségből tömeg szerepel. A mennyiség és kiszerelés beszerzési becslés, nem vásárlási kötelezettség.",
+                "de": "Die Übersicht verwendet einbezogene gespeicherte Berechnungen samt bereits enthaltenem Zuschlag, ohne diesen erneut anzuwenden. Nur sicher identische Produkte mit kompatiblen gespeicherten Parametern werden zusammengefasst; unterschiedliche oder unbekannte Produkte bleiben getrennt. Farbe wird in Litern addiert, Tapete anhand ganzer Rollen je Berechnung ohne gemeinsame Zuschnittoptimierung. Laminat und Fliesen addieren Bedarfsflächen vor der Packungs- oder Kartonrundung. Beton, Mulch, Mutterboden und Kies summieren Volumen, optional Säcke und bei Gartenmaterialien Masse aus der Dichte. Mengen und Verpackungen sind Einkaufsschätzungen, keine Kaufpflicht.",
+                "es": "El resumen usa los cálculos guardados incluidos y sus cantidades con margen, sin volver a añadirlo. Solo se combinan productos de identidad fiable y parámetros guardados compatibles; los distintos o desconocidos quedan separados. La pintura suma litros; el papel pintado suma los rollos enteros de cada cálculo, sin optimización conjunta de cortes. Laminado y baldosas suman áreas antes de redondear paquetes o cajas. Hormigón, acolchado, tierra y grava suman volúmenes, con sacos opcionales y masa según densidad para materiales de jardín. Son estimaciones para orientar la compra, no una obligación de adquirir esas cantidades.",
+                "fr": "Le récapitulatif utilise les calculs enregistrés inclus et leurs quantités avec marge, sans ajouter celle-ci une seconde fois. Seuls les produits identifiés avec certitude comme identiques, avec des paramètres enregistrés compatibles, sont regroupés ; les autres restent séparés. La peinture s’additionne en litres ; le papier peint additionne les rouleaux entiers de chaque calcul sans optimisation commune des coupes. Stratifié et carrelage additionnent les surfaces avant l’arrondi des paquets ou cartons. Béton, paillage, terre et gravier additionnent les volumes, avec sacs facultatifs et masse selon densité pour les matériaux de jardin. Ces estimations guident l’achat sans imposer de quantité à acheter.",
+                "pt-BR": "O resumo usa os cálculos salvos incluídos e suas quantidades já com margem, sem aplicá-la novamente. Só combina produtos comprovadamente iguais com parâmetros salvos compatíveis; produtos diferentes ou desconhecidos ficam separados. Tintas somam litros; papel de parede soma os rolos inteiros de cada cálculo, sem otimização conjunta de cortes. Laminados e revestimentos somam áreas antes de arredondar pacotes ou caixas. Concreto, cobertura morta, terra e cascalho somam volumes, com sacos opcionais e massa pela densidade para materiais de jardim. Quantidades e embalagens são estimativas para orientar a compra, não uma obrigação de compra.",
+                "pl": "Podsumowanie korzysta z uwzględnionych zapisanych obliczeń i ich ilości już powiększonych o zapas, bez dodawania go ponownie. Łączy tylko produkty o pewnej wspólnej tożsamości i zgodnych zapisanych parametrach; różne lub nieznane pozostają osobno. Farby sumuje w litrach, tapety jako pełne rolki z każdego obliczenia bez wspólnej optymalizacji cięcia. Panele i płytki sumują powierzchnie przed zaokrągleniem paczek lub pudełek. Beton, ściółka, ziemia i żwir sumują objętości, opcjonalnie worki, a dla materiałów ogrodowych masę z gęstości. Ilości i opakowania są wskazówką zakupową, nie obowiązkiem zakupu.",
+                "it": "Il riepilogo usa i calcoli salvati inclusi e le quantità già comprensive del margine, senza aggiungerlo di nuovo. Combina solo prodotti identificati con certezza come uguali e con parametri salvati compatibili; prodotti diversi o sconosciuti restano separati. La vernice somma litri; la carta da parati somma i rotoli interi dei singoli calcoli senza ottimizzazione comune dei tagli. Laminati e piastrelle sommano le aree prima di arrotondare confezioni o scatole. Calcestruzzo, pacciamatura, terriccio e ghiaia sommano volumi, con sacchi facoltativi e massa dalla densità per i materiali da giardino. Sono stime utili per l’acquisto, non quantità da acquistare obbligatoriamente."
+              }
+            },
+            {
+              "id": "mat-shopping",
+              "title": {
+                "en": "Shopping list and quantity changes",
+                "hu": "Bevásárlólista és mennyiségváltozás",
+                "de": "Einkaufsliste und Mengenänderungen",
+                "es": "Lista de compra y cambios de cantidad",
+                "fr": "Liste d’achats et changements de quantité",
+                "pt-BR": "Lista de compras e mudanças de quantidade",
+                "pl": "Lista zakupów i zmiany ilości",
+                "it": "Lista della spesa e variazioni di quantità"
+              },
+              "text": {
+                "en": "Each project has a shopping list with persistent, reversible checkmarks. Green means you confirmed the purchase for the current calculated quantity. If that requirement changes, the previous mark turns grey as a warning; old and new quantities and the signed difference remain visible. Reconfirm to make it green again. An increase is additional calculated need, not proven stock shortage: the app does not track your actual stock. Share the list as text, including quantities, units, packaging and purchase states.",
+                "hu": "Minden projektnek tartósan megmaradó, visszavonható pipákkal ellátott bevásárlólistája van. A zöld pipa az aktuális számított mennyiség melletti vásárlási megerősítést jelzi. Ha az igény változik, a korábbi pipa szürke figyelmeztetéssé válik; látható a régi és új mennyiség, valamint az előjeles eltérés. Újramegerősítéssel ismét zöld lesz. A növekedés további számított szükséglet, nem bizonyított készlethiány: az app nem vezet tényleges készletet. A lista szövegként megosztható, mennyiségekkel, egységekkel, kiszereléssel és vásárlási állapottal.",
+                "de": "Jedes Projekt besitzt eine Einkaufsliste mit dauerhaft gespeicherten, rücknehmbaren Häkchen. Grün bedeutet, dass du den Einkauf für die aktuelle berechnete Menge bestätigt hast. Ändert sich der Bedarf, wird das bisherige Häkchen als Hinweis grau; alte und neue Menge sowie die vorzeichenbehaftete Differenz bleiben sichtbar. Bestätige erneut für Grün. Ein Anstieg ist zusätzlicher berechneter Bedarf, kein nachgewiesener Fehlbestand: Die App verwaltet keinen tatsächlichen Vorrat. Teile die Liste als Text mit Mengen, Einheiten, Verpackungen und Kaufstatus.",
+                "es": "Cada proyecto tiene una lista con marcas persistentes y reversibles. Verde significa que confirmaste la compra para la cantidad calculada actual. Si cambia la necesidad, la marca anterior pasa a gris como aviso; se muestran cantidad anterior, nueva y diferencia con signo. Confirma de nuevo para volver a verde. Un aumento es necesidad calculada adicional, no falta de existencias demostrada: la app no registra tu stock real. Comparte la lista como texto con cantidades, unidades, envases y estados de compra.",
+                "fr": "Chaque projet possède une liste d’achats avec des coches conservées et réversibles. Le vert indique que vous avez confirmé l’achat pour la quantité calculée actuelle. Si le besoin change, la coche devient grise à titre d’avertissement ; les anciennes et nouvelles quantités et l’écart signé restent visibles. Confirmez à nouveau pour revenir au vert. Une hausse est un besoin calculé supplémentaire, pas un manque de stock constaté : l’app ne suit pas votre stock réel. Partagez la liste en texte avec quantités, unités, conditionnements et états d’achat.",
+                "pt-BR": "Cada projeto tem uma lista com marcações persistentes e reversíveis. Verde indica que você confirmou a compra para a quantidade calculada atual. Se a necessidade mudar, a marca anterior fica cinza como alerta; aparecem quantidades antiga e nova e a diferença com sinal. Confirme novamente para voltar ao verde. Um aumento é necessidade calculada adicional, não falta de estoque comprovada: o app não controla seu estoque real. Compartilhe a lista como texto, com quantidades, unidades, embalagens e estados de compra.",
+                "pl": "Każdy projekt ma listę zakupów z trwałymi, odwracalnymi zaznaczeniami. Zielone oznacza potwierdzenie zakupu dla obecnej obliczonej ilości. Gdy zapotrzebowanie się zmieni, wcześniejsze zaznaczenie staje się szare jako ostrzeżenie; widoczne są stara i nowa ilość oraz różnica ze znakiem. Ponowne potwierdzenie przywraca zieleń. Wzrost to dodatkowe obliczone zapotrzebowanie, a nie stwierdzony brak zapasu: aplikacja nie śledzi rzeczywistych stanów magazynowych. Udostępnij listę jako tekst z ilościami, jednostkami, opakowaniami i stanem zakupu.",
+                "it": "Ogni progetto ha una lista con spunte persistenti e reversibili. Il verde indica che hai confermato l’acquisto per la quantità calcolata attuale. Se il fabbisogno cambia, la spunta precedente diventa grigia come avviso; restano visibili quantità precedente, nuova e differenza con segno. Conferma di nuovo per tornare al verde. Un aumento è un fabbisogno calcolato aggiuntivo, non una carenza di scorte accertata: l’app non registra le scorte effettive. Condividi la lista come testo con quantità, unità, confezioni e stati d’acquisto."
+              }
+            },
+            {
+              "id": "mat-pdf",
+              "title": {
+                "en": "Create, save, share or print a PDF",
+                "hu": "PDF készítése, mentése, megosztása, nyomtatása",
+                "de": "PDF erstellen, speichern, teilen oder drucken",
+                "es": "Crear, guardar, compartir o imprimir un PDF",
+                "fr": "Créer, enregistrer, partager ou imprimer un PDF",
+                "pt-BR": "Criar, salvar, compartilhar ou imprimir um PDF",
+                "pl": "Tworzenie, zapis, udostępnianie i druk PDF",
+                "it": "Creare, salvare, condividere o stampare un PDF"
+              },
+              "text": {
+                "en": "Create a PDF offline with the project summary, detailed calculations, shopping list or a combination. Choose at least one; summary and shopping list are selected initially. The document includes the project name, date, units, results, purchase states and quantity changes. Save it through Android’s file picker, share it with an app you choose or print it. A PDF is for reading and printing; it cannot restore app data.",
+                "hu": "Offline PDF-et készíthetsz a projektösszesítőből, részletes számításokból, bevásárlólistából vagy ezek kombinációjából. Legalább egy tartalmat válassz; kezdetben az összesítő és a bevásárlólista van kijelölve. A dokumentum tartalmazza a projekt nevét, a dátumot, az egységeket, eredményeket, vásárlási állapotokat és mennyiségváltozásokat. Android-fájlválasztóval mentheted, választott alkalmazással megoszthatod vagy nyomtathatod. A PDF olvasásra és nyomtatásra szolgál, appadat nem állítható vissza belőle.",
+                "de": "Erstelle offline ein PDF mit Projektübersicht, detaillierten Berechnungen, Einkaufsliste oder einer Kombination. Wähle mindestens einen Inhalt; Übersicht und Einkaufsliste sind anfangs ausgewählt. Das Dokument enthält Projektname, Datum, Einheiten, Ergebnisse, Kaufstatus und Mengenänderungen. Speichere es über die Android-Dateiauswahl, teile es mit einer gewählten App oder drucke es. Ein PDF dient zum Lesen und Drucken, nicht zur Wiederherstellung von App-Daten.",
+                "es": "Crea un PDF sin conexión con resumen del proyecto, cálculos detallados, lista de compra o una combinación. Elige al menos un contenido; resumen y lista están seleccionados inicialmente. Incluye nombre del proyecto, fecha, unidades, resultados, estados de compra y cambios de cantidad. Guárdalo con el selector de archivos de Android, compártelo con la app que elijas o imprímelo. Un PDF sirve para leer e imprimir, no para restaurar datos de la app.",
+                "fr": "Créez hors ligne un PDF contenant le récapitulatif du projet, les calculs détaillés, la liste d’achats ou une combinaison. Choisissez au moins un contenu ; le récapitulatif et la liste sont sélectionnés au départ. Le document inclut nom du projet, date, unités, résultats, états d’achat et variations de quantité. Enregistrez-le via le sélecteur de fichiers Android, partagez-le avec l’app choisie ou imprimez-le. Le PDF sert à la lecture et à l’impression ; il ne restaure pas les données de l’app.",
+                "pt-BR": "Crie um PDF offline com resumo do projeto, cálculos detalhados, lista de compras ou uma combinação. Escolha ao menos um conteúdo; resumo e lista vêm selecionados. O documento inclui nome do projeto, data, unidades, resultados, estados de compra e alterações de quantidade. Salve pelo seletor de arquivos do Android, compartilhe com o app escolhido ou imprima. O PDF serve para leitura e impressão, não para restaurar os dados do app.",
+                "pl": "Utwórz PDF offline z podsumowaniem projektu, szczegółowymi obliczeniami, listą zakupów lub ich połączeniem. Wybierz co najmniej jedną część; początkowo zaznaczone są podsumowanie i lista. Dokument zawiera nazwę projektu, datę, jednostki, wyniki, stany zakupu i zmiany ilości. Zapisz go przez systemowy wybór pliku Androida, udostępnij wybranej aplikacji lub wydrukuj. PDF służy do czytania i drukowania, nie do przywracania danych aplikacji.",
+                "it": "Crea offline un PDF con riepilogo del progetto, calcoli dettagliati, lista della spesa o una combinazione. Scegli almeno un contenuto; riepilogo e lista sono selezionati inizialmente. Il documento include nome del progetto, data, unità, risultati, stati d’acquisto e variazioni di quantità. Salvalo con il selettore di file Android, condividilo con l’app scelta o stampalo. Il PDF serve per leggere e stampare, non per ripristinare i dati dell’app."
+              }
+            },
+            {
+              "id": "mat-backup",
+              "title": {
+                "en": "Local data, backup and full restore",
+                "hu": "Helyi adatok, mentés és teljes visszaállítás",
+                "de": "Lokale Daten, Sicherung und vollständige Wiederherstellung",
+                "es": "Datos locales, copia y restauración completa",
+                "fr": "Données locales, sauvegarde et restauration complète",
+                "pt-BR": "Dados locais, backup e restauração completa",
+                "pl": "Dane lokalne, kopia i pełne przywracanie",
+                "it": "Dati locali, backup e ripristino completo"
+              },
+              "text": {
+                "en": "Products, projects, saved calculations and shopping marks are stored locally. Android system backup follows platform and device settings. You can also save all this data to one backup file at a location chosen in Android’s file picker. Restoring replaces existing local records completely after confirmation; it does not merge them. Save a separate copy of current data first. PDF files are not backups. There is no account, JN86 project cloud, automatic sync or price and cost management.",
+                "hu": "A termékek, projektek, mentett számítások és bevásárlási jelölések helyben tárolódnak. Az Android rendszermentés a platform és a készülék beállításait követi. Ezeket az adatokat kézzel is egyetlen mentésfájlba mentheted az Android-fájlválasztóban kijelölt helyre. Visszaállításkor megerősítés után teljesen lecserélődnek a meglévő helyi rekordok, nincs összefésülés. Előtte ments külön másolatot az aktuális adatokról. A PDF nem biztonsági mentés. Nincs fiók, saját projektfelhő, automatikus szinkron vagy ár- és költségkezelés.",
+                "de": "Produkte, Projekte, gespeicherte Berechnungen und Einkaufsmarkierungen werden lokal gespeichert. Die Android-Systemsicherung folgt den Plattform- und Geräteeinstellungen. Du kannst diese Daten auch in einer einzigen Sicherungsdatei an einem über Android gewählten Ort speichern. Eine Wiederherstellung ersetzt nach Bestätigung alle vorhandenen lokalen Datensätze; sie führt sie nicht zusammen. Sichere vorher den aktuellen Stand separat. PDF-Dateien sind keine Datensicherungen. Es gibt kein Konto, keine JN86-Projektcloud, automatische Synchronisierung oder Preis- und Kostenverwaltung.",
+                "es": "Productos, proyectos, cálculos guardados y marcas de compra se almacenan localmente. La copia de Android sigue las reglas y ajustes de plataforma y dispositivo. También puedes guardar todos esos datos en un archivo de copia en la ubicación elegida mediante Android. Restaurar sustituye por completo los registros locales tras confirmar; no los combina. Guarda antes una copia aparte de los datos actuales. Los PDF no son copias restaurables. No hay cuenta, nube de proyectos de JN86, sincronización automática ni gestión de precios y costes.",
+                "fr": "Produits, projets, calculs enregistrés et coches d’achat sont stockés localement. La sauvegarde système Android suit les règles et réglages de la plateforme et de l’appareil. Vous pouvez aussi enregistrer toutes ces données dans un fichier de sauvegarde à l’emplacement choisi dans Android. La restauration remplace entièrement les données locales après confirmation, sans fusion. Sauvegardez d’abord séparément les données actuelles. Les PDF ne sont pas des sauvegardes restaurables. Il n’y a ni compte, ni cloud de projets JN86, ni synchronisation automatique, ni gestion des prix et coûts.",
+                "pt-BR": "Produtos, projetos, cálculos salvos e marcações de compra ficam no dispositivo. O backup do Android segue as regras e configurações da plataforma e do aparelho. Você também pode salvar todos esses dados em um arquivo de backup no local escolhido pelo seletor do Android. A restauração substitui todos os registros locais após confirmação, sem mesclar. Salve antes uma cópia separada dos dados atuais. PDFs não são backups restauráveis. Não há conta, nuvem de projetos JN86, sincronização automática nem gestão de preços e custos.",
+                "pl": "Produkty, projekty, zapisane obliczenia i zaznaczenia zakupów są przechowywane lokalnie. Kopia systemowa Androida zależy od zasad i ustawień platformy oraz urządzenia. Możesz też zapisać wszystkie te dane w jednym pliku kopii w miejscu wybranym przez system Android. Przywracanie po potwierdzeniu całkowicie zastępuje lokalne rekordy, bez łączenia. Najpierw zapisz osobną kopię obecnych danych. Pliki PDF nie są kopiami do przywracania. Nie ma konta, chmury projektów JN86, automatycznej synchronizacji ani zarządzania cenami i kosztami.",
+                "it": "Prodotti, progetti, calcoli salvati e spunte della spesa sono memorizzati localmente. Il backup di sistema Android segue regole e impostazioni della piattaforma e del dispositivo. Puoi anche salvare tutti questi dati in un unico file di backup nella posizione scelta tramite Android. Il ripristino sostituisce completamente i dati locali dopo conferma, senza unirli. Salva prima una copia separata dei dati attuali. I PDF non sono backup ripristinabili. Non ci sono account, cloud di progetti JN86, sincronizzazione automatica o gestione di prezzi e costi."
+              }
+            }
+          ]
+        },
+        {
+          "id": "material-calculator-practical",
+          "title": {
+            "en": "Products and everyday use",
+            "hu": "Termékek és mindennapi használat",
+            "de": "Produkte und tägliche Nutzung",
+            "es": "Productos y uso diario",
+            "fr": "Produits et utilisation quotidienne",
+            "pt-BR": "Produtos e uso diário",
+            "pl": "Produkty i codzienne użytkowanie",
+            "it": "Prodotti e uso quotidiano"
+          },
+          "items": [
             {
               "id": "mat-presets",
               "title": {
-                "en": "Your saved product parameters",
-                "hu": "Saját mentett termékparaméterek",
-                "de": "Eigene gespeicherte Produktwerte",
-                "es": "Tus parámetros guardados",
-                "fr": "Vos paramètres produits enregistrés",
-                "pt-BR": "Seus parâmetros salvos",
-                "pl": "Zapisane parametry produktów",
-                "it": "I tuoi parametri salvati"
+                "en": "Products and reusable parameters",
+                "hu": "Termékek és újrahasználható paraméterek",
+                "de": "Produkte und wiederverwendbare Parameter",
+                "es": "Productos y parámetros reutilizables",
+                "fr": "Produits et paramètres réutilisables",
+                "pt-BR": "Produtos e parâmetros reutilizáveis",
+                "pl": "Produkty i parametry do ponownego użycia",
+                "it": "Prodotti e parametri riutilizzabili"
               },
               "text": {
-                "en": "Save, edit and delete reusable paint coverage, floor-pack area, tile size, wallpaper dimensions/repeat or concrete bag yield. Select a preset instead of entering the same values again. Presets stay locally; they are not a saved project or a calculation history.",
-                "hu": "Menthető, szerkeszthető és törölhető fedőképesség, padlócsomag-terület, csempeméret, tapétaméret/minta és betonkihozatal. Sablonnal nem kell ugyanazt újra beírni. Helyi kényelmi adatok, nem mentett projektek vagy számítási előzmények.",
-                "de": "Speichere, bearbeite und lösche Deckkraft, Bodenpackfläche, Fliesengröße, Tapetenmaße/Rapport oder Betonertrag. Eine Vorlage erspart erneute Eingabe. Sie bleibt lokal und ist weder Projekt noch Rechenverlauf.",
-                "es": "Guarda, edita y borra cobertura de pintura, área de paquete, baldosa, papel/repetición o rendimiento del saco. Usa preajustes para no repetir datos. Son locales, no proyectos ni historial de cálculos.",
-                "fr": "Enregistrez, modifiez et supprimez rendement peinture, surface de paquet, carreau, papier/raccord ou rendement béton. Un préréglage évite de ressaisir. Il reste local, sans projet sauvegardé ni historique de calcul.",
-                "pt-BR": "Salve, edite e apague rendimento de tinta, área de pacote, azulejo, papel/repetição ou rendimento de concreto. Use predefinições para evitar redigitar. São locais, não projetos salvos nem histórico de cálculos.",
-                "pl": "Zapisuj, edytuj i usuwaj wydajność farby, powierzchnię paczki, płytkę, tapetę/raport lub wydajność betonu. Szablon oszczędza wpisywanie. Pozostaje lokalny, nie jest projektem ani historią obliczeń.",
-                "it": "Salva, modifica ed elimina copertura pittura, area pacco, piastrella, carta/rapporto o resa calcestruzzo. Una preimpostazione evita di reinserire. Resta locale, non è un progetto né cronologia di calcolo."
+                "en": "The Products tab separately manages reusable material products: create, load, edit or delete their coverage, package sizes, tile dimensions, roll dimensions and other supported parameters. Editable starter products help you begin; verify their values for the material you use. Loading a product returns to its parameters in the calculator while preserving your measurements. Leaving real edits offers Save, Discard or Cancel; simply opening a product does not create a change. Resetting product parameters leaves dimensions, deductions and allowance intact.",
+                "hu": "A Termékek lap külön kezeli az újrahasználható anyagtermékeket: létrehozhatod, betöltheted, szerkesztheted és törölheted a fedőképességet, kiszerelést, lap- és tekercsméreteket és a további támogatott paramétereket. Szerkeszthető kezdőtermékek segítik az indulást; az értékeket ellenőrizd a használt anyagnál. Betöltés után a kalkulátor a termékparaméterekhez tér vissza, a méretek megőrzésével. Valódi módosítás elhagyásakor Mentés, Elvetés vagy Mégse választható; a puszta megnyitás nem módosítás. A termékparaméterek visszaállítása a méreteket, levonásokat és ráhagyást megtartja.",
+                "de": "Der Reiter Produkte verwaltet wiederverwendbare Materialprodukte separat: Erstelle, lade, bearbeite oder lösche Ergiebigkeit, Packungsgrößen, Fliesen- und Rollenmaße sowie weitere unterstützte Parameter. Bearbeitbare Startprodukte helfen beim Einstieg; prüfe die Werte für dein Material. Nach dem Laden kehrst du zu den Produktparametern im Rechner zurück, deine Maße bleiben erhalten. Bei tatsächlichen Änderungen stehen beim Verlassen Speichern, Verwerfen und Abbrechen zur Wahl; bloßes Öffnen ist keine Änderung. Das Zurücksetzen der Produktparameter lässt Maße, Abzüge und Zuschlag unverändert.",
+                "es": "La pestaña Productos gestiona por separado materiales reutilizables: crea, carga, edita o elimina rendimiento, tamaños de envase, medidas de piezas y rollos y otros parámetros admitidos. Los productos iniciales editables ayudan a empezar; comprueba los valores para tu material. Cargar un producto vuelve a sus parámetros en la calculadora conservando las medidas. Al salir de cambios reales puedes guardar, descartar o cancelar; abrir un producto no cuenta como cambio. Restablecer parámetros conserva medidas, deducciones y margen.",
+                "fr": "L’onglet Produits gère séparément les matériaux réutilisables : créez, chargez, modifiez ou supprimez rendement, conditionnement, dimensions des carreaux et rouleaux et autres paramètres pris en charge. Des produits de départ modifiables facilitent le démarrage ; vérifiez leurs valeurs pour votre matériau. Le chargement revient aux paramètres produit du calculateur en conservant vos mesures. En quittant de vraies modifications, choisissez Enregistrer, Ignorer ou Annuler ; ouvrir un produit ne constitue pas une modification. La réinitialisation des paramètres conserve dimensions, déductions et marge.",
+                "pt-BR": "A aba Produtos gerencia separadamente materiais reutilizáveis: crie, carregue, edite ou exclua rendimento, embalagens, dimensões de peças e rolos e outros parâmetros compatíveis. Produtos iniciais editáveis ajudam a começar; confira os valores para seu material. Carregar um produto retorna aos parâmetros na calculadora, mantendo as medidas. Ao sair de alterações reais, escolha Salvar, Descartar ou Cancelar; apenas abrir um produto não conta como alteração. Redefinir parâmetros mantém dimensões, descontos e margem.",
+                "pl": "Karta Produkty osobno zarządza materiałami do ponownego użycia: twórz, wczytuj, edytuj lub usuwaj wydajność, opakowania, wymiary płytek i rolek oraz inne obsługiwane parametry. Edytowalne produkty początkowe ułatwiają start; sprawdź wartości dla używanego materiału. Wczytanie produktu wraca do jego parametrów w kalkulatorze, zachowując wymiary. Przy wychodzeniu z rzeczywistych zmian wybierz Zapisz, Odrzuć lub Anuluj; samo otwarcie produktu nie jest zmianą. Reset parametrów zachowuje wymiary, odliczenia i zapas.",
+                "it": "La scheda Prodotti gestisce separatamente i materiali riutilizzabili: crea, carica, modifica o elimina resa, confezioni, dimensioni di piastrelle e rotoli e altri parametri supportati. I prodotti iniziali modificabili aiutano a iniziare; verifica i valori per il tuo materiale. Il caricamento torna ai parametri del prodotto nel calcolatore conservando le misure. Uscendo da modifiche reali puoi salvare, scartare o annullare; aprire un prodotto non è una modifica. Il ripristino dei parametri conserva dimensioni, detrazioni e margine."
               }
             },
             {
@@ -4356,22 +4639,7 @@
                 "pl": "Dotknij logo w informacjach siedem razy dla nieskończonej rolki wzorzystej tapety. Zamknij niespodziankę offline; nie zmienia wymiarów, szablonów ani ustawień. Przy ograniczonym ruchu wzór pozostaje czytelny.",
                 "it": "Tocca sette volte il logo in Informazioni per un rotolo decorato infinito. Chiudi la sorpresa offline; non cambia misure, preimpostazioni o impostazioni. Con movimento ridotto il motivo resta riconoscibile."
               }
-            }
-          ]
-        },
-        {
-          "id": "material-calculator-practical",
-          "title": {
-            "en": "Use, settings and availability",
-            "hu": "Használat, beállítások és elérhetőség",
-            "de": "Nutzung, Einstellungen und Verfügbarkeit",
-            "es": "Uso, ajustes y disponibilidad",
-            "fr": "Utilisation, réglages et disponibilité",
-            "pt-BR": "Uso, ajustes e disponibilidade",
-            "pl": "Obsługa, ustawienia i dostępność",
-            "it": "Uso, impostazioni e disponibilità"
-          },
-          "items": [
+            },
             {
               "id": "material-calculator-offline",
               "title": {
@@ -4398,24 +4666,24 @@
             {
               "id": "material-calculator-settings",
               "title": {
-                "en": "Language, settings and help",
-                "hu": "Nyelv, beállítások és segítség",
-                "de": "Sprache, Einstellungen und Hilfe",
-                "es": "Idioma, ajustes y ayuda",
-                "fr": "Langue, réglages et aide",
-                "pt-BR": "Idioma, ajustes e ajuda",
-                "pl": "Język, ustawienia i pomoc",
-                "it": "Lingua, impostazioni e aiuto"
+                "en": "Navigation, language and help",
+                "hu": "Navigáció, nyelv és segítség",
+                "de": "Navigation, Sprache und Hilfe",
+                "es": "Navegación, idioma y ayuda",
+                "fr": "Navigation, langue et aide",
+                "pt-BR": "Navegação, idioma e ajuda",
+                "pl": "Nawigacja, język i pomoc",
+                "it": "Navigazione, lingua e aiuto"
               },
               "text": {
-                "en": "Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.",
-                "hu": "Nyolc alkalmazásnyelvből választhatsz, és módosíthatod az elérhető beállításokat. A Névjegyből adatvédelmi tájékoztatás és önkéntes JN86-támogatás érhető el. A támogatás nem old fel fizetős funkciót. Az elérhetőség alább látható.",
-                "de": "Wähle eine von acht App-Sprachen und passe verfügbare Einstellungen an. Über die App bietet Datenschutzinformationen und freiwillige JN86-Unterstützung. Unterstützung schaltet keine Bezahlfunktionen frei. Die Verfügbarkeit steht unten.",
-                "es": "Elige uno de ocho idiomas y cambia los ajustes disponibles. Acerca de ofrece información de privacidad y apoyo voluntario a JN86. Apoyar no desbloquea funciones de pago. La disponibilidad figura abajo.",
-                "fr": "Choisissez l’une des huit langues et adaptez les réglages disponibles. À propos donne accès aux informations de confidentialité et au soutien volontaire à JN86. Le soutien ne débloque pas de fonctions payantes. La disponibilité figure ci-dessous.",
-                "pt-BR": "Escolha um dos oito idiomas e ajuste as configurações disponíveis. Sobre oferece informações de privacidade e apoio voluntário ao JN86. Apoiar não libera funções pagas. A disponibilidade aparece abaixo.",
-                "pl": "Wybierz jeden z ośmiu języków i zmień dostępne ustawienia. Informacje o aplikacji zawierają prywatność i dobrowolne wsparcie JN86. Wsparcie nie odblokowuje płatnych funkcji. Dostępność podano niżej.",
-                "it": "Scegli una delle otto lingue e modifica le impostazioni disponibili. Informazioni offre privacy e sostegno volontario a JN86. Il sostegno non sblocca funzioni a pagamento. La disponibilità è indicata sotto."
+                "en": "Use Home | Projects | Products in the bottom bar. Your temporary calculator session remains when switching pages, without automatic project saving. Choose one of eight app languages and adjust the available settings. About links to privacy information and voluntary JN86 support. Support does not unlock paid features.",
+                "hu": "Az alsó sáv Főoldal | Projektek | Termékek elemeivel válthatsz oldalt. Az ideiglenes kalkulátormunkamenet megmarad, automatikus projektmentés nélkül. Nyolc alkalmazásnyelvből választhatsz, és módosíthatod az elérhető beállításokat. A Névjegyből elérhető az adatvédelem és az önkéntes JN86-támogatás. A támogatás nem old fel fizetős funkciót.",
+                "de": "Nutze Start | Projekte | Produkte in der unteren Leiste. Deine vorübergehende Rechnersitzung bleibt beim Seitenwechsel erhalten, ohne automatische Projektspeicherung. Wähle eine von acht App-Sprachen und passe die verfügbaren Einstellungen an. Unter Info findest du Datenschutz und freiwillige JN86-Unterstützung. Unterstützung schaltet keine kostenpflichtigen Funktionen frei.",
+                "es": "Usa Inicio | Proyectos | Productos en la barra inferior. La sesión temporal de cálculo se mantiene al cambiar de página, sin guardar proyectos automáticamente. Elige uno de ocho idiomas y ajusta las opciones disponibles. Acerca de enlaza a privacidad y apoyo voluntario a JN86. El apoyo no desbloquea funciones de pago.",
+                "fr": "Utilisez Accueil | Projets | Produits dans la barre inférieure. La session temporaire du calculateur reste disponible en changeant de page, sans enregistrement automatique de projet. Choisissez parmi huit langues et adaptez les réglages disponibles. À propos donne accès à la confidentialité et au soutien volontaire de JN86. Ce soutien ne débloque pas de fonctions payantes.",
+                "pt-BR": "Use Início | Projetos | Produtos na barra inferior. A sessão temporária da calculadora permanece ao trocar de página, sem salvar projetos automaticamente. Escolha um dos oito idiomas e ajuste as configurações disponíveis. Sobre dá acesso à privacidade e ao apoio voluntário à JN86. O apoio não desbloqueia funções pagas.",
+                "pl": "Używaj dolnego paska Start | Projekty | Produkty. Tymczasowa sesja kalkulatora pozostaje przy zmianie stron, bez automatycznego zapisu projektu. Wybierz jeden z ośmiu języków i dostosuj dostępne ustawienia. Ekran O aplikacji zawiera informacje o prywatności i dobrowolnym wsparciu JN86. Wsparcie nie odblokowuje płatnych funkcji.",
+                "it": "Usa Pagina iniziale | Progetti | Prodotti nella barra inferiore. La sessione temporanea del calcolatore resta disponibile cambiando pagina, senza salvataggio automatico del progetto. Scegli una delle otto lingue e regola le impostazioni disponibili. Informazioni contiene i collegamenti alla privacy e al sostegno volontario di JN86. Il sostegno non sblocca funzioni a pagamento."
               }
             },
             {
@@ -4423,22 +4691,22 @@
               "title": {
                 "en": "Ads and optional ad removal",
                 "hu": "Reklámok és választható reklámmentesítés",
-                "de": "Werbung und optionale Entfernung",
+                "de": "Werbung und optionale Werbeentfernung",
                 "es": "Anuncios y eliminación opcional",
                 "fr": "Publicités et suppression facultative",
                 "pt-BR": "Anúncios e remoção opcional",
-                "pl": "Reklamy i opcjonalne usunięcie",
-                "it": "Pubblicità e rimozione facoltativa"
+                "pl": "Reklamy i opcjonalne ich usunięcie",
+                "it": "Annunci e rimozione facoltativa"
               },
               "text": {
-                "en": "All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.",
-                "hu": "A bemutatott funkciók a terv szerint ingyenesek, bannerreklámmal és választható, egyszeri Google Play-reklámmentesítéssel. Előfizetés nincs a tervben. A vásárlási felület mutatja a tényleges helyi árat; a helyreállítás Google Playen történik.",
-                "de": "Alle beschriebenen Funktionen sind kostenlos mit Bannerwerbung und optionaler einmaliger Werbeentfernung über Google Play vorgesehen. Ein Abo ist nicht geplant. Der Kaufdialog zeigt den lokalen Preis; Käufe werden über Google Play wiederhergestellt.",
-                "es": "Todas las funciones descritas se prevén gratis con banners y eliminación opcional mediante un único pago en Google Play. No se prevé suscripción. La compra muestra el precio local real; la restauración usa Google Play.",
-                "fr": "Toutes les fonctions décrites sont prévues gratuites avec bannières et suppression facultative par achat unique Google Play. Aucun abonnement n’est prévu. L’achat affiche le prix local réel ; la restauration passe par Google Play.",
-                "pt-BR": "Todas as funções descritas são previstas grátis com banners e remoção opcional por compra única no Google Play. Não há assinatura prevista. A compra mostra o preço local real; a restauração usa o Google Play.",
-                "pl": "Wszystkie opisane funkcje są planowane bezpłatnie z banerami i opcjonalnym jednorazowym usunięciem reklam przez Google Play. Nie przewidziano subskrypcji. Zakup pokazuje rzeczywistą cenę lokalną; przywracanie używa Google Play.",
-                "it": "Tutte le funzioni descritte sono previste gratuite con banner e rimozione facoltativa tramite acquisto unico Google Play. Non è previsto un abbonamento. L’acquisto mostra il prezzo locale reale; il ripristino usa Google Play."
+                "en": "The calculation and project functions are free, with banner ads and optional one-time ad removal through Google Play. There is no subscription. Google Play shows the current local price and handles purchase restoration. Advertising privacy choices remain available where applicable. Internet may be needed for ads, purchases, restoration and external services.",
+                "hu": "A számítási és projektfunkciók ingyenesek, bannerreklámokkal és opcionális, egyszeri Google Play-reklámmentesítéssel. Nincs előfizetés. Az aktuális helyi árat a Google Play mutatja, és a vásárlás visszaállítása is ezen keresztül történik. A reklámadatvédelmi lehetőségek az alkalmazható esetekben elérhetők maradnak. Reklámhoz, vásárláshoz, visszaállításhoz és külső szolgáltatáshoz internet szükséges lehet.",
+                "de": "Berechnungs- und Projektfunktionen sind kostenlos, mit Bannerwerbung und optionaler einmaliger Werbeentfernung über Google Play. Es gibt kein Abo. Google Play zeigt den aktuellen lokalen Preis und übernimmt die Kaufwiederherstellung. Datenschutzoptionen für Werbung bleiben verfügbar, soweit anwendbar. Werbung, Käufe, Wiederherstellung und externe Dienste können Internet benötigen.",
+                "es": "Las funciones de cálculo y proyectos son gratuitas, con banners y eliminación opcional mediante un pago único en Google Play. No hay suscripción. Google Play muestra el precio local actual y permite restaurar la compra. Las opciones de privacidad publicitaria siguen disponibles cuando corresponda. Anuncios, compras, restauración y servicios externos pueden necesitar internet.",
+                "fr": "Les fonctions de calcul et de projet sont gratuites, avec des bannières et une suppression facultative des publicités par achat unique via Google Play. Il n’y a pas d’abonnement. Google Play affiche le prix local actuel et permet de restaurer l’achat. Les choix de confidentialité publicitaire restent accessibles lorsqu’ils s’appliquent. Publicités, achats, restauration et services externes peuvent nécessiter internet.",
+                "pt-BR": "As funções de cálculo e projetos são gratuitas, com banners e remoção opcional dos anúncios por compra única no Google Play. Não há assinatura. O Google Play mostra o preço local atual e permite restaurar a compra. As opções de privacidade de anúncios continuam disponíveis quando aplicáveis. Anúncios, compras, restauração e serviços externos podem precisar de internet.",
+                "pl": "Funkcje obliczeń i projektów są bezpłatne, z banerami i opcjonalnym jednorazowym usunięciem reklam przez Google Play. Nie ma abonamentu. Google Play pokazuje aktualną cenę lokalną i umożliwia przywrócenie zakupu. Opcje prywatności reklam pozostają dostępne tam, gdzie mają zastosowanie. Reklamy, zakupy, ich przywracanie i usługi zewnętrzne mogą wymagać internetu.",
+                "it": "Le funzioni di calcolo e progetto sono gratuite, con banner e rimozione facoltativa degli annunci tramite acquisto unico su Google Play. Non c’è abbonamento. Google Play mostra il prezzo locale attuale e consente il ripristino dell’acquisto. Le opzioni di privacy pubblicitaria restano disponibili dove previste. Annunci, acquisti, ripristino e servizi esterni possono richiedere internet."
               }
             }
           ]

@@ -7,10 +7,13 @@
     document.querySelector('[data-app-overview]').textContent = copy.overview;
     document.querySelector('[data-app-status]').className = 'badge ' + app.status;
     document.querySelector('[data-app-status]').textContent = tr(lang, 'status_' + app.status);
+    document.querySelector('[data-app-status]').hidden = app.showDevelopmentStatus === false;
     const stage = document.querySelector('[data-app-stage]');
-    stage.hidden = app.status === 'released';
+    stage.hidden = app.status === 'released' || app.showDevelopmentStatus === false;
     stage.textContent = tr(lang, app.productStage === 'planned' ? 'status_plan' : 'status_dev');
-    document.querySelector('[data-app-availability]').textContent = tr(lang, appAvailabilityKey(app.status));
+    const availability = document.querySelector('[data-app-availability]');
+    availability.hidden = app.showDevelopmentStatus === false;
+    availability.textContent = availability.hidden ? '' : tr(lang, appAvailabilityKey(app.status));
     const play = document.querySelector('[data-app-play]');
     play.replaceChildren();
     const playUrl = getPlayUrl(app);
