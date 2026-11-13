@@ -18,7 +18,7 @@
   <link rel="icon" type="image/png" href="../assets/JN86_Logo_Lockup_White_Transparent.png">
   <link rel="stylesheet" href="../assets/style.css?v=10">
   <link rel="stylesheet" href="../assets/pages.css?v=3">
-  <link rel="stylesheet" href="../assets/app-details.css">
+  <link rel="stylesheet" href="../assets/app-details.css?v=20261113">
 </head>
 <body data-app="material-calculator">
 <header class="site-header"><div class="wrap nav-wrap">
@@ -32,56 +32,80 @@
     <p class="eyebrow" data-i18n="detail_title">App details</p>
     <h1>Material Calculator</h1>
     <p class="lead" data-app-summary>Estimate how much paint, flooring, tile or other material you need for home projects.</p>
-    <div class="detail-meta"><span class="badge creating" data-app-status>In the works</span><span class="badge neutral" data-app-stage>Planned</span><span class="badge neutral">Android</span></div>
+    <div class="detail-meta"><span class="badge creating" data-app-status hidden></span><span class="badge neutral" data-app-stage hidden></span><span class="badge neutral">Android</span></div>
   </div></div></section>
   <section class="section"><div class="wrap split">
-    <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Estimate paint, flooring, tile, concrete, wallpaper and other household DIY quantities from measurements, with waste allowance and common units.</p></div>
-    <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Calculate areas and volumes from measurements.</li><li>Allow for waste and subtract openings.</li><li>Round up to whole packs or boxes.</li><li>Metric and imperial units, offline.</li></ul></div>
+    <div><h2 data-i18n="purpose_title">What it’s for</h2><p data-app-overview>Estimate paint, wallpaper, laminate, tiles, concrete, mulch, topsoil and gravel from your measurements. Save calculations in projects, review material totals, check off a shopping list and create PDFs offline.</p></div>
+    <div class="panel"><h3 data-i18n="features_title">Main features</h3><ul class="feature-list" data-app-features><li>Eight calculators with metric and imperial units.</li><li>Dimensions, deductions, allowance and whole packs.</li><li>Saved products, projects and shopping lists.</li><li>Offline PDF, sharing and complete data backup.</li></ul></div>
   </div></section>
   <section class="section"><div class="wrap app-content">
-<p class="panel" data-content-notice>This app is being planned and is not yet available to download. The description presents its intended functions.</p>
+<p class="panel" data-content-notice hidden></p>
 <h2 data-content-heading>Features in detail</h2><details class="detail-section" data-content-section="mat-features" open>
-<summary data-content-section-title>Material estimates for home projects</summary>
+<summary data-content-section-title>Eight material calculators</summary>
 <div class="detail-items"><article id="mat-geometry" data-content-item="mat-geometry">
-<h3 data-content-item-title>Areas, volumes and several rooms</h3>
-<p data-content-item-text>Enter length and width for rectangular areas, plus depth for volumes. Add several walls or rooms and subtract door/window openings. If known, enter area or volume directly. Product coverage, thickness or pack size comes from your own data, not an assumed manufacturer database.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mm, cm, m, in, ft, m², ft², L, m³, ft³, yd³</p></article><article id="mat-paint" data-content-item="mat-paint">
+<h3 data-content-item-title>Measurements, surfaces and units</h3>
+<p data-content-item-text>Name and add rectangular surfaces using length and width; add depth for volumes. Where supported, enter a known area or volume instead. In area calculations, subtract openings such as doors and windows. Choose metric or imperial units. Supply product parameters yourself or load a saved product; editable starter products are also available. There is no separate room database or automatic manufacturer catalog.</p><p class="detail-units"><strong data-content-units-label>Supported units:</strong> mm, cm, m, in, ft, m², ft², L, m³, ft³, yd³</p></article><article id="mat-paint" data-content-item="mat-paint">
 <h3 data-content-item-title>Paint</h3>
-<p data-content-item-text>Enter the net surface, number of coats and paint coverage per litre. See required paint volume, with allowance and pack rounding if supplied. Multiple walls and ceilings can share the calculation, after subtracting openings.</p></article><article id="mat-floor-tile" data-content-item="mat-floor-tile">
-<h3 data-content-item-title>Laminate flooring and tiles</h3>
-<p data-content-item-text>For laminate, enter floor area and coverage per pack to get whole packs. For tiles, enter tile width/height to get a whole-piece count, or box coverage for box count. Your waste allowance increases the required area before rounding.</p></article><article id="mat-concrete" data-content-item="mat-concrete">
+<p data-content-item-text>Enter wall and ceiling dimensions or a known area, subtract openings, then specify coats, coverage in m²/L, container volume and allowance. The result shows net surface, coverage across all coats, required paint volume, whole containers and estimated leftover. In the project summary, matching paints add up in litres; container sizes are guidance, and you decide what to buy.</p></article><article id="mat-wallpaper" data-content-item="mat-wallpaper">
+<h3 data-content-item-title>Wallpaper: area mode</h3>
+<p data-content-item-text>Enter surface dimensions or a known wall area, subtract openings, and provide roll width, roll length and allowance. The calculator divides the required area, including allowance, by the area of one roll and rounds up to whole rolls. It shows the estimated leftover. Use the separate strip mode when wall height and pattern matching matter.</p></article><article id="mat-wallpaper-strips" data-content-item="mat-wallpaper-strips">
+<h3 data-content-item-title>Wallpaper: strips and rolls</h3>
+<p data-content-item-text>Enter each wall’s width and height, roll dimensions, allowance and optional pattern repeat. A positive repeat rounds each cut length up to the next matching pattern; zero adds no pattern correction. See strip counts before and after allowance, cut length, strips per roll, whole rolls and leftover. This mode uses full wall strips without area deductions. A roll too short for one strip is flagged. Project totals add the rolls from separate calculations without joint cutting optimization.</p></article><article id="mat-floor-tile" data-content-item="mat-floor-tile">
+<h3 data-content-item-title>Laminate flooring</h3>
+<p data-content-item-text>Enter floor dimensions or a known area, any area deductions, waste allowance and coverage per pack in m² or ft². See net area, area with allowance, whole packs rounded up and estimated leftover. For identical compatible products, the project first adds the required areas and then rounds to whole packs using their shared pack coverage.</p></article><article id="mat-tile" data-content-item="mat-tile">
+<h3 data-content-item-title>Wall and floor tiles</h3>
+<p data-content-item-text>Enter surface dimensions or known area, deductions, allowance, and tile width and height. The result includes required area, whole tiles and estimated leftover area. Optional box coverage in m² per box adds a box count; no pieces-per-box field is needed. Compatible identical products combine by area before project box rounding. Detailed grout-width correction is not included.</p></article><article id="mat-concrete" data-content-item="mat-concrete">
 <h3 data-content-item-title>Concrete</h3>
-<p data-content-item-text>Enter dimensions of one or more sections, or known volume. The result is concrete volume with your allowance. Enter yield per bag to estimate whole bags. It does not choose a concrete mix or calculate structural strength.</p></article><article id="mat-garden" data-content-item="mat-garden">
-<h3 data-content-item-title>Mulch, topsoil and gravel</h3>
-<p data-content-item-text>Choose the material and enter area plus layer depth, or direct volume. See litres or cubic volume in the relevant units. A mass estimate needs density supplied by you; the app does not assume all soils or gravels weigh the same.</p></article><article id="mat-wallpaper" data-content-item="mat-wallpaper">
-<h3 data-content-item-title>Wallpaper and pattern repeat</h3>
-<p data-content-item-text>Choose area-based roll estimation or the strip method with wall height and roll dimensions. Optionally enter pattern repeat; each strip then rounds up to a compatible repeat length. See strip count, strips per roll and rolls needed. A roll too short for one strip is flagged.</p></article><article id="mat-packs" data-content-item="mat-packs">
+<p data-content-item-text>Enter length, width and depth for one or more sections, or a known volume, then set allowance. See the required volume in L, m³, ft³ or yd³. Optional yield per bag gives whole bags and estimated leftover; volume alone is enough for ready-mix or bulk supply. The app does not choose a concrete recipe or calculate structural strength.</p></article><article id="mat-garden" data-content-item="mat-garden">
+<h3 data-content-item-title>Mulch</h3>
+<p data-content-item-text>Enter bed dimensions or known area and layer depth, with any area deductions, or enter volume directly. Add allowance to see the required volume in L, m³, ft³ or yd³. Optional bag volume gives whole bags and leftover. A mass estimate in kg requires density in kg/m³ supplied by you. Bulk purchase is also possible.</p></article><article id="mat-soil" data-content-item="mat-soil">
+<h3 data-content-item-title>Topsoil</h3>
+<p data-content-item-text>Calculate soil volume from dimensions or known area and layer depth, subtracting excluded areas where needed, or enter a known volume. Set allowance; optional bag volume and your density add bag count, leftover and estimated mass. Results use L, m³, ft³ or yd³, with mass in kg. Density is not assumed, and volume alone supports bulk orders.</p></article><article id="mat-gravel" data-content-item="mat-gravel">
+<h3 data-content-item-title>Gravel</h3>
+<p data-content-item-text>Enter the area and layer depth of paths or surfaces, using dimensions or a known area with deductions, or supply volume directly. The calculation includes your allowance and shows volume in L, m³, ft³ or yd³. Optional bag volume gives whole bags and leftover; your density in kg/m³ gives estimated kg. Different gravel types are not assumed to have the same density. Bulk supply needs no bag size.</p></article><article id="mat-packs" data-content-item="mat-packs">
 <h3 data-content-item-title>Allowance, whole packs and leftovers</h3>
-<p data-content-item-text>Set a nonnegative waste percentage and positive pack capacity. Results separate net need, allowance-adjusted need, whole packs rounded upward and expected leftovers. These are estimates based on your coverage and dimensions, not a guarantee of the product’s actual performance.</p></article><article id="mat-presets" data-content-item="mat-presets">
-<h3 data-content-item-title>Your saved product parameters</h3>
-<p data-content-item-text>Save, edit and delete reusable paint coverage, floor-pack area, tile size, wallpaper dimensions/repeat or concrete bag yield. Select a preset instead of entering the same values again. Presets stay locally; they are not a saved project or a calculation history.</p></article><article id="mat-egg" data-content-item="mat-egg">
+<p data-content-item-text>Set a nonnegative waste percentage and positive pack capacity. Results separate net need, allowance-adjusted need, whole packs rounded upward and expected leftovers. These are estimates based on your coverage and dimensions, not a guarantee of the product’s actual performance.</p></article></div></details><details class="detail-section" data-content-section="mat-projects" open>
+<summary data-content-section-title>Projects, shopping and documents</summary>
+<div class="detail-items"><article id="mat-project-save" data-content-item="mat-project-save">
+<h3 data-content-item-title>Save calculations in projects</h3>
+<p data-content-item-text>Save a result manually to a new or existing project, with separate names for the calculation and project. Every saved calculation belongs to a project; a project can contain just one calculation or several material types. There is no automatic calculation history. Create, rename or delete projects. When deleting a project, confirm deletion of its calculations or move them to another new or existing project first.</p></article><article id="mat-project-edit" data-content-item="mat-project-edit">
+<h3 data-content-item-title>Edit, copy and keep alternatives</h3>
+<p data-content-item-text>Open, edit, rename or delete saved calculations, copy them within or between projects, or move them to another project. Save changes by updating the original or creating a separate copy. Each calculation keeps its original product parameters even if that product is later edited or deleted. Turn off “Include in project total” to retain an alternative without adding it to the summary or shopping list. Leaving an edited saved calculation offers Save, Discard or Cancel; unchanged data needs no confirmation.</p></article><article id="mat-transfer" data-content-item="mat-transfer">
+<h3 data-content-item-title>Reuse compatible measurements</h3>
+<p data-content-item-text>Select a saved calculation to transfer compatible surfaces and dimensions into another calculator, with unit conversion. Add them to existing inputs or replace the selected input groups with confirmation. Area deductions are selected separately and are off by default. Product parameters, allowance and old results are not transferred. The source stays unchanged, and transferring does not save a new calculation automatically.</p></article><article id="mat-project-totals" data-content-item="mat-project-totals">
+<h3 data-content-item-title>Project totals by material</h3>
+<p data-content-item-text>The summary uses included saved calculations and their allowance-adjusted quantities, without adding allowance again. Only reliably identical products with compatible saved parameters can combine; different or unknown products stay separate. Paint adds in litres; wallpaper adds each calculation’s whole rolls, without shared cutting optimization. Laminate and tiles combine required areas before pack or box rounding. Concrete, mulch, topsoil and gravel combine volumes, with optional bags and, for garden materials, density-based mass. Quantities and packaging are estimates to guide your purchase, not a purchase obligation.</p></article><article id="mat-shopping" data-content-item="mat-shopping">
+<h3 data-content-item-title>Shopping list and quantity changes</h3>
+<p data-content-item-text>Each project has a shopping list with persistent, reversible checkmarks. Green means you confirmed the purchase for the current calculated quantity. If that requirement changes, the previous mark turns grey as a warning; old and new quantities and the signed difference remain visible. Reconfirm to make it green again. An increase is additional calculated need, not proven stock shortage: the app does not track your actual stock. Share the list as text, including quantities, units, packaging and purchase states.</p></article><article id="mat-pdf" data-content-item="mat-pdf">
+<h3 data-content-item-title>Create, save, share or print a PDF</h3>
+<p data-content-item-text>Create a PDF offline with the project summary, detailed calculations, shopping list or a combination. Choose at least one; summary and shopping list are selected initially. The document includes the project name, date, units, results, purchase states and quantity changes. Save it through Android’s file picker, share it with an app you choose or print it. A PDF is for reading and printing; it cannot restore app data.</p></article><article id="mat-backup" data-content-item="mat-backup">
+<h3 data-content-item-title>Local data, backup and full restore</h3>
+<p data-content-item-text>Products, projects, saved calculations and shopping marks are stored locally. Android system backup follows platform and device settings. You can also save all this data to one backup file at a location chosen in Android’s file picker. Restoring replaces existing local records completely after confirmation; it does not merge them. Save a separate copy of current data first. PDF files are not backups. There is no account, JN86 project cloud, automatic sync or price and cost management.</p></article></div></details><details class="detail-section" data-content-section="material-calculator-practical" open>
+<summary data-content-section-title>Products and everyday use</summary>
+<div class="detail-items"><article id="mat-presets" data-content-item="mat-presets">
+<h3 data-content-item-title>Products and reusable parameters</h3>
+<p data-content-item-text>The Products tab separately manages reusable material products: create, load, edit or delete their coverage, package sizes, tile dimensions, roll dimensions and other supported parameters. Editable starter products help you begin; verify their values for the material you use. Loading a product returns to its parameters in the calculator while preserving your measurements. Leaving real edits offers Save, Discard or Cancel; simply opening a product does not create a change. Resetting product parameters leaves dimensions, deductions and allowance intact.</p></article><article id="mat-egg" data-content-item="mat-egg">
 <h3 data-content-item-title>Endless wallpaper</h3>
-<p data-content-item-text>Tap the About logo seven times to see a patterned wallpaper roll unroll endlessly. Close the offline surprise to return; it does not change measurements, presets or settings. Reduced motion keeps the pattern understandable.</p></article></div></details><details class="detail-section" data-content-section="material-calculator-practical" open>
-<summary data-content-section-title>Use, settings and availability</summary>
-<div class="detail-items"><article id="material-calculator-offline" data-content-item="material-calculator-offline">
+<p data-content-item-text>Tap the About logo seven times to see a patterned wallpaper roll unroll endlessly. Close the offline surprise to return; it does not change measurements, presets or settings. Reduced motion keeps the pattern understandable.</p></article><article id="material-calculator-offline" data-content-item="material-calculator-offline">
 <h3 data-content-item-title>Offline use</h3>
 <p data-content-item-text>The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.</p></article><article id="material-calculator-settings" data-content-item="material-calculator-settings">
-<h3 data-content-item-title>Language, settings and help</h3>
-<p data-content-item-text>Choose one of eight app languages and adjust the available settings. About provides privacy information and a link to voluntary JN86 support. Support does not unlock paid functions. Availability is shown below.</p></article><article id="material-calculator-ads" data-content-item="material-calculator-ads">
+<h3 data-content-item-title>Navigation, language and help</h3>
+<p data-content-item-text>Use Home | Projects | Products in the bottom bar. Your temporary calculator session remains when switching pages, without automatic project saving. Choose one of eight app languages and adjust the available settings. About links to privacy information and voluntary JN86 support. Support does not unlock paid features.</p></article><article id="material-calculator-ads" data-content-item="material-calculator-ads">
 <h3 data-content-item-title>Ads and optional ad removal</h3>
-<p data-content-item-text>All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.</p></article></div></details></div></section>
+<p data-content-item-text>The calculation and project functions are free, with banner ads and optional one-time ad removal through Google Play. There is no subscription. Google Play shows the current local price and handles purchase restoration. Advertising privacy choices remain available where applicable. Internet may be needed for ads, purchases, restoration and external services.</p></article></div></details></div></section>
   <section class="section alt"><div class="wrap">
-    <h2 data-i18n="availability_title">Availability</h2>
-    <p class="lead" data-app-availability>This app is being created. The features described here are planned; it is not yet available to download.</p>
+    <h2 data-i18n="availability_title" hidden>Availability</h2>
+    <p class="lead" data-app-availability hidden></p>
     <div class="hero-actions"><a class="btn secondary" href="../apps.html" data-i18n="back_apps">← Back to apps</a><a class="btn secondary" href="../privacy/material-calculator.html" data-i18n="nav_privacy">Privacy</a><span data-app-play></span></div>
   </div></section>
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
-<script src="../assets/site.js?v=8"></script>
-<script src="../assets/portfolio-v2.js?v=6"></script>
+<script src="../assets/site.js?v=9"></script>
+<script src="../assets/portfolio-v2.js?v=7"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
-<script src="../assets/app-detail.js?v=3"></script>
+<script src="../assets/app-detail.js?v=4"></script>
 <script src="../assets/app-pages-data.js?v=1"></script>
-<script src="../assets/app-details-data.js"></script>
-<script src="../assets/app-details.js"></script>
+<script src="../assets/app-details-data.js?v=20261113"></script>
+<script src="../assets/app-details.js?v=20261113"></script>
 </body>
 </html>

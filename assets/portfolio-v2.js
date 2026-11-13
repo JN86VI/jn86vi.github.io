@@ -573,87 +573,88 @@ const portfolioApps = [
     "copy": {
       "en": {
         "summary": "Estimate how much paint, flooring, tile or other material you need for home projects.",
-        "overview": "Estimate paint, flooring, tile, concrete, wallpaper and other household DIY quantities from measurements, with waste allowance and common units.",
+        "overview": "Estimate paint, wallpaper, laminate, tiles, concrete, mulch, topsoil and gravel from your measurements. Save calculations in projects, review material totals, check off a shopping list and create PDFs offline.",
         "features": [
-          "Calculate areas and volumes from measurements.",
-          "Allow for waste and subtract openings.",
-          "Round up to whole packs or boxes.",
-          "Metric and imperial units, offline."
+          "Eight calculators with metric and imperial units.",
+          "Dimensions, deductions, allowance and whole packs.",
+          "Saved products, projects and shopping lists.",
+          "Offline PDF, sharing and complete data backup."
         ]
       },
       "hu": {
         "summary": "Számold ki, mennyi festék, padlóburkolat, csempe vagy más anyag kell az otthoni munkákhoz.",
-        "overview": "Méretekből becsüli a festék, padló, csempe, beton, tapéta és más otthoni barkácsanyag mennyiségét, ráhagyással és szokásos egységekkel.",
+        "overview": "Méretekből becsülheted a festék, tapéta, laminált padló, csempe, beton, mulcs, termőföld és kavics mennyiségét. Projektbe mentheted a számításokat, összesítheted az anyagigényt, kipipálhatod a bevásárlólistát és offline PDF-et készíthetsz.",
         "features": [
-          "Területek és térfogatok számítása méretekből.",
-          "Ráhagyás és a nyílások területének levonása.",
-          "Felfelé kerekítés egész csomagra vagy dobozra.",
-          "Metrikus és angolszász egységek, offline."
+          "Nyolc kalkulátor metrikus és angolszász egységekkel.",
+          "Méretek, levonások, ráhagyás és egész csomagok.",
+          "Mentett termékek, projektek és bevásárlólisták.",
+          "Offline PDF, megosztás és teljes adatmentés."
         ]
       },
       "de": {
         "summary": "Den Bedarf an Farbe, Bodenbelag, Fliesen und anderen Materialien für Heimwerkerarbeiten abschätzen.",
-        "overview": "Schätzt aus Maßen die Mengen für Farbe, Boden, Fliesen, Beton, Tapete und weitere Heimwerkerarbeiten, mit Verschnittzuschlag und gängigen Einheiten.",
+        "overview": "Schätze Farbe, Tapete, Laminat, Fliesen, Beton, Mulch, Mutterboden und Kies anhand deiner Maße. Speichere Berechnungen in Projekten, prüfe Materialmengen, hake Einkäufe ab und erstelle PDFs offline.",
         "features": [
-          "Flächen und Volumen aus Maßen berechnen.",
-          "Verschnitt einplanen und Öffnungen abziehen.",
-          "Auf ganze Packungen oder Kartons aufrunden.",
-          "Metrische und imperiale Einheiten, offline."
+          "Acht Rechner mit metrischen und imperialen Einheiten.",
+          "Maße, Abzüge, Zuschläge und ganze Packungen.",
+          "Gespeicherte Produkte, Projekte und Einkaufslisten.",
+          "Offline-PDF, Teilen und vollständige Datensicherung."
         ]
       },
       "es": {
         "summary": "Estima cuánta pintura, suelo, baldosa u otro material necesitas para trabajos en casa.",
-        "overview": "Estima pintura, suelos, azulejos, hormigón, papel pintado y otros materiales domésticos a partir de medidas, con margen y unidades comunes.",
+        "overview": "Estima pintura, papel pintado, laminado, baldosas, hormigón, acolchado, tierra y grava con tus medidas. Guarda cálculos en proyectos, revisa totales, marca compras y crea PDF sin conexión.",
         "features": [
-          "Calcula superficies y volúmenes a partir de medidas.",
-          "Añade margen de desperdicio y resta huecos.",
-          "Redondea a paquetes o cajas completos.",
-          "Unidades métricas e imperiales, sin conexión."
+          "Ocho calculadoras con unidades métricas e imperiales.",
+          "Medidas, deducciones, margen y paquetes enteros.",
+          "Productos guardados, proyectos y listas de compra.",
+          "PDF sin conexión, compartir y copia completa de datos."
         ]
       },
       "fr": {
         "summary": "Estimez les quantités de peinture, revêtement, carrelage ou autres matériaux pour vos travaux à la maison.",
-        "overview": "Estime peinture, revêtement de sol, carrelage, béton, papier peint et autres matériaux domestiques à partir des mesures, avec marge et unités courantes.",
+        "overview": "Estimez peinture, papier peint, stratifié, carrelage, béton, paillage, terre et gravier à partir de vos mesures. Enregistrez les calculs dans des projets, consultez les totaux, cochez les achats et créez des PDF hors ligne.",
         "features": [
-          "Calcul des surfaces et volumes à partir des dimensions.",
-          "Marge pour les pertes et déduction des ouvertures.",
-          "Arrondi au nombre entier de paquets ou cartons.",
-          "Unités métriques et impériales, hors ligne."
+          "Huit calculateurs avec unités métriques et impériales.",
+          "Dimensions, déductions, marge et paquets entiers.",
+          "Produits enregistrés, projets et listes d’achats.",
+          "PDF hors ligne, partage et sauvegarde complète."
         ]
       },
       "pt-BR": {
         "summary": "Estime quanto de tinta, piso, revestimento ou outro material precisa para serviços em casa.",
-        "overview": "Estima tinta, piso, azulejos, concreto, papel de parede e outros materiais domésticos a partir de medidas, com margem e unidades comuns.",
+        "overview": "Estime tinta, papel de parede, laminado, revestimentos, concreto, cobertura morta, terra e cascalho com suas medidas. Salve cálculos em projetos, confira os totais, marque compras e crie PDFs offline.",
         "features": [
-          "Calcule áreas e volumes a partir das medidas.",
-          "Inclua margem para perdas e desconte aberturas.",
-          "Arredonde para pacotes ou caixas inteiros.",
-          "Unidades métricas e imperiais, offline."
+          "Oito calculadoras com unidades métricas e imperiais.",
+          "Dimensões, descontos, margem e pacotes inteiros.",
+          "Produtos salvos, projetos e listas de compras.",
+          "PDF offline, compartilhamento e backup completo."
         ]
       },
       "pl": {
         "summary": "Oszacuj ilość farby, podłogi, płytek i innych materiałów do prac domowych.",
-        "overview": "Szacuje z wymiarów ilość farby, podłogi, płytek, betonu, tapety i innych materiałów domowych, z zapasem i typowymi jednostkami.",
+        "overview": "Oszacuj farbę, tapetę, panele, płytki, beton, ściółkę, ziemię i żwir na podstawie wymiarów. Zapisuj obliczenia w projektach, sprawdzaj sumy materiałów, zaznaczaj zakupy i twórz PDF offline.",
         "features": [
-          "Obliczanie powierzchni i objętości z wymiarów.",
-          "Zapas na straty i odliczanie otworów.",
-          "Zaokrąglanie do pełnych opakowań lub pudeł.",
-          "Jednostki metryczne i imperialne, offline."
+          "Osiem kalkulatorów z jednostkami metrycznymi i imperialnymi.",
+          "Wymiary, odliczenia, zapas i pełne opakowania.",
+          "Zapisane produkty, projekty i listy zakupów.",
+          "PDF offline, udostępnianie i pełna kopia danych."
         ]
       },
       "it": {
         "summary": "Stima quanta vernice, pavimentazione, piastrelle o altro materiale serve per i lavori di casa.",
-        "overview": "Stima vernice, pavimenti, piastrelle, calcestruzzo, carta da parati e altri materiali domestici dalle misure, con margine e unità comuni.",
+        "overview": "Stima vernice, carta da parati, laminato, piastrelle, calcestruzzo, pacciamatura, terriccio e ghiaia dalle tue misure. Salva calcoli nei progetti, consulta i totali, spunta gli acquisti e crea PDF offline.",
         "features": [
-          "Calcola superfici e volumi dalle misure.",
-          "Aggiungi margine per gli scarti e sottrai le aperture.",
-          "Arrotonda a confezioni o scatole intere.",
-          "Unità metriche e imperiali, offline."
+          "Otto calcolatori con unità metriche e imperiali.",
+          "Dimensioni, detrazioni, margine e confezioni intere.",
+          "Prodotti salvati, progetti e liste della spesa.",
+          "PDF offline, condivisione e backup completo."
         ]
       }
     },
     "playUrl": null,
-    "productStage": "planned"
+    "productStage": "planned",
+    "showDevelopmentStatus": false
   },
   {
     "id": "bubble-level-inclinometer",

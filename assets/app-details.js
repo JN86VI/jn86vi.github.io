@@ -9,7 +9,7 @@
     if (!labels) throw new Error(`Missing description language: ${lang}`);
     document.querySelector('[data-content-heading]').textContent = labels.heading;
     const notice = document.querySelector('[data-content-notice]');
-    notice.hidden = app.status === 'released';
+    notice.hidden = app.status === 'released' || app.showDevelopmentStatus === false;
     notice.textContent = notice.hidden ? '' : labels[app.productStage === 'planned' ? 'planned' : 'testing'];
     if (entry.safety) {
       document.querySelector('[data-screen-safety-title]').textContent = entry.safety.title[lang];
@@ -26,7 +26,7 @@
         if (item.units) article.querySelector('[data-content-units-label]').textContent = labels.units;
       }
     }
-    if (app.productStage !== 'planned' && app.status !== 'released') {
+    if (app.showDevelopmentStatus !== false && app.productStage !== 'planned' && app.status !== 'released') {
       document.querySelector('[data-app-availability]').textContent = appPages.labels[lang][id === 'unit-converter' ? 'internal' : 'soon'];
     }
   }

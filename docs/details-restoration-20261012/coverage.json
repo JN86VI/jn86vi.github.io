@@ -2108,43 +2108,76 @@
     {
       "feature": "mat-geometry",
       "source_sections": [
-        "MAT-GEO-001..006, MAT-MULTI-001..003, MAT-DOM-001..002, MAT-UNIT-001..003"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "mat-geometry",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
-      "function_hu": "Területek, térfogatok és több helyiség",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
+      "function_hu": "Méretek, felületek és egységek",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-geometry"
     },
     {
       "feature": "mat-paint",
       "source_sections": [
-        "MAT-PAINT-001..004"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "mat-paint",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
       "function_hu": "Festék",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-paint"
     },
     {
+      "feature": "mat-wallpaper",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "web_anchor": "mat-wallpaper",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
+      "function_hu": "Tapéta: terület alapján",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-wallpaper"
+    },
+    {
+      "feature": "mat-wallpaper-strips",
+      "web_anchor": "mat-wallpaper-strips",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-wallpaper-strips",
+      "function_hu": "Tapéta: csíkok és tekercsek",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
+    },
+    {
       "feature": "mat-floor-tile",
       "source_sections": [
-        "MAT-FLOOR-001..003, MAT-TILE-001..003"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "mat-floor-tile",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
-      "function_hu": "Laminált padló és csempe",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
+      "function_hu": "Laminált padló",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-floor-tile"
     },
     {
+      "feature": "mat-tile",
+      "web_anchor": "mat-tile",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-tile",
+      "function_hu": "Csempe és járólap",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
+    },
+    {
       "feature": "mat-concrete",
       "source_sections": [
-        "MAT-CONC-001..004"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "mat-concrete",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
       "function_hu": "Beton",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-concrete"
@@ -2152,54 +2185,142 @@
     {
       "feature": "mat-garden",
       "source_sections": [
-        "MAT-BULK-001..003"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "mat-garden",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
-      "function_hu": "Mulcs, termőföld és kavics",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
+      "function_hu": "Mulcs",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-garden"
     },
     {
-      "feature": "mat-wallpaper",
-      "source_sections": [
-        "MAT-WALL-001..005"
-      ],
-      "web_anchor": "mat-wallpaper",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
-      "function_hu": "Tapéta és mintaillesztés",
+      "feature": "mat-soil",
+      "web_anchor": "mat-soil",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
-      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-wallpaper"
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-soil",
+      "function_hu": "Termőföld",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
+    },
+    {
+      "feature": "mat-gravel",
+      "web_anchor": "mat-gravel",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-gravel",
+      "function_hu": "Kavics",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
     },
     {
       "feature": "mat-packs",
       "source_sections": [
-        "MAT-WASTE-001..003, MAT-PACK-001..005, MAT-RESULT-001..003, MAT-VAL-001..005"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "mat-packs",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
       "function_hu": "Ráhagyás, egész csomag és maradék",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-packs"
     },
     {
+      "feature": "mat-project-save",
+      "web_anchor": "mat-project-save",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-project-save",
+      "function_hu": "Számítások mentése projektekbe",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
+    },
+    {
+      "feature": "mat-project-edit",
+      "web_anchor": "mat-project-edit",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-project-edit",
+      "function_hu": "Szerkesztés, másolás és alternatívák",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
+    },
+    {
+      "feature": "mat-transfer",
+      "web_anchor": "mat-transfer",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-transfer",
+      "function_hu": "Kompatibilis méretek átvétele",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
+    },
+    {
+      "feature": "mat-project-totals",
+      "web_anchor": "mat-project-totals",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-project-totals",
+      "function_hu": "Projektösszesítő anyagonként",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
+    },
+    {
+      "feature": "mat-shopping",
+      "web_anchor": "mat-shopping",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-shopping",
+      "function_hu": "Bevásárlólista és mennyiségváltozás",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
+    },
+    {
+      "feature": "mat-pdf",
+      "web_anchor": "mat-pdf",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-pdf",
+      "function_hu": "PDF készítése, mentése, megosztása, nyomtatása",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
+    },
+    {
+      "feature": "mat-backup",
+      "web_anchor": "mat-backup",
+      "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
+      "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-backup",
+      "function_hu": "Helyi adatok, mentés és teljes visszaállítás",
+      "source_sections": [
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
+      ],
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113"
+    },
+    {
       "feature": "mat-presets",
       "source_sections": [
-        "MAT-PRESET-001..004, MAT-PERSIST-001..002"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "mat-presets",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
-      "function_hu": "Saját mentett termékparaméterek",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
+      "function_hu": "Termékek és újrahasználható paraméterek",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-presets"
     },
     {
       "feature": "mat-egg",
       "source_sections": [
-        "MAT-EGG-001..006"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "mat-egg",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
       "function_hu": "Végtelen tapéta",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#mat-egg"
@@ -2207,10 +2328,10 @@
     {
       "feature": "material-calculator-offline",
       "source_sections": [
-        "AppSpec: offline, localization, About/Support, monetization"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "material-calculator-offline",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
       "function_hu": "Offline használat",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#material-calculator-offline"
@@ -2218,21 +2339,21 @@
     {
       "feature": "material-calculator-settings",
       "source_sections": [
-        "AppSpec: offline, localization, About/Support, monetization"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "material-calculator-settings",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
-      "function_hu": "Nyelv, beállítások és segítség",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
+      "function_hu": "Navigáció, nyelv és segítség",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#material-calculator-settings"
     },
     {
       "feature": "material-calculator-ads",
       "source_sections": [
-        "AppSpec: offline, localization, About/Support, monetization"
+        "AppSpec §§6–18, §19, §20; 2026-11-13 UI-39–44 / MC-FUNC-02 supplement"
       ],
       "web_anchor": "material-calculator-ads",
-      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED",
+      "review": "SOURCE_AND_EIGHT_LANGUAGE_AUTHOR_REVIEWED_20261113",
       "function_hu": "Reklámok és választható reklámmentesítés",
       "source_document": "Alapdoksik/appspec/Material_Calculator_Functional_Specification_v0.2.md",
       "web_url": "https://jn86vi.github.io/apps/material-calculator.html#material-calculator-ads"
