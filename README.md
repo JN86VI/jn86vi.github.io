@@ -25,8 +25,11 @@ the other 21 planned apps. It is hidden for released apps and does not override
 the public lifecycle badge or establish production availability.
 The owner's 2026-11-13 instruction sets MC public descriptions to the approved
 final functionality. Its `showDevelopmentStatus: false` omits development
-badges and notices on the detail page and portfolio card without marking it
-released or adding an unverified Play link. Internal catalog totals are unchanged.
+badges and notices on the detail page only. The owner's same-day correction
+requires the portfolio card to keep both existing badges: `creating` (In the
+works) + `planned` (Planned). Catalog cards always show their public lifecycle
+and, unless released, their product stage. This does not mark MC released or
+add an unverified Play link. Internal catalog totals are unchanged.
 
 `assets/portfolio-v2.js` contains names, statuses and all eight translations.
 Cards, detail pages, the home showcase, all four home counters and the Contact
@@ -43,7 +46,9 @@ mapping, SHA-256 hashes and copy actions are in `assets/icon-inventory.json`.
 Icons are copied without redrawing or regenerating the canonical assets.
 
 Public lifecycle: `creating` (In the works) → `soon` (Coming soon) → `released`
-(Available). The home showcase includes only `soon`; `released.html` includes
+(Available). Only apps already in Google Play closed testing qualify for `soon`;
+active development alone does not qualify. The home showcase includes only
+`soon`; `released.html` includes
 only `released`, and currently lists Unit Converter and Ott e!. A localized empty state is used
 when there are no released apps. The full
 portfolio retains every app with its own current status.

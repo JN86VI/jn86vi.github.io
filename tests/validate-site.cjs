@@ -225,12 +225,8 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
             for (const a of apps) {
               const card = page.locator(`.app-card[data-app="${a.id}"]`);
               assert.equal(await card.locator('p').innerText(),a.copy[lang].summary);
-              if (a.showDevelopmentStatus === false) {
-                assert.equal(await card.locator('.badge').count(),0,'MC public copy omits development status');
-              } else {
-                assert.equal(await card.locator(`.badge.${a.status}`).textContent(),await page.evaluate(([l,status])=>ui[l]['status_'+status],[lang,a.status]));
-              }
-              if (a.status === 'released' || a.showDevelopmentStatus === false) {
+              assert.equal(await card.locator(`.badge.${a.status}`).textContent(),await page.evaluate(([l,status])=>ui[l]['status_'+status],[lang,a.status]));
+              if (a.status === 'released') {
                 assert.equal(await card.locator('[data-app-stage]').count(),0,'Released cards omit the development stage');
               } else {
                 assert.equal(await card.locator('[data-app-stage]').textContent(),await page.evaluate(([l,stage])=>ui[l][stage === 'planned' ? 'status_plan' : 'status_dev'],[lang,a.productStage]));

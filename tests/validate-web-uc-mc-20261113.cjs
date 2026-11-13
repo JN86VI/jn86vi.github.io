@@ -130,7 +130,7 @@ for(const file of tracked.filter(f=>/^(?:apps|privacy)\/.*\.html$/.test(f) && ![
       await page.goto(base+'apps.html');
       for(const lang of langs) {
         await page.selectOption('#languageSelect',lang);
-        assert.equal(await page.locator('[data-app="material-calculator"] .badge').count(),0);
+        assert.deepEqual(await page.locator('[data-app="material-calculator"] .badge').allTextContents(),await page.evaluate(l=>[ui[l].status_creating,ui[l].status_plan],lang));
         assert.equal(await page.locator('[data-app="unit-converter"] .badge.released').count(),1);
       }
       await page.goto(base+'apps/material-calculator.html');
