@@ -8,6 +8,11 @@ from urllib.parse import urlsplit, parse_qs
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://jn86vi.github.io'
+DEDICATED_PRIVACY = {
+    'age-date-toolkit': ('ADT', 'hu.jn86.agedatetoolkit'),
+    'material-calculator': ('MC', 'hu.jn86.materialcalculator'),
+    'mini-games': ('Mini Games', 'hu.jn86.minigames'),
+}
 
 
 def play_url(app):
@@ -92,22 +97,16 @@ def extended_sections(app):
 def holiday_card(app):
     if app['id'] != 'unit-converter':
         return ''
-    url = play_url(app)
-    if not url:
+    if not play_url(app):
         raise ValueError('UC holiday notice requires its verified Play listing')
-    return f'''<div class="wrap"><aside class="panel uc-holiday" id="uc-holiday" hidden aria-labelledby="uc-holiday-title">
-<h2 id="uc-holiday-title"></h2><p></p>
-<a class="btn secondary" href="{html.escape(url, quote=True)}"></a>
-</aside></div>
+    return '''<div class="wrap"><aside class="uc-holiday" id="uc-holiday" hidden data-uc-holiday="detail" aria-labelledby="uc-holiday-title"></aside></div>
   '''
 
 
 def dedicated_privacy_page(app):
     """Dedicated legal sources stay independent of portfolio lifecycle copy."""
     slug = app['id']
-    short = {'age-date-toolkit': 'ADT', 'material-calculator': 'MC'}[slug]
-    package = {'age-date-toolkit': 'hu.jn86.agedatetoolkit',
-               'material-calculator': 'hu.jn86.materialcalculator'}[slug]
+    short, package = DEDICATED_PRIVACY[slug]
     data = json.loads((ROOT / f'assets/privacy-{slug}.json').read_text())
     locales = ['en', 'hu', 'de', 'es', 'fr', 'pt-BR', 'pl', 'it']
     if data['locales'] != locales or set(data['copy']) != set(locales):
@@ -201,7 +200,7 @@ def dedicated_privacy_page(app):
 
 
 def privacy_page(app):
-    if app['id'] in {'age-date-toolkit', 'material-calculator'}:
+    if app['id'] in DEDICATED_PRIVACY:
         return dedicated_privacy_page(app)
     data = extended_data()
     entry = data['apps'][app['id']]
@@ -221,12 +220,12 @@ def privacy_page(app):
 
 
 def page(app):
-    refreshed = app['id'] in {'material-calculator', 'unit-converter'}
-    revision = '?v=20261113' if refreshed else ''
+    revision = '?v=20261121'
     detail_style = f'<link rel="stylesheet" href="../assets/app-details.css{revision}">'
     detail_scripts = f'<script src="../assets/app-details-data.js{revision}"></script>\n<script src="../assets/app-details.js{revision}"></script>'
     if app['id'] == 'unit-converter':
-        detail_scripts += '\n<script src="../assets/uc-holiday.js"></script>'
+        detail_style += '\n  <link rel="stylesheet" href="../assets/uc-holiday.css">'
+        detail_scripts += '\n<script src="../assets/uc-holiday.js?v=20261121"></script>'
     esc = html.escape
     name = esc(app['name'])
     copy = app['copy']['en']
@@ -244,8 +243,8 @@ def page(app):
                     'creating': 'This app is being created. The features described here are planned; it is not yet available to download.',
                     'released': 'This app has been publicly released.'}[app['status']]
     entry = extended_data()['apps'].get(app['id'])
-    if entry and not entry['planned'] and app['status'] != 'released':
-        availability = extended_data()['labels']['en']['internal' if app['id'] == 'unit-converter' else 'soon']
+    if app['status'] == 'soon' and entry.get('closedTesting'):
+        availability = extended_data()['labels']['en']['soon']
     if hide_development:
         availability = ''
     url_to_play = play_url(app)
@@ -296,11 +295,11 @@ def page(app):
   </div></section>
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
-<script src="../assets/site.js?v={9 if refreshed else 8}"></script>
-<script src="../assets/portfolio-v2.js?v={7 if refreshed else 6}"></script>
+<script src="../assets/site.js?v=9"></script>
+<script src="../assets/portfolio-v2.js{revision}"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
-<script src="../assets/app-detail.js?v={4 if refreshed else 3}"></script>
-<script src="../assets/app-pages-data.js?v=1"></script>
+<script src="../assets/app-detail.js?v=4"></script>
+<script src="../assets/app-pages-data.js{revision}"></script>
 {detail_scripts}
 </body>
 </html>
@@ -343,7 +342,7 @@ def released_page(apps):
   </div></section>
 </main>
 <footer><div class="wrap footer"><div><img src="assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
-<script src="assets/site.js?v=8"></script><script src="assets/portfolio-v2.js?v=5"></script><script src="assets/mobile-menu.js?v=6"></script>
+<script src="assets/site.js?v=8"></script><script src="assets/portfolio-v2.js?v=20261121"></script><script src="assets/mobile-menu.js?v=6"></script>
 </body>
 </html>
 '''

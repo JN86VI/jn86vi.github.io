@@ -1,5 +1,5 @@
 // Public app presentations from the current canonical JN86 AppSpecs.
-// Public status policy: owner requests; Ott e! and Unit Converter released, FC and ADT coming soon (2026-11-10).
+// Public status policy: owner requests; Ott e! and Unit Converter released, FC, ADT and MC coming soon (2026-11-21).
 const APP_STATUSES = Object.freeze(['creating', 'soon', 'released']);
 
 // URL shape is checked here. Public production availability must be verified
@@ -32,82 +32,82 @@ const portfolioApps = [
     "icon": "assets/ic_unit_converter_512.png?v=18199c16b800",
     "copy": {
       "en": {
-        "summary": "Convert everyday and technical units, with useful calculators and quick access to your favorites.",
+        "summary": "77 offline unit conversions and calculators, with favorites and calculation history.",
         "overview": "Use Unit Converter when a recipe, measurement or technical task uses unfamiliar units. Enter a value once to see related results. Useful calculators cover density, data-transfer time, dilution, energy costs, lighting and concentration.",
         "features": [
           "Length, temperature, mass, speed and more.",
           "Several conversion results from one value.",
-          "Search, favorites and recent calculations.",
+          "Search, reorder favorites, see 10 recent tools and reopen up to 50 calculations.",
           "Offline calculations without an account."
         ]
       },
       "hu": {
-        "summary": "Hétköznapi és műszaki mértékegység-átváltások, hasznos kalkulátorokkal és gyorsan elérhető kedvencekkel.",
+        "summary": "77 offline mértékegység-átváltó és kalkulátor, kedvencekkel és számítási előzményekkel.",
         "overview": "A Unit Converter akkor segít, ha egy receptben, mérésnél vagy műszaki feladatban más mértékegységgel találkozol. Egy érték megadásából több kapcsolódó eredményt láthatsz. Sűrűséghez, adatátviteli időhöz, hígításhoz, energiaköltséghez, világításhoz és koncentrációhoz is ad kalkulátort.",
         "features": [
           "Hossz, hőmérséklet, tömeg, sebesség és további egységek.",
           "Egy értékből több átváltási eredmény.",
-          "Keresés, kedvencek és korábbi számítások.",
+          "Keresés, átrendezhető kedvencek, 10 friss eszköz és legfeljebb 50 visszatölthető számítás.",
           "Offline számítások fiók nélkül."
         ]
       },
       "de": {
-        "summary": "Alltägliche und technische Einheiten umrechnen, mit hilfreichen Rechnern und schnellem Zugriff auf Favoriten.",
+        "summary": "77 Offline-Umrechnungen und Rechner mit Favoriten und Berechnungsverlauf.",
         "overview": "Unit Converter hilft bei ungewohnten Einheiten in Rezepten, Messungen und technischen Aufgaben. Eine Eingabe liefert mehrere passende Ergebnisse. Rechner unterstützen Dichte, Datenübertragungszeit, Verdünnung, Energiekosten, Beleuchtung und Konzentration.",
         "features": [
           "Länge, Temperatur, Masse, Geschwindigkeit und mehr.",
           "Mehrere Umrechnungsergebnisse aus einem Wert.",
-          "Suche, Favoriten und letzte Berechnungen.",
+          "Suche, sortierbare Favoriten, 10 zuletzt genutzte Funktionen und bis zu 50 abrufbare Berechnungen.",
           "Offline rechnen ohne Benutzerkonto."
         ]
       },
       "es": {
-        "summary": "Convierte unidades cotidianas y técnicas, con calculadoras útiles y acceso rápido a tus favoritos.",
+        "summary": "77 conversiones y calculadoras sin conexión, con favoritos e historial de cálculos.",
         "overview": "Unit Converter ayuda cuando una receta, medida o tarea técnica utiliza unidades poco familiares. Introduce un valor para ver varios resultados relacionados. Incluye calculadoras de densidad, tiempo de transferencia de datos, dilución, coste energético, iluminación y concentración.",
         "features": [
           "Longitud, temperatura, masa, velocidad y más.",
           "Varios resultados de conversión a partir de un valor.",
-          "Búsqueda, favoritos y cálculos recientes.",
+          "Búsqueda, favoritos ordenables, 10 herramientas recientes y hasta 50 cálculos recuperables.",
           "Cálculos sin conexión y sin cuenta."
         ]
       },
       "fr": {
-        "summary": "Convertissez les unités du quotidien et les unités techniques, avec des calculateurs utiles et vos favoris à portée de main.",
+        "summary": "77 conversions et calculateurs hors ligne, avec favoris et historique des calculs.",
         "overview": "Unit Converter aide lorsqu’une recette, une mesure ou une tâche technique utilise des unités inhabituelles. Une seule valeur donne plusieurs résultats associés. Des calculateurs couvrent densité, durée de transfert, dilution, coût de l’énergie, éclairage et concentration.",
         "features": [
           "Longueur, température, masse, vitesse et plus encore.",
           "Plusieurs conversions à partir d’une seule valeur.",
-          "Recherche, favoris et calculs récents.",
+          "Recherche, favoris réorganisables, 10 outils récents et jusqu’à 50 calculs à rouvrir.",
           "Calculs hors ligne, sans compte."
         ]
       },
       "pt-BR": {
-        "summary": "Converta unidades do dia a dia e técnicas, com calculadoras úteis e acesso rápido aos favoritos.",
+        "summary": "77 conversões e calculadoras offline, com favoritos e histórico de cálculos.",
         "overview": "Unit Converter ajuda quando uma receita, medida ou tarefa técnica usa unidades pouco familiares. Digite um valor para ver vários resultados relacionados. Há calculadoras de densidade, tempo de transferência de dados, diluição, custo de energia, iluminação e concentração.",
         "features": [
           "Comprimento, temperatura, massa, velocidade e mais.",
           "Vários resultados de conversão a partir de um valor.",
-          "Busca, favoritos e cálculos recentes.",
+          "Busca, favoritos reordenáveis, 10 ferramentas recentes e até 50 cálculos para reabrir.",
           "Cálculos offline sem conta."
         ]
       },
       "pl": {
-        "summary": "Przeliczaj codzienne i techniczne jednostki, korzystając z kalkulatorów i szybkiego dostępu do ulubionych.",
+        "summary": "77 przeliczeń i kalkulatorów offline z ulubionymi i historią obliczeń.",
         "overview": "Unit Converter pomaga przy nieznanych jednostkach w przepisach, pomiarach i zadaniach technicznych. Jedna wartość daje kilka powiązanych wyników. Kalkulatory obejmują gęstość, czas przesyłania danych, rozcieńczanie, koszty energii, oświetlenie i stężenie.",
         "features": [
           "Długość, temperatura, masa, prędkość i inne wielkości.",
           "Kilka wyników przeliczenia z jednej wartości.",
-          "Wyszukiwanie, ulubione i ostatnie obliczenia.",
+          "Wyszukiwanie, układ ulubionych, 10 ostatnich narzędzi i do 50 obliczeń do ponownego otwarcia.",
           "Obliczenia offline bez konta."
         ]
       },
       "it": {
-        "summary": "Converti unità quotidiane e tecniche, con calcolatori utili e accesso rapido ai preferiti.",
+        "summary": "77 conversioni e calcolatori offline, con preferiti e cronologia dei calcoli.",
         "overview": "Unit Converter aiuta quando una ricetta, una misura o un compito tecnico usa unità poco familiari. Un solo valore mostra più risultati collegati. I calcolatori coprono densità, tempo di trasferimento dati, diluizione, costo energetico, illuminazione e concentrazione.",
         "features": [
           "Lunghezza, temperatura, massa, velocità e altro.",
           "Più risultati di conversione da un solo valore.",
-          "Ricerca, preferiti e calcoli recenti.",
+          "Ricerca, preferiti riordinabili, 10 strumenti recenti e fino a 50 calcoli da riaprire.",
           "Calcoli offline senza account."
         ]
       }
@@ -122,7 +122,7 @@ const portfolioApps = [
     "icon": "assets/ic_otte_master_1024_reference.png",
     "copy": {
       "en": {
-        "summary": "A touch game for cats, with moving prey and play settings you can adjust.",
+        "summary": "An offline touch game for cats with seven moving prey species and timed sessions.",
         "overview": "A moving prey appears one at a time for the cat to chase and tap. Each species moves differently and reacts to successful touches. Choose playtime and prey before starting; settings stay hidden while the cat plays.",
         "features": [
           "Fly, mosquito, ladybird, beetle, cockroach, grasshopper and spider.",
@@ -132,7 +132,7 @@ const portfolioApps = [
         ]
       },
       "hu": {
-        "summary": "Érintős játék macskáknak, mozgó zsákmányokkal és a gazdi által állítható játékbeállításokkal.",
+        "summary": "Offline érintős játék macskáknak hét mozgó zsákmányfajjal és állítható játékidővel.",
         "overview": "A képernyőn egyszerre egy mozgó zsákmány jelenik meg, amelyet a macska követhet és megérinthet. Minden faj másként mozog, és reagál a sikeres érintésre. Indítás előtt választhatsz játékidőt és zsákmányokat; játék közben a beállítások rejtve maradnak.",
         "features": [
           "Légy, szúnyog, katica, bogár, csótány, szöcske és pók.",
@@ -142,7 +142,7 @@ const portfolioApps = [
         ]
       },
       "de": {
-        "summary": "Ein Touch-Spiel für Katzen mit bewegter Beute und einstellbaren Spieloptionen.",
+        "summary": "Offline-Touchspiel für Katzen mit sieben beweglichen Beutearten und wählbarer Spieldauer.",
         "overview": "Jeweils eine bewegte Beute lädt die Katze zum Verfolgen und Antippen ein. Jede Art bewegt sich anders und reagiert auf erfolgreiche Berührungen. Spieldauer und Beute werden vor dem Start gewählt; die Einstellungen bleiben während des Spiels verborgen.",
         "features": [
           "Fliege, Mücke, Marienkäfer, Käfer, Schabe, Heuschrecke und Spinne.",
@@ -152,7 +152,7 @@ const portfolioApps = [
         ]
       },
       "es": {
-        "summary": "Un juego táctil para gatos, con presas en movimiento y opciones de juego ajustables.",
+        "summary": "Juego táctil sin conexión para gatos, con siete presas en movimiento y duración ajustable.",
         "overview": "Una presa en movimiento aparece cada vez para que el gato la persiga y toque. Cada especie se mueve de forma distinta y reacciona a los toques acertados. Elige duración y presas antes de empezar; los ajustes quedan ocultos durante el juego.",
         "features": [
           "Mosca, mosquito, mariquita, escarabajo, cucaracha, saltamontes y araña.",
@@ -162,7 +162,7 @@ const portfolioApps = [
         ]
       },
       "fr": {
-        "summary": "Un jeu tactile pour les chats, avec des proies en mouvement et des réglages adaptés à vos envies.",
+        "summary": "Jeu tactile hors ligne pour chats, avec sept proies mobiles et une durée réglable.",
         "overview": "Une seule proie en mouvement apparaît à la fois pour que le chat la poursuive et la touche. Chaque espèce bouge différemment et réagit aux touches réussies. Choisissez durée et proies avant de commencer ; les réglages restent cachés pendant le jeu.",
         "features": [
           "Mouche, moustique, coccinelle, coléoptère, cafard, sauterelle et araignée.",
@@ -172,7 +172,7 @@ const portfolioApps = [
         ]
       },
       "pt-BR": {
-        "summary": "Um jogo de toque para gatos, com presas em movimento e opções de brincadeira ajustáveis.",
+        "summary": "Jogo de toque offline para gatos, com sete presas em movimento e duração ajustável.",
         "overview": "Uma presa em movimento aparece por vez para o gato perseguir e tocar. Cada espécie se move de um jeito e reage aos toques certeiros. Escolha duração e presas antes de começar; as configurações ficam ocultas durante a brincadeira.",
         "features": [
           "Mosca, mosquito, joaninha, besouro, barata, gafanhoto e aranha.",
@@ -182,7 +182,7 @@ const portfolioApps = [
         ]
       },
       "pl": {
-        "summary": "Gra dotykowa dla kotów z poruszającymi się zdobyczami i ustawieniami zabawy.",
+        "summary": "Dotykowa gra offline dla kotów z siedmioma ruchomymi zdobyczami i ustawianym czasem zabawy.",
         "overview": "Na ekranie pojawia się jedna ruchoma zdobycz, którą kot może śledzić i dotykać. Każdy gatunek porusza się inaczej i reaguje na trafne dotknięcia. Wybierz czas i zdobycze przed startem; ustawienia pozostają ukryte podczas gry.",
         "features": [
           "Mucha, komar, biedronka, chrząszcz, karaluch, konik polny i pająk.",
@@ -192,7 +192,7 @@ const portfolioApps = [
         ]
       },
       "it": {
-        "summary": "Un gioco touch per gatti, con prede in movimento e impostazioni di gioco regolabili.",
+        "summary": "Gioco touch offline per gatti, con sette prede in movimento e durata regolabile.",
         "overview": "Una preda in movimento compare alla volta perché il gatto possa seguirla e toccarla. Ogni specie si muove diversamente e reagisce ai tocchi riusciti. Scegli durata e prede prima di iniziare; le impostazioni restano nascoste durante il gioco.",
         "features": [
           "Mosca, zanzara, coccinella, coleottero, scarafaggio, cavalletta e ragno.",
@@ -212,83 +212,83 @@ const portfolioApps = [
     "icon": "assets/icons/age-date-toolkit.png",
     "copy": {
       "en": {
-        "summary": "Find exact ages, compare dates and count down to birthdays and anniversaries.",
+        "summary": "Find exact ages, compare calendar dates, count down to anniversaries and save dates for later.",
         "overview": "Calculate exact age, date differences and time until the next birthday or anniversary; add or subtract calendar periods from dates. Designed for offline use.",
         "features": [
           "Age in years, months and days.",
           "Add or subtract years, months, weeks and days.",
           "Save named dates and copy results.",
-          "Calculations work offline."
+          "Offline weekday, day of the year and ISO week lookup."
         ]
       },
       "hu": {
-        "summary": "Pontos életkor, dátumkülönbségek és a születésnapokig vagy évfordulókig hátralévő idő kiszámítása.",
+        "summary": "Számíts pontos életkort, hasonlíts össze dátumokat, számolj vissza évfordulókig, és ments el dátumokat.",
         "overview": "Pontos életkor, dátumkülönbség és a következő születésnapig vagy évfordulóig hátralévő idő számítása; naptári időszakok hozzáadása és kivonása. Offline használatra készül.",
         "features": [
           "Életkor években, hónapokban és napokban.",
           "Évek, hónapok, hetek és napok hozzáadása vagy kivonása.",
           "Elnevezett dátumok mentése és eredmények másolása.",
-          "A számítások offline működnek."
+          "Hét napja, évnap és ISO-hétszám offline."
         ]
       },
       "de": {
-        "summary": "Das genaue Alter berechnen, Daten vergleichen und die Zeit bis zu Geburtstagen oder Jahrestagen anzeigen.",
+        "summary": "Berechne das genaue Alter, vergleiche Kalenderdaten, zähle bis zu Jahrestagen und speichere Daten für später.",
         "overview": "Exaktes Alter, Datumsabstände und Zeit bis zum nächsten Geburtstag oder Jahrestag berechnen; Kalenderzeiträume zu Daten addieren oder abziehen. Für Offline-Nutzung geplant.",
         "features": [
           "Alter in Jahren, Monaten und Tagen.",
           "Jahre, Monate, Wochen und Tage addieren oder abziehen.",
           "Benannte Daten speichern und Ergebnisse kopieren.",
-          "Berechnungen funktionieren offline."
+          "Wochentag, Tag des Jahres und ISO-Kalenderwoche offline."
         ]
       },
       "es": {
-        "summary": "Calcula edades exactas, compara fechas y consulta cuánto falta para cumpleaños y aniversarios.",
+        "summary": "Calcula edades exactas, compara fechas, consulta cuánto falta para aniversarios y guarda fechas.",
         "overview": "Calcula edad exacta, diferencias entre fechas y tiempo hasta el próximo cumpleaños o aniversario; suma o resta periodos de calendario. Previsto para uso sin conexión.",
         "features": [
           "Edad en años, meses y días.",
           "Suma o resta años, meses, semanas y días.",
           "Guarda fechas con nombre y copia los resultados.",
-          "Los cálculos funcionan sin conexión."
+          "Día de la semana, día del año y semana ISO sin conexión."
         ]
       },
       "fr": {
-        "summary": "Calculez un âge exact, comparez des dates et voyez le temps restant jusqu’aux anniversaires.",
+        "summary": "Calculez un âge exact, comparez des dates, comptez les jours jusqu’aux anniversaires et enregistrez vos dates.",
         "overview": "Calcule l’âge exact, les écarts entre dates et le temps jusqu’au prochain anniversaire ; ajoute ou retire des périodes calendaires. Conçu pour fonctionner hors ligne.",
         "features": [
           "Âge en années, mois et jours.",
           "Ajout ou retrait d’années, de mois, de semaines et de jours.",
           "Dates nommées enregistrées et résultats copiables.",
-          "Calculs disponibles hors ligne."
+          "Jour de la semaine, jour de l’année et semaine ISO hors ligne."
         ]
       },
       "pt-BR": {
-        "summary": "Calcule idades exatas, compare datas e veja quanto falta para aniversários e datas comemorativas.",
+        "summary": "Calcule idades exatas, compare datas, veja quanto falta para aniversários e salve datas.",
         "overview": "Calcula idade exata, diferenças entre datas e tempo até o próximo aniversário; soma ou subtrai períodos do calendário. Planejado para uso offline.",
         "features": [
           "Idade em anos, meses e dias.",
           "Some ou subtraia anos, meses, semanas e dias.",
           "Salve datas com nome e copie resultados.",
-          "Os cálculos funcionam offline."
+          "Dia da semana, dia do ano e semana ISO offline."
         ]
       },
       "pl": {
-        "summary": "Oblicz dokładny wiek, porównaj daty i sprawdź czas do urodzin lub rocznicy.",
+        "summary": "Obliczaj dokładny wiek, porównuj daty, odliczaj do rocznic i zapisuj daty.",
         "overview": "Oblicza dokładny wiek, różnice między datami i czas do kolejnych urodzin lub rocznicy; dodaje i odejmuje okresy kalendarzowe. Planowane działanie offline.",
         "features": [
           "Wiek w latach, miesiącach i dniach.",
           "Dodawanie i odejmowanie lat, miesięcy, tygodni i dni.",
           "Zapisywanie nazwanych dat i kopiowanie wyników.",
-          "Obliczenia działają offline."
+          "Dzień tygodnia, dzień roku i tydzień ISO offline."
         ]
       },
       "it": {
-        "summary": "Calcola l’età esatta, confronta date e scopri quanto manca a compleanni e anniversari.",
+        "summary": "Calcola l’età esatta, confronta le date, conta i giorni agli anniversari e salva le date.",
         "overview": "Calcola età esatta, differenze tra date e tempo al prossimo compleanno o anniversario; aggiunge e sottrae periodi di calendario. Previsto per l’uso offline.",
         "features": [
           "Età in anni, mesi e giorni.",
           "Aggiungi o sottrai anni, mesi, settimane e giorni.",
           "Salva date con un nome e copia i risultati.",
-          "I calcoli funzionano offline."
+          "Giorno della settimana, giorno dell’anno e settimana ISO offline."
         ]
       }
     },
@@ -392,82 +392,82 @@ const portfolioApps = [
     "icon": "assets/icons/fraction-calculator.png",
     "copy": {
       "en": {
-        "summary": "Calculate with fractions and mixed numbers, and follow the steps to the answer.",
+        "summary": "Calculate with fractions, mixed numbers and decimals, see the steps and recall past calculations.",
         "overview": "Add, subtract, multiply, divide and simplify fractions and mixed numbers, with step-by-step working and fraction–decimal conversion.",
         "features": [
           "Add, subtract, multiply, divide and simplify.",
           "Convert between fractions and decimals.",
-          "Show percentages and repeating decimals.",
+          "Local history of up to 100 calculations and persistent memory.",
           "Fractional-inch helper for practical measurements."
         ]
       },
       "hu": {
-        "summary": "Számolás törtekkel és vegyes számokkal, követhető, lépésenkénti levezetéssel.",
+        "summary": "Számolj törtekkel, vegyes számokkal és tizedes törtekkel, nézd meg a lépéseket és tölts vissza korábbi számításokat.",
         "overview": "Törtek és vegyes számok összeadása, kivonása, szorzása, osztása és egyszerűsítése lépésenkénti levezetéssel, valamint tört–tizedes átváltással.",
         "features": [
           "Összeadás, kivonás, szorzás, osztás és egyszerűsítés.",
           "Átváltás tört és tizedes szám között.",
-          "Százalékok és szakaszos tizedes törtek megjelenítése.",
+          "Legfeljebb 100 helyi előzmény és tartós memória.",
           "Segéd a tört hüvelykben megadott méretekhez."
         ]
       },
       "de": {
-        "summary": "Mit Brüchen und gemischten Zahlen rechnen und den Lösungsweg Schritt für Schritt nachvollziehen.",
+        "summary": "Rechne mit Brüchen, gemischten Zahlen und Dezimalzahlen, sieh die Schritte und rufe frühere Berechnungen ab.",
         "overview": "Brüche und gemischte Zahlen addieren, subtrahieren, multiplizieren, dividieren und kürzen, mit Rechenschritten und Dezimalumrechnung.",
         "features": [
           "Addieren, subtrahieren, multiplizieren, dividieren und kürzen.",
           "Zwischen Brüchen und Dezimalzahlen umrechnen.",
-          "Prozentwerte und periodische Dezimalzahlen anzeigen.",
+          "Bis zu 100 lokale Verlaufseinträge und dauerhafter Rechenspeicher.",
           "Hilfe für Maße in Zollbrüchen."
         ]
       },
       "es": {
-        "summary": "Calcula con fracciones y números mixtos y sigue la solución paso a paso.",
+        "summary": "Calcula con fracciones, números mixtos y decimales, consulta los pasos y recupera cálculos anteriores.",
         "overview": "Suma, resta, multiplica, divide y simplifica fracciones y números mixtos, con pasos de cálculo y conversión a decimales.",
         "features": [
           "Suma, resta, multiplica, divide y simplifica.",
           "Convierte entre fracciones y decimales.",
-          "Muestra porcentajes y decimales periódicos.",
+          "Historial local de hasta 100 cálculos y memoria persistente.",
           "Ayuda para medidas en fracciones de pulgada."
         ]
       },
       "fr": {
-        "summary": "Calculez avec des fractions et des nombres mixtes, puis suivez la résolution étape par étape.",
+        "summary": "Calculez avec des fractions, nombres mixtes et décimaux, consultez les étapes et reprenez les calculs précédents.",
         "overview": "Addition, soustraction, multiplication, division et simplification de fractions et nombres mixtes, avec étapes et conversion décimale.",
         "features": [
           "Addition, soustraction, multiplication, division et simplification.",
           "Conversion entre fractions et nombres décimaux.",
-          "Pourcentages et décimales périodiques.",
+          "Jusqu’à 100 calculs dans l’historique local et mémoire persistante.",
           "Aide pour les mesures en fractions de pouce."
         ]
       },
       "pt-BR": {
-        "summary": "Calcule com frações e números mistos e acompanhe a solução passo a passo.",
+        "summary": "Calcule com frações, números mistos e decimais, veja as etapas e recupere cálculos anteriores.",
         "overview": "Soma, subtrai, multiplica, divide e simplifica frações e números mistos, com etapas e conversão decimal.",
         "features": [
           "Some, subtraia, multiplique, divida e simplifique.",
           "Converta entre frações e decimais.",
-          "Veja porcentagens e dízimas periódicas.",
+          "Histórico local de até 100 cálculos e memória persistente.",
           "Auxílio para medidas em frações de polegada."
         ]
       },
       "pl": {
-        "summary": "Obliczaj ułamki i liczby mieszane oraz śledź rozwiązanie krok po kroku.",
+        "summary": "Obliczaj ułamki, liczby mieszane i dziesiętne, sprawdzaj kroki i przywołuj wcześniejsze obliczenia.",
         "overview": "Dodawanie, odejmowanie, mnożenie, dzielenie i skracanie ułamków oraz liczb mieszanych, z krokami i zamianą na dziesiętne.",
         "features": [
           "Dodawanie, odejmowanie, mnożenie, dzielenie i skracanie.",
           "Zamiana ułamków na liczby dziesiętne i odwrotnie.",
-          "Procenty i rozwinięcia dziesiętne okresowe.",
+          "Lokalna historia do 100 obliczeń i trwała pamięć.",
           "Pomoc przy wymiarach w ułamkach cala."
         ]
       },
       "it": {
-        "summary": "Calcola con frazioni e numeri misti e segui la soluzione passo dopo passo.",
+        "summary": "Calcola con frazioni, numeri misti e decimali, segui i passaggi e richiama i calcoli precedenti.",
         "overview": "Somma, sottrazione, moltiplicazione, divisione e semplificazione di frazioni e numeri misti, con passaggi e conversione decimale.",
         "features": [
           "Somma, sottrai, moltiplica, dividi e semplifica.",
           "Converti tra frazioni e numeri decimali.",
-          "Visualizza percentuali e decimali periodici.",
+          "Cronologia locale fino a 100 calcoli e memoria persistente.",
           "Aiuto per misure in frazioni di pollice."
         ]
       }
@@ -568,93 +568,92 @@ const portfolioApps = [
   {
     "id": "material-calculator",
     "name": "Material Calculator",
-    "status": "creating",
+    "status": "soon",
     "icon": "assets/icons/material-calculator.png",
     "copy": {
       "en": {
-        "summary": "Estimate how much paint, flooring, tile or other material you need for home projects.",
+        "summary": "Estimate quantities for eight materials, then organize calculations, shopping lists and PDFs by project.",
         "overview": "Estimate paint, wallpaper, laminate, tiles, concrete, mulch, topsoil and gravel from your measurements. Save calculations in projects, review material totals, check off a shopping list and create PDFs offline.",
         "features": [
           "Eight calculators with metric and imperial units.",
           "Dimensions, deductions, allowance and whole packs.",
-          "Saved products, projects and shopping lists.",
+          "45 editable starter products, saved projects and shopping lists.",
           "Offline PDF, sharing and complete data backup."
         ]
       },
       "hu": {
-        "summary": "Számold ki, mennyi festék, padlóburkolat, csempe vagy más anyag kell az otthoni munkákhoz.",
+        "summary": "Becsüld meg nyolc anyag mennyiségét, majd rendezd projektbe a számításokat, bevásárlólistákat és PDF-eket.",
         "overview": "Méretekből becsülheted a festék, tapéta, laminált padló, csempe, beton, mulcs, termőföld és kavics mennyiségét. Projektbe mentheted a számításokat, összesítheted az anyagigényt, kipipálhatod a bevásárlólistát és offline PDF-et készíthetsz.",
         "features": [
           "Nyolc kalkulátor metrikus és angolszász egységekkel.",
           "Méretek, levonások, ráhagyás és egész csomagok.",
-          "Mentett termékek, projektek és bevásárlólisták.",
+          "45 szerkeszthető kezdőtermék, mentett projektek és bevásárlólisták.",
           "Offline PDF, megosztás és teljes adatmentés."
         ]
       },
       "de": {
-        "summary": "Den Bedarf an Farbe, Bodenbelag, Fliesen und anderen Materialien für Heimwerkerarbeiten abschätzen.",
+        "summary": "Schätze den Bedarf für acht Materialien und organisiere Berechnungen, Einkaufslisten und PDFs nach Projekt.",
         "overview": "Schätze Farbe, Tapete, Laminat, Fliesen, Beton, Mulch, Mutterboden und Kies anhand deiner Maße. Speichere Berechnungen in Projekten, prüfe Materialmengen, hake Einkäufe ab und erstelle PDFs offline.",
         "features": [
           "Acht Rechner mit metrischen und imperialen Einheiten.",
           "Maße, Abzüge, Zuschläge und ganze Packungen.",
-          "Gespeicherte Produkte, Projekte und Einkaufslisten.",
+          "45 bearbeitbare Startprodukte, gespeicherte Projekte und Einkaufslisten.",
           "Offline-PDF, Teilen und vollständige Datensicherung."
         ]
       },
       "es": {
-        "summary": "Estima cuánta pintura, suelo, baldosa u otro material necesitas para trabajos en casa.",
+        "summary": "Estima cantidades de ocho materiales y organiza cálculos, listas de compra y PDF por proyecto.",
         "overview": "Estima pintura, papel pintado, laminado, baldosas, hormigón, acolchado, tierra y grava con tus medidas. Guarda cálculos en proyectos, revisa totales, marca compras y crea PDF sin conexión.",
         "features": [
           "Ocho calculadoras con unidades métricas e imperiales.",
           "Medidas, deducciones, margen y paquetes enteros.",
-          "Productos guardados, proyectos y listas de compra.",
+          "45 productos iniciales editables, proyectos guardados y listas de compra.",
           "PDF sin conexión, compartir y copia completa de datos."
         ]
       },
       "fr": {
-        "summary": "Estimez les quantités de peinture, revêtement, carrelage ou autres matériaux pour vos travaux à la maison.",
+        "summary": "Estimez les quantités de huit matériaux et organisez calculs, listes d’achats et PDF par projet.",
         "overview": "Estimez peinture, papier peint, stratifié, carrelage, béton, paillage, terre et gravier à partir de vos mesures. Enregistrez les calculs dans des projets, consultez les totaux, cochez les achats et créez des PDF hors ligne.",
         "features": [
           "Huit calculateurs avec unités métriques et impériales.",
           "Dimensions, déductions, marge et paquets entiers.",
-          "Produits enregistrés, projets et listes d’achats.",
+          "45 produits de départ modifiables, projets enregistrés et listes d’achats.",
           "PDF hors ligne, partage et sauvegarde complète."
         ]
       },
       "pt-BR": {
-        "summary": "Estime quanto de tinta, piso, revestimento ou outro material precisa para serviços em casa.",
+        "summary": "Estime quantidades de oito materiais e organize cálculos, listas de compras e PDFs por projeto.",
         "overview": "Estime tinta, papel de parede, laminado, revestimentos, concreto, cobertura morta, terra e cascalho com suas medidas. Salve cálculos em projetos, confira os totais, marque compras e crie PDFs offline.",
         "features": [
           "Oito calculadoras com unidades métricas e imperiais.",
           "Dimensões, descontos, margem e pacotes inteiros.",
-          "Produtos salvos, projetos e listas de compras.",
+          "45 produtos iniciais editáveis, projetos salvos e listas de compras.",
           "PDF offline, compartilhamento e backup completo."
         ]
       },
       "pl": {
-        "summary": "Oszacuj ilość farby, podłogi, płytek i innych materiałów do prac domowych.",
+        "summary": "Oszacuj ilość ośmiu materiałów i uporządkuj obliczenia, listy zakupów i PDF-y według projektu.",
         "overview": "Oszacuj farbę, tapetę, panele, płytki, beton, ściółkę, ziemię i żwir na podstawie wymiarów. Zapisuj obliczenia w projektach, sprawdzaj sumy materiałów, zaznaczaj zakupy i twórz PDF offline.",
         "features": [
           "Osiem kalkulatorów z jednostkami metrycznymi i imperialnymi.",
           "Wymiary, odliczenia, zapas i pełne opakowania.",
-          "Zapisane produkty, projekty i listy zakupów.",
+          "45 edytowalnych produktów startowych, zapisane projekty i listy zakupów.",
           "PDF offline, udostępnianie i pełna kopia danych."
         ]
       },
       "it": {
-        "summary": "Stima quanta vernice, pavimentazione, piastrelle o altro materiale serve per i lavori di casa.",
+        "summary": "Stima le quantità di otto materiali e organizza calcoli, liste della spesa e PDF per progetto.",
         "overview": "Stima vernice, carta da parati, laminato, piastrelle, calcestruzzo, pacciamatura, terriccio e ghiaia dalle tue misure. Salva calcoli nei progetti, consulta i totali, spunta gli acquisti e crea PDF offline.",
         "features": [
           "Otto calcolatori con unità metriche e imperiali.",
           "Dimensioni, detrazioni, margine e confezioni intere.",
-          "Prodotti salvati, progetti e liste della spesa.",
+          "45 prodotti iniziali modificabili, progetti salvati e liste della spesa.",
           "PDF offline, condivisione e backup completo."
         ]
       }
     },
     "playUrl": null,
-    "productStage": "planned",
-    "showDevelopmentStatus": false
+    "productStage": "development"
   },
   {
     "id": "bubble-level-inclinometer",

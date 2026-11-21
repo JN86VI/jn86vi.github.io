@@ -2850,37 +2850,14 @@
                 "it": "Pubblicità e rimozione con acquisto unico"
               },
               "text": {
-                "en": "Every function is free. Banner ads can appear and a one-time Google Play purchase removes them. Play shows the current price; purchase restoration is available. Ads, consent choices and purchase checks may need internet. Voluntary support is separate and does not remove ads.",
-                "hu": "Minden funkció ingyenes. Bannerreklám megjelenhet, egyszeri Google Play-vásárlással eltávolítható. A Play mutatja az aktuális árat; vásárláshelyreállítás is elérhető. Reklámokhoz, hozzájáruláshoz és vásárlásellenőrzéshez internet kellhet. Az önkéntes támogatás külön lehetőség, nem ad reklámmentességet.",
-                "de": "Jede Funktion ist kostenlos. Bannerwerbung kann erscheinen und wird mit einem einmaligen Google-Play-Kauf entfernt. Play zeigt den aktuellen Preis; Käufe lassen sich wiederherstellen. Werbung, Einwilligung und Kaufprüfung können Internet benötigen. Freiwillige Unterstützung entfernt keine Werbung.",
-                "es": "Todas las funciones son gratis. Puede haber banners, eliminables con una compra única de Google Play. Play muestra el precio actual; se pueden restaurar compras. Anuncios, consentimiento y comprobaciones pueden necesitar internet. El apoyo voluntario es independiente y no elimina anuncios.",
-                "fr": "Toutes les fonctions sont gratuites. Des bannières peuvent apparaître, supprimées par un achat unique Google Play. Play affiche le prix actuel ; les achats peuvent être restaurés. Publicités, consentement et vérifications peuvent nécessiter internet. Le soutien volontaire est séparé et ne supprime pas les publicités.",
-                "pt-BR": "Todas as funções são grátis. Banners podem aparecer e ser removidos por uma compra única no Google Play. O Play mostra o preço atual; é possível restaurar compras. Anúncios, consentimento e verificações podem precisar de internet. Apoio voluntário é separado e não remove anúncios.",
-                "pl": "Każda funkcja jest bezpłatna. Mogą pojawiać się banery, usuwane jednorazowym zakupem Google Play. Play pokazuje aktualną cenę; można przywrócić zakupy. Reklamy, zgody i weryfikacja mogą wymagać internetu. Dobrowolne wsparcie jest osobne i nie usuwa reklam.",
-                "it": "Ogni funzione è gratuita. Possono comparire banner, rimossi con un acquisto unico Google Play. Play mostra il prezzo attuale; puoi ripristinare gli acquisti. Pubblicità, consenso e verifiche possono richiedere internet. Il sostegno volontario è separato e non rimuove la pubblicità."
-              }
-            },
-            {
-              "id": "uc-dedication",
-              "title": {
-                "en": "About dedication",
-                "hu": "Névjegy dedikáció",
-                "de": "Widmung unter Über die App",
-                "es": "Dedicatoria en Acerca de",
-                "fr": "Dédicace dans À propos",
-                "pt-BR": "Dedicatória em Sobre",
-                "pl": "Dedykacja w informacjach",
-                "it": "Dedica in Informazioni"
-              },
-              "text": {
-                "en": "Tap the About logo seven times to open an offline dedication to Adorján, with a message about imagination and possibilities. Close the message to return; it changes no calculation or setting.",
-                "hu": "A Névjegy logójára hétszer koppintva Adorjánnak szóló offline dedikáció nyílik, a képzeletről és lehetőségekről szóló üzenettel. Bezárható; számítást és beállítást nem változtat.",
-                "de": "Tippe siebenmal auf das Logo unter Über die App für eine Offline-Widmung an Adorján mit einer Botschaft über Fantasie und Möglichkeiten. Schließe sie zur Rückkehr; Berechnungen und Einstellungen bleiben gleich.",
-                "es": "Toca siete veces el logotipo de Acerca de para una dedicatoria sin conexión a Adorján sobre imaginación y posibilidades. Cierra el mensaje para volver; no cambia cálculos ni ajustes.",
-                "fr": "Touchez sept fois le logo dans À propos pour une dédicace hors ligne à Adorján sur l’imagination et les possibilités. Fermez le message pour revenir ; calculs et réglages restent inchangés.",
-                "pt-BR": "Toque sete vezes no logo em Sobre para uma dedicatória offline a Adorján sobre imaginação e possibilidades. Feche para voltar; não muda cálculos nem ajustes.",
-                "pl": "Dotknij logo w informacjach siedem razy, by otworzyć dedykację offline dla Adorjána o wyobraźni i możliwościach. Zamknij wiadomość, by wrócić; nie zmienia obliczeń ani ustawień.",
-                "it": "Tocca sette volte il logo in Informazioni per una dedica offline ad Adorján su immaginazione e possibilità. Chiudi per tornare; non modifica calcoli o impostazioni."
+                "en": "All 77 tools are free. The free app can show banners. A one-time Google Play purchase removes them without unlocking extra tools or requiring a subscription. Verify or restore the purchase through Play. A verified entitlement removes ads offline too. Voluntary support is separate.",
+                "hu": "Mind a 77 eszköz ingyenes. Az ingyenes appban bannerhirdetés jelenhet meg. Az egyszeri Google Play-vásárlás eltávolítja, további funkciók feloldása és előfizetés nélkül. A vásárlást a Play ellenőrzi és állítja vissza. Az igazolt jogosultság offline is reklámmentességet ad. Az önkéntes támogatás külön lehetőség.",
+                "de": "Alle 77 Funktionen sind kostenlos. Die kostenlose App kann Banner zeigen. Ein einmaliger Kauf über Google Play entfernt sie, ohne weitere Funktionen oder Abo. Google Play prüft und stellt den Kauf wieder her. Eine bestätigte Berechtigung entfernt Werbung auch offline. Freiwillige Unterstützung ist unabhängig.",
+                "es": "Las 77 herramientas son gratuitas. La app gratuita puede mostrar banners. Un único pago en Google Play los elimina, sin suscripción ni funciones adicionales. Verifica o restaura la compra con Play. Un derecho verificado quita los anuncios sin conexión. El apoyo voluntario es independiente.",
+                "fr": "Les 77 outils sont gratuits. L’application gratuite peut afficher des bannières. Un achat unique via Google Play les supprime, sans abonnement ni outils supplémentaires. Vérifiez ou restaurez l’achat via Play. Un droit vérifié supprime les annonces même hors ligne. Le soutien volontaire est indépendant.",
+                "pt-BR": "As 77 ferramentas são gratuitas. O app gratuito pode exibir banners. Uma compra única no Google Play remove os anúncios, sem assinatura ou ferramentas adicionais. Verifique ou restaure a compra pelo Play. Um direito confirmado remove anúncios mesmo offline. O apoio voluntário é separado.",
+                "pl": "Wszystkie 77 narzędzi jest bezpłatnych. Aplikacja może wyświetlać banery. Jednorazowy zakup w Google Play je usuwa, bez subskrypcji i nowych funkcji. Zweryfikuj lub przywróć zakup w Play. Potwierdzone uprawnienie usuwa reklamy także offline. Dobrowolne wsparcie jest osobną opcją.",
+                "it": "Tutti i 77 strumenti sono gratuiti. L’app gratuita può mostrare banner. Un acquisto una tantum su Google Play li rimuove senza abbonamenti o strumenti aggiuntivi. Verifica o ripristina l’acquisto tramite Play. Un diritto verificato rimuove gli annunci anche offline. Il sostegno volontario è separato."
               }
             }
           ]
@@ -2915,14 +2892,14 @@
                 "it": "Avviare il gioco per il gatto"
               },
               "text": {
-                "en": "Set the duration and allowed creatures in owner mode, then start. A single creature moves across a clean full-screen play area. Your cat taps it to catch it; no scores or account are needed. Phones and tablets support portrait and landscape, with more space on a larger screen.",
-                "hu": "Gazdi módban válassz játékidőt és megjelenő zsákmányokat, majd indíts. Egyszerre egy zsákmány mozog a tiszta, teljes képernyős játéktéren; a macska érintéssel kaphatja el. Nincs pontszám vagy fiók. Telefonon és tableten álló és fekvő nézet is használható; a nagyobb képernyő több játékteret ad.",
-                "de": "Wähle im Haltermodus Dauer und Tiere, dann starte. Ein Tier bewegt sich auf einer freien Vollbildfläche; deine Katze fängt es durch Berühren. Punkte und Konto sind nicht nötig. Handy und Tablet unterstützen Hoch- und Querformat; größere Displays bieten mehr Platz.",
-                "es": "Elige duración y criaturas en modo dueño y empieza. Una criatura se mueve por una pantalla de juego despejada; el gato la toca para atraparla. No hay puntuación ni cuenta. Móvil y tableta admiten orientación vertical y horizontal; una pantalla mayor da más espacio.",
-                "fr": "Réglez durée et créatures dans le mode propriétaire, puis démarrez. Une créature se déplace sur un espace plein écran dégagé ; le chat la touche pour l’attraper. Ni score ni compte. Téléphones et tablettes acceptent portrait et paysage ; un grand écran offre plus d’espace.",
-                "pt-BR": "Escolha duração e criaturas no modo dono e inicie. Uma criatura se move numa área limpa em tela cheia; o gato toca para capturá-la. Não há pontuação nem conta. Celulares e tablets aceitam retrato e paisagem; telas maiores dão mais espaço.",
-                "pl": "W trybie opiekuna wybierz czas i stworzenia, potem uruchom zabawę. Jedno stworzenie porusza się na czystym pełnym ekranie; kot dotyka go, by złapać. Bez punktacji i konta. Telefony i tablety obsługują pion i poziom; większy ekran daje więcej miejsca.",
-                "it": "Nel modo proprietario scegli durata e creature, poi avvia. Una creatura si muove su un’area pulita a schermo intero; il gatto la tocca per catturarla. Niente punti o account. Telefoni e tablet supportano verticale e orizzontale; uno schermo grande offre più spazio."
+                "en": "Choose a session length and which of the seven prey species can appear. During full-screen play, one creature at a time moves and reacts to your cat’s touches. Use a phone or tablet in portrait or landscape. Place the device on a stable surface and supervise play.",
+                "hu": "Állítsd be a játékidőt, és válaszd ki, melyik zsákmány jelenhet meg a hét fajból. A teljes képernyőn egyszerre egy állat mozog és reagál a macska érintésére. Telefonon és tableten, álló és fekvő nézetben működik. Helyezd stabil felületre, és felügyeld a játékot.",
+                "de": "Wähle die Spieldauer und welche der sieben Beutearten erscheinen dürfen. Im Vollbild bewegt sich jeweils ein Tier und reagiert auf Berührungen deiner Katze. Nutze Smartphone oder Tablet im Hoch- oder Querformat. Stelle das Gerät stabil ab und beaufsichtige das Spiel.",
+                "es": "Elige la duración y cuáles de las siete presas pueden aparecer. A pantalla completa, un animal se mueve cada vez y reacciona al toque del gato. Usa un móvil o tableta en vertical u horizontal. Coloca el dispositivo en una superficie estable y supervisa el juego.",
+                "fr": "Choisissez la durée et les espèces autorisées parmi les sept proies. En plein écran, une seule créature se déplace à la fois et réagit au toucher du chat. Utilisez un téléphone ou une tablette en portrait ou en paysage. Posez l’appareil sur une surface stable et surveillez le jeu.",
+                "pt-BR": "Escolha a duração e quais das sete presas podem aparecer. Em tela cheia, uma criatura por vez se move e reage ao toque do gato. Use celular ou tablet na vertical ou na horizontal. Apoie o dispositivo numa superfície estável e supervisione a brincadeira.",
+                "pl": "Ustaw czas i wybierz, które z siedmiu gatunków zdobyczy mogą się pojawiać. Na pełnym ekranie porusza się pojedyncze stworzenie reagujące na dotyk kota. Użyj telefonu lub tabletu w pionie albo poziomie. Ustaw urządzenie stabilnie i nadzoruj zabawę.",
+                "it": "Scegli la durata e quali delle sette prede possono comparire. A schermo intero una creatura alla volta si muove e reagisce al tocco del gatto. Usa smartphone o tablet in verticale o orizzontale. Appoggia il dispositivo su una superficie stabile e sorveglia il gioco."
               }
             },
             {
@@ -3084,29 +3061,6 @@
                 "pt-BR": "Trocar de app, desligar a tela ou uma interrupção telefônica pausa movimento, som e tempo. Ao voltar, escolha Continuar se a partida foi mantida. Reiniciar conserva ajustes, não o jogo ativo. Há oito idiomas; você controla o brilho do aparelho.",
                 "pl": "Zmiana aplikacji, wyłączenie ekranu lub przerwa telefoniczna zatrzymuje ruch, dźwięk i czas. Po powrocie wybierz Kontynuuj, jeśli gra została zachowana. Restart zachowuje ustawienia, nie aktywną grę. Dostępnych jest osiem języków; jasność urządzenia ustawiasz samodzielnie.",
                 "it": "Cambiare app, spegnere schermo o un’interruzione telefonica mette in pausa movimento, suono e tempo. Al ritorno scegli Continua se resta una partita. Riavviare conserva impostazioni, non la partita attiva. Ci sono otto lingue; controlli tu la luminosità."
-              }
-            },
-            {
-              "id": "ott-egg",
-              "title": {
-                "en": "A hidden About surprise",
-                "hu": "Rejtett meglepetés a Névjegyben",
-                "de": "Versteckte Überraschung unter Über die App",
-                "es": "Sorpresa oculta en Acerca de",
-                "fr": "Surprise cachée dans À propos",
-                "pt-BR": "Surpresa escondida em Sobre",
-                "pl": "Ukryta niespodzianka w informacjach",
-                "it": "Sorpresa nascosta in Informazioni"
-              },
-              "text": {
-                "en": "Tap the About logo seven times for an offline scene: a golden creature is caught by a cat paw, followed by Sztella’s photo. Close the photo to return. Six golden species cycle in order; this scene does not appear during the cat’s normal game.",
-                "hu": "A Névjegy logójára hétszer koppintva offline jelenet indul: arany zsákmányt kap el egy macskamancs, majd Sztella fotója jelenik meg. A fotó bezárható. Hat aranyfaj váltja egymást sorban; a jelenet nem kerül a macska normál játékába.",
-                "de": "Tippe siebenmal auf das Logo unter Über die App: Eine goldene Kreatur wird von einer Katzenpfote gefangen, dann erscheint Sztellas Foto. Schließe das Foto zur Rückkehr. Sechs Goldtiere wechseln sich ab; diese Szene erscheint nicht im normalen Katzenspiel.",
-                "es": "Toca siete veces el logotipo en Acerca de: una pata atrapa una criatura dorada y aparece la foto de Sztella. Cierra la foto para volver. Seis especies doradas alternan en orden; la escena no aparece durante el juego normal del gato.",
-                "fr": "Touchez sept fois le logo dans À propos : une patte attrape une créature dorée, puis la photo de Sztella apparaît. Fermez la photo pour revenir. Six espèces dorées se succèdent ; cette scène n’apparaît pas dans le jeu normal du chat.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: uma pata captura uma criatura dourada e aparece a foto de Sztella. Feche a foto para voltar. Seis espécies douradas alternam em ordem; a cena não aparece no jogo normal do gato.",
-                "pl": "Dotknij logo w informacjach siedem razy: kocia łapa łapie złote stworzenie, potem pojawia się zdjęcie Sztelli. Zamknij zdjęcie, by wrócić. Sześć złotych gatunków zmienia się po kolei; scena nie pojawia się w zwykłej grze kota.",
-                "it": "Tocca sette volte il logo in Informazioni: una zampa cattura una creatura dorata, poi appare la foto di Sztella. Chiudi la foto per tornare. Sei specie dorate si alternano in ordine; la scena non appare nel gioco normale del gatto."
               }
             },
             {
@@ -3301,37 +3255,14 @@
                 "it": "Date salvate e copia"
               },
               "text": {
-                "en": "Save a date with a non-empty name, edit or delete it, and reuse it in relevant calculations. Copy results to notes or messages. Saved dates remain on your device; clearing a current calculation is separate from deleting saved dates.",
-                "hu": "Ments dátumot nem üres névvel, szerkeszd vagy töröld, és töltsd be a megfelelő számításokba. Az eredményt jegyzetbe vagy üzenetbe másolhatod. A mentett dátumok helyben maradnak; az aktuális számítás ürítése külön művelet.",
-                "de": "Speichere ein Datum mit Namen, bearbeite oder lösche es und verwende es in passenden Berechnungen. Kopiere Ergebnisse in Notizen oder Nachrichten. Daten bleiben lokal; das Leeren einer Berechnung löscht gespeicherte Daten nicht.",
-                "es": "Guarda una fecha con nombre no vacío, edítala o bórrala y reutilízala en cálculos. Copia resultados a notas o mensajes. Las fechas quedan en el dispositivo; limpiar un cálculo es distinto de borrarlas.",
-                "fr": "Enregistrez une date avec un nom, modifiez ou supprimez-la et réutilisez-la dans les calculs adaptés. Copiez les résultats dans notes ou messages. Les dates restent locales ; effacer le calcul est distinct de leur suppression.",
-                "pt-BR": "Salve uma data com nome, edite ou apague e reutilize nos cálculos adequados. Copie resultados para notas ou mensagens. As datas ficam no aparelho; limpar o cálculo é separado de excluí-las.",
-                "pl": "Zapisz datę z niepustą nazwą, edytuj lub usuń i wykorzystaj w odpowiednich obliczeniach. Kopiuj wyniki do notatek lub wiadomości. Daty pozostają lokalnie; czyszczenie obliczenia jest oddzielne od usuwania dat.",
-                "it": "Salva una data con nome non vuoto, modificala o eliminala e riusala nei calcoli adatti. Copia i risultati in note o messaggi. Le date restano sul dispositivo; svuotare il calcolo è distinto dall’eliminarle."
-              }
-            },
-            {
-              "id": "adt-egg",
-              "title": {
-                "en": "A backwards clock surprise",
-                "hu": "Visszafelé járó óra meglepetés",
-                "de": "Eine rückwärts laufende Uhr",
-                "es": "Sorpresa del reloj al revés",
-                "fr": "Surprise de l’horloge inversée",
-                "pt-BR": "Surpresa do relógio ao contrário",
-                "pl": "Niespodzianka z odwrotnym zegarem",
-                "it": "Sorpresa dell’orologio al contrario"
-              },
-              "text": {
-                "en": "Tap the About logo seven times. The hidden About activity shows an analogue clock with reversed numbering and hands moving backwards from the current local time. Close it to return; it works offline and changes no dates or settings.",
-                "hu": "Koppints hétszer a Névjegy logójára. A Névjegy rejtett játéka fordított számozású analóg órát mutat, a helyi időtől visszafelé járó mutatókkal. Bezárható, offline működik, dátumot vagy beállítást nem módosít.",
-                "de": "Tippe siebenmal auf das Logo unter Über die App. Die versteckte Über-die-App-Aktivität zeigt eine analoge Uhr mit umgekehrten Zahlen und rückwärts laufenden Zeigern ab der Ortszeit. Schließe sie zur Rückkehr; sie ist offline und ändert keine Daten oder Einstellungen.",
-                "es": "Toca siete veces el logotipo de Acerca de. La actividad oculta de Acerca de muestra reloj analógico con números invertidos y agujas hacia atrás desde la hora local. Ciérrala para volver; funciona sin conexión y no cambia fechas ni ajustes.",
-                "fr": "Touchez sept fois le logo dans À propos. L’activité cachée dans À propos montre une horloge analogique à numérotation inversée, dont les aiguilles reculent depuis l’heure locale. Fermez-la pour revenir ; elle est hors ligne et ne change ni dates ni réglages.",
-                "pt-BR": "Toque sete vezes no logo em Sobre. A atividade oculta em Sobre mostra relógio analógico com números invertidos e ponteiros voltando a partir da hora local. Feche para voltar; funciona offline e não muda datas nem ajustes.",
-                "pl": "Dotknij logo w informacjach siedem razy. Ukryta zabawa w informacjach pokazuje analogowy zegar z odwróconą numeracją i wskazówkami cofającymi się od lokalnej godziny. Zamknij, by wrócić; działa offline i nie zmienia dat ani ustawień.",
-                "it": "Tocca sette volte il logo in Informazioni. L’attività nascosta in Informazioni mostra un orologio analogico con numeri invertiti e lancette che tornano indietro dall’ora locale. Chiudi per tornare; funziona offline e non modifica date o impostazioni."
+                "en": "Save a date under a name, edit or delete it, and reuse it in a calculation. Copy results to notes or messages. Android backup or device transfer can include saved dates when available and enabled. There is no separate import or export file.",
+                "hu": "Ments el egy dátumot névvel, szerkeszd vagy töröld, és használd újra számításokban. Az eredményeket jegyzetbe vagy üzenetbe másolhatod. A mentett dátumok bekerülhetnek az elérhető és bekapcsolt Android-mentésbe vagy készülékátvitelbe. Külön import- vagy exportfájl nincs.",
+                "de": "Speichere ein Datum mit Namen, bearbeite oder lösche es und verwende es in einer Berechnung. Kopiere Ergebnisse in Notizen oder Nachrichten. Android-Sicherung oder Geräteübertragung können Daten übernehmen, wenn unterstützt und aktiviert. Es gibt keine separate Import- oder Exportdatei.",
+                "es": "Guarda una fecha con nombre, edítala o bórrala y reutilízala en cálculos. Copia resultados a notas o mensajes. La copia de Android o la transferencia de dispositivo pueden incluir las fechas si están disponibles y activadas. No hay archivo de importación o exportación independiente.",
+                "fr": "Enregistrez une date avec un nom, modifiez-la ou supprimez-la, puis réutilisez-la dans un calcul. Copiez les résultats dans des notes ou des messages. La sauvegarde Android ou le transfert activé et pris en charge peut inclure les dates. Aucun fichier d’import ou d’export distinct.",
+                "pt-BR": "Salve uma data com nome, edite ou exclua e reutilize em cálculos. Copie resultados para notas ou mensagens. O backup do Android ou a transferência pode incluir datas salvas quando houver suporte e estiver ativado. Não há arquivo separado de importação ou exportação.",
+                "pl": "Zapisz datę z nazwą, edytuj lub usuń i użyj ponownie w obliczeniach. Kopiuj wyniki do notatek lub wiadomości. Obsługiwana i włączona kopia Androida lub transfer może uwzględnić daty. Nie ma osobnego pliku importu ani eksportu.",
+                "it": "Salva una data con un nome, modificala o eliminala e riusala nei calcoli. Copia i risultati in note o messaggi. Il backup Android o il trasferimento può includere le date se supportato e attivo. Non esiste un file separato di importazione o esportazione."
               }
             }
           ]
@@ -3362,14 +3293,14 @@
                 "it": "Uso offline"
               },
               "text": {
-                "en": "The main functions are designed to work on your device without a JN86 account. Ads, purchases and external links may need internet.",
-                "hu": "Az alapfunkciók a készüléken, JN86-fiók nélkül használhatók a terv szerint. Reklámhoz, vásárláshoz és külső linkhez internet kellhet.",
-                "de": "Die Grundfunktionen sind für die Nutzung auf deinem Gerät ohne JN86-Konto vorgesehen. Werbung, Käufe und externe Links können Internet benötigen.",
-                "es": "Las funciones principales están previstas para el dispositivo sin cuenta JN86. Anuncios, compras y enlaces externos pueden necesitar internet.",
-                "fr": "Les fonctions principales sont prévues sur l’appareil sans compte JN86. Publicités, achats et liens externes peuvent nécessiter internet.",
-                "pt-BR": "As funções principais são previstas no aparelho sem conta JN86. Anúncios, compras e links externos podem precisar de internet.",
-                "pl": "Główne funkcje są przewidziane na urządzeniu bez konta JN86. Reklamy, zakupy i linki zewnętrzne mogą wymagać internetu.",
-                "it": "Le funzioni principali sono previste sul dispositivo senza account JN86. Pubblicità, acquisti e link esterni possono richiedere internet."
+                "en": "The date tools work offline without a JN86 account. They use calendar months and leap years. Business-day and holiday calendars, time-zone conversion and reminders are outside these tools. Ads, purchases and external links may use the internet.",
+                "hu": "A dátumeszközök offline, JN86-fiók nélkül működnek, naptári hónapokkal és szökőévekkel számolnak. Munkanap- és ünnepnapnaptár, időzóna-átváltás és emlékeztető nincs. Reklám, vásárlás és külső hivatkozás használhat internetet.",
+                "de": "Die Datumsfunktionen arbeiten offline ohne JN86-Konto. Sie berücksichtigen Kalendermonate und Schaltjahre. Werktags- und Feiertagskalender, Zeitzonenumrechnung und Erinnerungen sind nicht enthalten. Werbung, Käufe und externe Links können Internet nutzen.",
+                "es": "Las herramientas de fechas funcionan sin conexión y sin cuenta de JN86. Usan meses naturales y años bisiestos. No incluyen calendarios de días laborables y festivos, conversión de zonas horarias ni recordatorios. Anuncios, compras y enlaces externos pueden usar Internet.",
+                "fr": "Les outils de dates fonctionnent hors ligne sans compte JN86. Ils tiennent compte des mois calendaires et des années bissextiles. Ils ne gèrent ni calendriers de jours ouvrés ou fériés, ni fuseaux horaires, ni rappels. Annonces, achats et liens externes peuvent utiliser Internet.",
+                "pt-BR": "As ferramentas de data funcionam offline sem conta JN86. Usam meses do calendário e anos bissextos. Não incluem calendários de dias úteis e feriados, conversão de fusos horários ou lembretes. Anúncios, compras e links externos podem usar a internet.",
+                "pl": "Narzędzia do dat działają offline bez konta JN86. Uwzględniają miesiące kalendarzowe i lata przestępne. Nie obejmują kalendarzy dni roboczych i świąt, przeliczania stref czasowych ani przypomnień. Reklamy, zakupy i linki zewnętrzne mogą korzystać z internetu.",
+                "it": "Gli strumenti per le date funzionano offline senza account JN86. Tengono conto di mesi e anni bisestili. Non includono calendari di giorni lavorativi e festivi, conversione di fusi orari o promemoria. Annunci, acquisti e link esterni possono usare Internet."
               }
             },
             {
@@ -3408,14 +3339,14 @@
                 "it": "Pubblicità e rimozione facoltativa"
               },
               "text": {
-                "en": "All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.",
-                "hu": "A bemutatott funkciók a terv szerint ingyenesek, bannerreklámmal és választható, egyszeri Google Play-reklámmentesítéssel. Előfizetés nincs a tervben. A vásárlási felület mutatja a tényleges helyi árat; a helyreállítás Google Playen történik.",
-                "de": "Alle beschriebenen Funktionen sind kostenlos mit Bannerwerbung und optionaler einmaliger Werbeentfernung über Google Play vorgesehen. Ein Abo ist nicht geplant. Der Kaufdialog zeigt den lokalen Preis; Käufe werden über Google Play wiederhergestellt.",
-                "es": "Todas las funciones descritas se prevén gratis con banners y eliminación opcional mediante un único pago en Google Play. No se prevé suscripción. La compra muestra el precio local real; la restauración usa Google Play.",
-                "fr": "Toutes les fonctions décrites sont prévues gratuites avec bannières et suppression facultative par achat unique Google Play. Aucun abonnement n’est prévu. L’achat affiche le prix local réel ; la restauration passe par Google Play.",
-                "pt-BR": "Todas as funções descritas são previstas grátis com banners e remoção opcional por compra única no Google Play. Não há assinatura prevista. A compra mostra o preço local real; a restauração usa o Google Play.",
-                "pl": "Wszystkie opisane funkcje są planowane bezpłatnie z banerami i opcjonalnym jednorazowym usunięciem reklam przez Google Play. Nie przewidziano subskrypcji. Zakup pokazuje rzeczywistą cenę lokalną; przywracanie używa Google Play.",
-                "it": "Tutte le funzioni descritte sono previste gratuite con banner e rimozione facoltativa tramite acquisto unico Google Play. Non è previsto un abbonamento. L’acquisto mostra il prezzo locale reale; il ripristino usa Google Play."
+                "en": "The date tools in the test version are free. A one-time Google Play purchase removes banner ads where available. Restore the purchase through Play. Backups of saved dates do not grant ad-free access. There is no subscription.",
+                "hu": "A tesztváltozat dátumeszközei ingyenesek. Ahol elérhető, egyszeri Google Play-vásárlással távolíthatók el a bannerek. A vásárlás visszaállítása a Playen történik. A dátumok mentése nem ad reklámmentességet. Nincs előfizetés.",
+                "de": "Die Datumsfunktionen der Testversion sind kostenlos. Wenn verfügbar, entfernt ein einmaliger Kauf über Google Play Banner. Stelle den Kauf über Play wieder her. Eine Sicherung gespeicherter Daten gewährt keine Werbefreiheit. Es gibt kein Abo.",
+                "es": "Las herramientas de fechas de la versión de prueba son gratuitas. Si está disponible, un pago único en Google Play elimina los banners. Restaura la compra con Play. La copia de fechas guardadas no quita los anuncios. No hay suscripción.",
+                "fr": "Les outils de dates de la version de test sont gratuits. Si disponible, un achat unique via Google Play supprime les bannières. Restaurez l’achat via Play. La sauvegarde des dates ne supprime pas les annonces. Il n’y a pas d’abonnement.",
+                "pt-BR": "As ferramentas de data da versão de teste são gratuitas. Uma compra única no Google Play remove banners quando disponível. Restaure a compra pelo Play. O backup de datas salvas não concede a remoção de anúncios. Não há assinatura.",
+                "pl": "Narzędzia do dat w wersji testowej są bezpłatne. Jeśli zakup jest dostępny, jednorazowa płatność w Google Play usuwa banery. Przywróć zakup w Play. Kopia zapisanych dat nie daje uprawnienia do usunięcia reklam. Nie ma subskrypcji.",
+                "it": "Gli strumenti per le date della versione di test sono gratuiti. Se disponibile, un acquisto una tantum su Google Play rimuove i banner. Ripristina l’acquisto tramite Play. Il backup delle date non rimuove gli annunci. Non c’è un abbonamento."
               }
             }
           ]
@@ -3527,29 +3458,6 @@
                 "pt-BR": "Os timers continuam em segundo plano e com tela apagada. Som e vibração são separados; notificações dependem da permissão Android e do aparelho. Sem permissão, o tempo no app continua disponível. A recuperação usa tempos salvos; cronômetros irrecuperáveis aparecem interrompidos.",
                 "pl": "Minutniki działają w tle i przy wyłączonym ekranie. Dźwięk i wibracja są osobne; powiadomienia zależą od zgody Androida i urządzenia. Bez zgody pomiar w aplikacji nadal działa. Przywracanie używa zapisanych czasów; nieodtwarzalny stoper jest oznaczony jako przerwany.",
                 "it": "I timer continuano in background e a schermo spento. Suono e vibrazione sono separati; notifiche secondo permesso Android e dispositivo. Senza permesso resta il tempo nell’app. Il recupero usa tempi salvati; cronometri irrecuperabili sono segnati come interrotti."
-              }
-            },
-            {
-              "id": "stm-egg",
-              "title": {
-                "en": "The impatient stopwatch",
-                "hu": "A türelmetlen stopper",
-                "de": "Die ungeduldige Stoppuhr",
-                "es": "El cronómetro impaciente",
-                "fr": "Le chronomètre impatient",
-                "pt-BR": "O cronômetro impaciente",
-                "pl": "Niecierpliwy stoper",
-                "it": "Il cronometro impaziente"
-              },
-              "text": {
-                "en": "Tap the About logo seven times to reveal a playful stopwatch. If you wait instead of starting it, impatient messages appear and it eventually starts itself. This offline scene closes without changing your real timers, presets or history.",
-                "hu": "A Névjegy logójára hétszer koppintva játékos stopper nyílik. Ha nem indítod, türelmetlen üzenetek után magától indul. Az offline jelenet bezárható, a valódi időzítőket, sablonokat és előzményeket nem módosítja.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo für eine spielerische Stoppuhr. Wartest du, erscheinen ungeduldige Nachrichten und sie startet selbst. Diese Offline-Szene lässt sich schließen, ohne echte Timer, Vorlagen oder Verlauf zu ändern.",
-                "es": "Toca siete veces el logo de Acerca de para un cronómetro juguetón. Si esperas, aparecen mensajes impacientes y termina iniciándose solo. La escena sin conexión se cierra sin cambiar timers, preajustes ni historial reales.",
-                "fr": "Touchez sept fois le logo dans À propos pour un chronomètre amusant. Si vous attendez, des messages impatients apparaissent et il démarre seul. Cette scène hors ligne se ferme sans changer minuteries, préréglages ou historique réels.",
-                "pt-BR": "Toque sete vezes no logo em Sobre para um cronômetro divertido. Se esperar, surgem mensagens impacientes e ele começa sozinho. A cena offline fecha sem mudar timers, predefinições ou histórico reais.",
-                "pl": "Dotknij logo w informacjach siedem razy dla żartobliwego stopera. Jeśli czekasz, pojawiają się niecierpliwe wiadomości i sam się uruchamia. Scena offline zamyka się bez zmiany prawdziwych minutników, szablonów i historii.",
-                "it": "Tocca sette volte il logo in Informazioni per un cronometro scherzoso. Se aspetti, appaiono messaggi impazienti e si avvia da solo. La scena offline si chiude senza cambiare timer, preimpostazioni o cronologia reali."
               }
             }
           ]
@@ -3668,14 +3576,14 @@
                 "it": "Quattro operazioni e semplificazione"
               },
               "text": {
-                "en": "Enter integers, fractions or mixed numbers and choose +, −, × or ÷. The result is an exact fraction in simplest form. A zero denominator or division by zero is rejected, rather than giving a misleading result.",
-                "hu": "Adj meg egész számot, törtet vagy vegyes számot, és válassz +, −, × vagy ÷ műveletet. Pontos, egyszerűsített törtet kapsz. Nulla nevezőt és nullával osztást elutasít, félrevezető eredmény helyett.",
-                "de": "Gib ganze Zahlen, Brüche oder gemischte Zahlen ein und wähle +, −, × oder ÷. Das Ergebnis ist ein exakt gekürzter Bruch. Nenner null oder Division durch null wird abgewiesen.",
-                "es": "Introduce enteros, fracciones o números mixtos y elige +, −, × o ÷. Obtienes una fracción exacta simplificada. Rechaza denominador cero o división por cero en vez de un resultado engañoso.",
-                "fr": "Saisissez entiers, fractions ou nombres mixtes, puis choisissez +, −, × ou ÷. Le résultat est une fraction exacte simplifiée. Dénominateur nul ou division par zéro sont refusés.",
-                "pt-BR": "Informe inteiros, frações ou números mistos e escolha +, −, × ou ÷. O resultado é uma fração exata simplificada. Denominador zero ou divisão por zero são rejeitados.",
-                "pl": "Podaj liczby całkowite, ułamki lub liczby mieszane i wybierz +, −, × lub ÷. Wynik to dokładny skrócony ułamek. Zerowy mianownik i dzielenie przez zero są odrzucane.",
-                "it": "Inserisci interi, frazioni o numeri misti e scegli +, −, × o ÷. Il risultato è una frazione esatta semplificata. Denominatore zero e divisione per zero sono rifiutati."
+                "en": "Enter integers, fractions, mixed numbers or finite decimals. Add, subtract, multiply or divide, using parentheses and integer powers as needed. Exact results are reduced to simplest form. Zero denominators and division by zero are rejected.",
+                "hu": "Írj be egész számot, törtet, vegyes számot vagy véges tizedes törtet. Adj össze, vonj ki, szorozz vagy ossz, szükség esetén zárójellel és egész kitevős hatvánnyal. A pontos eredmény egyszerűsített. A nulla nevező és a nullával osztás hibát jelez.",
+                "de": "Gib ganze Zahlen, Brüche, gemischte Zahlen oder endliche Dezimalzahlen ein. Verwende die vier Grundrechenarten, bei Bedarf mit Klammern und ganzzahligen Exponenten. Exakte Ergebnisse werden gekürzt. Nenner null und Division durch null sind ungültig.",
+                "es": "Introduce enteros, fracciones, números mixtos o decimales finitos. Suma, resta, multiplica y divide, con paréntesis y potencias de exponente entero si hace falta. Los resultados exactos se simplifican. No se admite denominador cero ni división por cero.",
+                "fr": "Saisissez des entiers, des fractions, des nombres mixtes ou des décimaux finis. Utilisez les quatre opérations, avec parenthèses et puissances à exposant entier si besoin. Les résultats exacts sont réduits. Dénominateur nul et division par zéro sont refusés.",
+                "pt-BR": "Digite inteiros, frações, números mistos ou decimais finitos. Some, subtraia, multiplique e divida, com parênteses e expoentes inteiros quando necessário. Resultados exatos são simplificados. O denominador zero e a divisão por zero são rejeitados.",
+                "pl": "Wpisz liczby całkowite, ułamki, liczby mieszane lub skończone liczby dziesiętne. Dodawaj, odejmuj, mnóż i dziel, używając nawiasów i potęg o wykładniku całkowitym. Dokładne wyniki są upraszczane. Zerowy mianownik i dzielenie przez zero są niedozwolone.",
+                "it": "Inserisci interi, frazioni, numeri misti o decimali finiti. Esegui le quattro operazioni, usando parentesi e potenze con esponente intero quando serve. I risultati esatti sono ridotti ai minimi termini. Denominatore zero e divisione per zero non sono accettati."
               }
             },
             {
@@ -3760,14 +3668,14 @@
                 "it": "Reciproco, confronto e copia"
               },
               "text": {
-                "en": "Find a nonzero fraction’s reciprocal by swapping numerator and denominator. Compare two fractions exactly to see which is larger or whether they are equal. Copy the displayed result for notes; calculations do not build a saved history.",
-                "hu": "Nem nulla tört reciprokát a számláló és nevező cseréjével kapod. Két tört pontos összehasonlítása jelzi, melyik nagyobb vagy egyenlők-e. Az eredmény másolható jegyzetbe; tartós számítási előzmény nem készül.",
-                "de": "Finde den Kehrwert eines Bruchs ungleich null durch Tausch von Zähler und Nenner. Vergleiche zwei Brüche exakt auf größer oder gleich. Kopiere Ergebnisse für Notizen; es entsteht kein gespeicherter Rechenverlauf.",
-                "es": "Obtén la inversa de una fracción no nula intercambiando numerador y denominador. Compara dos fracciones exactamente para mayor o igualdad. Copia el resultado a notas; no se crea historial guardado.",
-                "fr": "Obtenez l’inverse d’une fraction non nulle en échangeant numérateur et dénominateur. Comparez exactement deux fractions pour savoir laquelle est supérieure ou si elles sont égales. Copiez le résultat ; aucun historique conservé.",
-                "pt-BR": "Ache o recíproco de fração não nula trocando numerador e denominador. Compare duas frações exatamente para maior ou igualdade. Copie o resultado em notas; não há histórico salvo de cálculos.",
-                "pl": "Oblicz odwrotność niezerowego ułamka, zamieniając licznik i mianownik. Porównaj dokładnie dwa ułamki, by poznać większy lub równość. Kopiuj wynik do notatek; nie powstaje zapisana historia obliczeń.",
-                "it": "Trova il reciproco di una frazione non nulla scambiando numeratore e denominatore. Confronta esattamente due frazioni per maggiore o uguaglianza. Copia il risultato nelle note; non si crea una cronologia salvata."
+                "en": "Swap numerator and denominator to find the reciprocal of a nonzero fraction. Compare two values exactly, even when they look identical after rounding. Copy the comparison or the displayed result for use elsewhere.",
+                "hu": "Cseréld fel a számlálót és a nevezőt a nem nulla tört reciprokához. Két értéket akkor is pontosan összehasonlíthatsz, ha kerekítve azonosnak látszanak. Másold az összevetést vagy a megjelenített eredményt.",
+                "de": "Vertausche Zähler und Nenner für den Kehrwert eines von null verschiedenen Bruchs. Vergleiche zwei Werte exakt, selbst wenn sie gerundet gleich aussehen. Kopiere den Vergleich oder das angezeigte Ergebnis.",
+                "es": "Intercambia numerador y denominador para hallar el recíproco de una fracción no nula. Compara dos valores con exactitud aunque parezcan iguales al redondearlos. Copia la comparación o el resultado mostrado.",
+                "fr": "Échangez numérateur et dénominateur pour obtenir l’inverse d’une fraction non nulle. Comparez deux valeurs exactement, même si elles semblent égales après arrondi. Copiez la comparaison ou le résultat affiché.",
+                "pt-BR": "Troque numerador e denominador para obter o inverso de uma fração não nula. Compare dois valores com exatidão, mesmo que pareçam iguais após arredondar. Copie a comparação ou o resultado exibido.",
+                "pl": "Zamień licznik z mianownikiem, aby uzyskać odwrotność ułamka niezerowego. Porównaj dokładnie dwie wartości, nawet jeśli po zaokrągleniu wyglądają tak samo. Skopiuj porównanie lub wyświetlony wynik.",
+                "it": "Scambia numeratore e denominatore per trovare il reciproco di una frazione non nulla. Confronta due valori esatti anche se sembrano uguali dopo l’arrotondamento. Copia il confronto o il risultato mostrato."
               }
             },
             {
@@ -3783,37 +3691,37 @@
                 "it": "Pollici frazionari"
               },
               "text": {
-                "en": "Enter decimal inches and choose a denominator resolution, such as 1/2, 1/4, 1/8, 1/16, 1/32 or 1/64. See the nearest workshop fraction with a rounding warning when approximate. This is for fractional-inch notation, not general length-unit conversion.",
-                "hu": "Adj meg tizedes hüvelyket, és válassz például 1/2, 1/4, 1/8, 1/16, 1/32 vagy 1/64 felbontást. A legközelebbi műhelytörtet kapod, kerekítéskor közelítésjelzéssel. A funkció tört hüvelykes jelöléshez való, nem általános hosszátváltó.",
-                "de": "Gib Dezimalzoll ein und wähle etwa 1/2, 1/4, 1/8, 1/16, 1/32 oder 1/64. Du siehst den nächsten Werkstattbruch mit Näherungshinweis beim Runden. Es geht um Bruchzollschreibweise, nicht allgemeine Längenumrechnung.",
-                "es": "Introduce pulgadas decimales y elige resolución 1/2, 1/4, 1/8, 1/16, 1/32 o 1/64. Ves la fracción de taller más cercana, marcada aproximada si redondea. Es notación de pulgadas fraccionarias, no conversión general de longitud.",
-                "fr": "Saisissez des pouces décimaux et choisissez 1/2, 1/4, 1/8, 1/16, 1/32 ou 1/64. Voyez la fraction d’atelier la plus proche, signalée approximative si arrondie. C’est une notation fractionnaire, pas une conversion générale de longueur.",
-                "pt-BR": "Informe polegadas decimais e escolha resolução 1/2, 1/4, 1/8, 1/16, 1/32 ou 1/64. Veja a fração de oficina mais próxima, marcada aproximada se arredondada. É notação fracionária, não conversão geral de comprimento.",
-                "pl": "Podaj cale dziesiętne i wybierz rozdzielczość 1/2, 1/4, 1/8, 1/16, 1/32 lub 1/64. Zobaczysz najbliższy ułamek warsztatowy, oznaczony jako przybliżony przy zaokrągleniu. To zapis ułamków cala, nie ogólny przelicznik długości.",
-                "it": "Inserisci pollici decimali e scegli risoluzione 1/2, 1/4, 1/8, 1/16, 1/32 o 1/64. Vedi la frazione da officina più vicina, segnata approssimata se arrotondata. È notazione frazionaria, non conversione generale di lunghezza."
+                "en": "Enter a value in inches and choose a fractional resolution up to 1/64. Round to the nearest fraction, down or up. See the exact input, the rounded value and their difference. This tool uses fractional inches.",
+                "hu": "Adj meg egy hüvelykértéket és válassz legfeljebb 1/64-es felbontást. Kerekíthetsz a legközelebbi törtre, lefelé vagy felfelé. A pontos bemenet, a kerekített érték és a különbség is látható. Az eszköz tört hüvelykkel dolgozik.",
+                "de": "Gib einen Zollwert ein und wähle eine Auflösung bis 1/64. Runde auf den nächsten Bruch, ab oder auf. Du siehst den exakten Wert, das gerundete Ergebnis und die Differenz. Das Werkzeug verwendet Zollbrüche.",
+                "es": "Introduce un valor en pulgadas y elige una resolución hasta 1/64. Redondea a la fracción más cercana, hacia abajo o hacia arriba. Consulta la entrada exacta, el valor redondeado y la diferencia. La herramienta usa fracciones de pulgada.",
+                "fr": "Saisissez une valeur en pouces et choisissez une résolution jusqu’au 1/64. Arrondissez au plus proche, vers le bas ou vers le haut. Consultez l’entrée exacte, la valeur arrondie et l’écart. L’outil utilise des fractions de pouce.",
+                "pt-BR": "Digite um valor em polegadas e selecione uma resolução até 1/64. Arredonde para a fração mais próxima, para baixo ou para cima. Veja a entrada exata, o valor arredondado e a diferença. A ferramenta usa frações de polegada.",
+                "pl": "Wpisz wartość w calach i wybierz rozdzielczość do 1/64. Zaokrąglij do najbliższego ułamka, w dół lub w górę. Sprawdź wartość dokładną, wynik zaokrąglenia i różnicę. Narzędzie używa ułamków cala.",
+                "it": "Inserisci un valore in pollici e scegli una risoluzione fino a 1/64. Arrotonda al più vicino, per difetto o per eccesso. Vedi il valore esatto, quello arrotondato e la differenza. Lo strumento usa frazioni di pollice."
               }
             },
             {
-              "id": "frc-egg",
+              "id": "frc-history",
               "title": {
-                "en": "Endless halving",
-                "hu": "Végtelen felezés",
-                "de": "Endloses Halbieren",
-                "es": "Mitades infinitas",
-                "fr": "Division sans fin par deux",
-                "pt-BR": "Metades infinitas",
-                "pl": "Nieskończone połówki",
-                "it": "Dimezzamento infinito"
+                "en": "Local history and memory",
+                "hu": "Helyi előzmények és memória",
+                "de": "Lokaler Verlauf und Speicher",
+                "es": "Historial local y memoria",
+                "fr": "Historique local et mémoire",
+                "pt-BR": "Histórico local e memória",
+                "pl": "Lokalna historia i pamięć",
+                "it": "Cronologia locale e memoria"
               },
               "text": {
-                "en": "Tap the About logo seven times for a visual sequence: 1 → 1/2 → 1/4 → 1/8, becoming smaller but still not zero. Close the offline surprise without changing calculations or settings.",
-                "hu": "A Névjegy logójára hétszer koppintva 1 → 1/2 → 1/4 → 1/8 sorozat indul, egyre kisebb, de még mindig nem nulla értékekkel. Az offline meglepetés bezárható, számítást és beállítást nem módosít.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: 1 → 1/2 → 1/4 → 1/8 wird kleiner, aber bleibt ungleich null. Schließe die Offline-Überraschung ohne Änderung an Berechnungen oder Einstellungen.",
-                "es": "Toca siete veces el logo de Acerca de: 1 → 1/2 → 1/4 → 1/8 se hace menor, pero no cero. Cierra la sorpresa sin conexión sin cambiar cálculos ni ajustes.",
-                "fr": "Touchez sept fois le logo dans À propos : 1 → 1/2 → 1/4 → 1/8 devient plus petit, mais pas nul. Fermez la surprise hors ligne sans changer calculs ni réglages.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: 1 → 1/2 → 1/4 → 1/8 diminui, mas não vira zero. Feche a surpresa offline sem mudar cálculos nem ajustes.",
-                "pl": "Dotknij logo w informacjach siedem razy: 1 → 1/2 → 1/4 → 1/8 zmniejsza się, ale nie jest zerem. Zamknij niespodziankę offline bez zmian obliczeń ani ustawień.",
-                "it": "Tocca sette volte il logo in Informazioni: 1 → 1/2 → 1/4 → 1/8 diventa più piccolo, ma non zero. Chiudi la sorpresa offline senza cambiare calcoli o impostazioni."
+                "en": "The test version stores up to 100 completed calculations on the device. Recall an entry to reuse its inputs, delete an entry or clear the list. Use the separate calculator memory to add, subtract, recall or clear a value. The stored memory remains between sessions.",
+                "hu": "A tesztváltozat legfeljebb 100 befejezett számítást tárol a készüléken. Töltsd vissza a bemenetet, törölj egy bejegyzést vagy ürítsd a listát. A külön számológép-memóriához hozzáadhatsz értéket vagy kivonhatsz belőle, előhívhatod és ürítheted. Kilépés után is megmarad.",
+                "de": "Die Testversion speichert bis zu 100 abgeschlossene Berechnungen auf dem Gerät. Lade Eingaben erneut, lösche einen Eintrag oder leere die Liste. Im separaten Speicher kannst du addieren, subtrahieren, den Wert abrufen oder löschen. Der Wert bleibt zwischen Sitzungen erhalten.",
+                "es": "La versión de prueba guarda hasta 100 cálculos completados en el dispositivo. Recupera las entradas, borra un registro o vacía la lista. La memoria independiente permite sumar, restar, recuperar o borrar un valor. Se conserva entre sesiones.",
+                "fr": "La version de test garde jusqu’à 100 calculs terminés sur l’appareil. Rechargez une saisie, supprimez une entrée ou videz la liste. La mémoire séparée permet d’ajouter, de soustraire, de rappeler ou d’effacer une valeur. Elle reste enregistrée entre les sessions.",
+                "pt-BR": "A versão de teste guarda até 100 cálculos concluídos no aparelho. Recupere a entrada, exclua um registro ou limpe a lista. A memória separada permite somar, subtrair, recuperar ou limpar um valor. Ela permanece entre sessões.",
+                "pl": "Wersja testowa zapisuje na urządzeniu do 100 obliczeń. Przywołaj dane wpisu, usuń wpis lub wyczyść listę. Oddzielna pamięć pozwala dodawać, odejmować, przywoływać lub usuwać wartość. Pozostaje ona zapisana między sesjami.",
+                "it": "La versione di test salva sul dispositivo fino a 100 calcoli completati. Richiama i dati di una voce, cancellala o svuota l’elenco. La memoria separata permette di aggiungere, sottrarre, richiamare o cancellare un valore. Il valore resta tra le sessioni."
               }
             }
           ]
@@ -3890,14 +3798,14 @@
                 "it": "Pubblicità e rimozione facoltativa"
               },
               "text": {
-                "en": "All described functions are planned to be free, with banner ads and optional one-time Google Play ad removal. No subscription is planned. The purchase screen shows the actual local price; purchase restoration uses Google Play.",
-                "hu": "A bemutatott funkciók a terv szerint ingyenesek, bannerreklámmal és választható, egyszeri Google Play-reklámmentesítéssel. Előfizetés nincs a tervben. A vásárlási felület mutatja a tényleges helyi árat; a helyreállítás Google Playen történik.",
-                "de": "Alle beschriebenen Funktionen sind kostenlos mit Bannerwerbung und optionaler einmaliger Werbeentfernung über Google Play vorgesehen. Ein Abo ist nicht geplant. Der Kaufdialog zeigt den lokalen Preis; Käufe werden über Google Play wiederhergestellt.",
-                "es": "Todas las funciones descritas se prevén gratis con banners y eliminación opcional mediante un único pago en Google Play. No se prevé suscripción. La compra muestra el precio local real; la restauración usa Google Play.",
-                "fr": "Toutes les fonctions décrites sont prévues gratuites avec bannières et suppression facultative par achat unique Google Play. Aucun abonnement n’est prévu. L’achat affiche le prix local réel ; la restauration passe par Google Play.",
-                "pt-BR": "Todas as funções descritas são previstas grátis com banners e remoção opcional por compra única no Google Play. Não há assinatura prevista. A compra mostra o preço local real; a restauração usa o Google Play.",
-                "pl": "Wszystkie opisane funkcje są planowane bezpłatnie z banerami i opcjonalnym jednorazowym usunięciem reklam przez Google Play. Nie przewidziano subskrypcji. Zakup pokazuje rzeczywistą cenę lokalną; przywracanie używa Google Play.",
-                "it": "Tutte le funzioni descritte sono previste gratuite con banner e rimozione facoltativa tramite acquisto unico Google Play. Non è previsto un abbonamento. L’acquisto mostra il prezzo locale reale; il ripristino usa Google Play."
+                "en": "The test version’s calculations are free. An optional one-time purchase removes banner ads when Google Play offers it. Play verifies and restores the purchase separately from your calculation data. There is no subscription.",
+                "hu": "A tesztváltozat számításai ingyenesek. A bannerhirdetést választható egyszeri vásárlás távolítja el, ha a Google Play felkínálja. A Play a számítási adatoktól külön ellenőrzi és állítja vissza a vásárlást. Nincs előfizetés.",
+                "de": "Die Berechnungen der Testversion sind kostenlos. Ein optionaler einmaliger Kauf entfernt Banner, wenn Google Play ihn anbietet. Play prüft und stellt den Kauf getrennt von den Rechendaten wieder her. Es gibt kein Abo.",
+                "es": "Los cálculos de la versión de prueba son gratuitos. Un pago único opcional elimina los banners si Google Play lo ofrece. Play verifica y restaura la compra por separado de los cálculos. No hay suscripción.",
+                "fr": "Les calculs de la version de test sont gratuits. Un achat unique facultatif supprime les bannières lorsque Google Play le propose. Play vérifie et restaure l’achat indépendamment des données de calcul. Il n’y a pas d’abonnement.",
+                "pt-BR": "Os cálculos da versão de teste são gratuitos. Uma compra única opcional remove banners quando o Google Play a oferece. O Play verifica e restaura a compra separadamente dos dados de cálculo. Não há assinatura.",
+                "pl": "Obliczenia w wersji testowej są bezpłatne. Opcjonalny jednorazowy zakup usuwa banery, gdy Google Play go oferuje. Play sprawdza i przywraca zakup niezależnie od danych obliczeń. Nie ma subskrypcji.",
+                "it": "I calcoli nella versione di test sono gratuiti. Un acquisto facoltativo una tantum rimuove i banner se Google Play lo offre. Play verifica e ripristina l’acquisto separatamente dai dati di calcolo. Non c’è un abbonamento."
               }
             }
           ]
@@ -4009,29 +3917,6 @@
                 "pt-BR": "Crie ou renomeie categorias e atribua uma. Veja ativos, categoria, prazo, recentes, atrasados e arquivados. Apagar categoria mantém itens. Arquivar preserva histórico e suspende lembretes; restaure depois se necessário.",
                 "pl": "Twórz lub zmieniaj nazwy kategorii i przypisz jedną. Przeglądaj aktywne, według kategorii, terminu, ostatnio wykonane, zaległe i archiwalne. Usunięcie kategorii zachowuje pozycje. Archiwizacja zachowuje historię i zatrzymuje przypomnienia; możesz przywrócić.",
                 "it": "Crea o rinomina categorie e assegnane una. Consulta attivi, categorie, scadenze, recenti, scaduti e archiviati. Eliminare una categoria conserva le voci. Archiviare mantiene cronologia e sospende promemoria; ripristina quando serve."
-              }
-            },
-            {
-              "id": "ld-egg",
-              "title": {
-                "en": "Do not press!",
-                "hu": "Ne nyomd meg!",
-                "de": "Nicht drücken!",
-                "es": "¡No pulses!",
-                "fr": "N’appuyez pas !",
-                "pt-BR": "Não aperte!",
-                "pl": "Nie naciskaj!",
-                "it": "Non premere!"
-              },
-              "text": {
-                "en": "Tap the About logo seven times to reveal a Do not press button. Press it to see how long ago you pressed it; pressing again restarts that playful counter. Close it without creating or changing any tracked event.",
-                "hu": "A Névjegy logójára hétszer koppintva Ne nyomd meg gomb jelenik meg. Megnyomva azóta eltelt időt látod; újabb nyomás újraindítja a játékos számlálót. Bezárása nem hoz létre és nem módosít követett eseményt.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo für Nicht drücken. Drücke und sieh die Zeit seit dem Druck; erneutes Drücken startet den Spaßzähler neu. Schließen erstellt oder verändert kein erfasstes Ereignis.",
-                "es": "Toca siete veces el logo de Acerca de para No pulses. Púlsalo para ver cuánto tiempo pasó; otra pulsación reinicia el contador de broma. Cerrar no crea ni cambia eventos seguidos.",
-                "fr": "Touchez sept fois le logo dans À propos pour N’appuyez pas. Appuyez pour voir le temps depuis le toucher ; recommencez pour relancer ce compteur amusant. Fermer ne crée ni ne change aucun événement suivi.",
-                "pt-BR": "Toque sete vezes no logo em Sobre para Não aperte. Aperte para ver o tempo desde o toque; outro toque reinicia o contador divertido. Fechar não cria nem muda eventos acompanhados.",
-                "pl": "Dotknij logo w informacjach siedem razy dla Nie naciskaj. Naciśnij, by zobaczyć czas od naciśnięcia; kolejne restartuje żartobliwy licznik. Zamknięcie nie tworzy ani nie zmienia śledzonych zdarzeń.",
-                "it": "Tocca sette volte il logo in Informazioni per Non premere. Premi per vedere il tempo dal tocco; un altro riavvia il contatore scherzoso. Chiudere non crea né modifica eventi seguiti."
               }
             }
           ]
@@ -4186,14 +4071,14 @@
                 "it": "Vernice"
               },
               "text": {
-                "en": "Enter wall and ceiling dimensions or a known area, subtract openings, then specify coats, coverage in m²/L, container volume and allowance. The result shows net surface, coverage across all coats, required paint volume, whole containers and estimated leftover. In the project summary, matching paints add up in litres; container sizes are guidance, and you decide what to buy.",
-                "hu": "Add meg a falak és mennyezet méreteit vagy az ismert területet, vond le a nyílásokat, majd állítsd be a rétegszámot, a fedőképességet m²/L-ben, a kiszerelés térfogatát és a ráhagyást. Az eredmény megmutatja a nettó felületet, az összes réteg fedendő területét, a festékszükségletet, az egész kiszerelések számát és a becsült maradékot. A projektösszesítő az azonos festékeket literben adja össze; a kiszerelés tájékoztató, a vásárlásról te döntesz.",
-                "de": "Gib Wand- und Deckenmaße oder eine bekannte Fläche ein, ziehe Öffnungen ab und lege Anstrichzahl, Ergiebigkeit in m²/L, Gebindevolumen und Zuschlag fest. Das Ergebnis zeigt Nettofläche, Fläche über alle Anstriche, Farbbedarf, ganze Gebinde und geschätzten Rest. In der Projektübersicht werden gleiche Farben in Litern addiert; Gebindegrößen dienen als Orientierung, du entscheidest über den Einkauf.",
-                "es": "Introduce las dimensiones de paredes y techos o un área conocida, resta huecos y define las capas, el rendimiento en m²/L, el volumen del envase y el margen. El resultado muestra la superficie neta, la superficie de todas las capas, la pintura necesaria, los envases enteros y el sobrante estimado. El resumen del proyecto suma las pinturas iguales en litros; los envases son orientativos y tú decides la compra.",
-                "fr": "Saisissez les dimensions des murs et plafonds ou une surface connue, déduisez les ouvertures, puis indiquez le nombre de couches, le rendement en m²/L, le volume du pot et la marge. Le résultat présente la surface nette, la surface à couvrir sur toutes les couches, le volume de peinture, les pots entiers et le reste estimé. Le récapitulatif du projet additionne les peintures identiques en litres ; les conditionnements sont indicatifs, vous décidez de l’achat.",
-                "pt-BR": "Informe as dimensões de paredes e tetos ou uma área conhecida, desconte aberturas e defina demãos, rendimento em m²/L, volume da embalagem e margem. O resultado mostra área líquida, área de todas as demãos, volume de tinta necessário, embalagens inteiras e sobra estimada. No resumo do projeto, tintas iguais são somadas em litros; os tamanhos das embalagens são uma referência e você decide a compra.",
-                "pl": "Podaj wymiary ścian i sufitów lub znaną powierzchnię, odejmij otwory i określ liczbę warstw, wydajność w m²/L, pojemność opakowania oraz zapas. Wynik pokazuje powierzchnię netto, powierzchnię wszystkich warstw, potrzebną objętość farby, pełne opakowania i szacowaną resztę. Podsumowanie projektu sumuje takie same farby w litrach; opakowania są wskazówką, a o zakupie decydujesz samodzielnie.",
-                "it": "Inserisci le dimensioni di pareti e soffitti o un’area nota, sottrai le aperture e specifica mani, resa in m²/L, volume della confezione e margine. Il risultato mostra superficie netta, superficie di tutte le mani, volume di vernice necessario, confezioni intere e avanzo stimato. Il riepilogo del progetto somma le vernici uguali in litri; i formati delle confezioni sono indicativi e decidi tu cosa acquistare."
+                "en": "Enter wall and ceiling dimensions or a known area, subtract openings, then specify coats, coverage and allowance. The result gives net area and the required volume. If you enter a can size, it also shows whole cans and expected leftover. Matching paints add up in litres in the project summary.",
+                "hu": "Adj meg fal- és mennyezetméreteket vagy ismert területet, vond le a nyílásokat, majd add meg a rétegszámot, fedőképességet és ráhagyást. Az eredmény a nettó felület és a szükséges térfogat. Dobozméret megadásakor az egész dobozok száma és a becsült maradék is megjelenik. Az azonos festékek literben összesíthetők.",
+                "de": "Gib Wand- und Deckenmaße oder eine bekannte Fläche an, ziehe Öffnungen ab und lege Anstriche, Ergiebigkeit und Zuschlag fest. Du erhältst Nettofläche und benötigtes Volumen. Mit Gebindegröße zeigt der Rechner ganze Gebinde und Restmenge. Gleiche Farben werden im Projekt in Litern addiert.",
+                "es": "Introduce medidas de paredes y techos o un área conocida, resta los huecos e indica manos, rendimiento y margen. Obtienes el área neta y el volumen necesario. Si indicas el tamaño del envase, calcula envases enteros y sobrante. Las pinturas iguales se suman en litros en el proyecto.",
+                "fr": "Saisissez les dimensions des murs et plafonds ou une surface connue, retirez les ouvertures, puis indiquez les couches, le rendement et la marge. Vous obtenez la surface nette et le volume nécessaire. Avec une taille de pot, le nombre de pots entiers et le reste sont affichés. Les peintures identiques sont totalisées en litres.",
+                "pt-BR": "Informe as medidas de paredes e tetos ou uma área conhecida, desconte as aberturas e indique demãos, rendimento e margem. Veja a área líquida e o volume necessário. Se informar o tamanho da lata, veja também latas inteiras e a sobra estimada. Tintas iguais são somadas em litros no projeto.",
+                "pl": "Podaj wymiary ścian i sufitu lub znaną powierzchnię, odejmij otwory i ustaw liczbę warstw, wydajność i zapas. Wynik podaje powierzchnię netto i potrzebną objętość. Po podaniu pojemności pokazuje pełne puszki i szacowaną resztę. Ta sama farba sumuje się w projekcie w litrach.",
+                "it": "Inserisci le misure di pareti e soffitti o una superficie nota, sottrai le aperture e specifica mani, resa e margine. Ottieni l’area netta e il volume necessario. Se indichi la capacità del barattolo, vedi anche barattoli interi e avanzo stimato. Le vernici uguali si sommano in litri nel progetto."
               }
             },
             {
@@ -4301,14 +4186,14 @@
                 "it": "Calcestruzzo"
               },
               "text": {
-                "en": "Enter length, width and depth for one or more sections, or a known volume, then set allowance. See the required volume in L, m³, ft³ or yd³. Optional yield per bag gives whole bags and estimated leftover; volume alone is enough for ready-mix or bulk supply. The app does not choose a concrete recipe or calculate structural strength.",
-                "hu": "Egy vagy több szakasz hosszúságát, szélességét és mélységét vagy az ismert térfogatot add meg, majd állítsd be a ráhagyást. A szükséges térfogat L, m³, ft³ vagy yd³ egységben látható. Opcionális zsákkiadósságból egész zsákszám és becsült maradék számítható; mixer- vagy ömlesztett betonhoz a térfogat önmagában elég. Az app nem választ betonreceptet, és nem végez statikai számítást.",
-                "de": "Gib Länge, Breite und Tiefe eines oder mehrerer Abschnitte oder ein bekanntes Volumen ein und lege den Zuschlag fest. Das benötigte Volumen erscheint in L, m³, ft³ oder yd³. Optional ergibt die Ergiebigkeit pro Sack ganze Säcke und einen geschätzten Rest; für Transportbeton oder lose Lieferung genügt das Volumen. Die App wählt keine Betonrezeptur und berechnet keine Tragfähigkeit.",
-                "es": "Introduce largo, ancho y profundidad de una o varias secciones, o un volumen conocido, y define el margen. Consulta el volumen necesario en L, m³, ft³ o yd³. El rendimiento opcional por saco permite obtener sacos enteros y sobrante estimado; para suministro a granel o preparado basta el volumen. La app no elige una mezcla ni calcula resistencia estructural.",
-                "fr": "Indiquez longueur, largeur et profondeur d’une ou plusieurs sections, ou un volume connu, puis la marge. Consultez le volume nécessaire en L, m³, ft³ ou yd³. Le rendement facultatif par sac donne les sacs entiers et le reste estimé ; le volume seul suffit pour une livraison de béton prêt à l’emploi ou en vrac. L’app ne choisit pas de recette et ne calcule pas la résistance structurelle.",
-                "pt-BR": "Informe comprimento, largura e profundidade de uma ou mais seções, ou um volume conhecido, e defina a margem. Veja o volume necessário em L, m³, ft³ ou yd³. O rendimento opcional por saco fornece sacos inteiros e sobra estimada; para concreto usinado ou a granel basta o volume. O app não escolhe traços nem calcula resistência estrutural.",
-                "pl": "Podaj długość, szerokość i głębokość jednego lub kilku odcinków albo znaną objętość i ustaw zapas. Zobacz potrzebną objętość w L, m³, ft³ lub yd³. Opcjonalna wydajność worka pozwala obliczyć pełne worki i szacowaną resztę; dla betonu towarowego lub dostawy luzem wystarczy objętość. Aplikacja nie dobiera receptury ani nie oblicza wytrzymałości konstrukcji.",
-                "it": "Inserisci lunghezza, larghezza e profondità di una o più sezioni, oppure un volume noto, e imposta il margine. Visualizza il volume necessario in L, m³, ft³ o yd³. La resa facoltativa per sacco fornisce sacchi interi e avanzo stimato; per calcestruzzo preconfezionato o sfuso basta il volume. L’app non sceglie una ricetta e non calcola la resistenza strutturale."
+                "en": "Enter dimensions or a known volume. Subtract rectangular, circular or known-volume cutouts from a gross volume before adding allowance. For mixer delivery, use the required volume, shown in cubic metres by default. For bagged mix, enter the bag weight and its yield in litres to estimate whole bags. The calculator does not design a mix or certify strength.",
+                "hu": "Adj meg méreteket vagy ismert térfogatot. Bruttó térfogathoz a ráhagyás előtt vonhatod le a téglatest, kör keresztmetszetű vagy ismert térfogatú kihagyásokat. Mixerbetonnál a szükséges térfogat alapból köbméterben látszik. Zsákos keverékhez add meg a zsáktömeget és a kihozatalt literben az egész zsákok becsléséhez. Az eszköz nem tervez keveréket és nem igazol szilárdságot.",
+                "de": "Gib Maße oder ein bekanntes Volumen ein. Ziehe quaderförmige, runde oder bekannte Aussparungsvolumen vom Bruttovolumen ab, bevor der Zuschlag hinzukommt. Für Transportbeton wird der Bedarf standardmäßig in Kubikmetern angezeigt. Für Sackware gib Sackgewicht und Ergiebigkeit in Litern an. Mischungsentwurf und Festigkeitsnachweis sind ausgeschlossen.",
+                "es": "Introduce medidas o un volumen conocido. Resta huecos rectangulares, circulares o de volumen conocido del volumen bruto antes de aplicar el margen. Para hormigón de planta se muestra el volumen en metros cúbicos por defecto. Para sacos, indica peso y rendimiento en litros para estimar sacos enteros. No diseña mezclas ni certifica resistencia.",
+                "fr": "Saisissez des dimensions ou un volume connu. Déduisez les réservations rectangulaires, circulaires ou de volume connu du volume brut avant la marge. Pour une livraison en toupie, le volume est indiqué par défaut en mètres cubes. Pour les sacs, indiquez leur poids et leur rendement en litres pour estimer les sacs entiers. L’outil ne définit pas la formulation ni ne certifie la résistance.",
+                "pt-BR": "Informe dimensões ou um volume conhecido. Desconte espaços retangulares, circulares ou de volume conhecido do volume bruto antes da margem. Para concreto usinado, o volume é mostrado em metros cúbicos por padrão. Para sacos, informe o peso e o rendimento em litros para estimar sacos inteiros. Não calcula a mistura nem certifica a resistência.",
+                "pl": "Podaj wymiary lub znaną objętość. Odejmij od objętości brutto ubytki prostokątne, okrągłe lub o znanej objętości przed doliczeniem zapasu. Dla betonu z betoniarni domyślną jednostką są metry sześcienne. Dla worków podaj masę i wydajność w litrach. Kalkulator nie projektuje mieszanki ani nie potwierdza wytrzymałości.",
+                "it": "Inserisci misure o un volume noto. Sottrai i vuoti rettangolari, circolari o di volume noto dal volume lordo, prima del margine. Per il calcestruzzo preconfezionato il volume è indicato di norma in metri cubi. Per i sacchi indica peso e resa in litri per stimare il numero intero. Non progetta l’impasto né certifica la resistenza."
               }
             },
             {
@@ -4370,14 +4255,14 @@
                 "it": "Ghiaia"
               },
               "text": {
-                "en": "Enter the area and layer depth of paths or surfaces, using dimensions or a known area with deductions, or supply volume directly. The calculation includes your allowance and shows volume in L, m³, ft³ or yd³. Optional bag volume gives whole bags and leftover; your density in kg/m³ gives estimated kg. Different gravel types are not assumed to have the same density. Bulk supply needs no bag size.",
-                "hu": "Utak vagy felületek területét és rétegvastagságát adhatod meg méretekkel vagy ismert területtel és levonásokkal, vagy közvetlen térfogattal számolhatsz. Az eredmény a saját ráhagyásoddal növelt térfogat L, m³, ft³ vagy yd³ egységben. Opcionális zsáktérfogat egész zsákszámot és maradékot, a kg/m³-ben megadott sűrűség becsült kg-ot ad. A különböző kavicsokhoz nem feltételez azonos sűrűséget. Ömlesztett beszerzéshez nem kell zsákméret.",
-                "de": "Gib Fläche und Schichtdicke von Wegen oder Flächen über Maße oder eine bekannte Fläche mit Abzügen ein, oder direkt das Volumen. Die Berechnung berücksichtigt deinen Zuschlag und zeigt das Volumen in L, m³, ft³ oder yd³. Optionales Sackvolumen liefert ganze Säcke und Rest; deine Dichte in kg/m³ ergibt geschätzte kg. Unterschiedlichen Kiesarten wird keine gleiche Dichte unterstellt. Für lose Lieferung ist keine Sackgröße nötig.",
-                "es": "Introduce el área y espesor de caminos o superficies mediante dimensiones o área conocida con deducciones, o indica el volumen directamente. El cálculo incluye tu margen y muestra volumen en L, m³, ft³ o yd³. El volumen opcional del saco da sacos enteros y sobrante; tu densidad en kg/m³ da kg estimados. No se supone igual densidad para todas las gravas. El suministro a granel no necesita tamaño de saco.",
-                "fr": "Indiquez la surface et l’épaisseur de chemins ou d’autres surfaces à partir de dimensions ou d’une surface connue avec déductions, ou directement le volume. Le calcul inclut votre marge et affiche le volume en L, m³, ft³ ou yd³. Le volume facultatif du sac donne les sacs entiers et le reste ; votre densité en kg/m³ fournit une estimation en kg. Les graviers ne sont pas supposés avoir tous la même densité. La livraison en vrac ne nécessite pas de taille de sac.",
-                "pt-BR": "Informe área e espessura de caminhos ou superfícies usando dimensões ou área conhecida com descontos, ou indique o volume diretamente. O cálculo inclui sua margem e mostra volume em L, m³, ft³ ou yd³. O volume opcional do saco fornece sacos inteiros e sobra; sua densidade em kg/m³ fornece kg estimados. Tipos diferentes de cascalho não são considerados de mesma densidade. Compra a granel dispensa tamanho de saco.",
-                "pl": "Podaj powierzchnię i grubość warstwy ścieżek lub innych obszarów, używając wymiarów albo znanej powierzchni z odliczeniami, lub wpisz objętość. Obliczenie uwzględnia Twój zapas i pokazuje objętość w L, m³, ft³ lub yd³. Opcjonalna pojemność worka daje pełne worki i resztę, a Twoja gęstość w kg/m³ — szacowaną masę w kg. Różnym żwirom nie przypisuje się tej samej gęstości. Dostawa luzem nie wymaga pojemności worka.",
-                "it": "Inserisci area e spessore di vialetti o superfici tramite dimensioni o area nota con detrazioni, oppure direttamente il volume. Il calcolo include il tuo margine e mostra il volume in L, m³, ft³ o yd³. Il volume facoltativo del sacco fornisce sacchi interi e avanzo; la tua densità in kg/m³ dà i kg stimati. Tipi diversi di ghiaia non hanno una densità presunta uguale. Per la fornitura sfusa non serve il formato del sacco."
+                "en": "Enter an area and layer depth, subtract excluded areas, or use a known volume. Add an allowance. Estimate bulk gravel by volume or mass, or use bags sized in litres or kilograms. Converting between volume and mass requires a density you supply or verify for that product.",
+                "hu": "Adj meg felületet és rétegvastagságot, vond le a kihagyott területeket, vagy használj ismert térfogatot. Adj hozzá ráhagyást. Ömlesztett kavicsot térfogatban vagy tömegben, zsákost literes vagy kilogrammos kiszerelésben becsülhetsz. A térfogat és tömeg közti átváltáshoz az adott termékhez megadott vagy ellenőrzött sűrűség kell.",
+                "de": "Gib Fläche und Schichtdicke an und ziehe ausgesparte Flächen ab, oder nutze ein bekanntes Volumen. Berücksichtige einen Zuschlag. Schätze losen Kies nach Volumen oder Masse oder Sackware in Litern oder Kilogramm. Für die Umrechnung zwischen Volumen und Masse ist eine eingegebene oder geprüfte Produktdichte nötig.",
+                "es": "Indica un área y un espesor, descuenta las zonas excluidas o usa un volumen conocido. Añade un margen. Estima grava a granel por volumen o masa, o en sacos de litros o kilogramos. Para convertir volumen en masa o al revés hace falta una densidad indicada o comprobada para el producto.",
+                "fr": "Indiquez la surface et l’épaisseur, retirez les zones exclues ou utilisez un volume connu. Ajoutez une marge. Estimez le gravier en vrac par volume ou masse, ou en sacs exprimés en litres ou en kilogrammes. La conversion volume–masse nécessite une densité saisie ou vérifiée pour ce produit.",
+                "pt-BR": "Informe área e espessura, desconte as áreas excluídas ou use um volume conhecido. Adicione uma margem. Estime cascalho a granel por volume ou massa, ou em sacos de litros ou quilos. Converter volume e massa exige uma densidade informada ou conferida para o produto.",
+                "pl": "Podaj powierzchnię i grubość, odejmij wyłączone obszary lub użyj znanej objętości. Dodaj zapas. Oszacuj żwir luzem według objętości lub masy albo w workach podanych w litrach lub kilogramach. Przeliczanie między masą a objętością wymaga podanej lub sprawdzonej gęstości produktu.",
+                "it": "Inserisci area e spessore, sottrai le zone escluse o usa un volume noto. Aggiungi un margine. Stima la ghiaia sfusa per volume o massa oppure in sacchi da litri o chilogrammi. La conversione tra volume e massa richiede una densità inserita o verificata per quel prodotto."
               }
             },
             {
@@ -4607,37 +4492,14 @@
                 "it": "Prodotti e parametri riutilizzabili"
               },
               "text": {
-                "en": "The Products tab separately manages reusable material products: create, load, edit or delete their coverage, package sizes, tile dimensions, roll dimensions and other supported parameters. Editable starter products help you begin; verify their values for the material you use. Loading a product returns to its parameters in the calculator while preserving your measurements. Leaving real edits offers Save, Discard or Cancel; simply opening a product does not create a change. Resetting product parameters leaves dimensions, deductions and allowance intact.",
-                "hu": "A Termékek lap külön kezeli az újrahasználható anyagtermékeket: létrehozhatod, betöltheted, szerkesztheted és törölheted a fedőképességet, kiszerelést, lap- és tekercsméreteket és a további támogatott paramétereket. Szerkeszthető kezdőtermékek segítik az indulást; az értékeket ellenőrizd a használt anyagnál. Betöltés után a kalkulátor a termékparaméterekhez tér vissza, a méretek megőrzésével. Valódi módosítás elhagyásakor Mentés, Elvetés vagy Mégse választható; a puszta megnyitás nem módosítás. A termékparaméterek visszaállítása a méreteket, levonásokat és ráhagyást megtartja.",
-                "de": "Der Reiter Produkte verwaltet wiederverwendbare Materialprodukte separat: Erstelle, lade, bearbeite oder lösche Ergiebigkeit, Packungsgrößen, Fliesen- und Rollenmaße sowie weitere unterstützte Parameter. Bearbeitbare Startprodukte helfen beim Einstieg; prüfe die Werte für dein Material. Nach dem Laden kehrst du zu den Produktparametern im Rechner zurück, deine Maße bleiben erhalten. Bei tatsächlichen Änderungen stehen beim Verlassen Speichern, Verwerfen und Abbrechen zur Wahl; bloßes Öffnen ist keine Änderung. Das Zurücksetzen der Produktparameter lässt Maße, Abzüge und Zuschlag unverändert.",
-                "es": "La pestaña Productos gestiona por separado materiales reutilizables: crea, carga, edita o elimina rendimiento, tamaños de envase, medidas de piezas y rollos y otros parámetros admitidos. Los productos iniciales editables ayudan a empezar; comprueba los valores para tu material. Cargar un producto vuelve a sus parámetros en la calculadora conservando las medidas. Al salir de cambios reales puedes guardar, descartar o cancelar; abrir un producto no cuenta como cambio. Restablecer parámetros conserva medidas, deducciones y margen.",
-                "fr": "L’onglet Produits gère séparément les matériaux réutilisables : créez, chargez, modifiez ou supprimez rendement, conditionnement, dimensions des carreaux et rouleaux et autres paramètres pris en charge. Des produits de départ modifiables facilitent le démarrage ; vérifiez leurs valeurs pour votre matériau. Le chargement revient aux paramètres produit du calculateur en conservant vos mesures. En quittant de vraies modifications, choisissez Enregistrer, Ignorer ou Annuler ; ouvrir un produit ne constitue pas une modification. La réinitialisation des paramètres conserve dimensions, déductions et marge.",
-                "pt-BR": "A aba Produtos gerencia separadamente materiais reutilizáveis: crie, carregue, edite ou exclua rendimento, embalagens, dimensões de peças e rolos e outros parâmetros compatíveis. Produtos iniciais editáveis ajudam a começar; confira os valores para seu material. Carregar um produto retorna aos parâmetros na calculadora, mantendo as medidas. Ao sair de alterações reais, escolha Salvar, Descartar ou Cancelar; apenas abrir um produto não conta como alteração. Redefinir parâmetros mantém dimensões, descontos e margem.",
-                "pl": "Karta Produkty osobno zarządza materiałami do ponownego użycia: twórz, wczytuj, edytuj lub usuwaj wydajność, opakowania, wymiary płytek i rolek oraz inne obsługiwane parametry. Edytowalne produkty początkowe ułatwiają start; sprawdź wartości dla używanego materiału. Wczytanie produktu wraca do jego parametrów w kalkulatorze, zachowując wymiary. Przy wychodzeniu z rzeczywistych zmian wybierz Zapisz, Odrzuć lub Anuluj; samo otwarcie produktu nie jest zmianą. Reset parametrów zachowuje wymiary, odliczenia i zapas.",
-                "it": "La scheda Prodotti gestisce separatamente i materiali riutilizzabili: crea, carica, modifica o elimina resa, confezioni, dimensioni di piastrelle e rotoli e altri parametri supportati. I prodotti iniziali modificabili aiutano a iniziare; verifica i valori per il tuo materiale. Il caricamento torna ai parametri del prodotto nel calcolatore conservando le misure. Uscendo da modifiche reali puoi salvare, scartare o annullare; aprire un prodotto non è una modifica. Il ripristino dei parametri conserva dimensioni, detrazioni e margine."
-              }
-            },
-            {
-              "id": "mat-egg",
-              "title": {
-                "en": "Endless wallpaper",
-                "hu": "Végtelen tapéta",
-                "de": "Endlose Tapete",
-                "es": "Papel pintado infinito",
-                "fr": "Papier peint infini",
-                "pt-BR": "Papel de parede infinito",
-                "pl": "Nieskończona tapeta",
-                "it": "Carta da parati infinita"
-              },
-              "text": {
-                "en": "Tap the About logo seven times to see a patterned wallpaper roll unroll endlessly. Close the offline surprise to return; it does not change measurements, presets or settings. Reduced motion keeps the pattern understandable.",
-                "hu": "A Névjegy logójára hétszer koppintva mintás tapétatekercs gördül végtelenül. Az offline meglepetés bezárható, méretet, sablont vagy beállítást nem módosít. Csökkentett mozgásnál is felismerhető marad a minta.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo für eine endlos abrollende Mustertapete. Schließe die Offline-Überraschung; Maße, Vorlagen und Einstellungen bleiben gleich. Bei reduzierter Bewegung bleibt das Muster verständlich.",
-                "es": "Toca siete veces el logo de Acerca de para un rollo estampado infinito. Cierra la sorpresa sin conexión; no cambia medidas, preajustes ni ajustes. Con movimiento reducido el patrón sigue reconocible.",
-                "fr": "Touchez sept fois le logo dans À propos pour un rouleau à motifs infini. Fermez la surprise hors ligne ; mesures, préréglages et réglages ne changent pas. Le motif reste lisible avec mouvement réduit.",
-                "pt-BR": "Toque sete vezes no logo em Sobre para um rolo estampado infinito. Feche a surpresa offline; não muda medidas, predefinições ou ajustes. Com movimento reduzido o padrão continua reconhecível.",
-                "pl": "Dotknij logo w informacjach siedem razy dla nieskończonej rolki wzorzystej tapety. Zamknij niespodziankę offline; nie zmienia wymiarów, szablonów ani ustawień. Przy ograniczonym ruchu wzór pozostaje czytelny.",
-                "it": "Tocca sette volte il logo in Informazioni per un rotolo decorato infinito. Chiudi la sorpresa offline; non cambia misure, preimpostazioni o impostazioni. Con movimento ridotto il motivo resta riconoscibile."
+                "en": "Use the Products tab to save and edit reusable coverage, pack sizes, tile sizes and roll dimensions. A fresh install includes 45 editable starter products. Check the parameters against the actual product. Loading one preserves the measurements in the calculator, and saved calculations retain their own copy of the parameters.",
+                "hu": "A Termékek lapon mentheted és szerkesztheted az újrahasználható fedőképességet, kiszerelést, lap- és tekercsméretet. Friss telepítéskor 45 szerkeszthető kezdőtermék áll rendelkezésre. Ellenőrizd a paramétereket a tényleges terméken. Betöltéskor megmaradnak a kalkulátor méretei, a mentett számítások pedig megtartják a saját paramétereiket.",
+                "de": "Im Reiter Produkte speicherst und bearbeitest du Ergiebigkeit, Packungs-, Fliesen- und Rollenmaße. Eine Neuinstallation enthält 45 bearbeitbare Startprodukte. Prüfe die Werte am tatsächlichen Produkt. Beim Laden bleiben die Maße im Rechner und jede gespeicherte Berechnung behält ihre eigenen Parameter.",
+                "es": "En Productos puedes guardar y editar rendimiento, tamaños de envases, baldosas y rollos. Una instalación nueva incluye 45 productos iniciales editables. Comprueba los parámetros con el producto real. Cargar uno conserva las medidas de la calculadora. Los cálculos guardados conservan sus propios parámetros.",
+                "fr": "L’onglet Produits permet d’enregistrer et de modifier rendement, conditionnement et formats de carreaux ou de rouleaux. Une installation neuve comprend 45 produits de départ modifiables. Vérifiez les paramètres du produit réel. Le chargement conserve les dimensions et les calculs enregistrés gardent leurs propres paramètres.",
+                "pt-BR": "Na aba Produtos, salve e edite rendimento, tamanhos de embalagem, pisos e rolos reutilizáveis. Uma instalação nova traz 45 produtos iniciais editáveis. Confira os parâmetros no produto real. Carregar um mantém as medidas da calculadora, e cada cálculo salvo guarda os próprios parâmetros.",
+                "pl": "W zakładce Produkty zapisuj i edytuj wydajność, rozmiary opakowań, płytek i rolek. Nowa instalacja ma 45 edytowalnych produktów startowych. Sprawdź wartości dla używanego produktu. Wczytanie zachowuje wymiary kalkulatora, a zapisane obliczenia zachowują własne parametry.",
+                "it": "Nella scheda Prodotti salva e modifica resa, dimensioni di confezioni, piastrelle e rotoli. Una nuova installazione include 45 prodotti iniziali modificabili. Verifica i parametri del prodotto reale. Caricarne uno conserva le misure, e i calcoli salvati mantengono i propri parametri."
               }
             },
             {
@@ -4841,29 +4703,6 @@
                 "pt-BR": "Meça em retrato ou paisagem, com trava de orientação ou tela acordada opcionais. Precisa de sensores de movimento; aparelho incompatível é indicado sem inventar valores. Não precisa de câmera nem localização.",
                 "pl": "Mierz w pionie lub poziomie, opcjonalnie blokuj orientację i utrzymuj ekran włączony. Wymagane są działające czujniki ruchu; brak obsługi jest oznaczony zamiast wymyślonych wartości. Kamera i lokalizacja nie są wymagane.",
                 "it": "Misura in verticale o orizzontale, con blocco orientamento e schermo acceso facoltativi. Servono sensori di movimento funzionanti; un dispositivo incompatibile è segnalato senza valori inventati. Non richiede fotocamera o posizione."
-              }
-            },
-            {
-              "id": "bli-egg",
-              "title": {
-                "en": "The escaping bubble",
-                "hu": "A kiszökő buborék",
-                "de": "Die entlaufene Blase",
-                "es": "La burbuja escapada",
-                "fr": "La bulle qui s’échappe",
-                "pt-BR": "A bolha que escapa",
-                "pl": "Uciekający pęcherzyk",
-                "it": "La bolla che scappa"
-              },
-              "text": {
-                "en": "Tap the About logo seven times for an offline joke: the level bubble escapes its tube and travels across the screen. The closing message jokes about a surface not being level. The scene is separate from real sensor readings and calibration.",
-                "hu": "A Névjegy logójára hétszer koppintva offline poén indul: a buborék kiszökik a vízmérték csövéből és végigúszik a képernyőn. A záróüzenet a nem vízszintes felülettel viccel. A jelenet külön áll a szenzorméréstől és kalibrációtól.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Die Blase entkommt ihrer Röhre und wandert über den Bildschirm. Die Schlussbotschaft scherzt über eine schiefe Fläche. Die Szene ist von echten Sensorwerten und Kalibrierung getrennt.",
-                "es": "Toca siete veces el logo de Acerca de: la burbuja escapa del tubo y cruza la pantalla. El mensaje final bromea con una superficie desnivelada. La escena es independiente de sensores y calibración reales.",
-                "fr": "Touchez sept fois le logo dans À propos : la bulle sort du tube et traverse l’écran. Le message final plaisante sur une surface inclinée. La scène est distincte des capteurs et de l’étalonnage réels.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: a bolha sai do tubo e atravessa a tela. A mensagem final brinca com uma superfície desnivelada. A cena é separada dos sensores e calibração reais.",
-                "pl": "Dotknij logo w informacjach siedem razy: pęcherzyk ucieka z rurki i płynie po ekranie. Końcowa wiadomość żartuje z nierównej powierzchni. Scena jest oddzielona od rzeczywistych czujników i kalibracji.",
-                "it": "Tocca sette volte il logo in Informazioni: la bolla scappa dal tubo e attraversa lo schermo. Il messaggio finale scherza sulla superficie inclinata. La scena è separata da sensori e calibrazione reali."
               }
             }
           ]
@@ -5083,29 +4922,6 @@
                 "pl": "Lupa pomaga ustawić znacznik lub ramię zasłonięte palcem. Zablokuj do odczytu i odblokuj osobno. Pion/poziom, opcjonalnie włączony ekran i krótka wibracja blokady pomagają. Kamera nie jest potrzebna; pomiar offline.",
                 "it": "Una lente aiuta col segno o braccio sotto il dito. Blocca per leggere e sblocca esplicitamente. Verticale/orizzontale, schermo acceso facoltativo e breve vibrazione di aggancio/blocco aiutano. Niente fotocamera; misure offline."
               }
-            },
-            {
-              "id": "rp-egg",
-              "title": {
-                "en": "Just one more centimetre",
-                "hu": "Csak még egy centi",
-                "de": "Nur noch ein Zentimeter",
-                "es": "Solo un centímetro más",
-                "fr": "Encore un centimètre",
-                "pt-BR": "Só mais um centímetro",
-                "pl": "Jeszcze jeden centymetr",
-                "it": "Solo un altro centimetro"
-              },
-              "text": {
-                "en": "Tap the About logo seven times: a playful ruler reaches the screen edge and keeps stretching to fit extra centimetres. Close this offline scene to return. It does not extend the real measuring range or change calibration.",
-                "hu": "A Névjegy logójára hétszer koppintva játékos vonalzó ér a kijelző széléhez, majd újabb centiméterekért nyúlik tovább. Az offline jelenet bezárható. A valódi mérési tartományt és kalibrációt nem módosítja.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Ein Spaßlineal erreicht den Rand und dehnt sich für weitere Zentimeter. Schließe die Offline-Szene. Echter Messbereich und Kalibrierung ändern sich nicht.",
-                "es": "Toca siete veces el logo de Acerca de: una regla juguetona llega al borde y se estira para más centímetros. Cierra la escena sin conexión. No amplía la medición real ni cambia calibración.",
-                "fr": "Touchez sept fois le logo dans À propos : une règle amusante atteint le bord puis s’étire pour d’autres centimètres. Fermez la scène hors ligne. Elle n’étend pas la mesure réelle ni ne change l’étalonnage.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: uma régua divertida chega à borda e estica para mais centímetros. Feche a cena offline. Não amplia a medição real nem muda calibração.",
-                "pl": "Dotknij logo w informacjach siedem razy: żartobliwa linijka dochodzi do brzegu i rozciąga się o centymetry. Zamknij scenę offline. Nie rozszerza rzeczywistego pomiaru ani nie zmienia kalibracji.",
-                "it": "Tocca sette volte il logo in Informazioni: un righello scherzoso arriva al bordo e si allunga per altri centimetri. Chiudi la scena offline. Non estende la misura reale né cambia calibrazione."
-              }
             }
           ]
         },
@@ -5323,29 +5139,6 @@
                 "pt-BR": "Processamento e saturação limitam leituras; avisos sinalizam sobrecarga suspeita. A escala ambiental é educativa, não identifica a fonte. Use retrato/paisagem ou tela acordada. Em segundo plano pausa; sem permissão de microfone o cálculo SPL segue offline.",
                 "pl": "Przetwarzanie mikrofonu i przesterowanie ograniczają odczyty; ostrzeżenia wskazują przeciążenie. Orientacyjna skala jest edukacyjna, nie rozpoznaje źródła. Używaj pionu/poziomu lub włączonego ekranu. W tle pauzuje; bez mikrofonu kalkulator SPL nadal działa offline.",
                 "it": "Elaborazione e saturazione limitano le letture; gli avvisi segnalano possibile sovraccarico. La scala ambientale è educativa, non identifica la fonte. Usa verticale/orizzontale o schermo acceso. In background sospende; senza microfono il calcolo SPL resta offline."
-              }
-            },
-            {
-              "id": "sm-egg",
-              "title": {
-                "en": "Night-time noise joke",
-                "hu": "Éjszakai zajmérés poén",
-                "de": "Nächtlicher Lärmspaß",
-                "es": "Broma de ruido nocturno",
-                "fr": "Blague de bruit nocturne",
-                "pt-BR": "Piada de ruído noturno",
-                "pl": "Żart o nocnym hałasie",
-                "it": "Scherzo sul rumore notturno"
-              },
-              "text": {
-                "en": "Tap the About logo seven times for a sleeping character whose snoring makes a playful meter rise. The figures are animation, not real measurements. This offline scene uses no microphone and changes no measurement settings.",
-                "hu": "A Névjegy logójára hétszer koppintva alvó figura horkolását követi a játékos mérő. A számok animációk, nem valódi mérések. Az offline jelenet mikrofont nem használ és mérési beállítást nem módosít.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Das Schnarchen einer schlafenden Figur lässt einen Spaßpegel steigen. Zahlen sind Animation, keine Messung. Die Offline-Szene nutzt kein Mikrofon und verändert keine Messeinstellungen.",
-                "es": "Toca siete veces el logo de Acerca de: un personaje dormido hace subir un medidor con sus ronquidos. Las cifras son animación, no medidas reales. La escena sin conexión no usa micrófono ni cambia ajustes.",
-                "fr": "Touchez sept fois le logo dans À propos : le ronflement d’un dormeur fait monter un compteur amusant. Les chiffres sont animés, pas mesurés. La scène hors ligne n’utilise pas le microphone et ne change pas les réglages.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: o ronco de um personagem dormindo faz subir um medidor divertido. Números são animação, não medidas reais. A cena offline não usa microfone nem muda ajustes.",
-                "pl": "Dotknij logo w informacjach siedem razy: chrapanie śpiącej postaci podnosi żartobliwy miernik. Liczby są animacją, nie pomiarem. Scena offline nie używa mikrofonu ani nie zmienia ustawień.",
-                "it": "Tocca sette volte il logo in Informazioni: il russare di un personaggio alza un misuratore scherzoso. I numeri sono animazione, non misure. La scena offline non usa microfono né cambia impostazioni."
               }
             }
           ]
@@ -5565,29 +5358,6 @@
                 "pl": "Zgoda lokalizacji dotyczy tylko zależnych funkcji. Bez niej działa kompas magnetyczny i dostępny barometr. Bez barometru może działać wysokość GPS; bez prawdziwej północy zostaje magnetyczna. Obserwacja tylko podczas widocznego użycia, bez tras i historii pozycji.",
                 "it": "Il permesso di posizione riguarda solo funzioni dipendenti. Senza resta bussola magnetica e barometro disponibile. Senza barometro può restare altitudine GPS; senza nord vero resta magnetico. Osserva solo nell’uso visibile, senza percorsi né cronologia di posizione."
               }
-            },
-            {
-              "id": "ca-egg",
-              "title": {
-                "en": "North temporarily missing",
-                "hu": "Észak ideiglenesen nem található",
-                "de": "Norden vorübergehend verschwunden",
-                "es": "Norte temporalmente perdido",
-                "fr": "Nord momentanément introuvable",
-                "pt-BR": "Norte temporariamente perdido",
-                "pl": "Północ chwilowo zaginęła",
-                "it": "Nord temporaneamente introvabile"
-              },
-              "text": {
-                "en": "Tap the About logo seven times for a playful compass needle that drifts then spins faster. Its message jokes that north cannot be found. The offline scene uses no real sensor or location and changes no measurement or setting.",
-                "hu": "A Névjegy logójára hétszer koppintva játékos iránytűtű tér el és forog egyre gyorsabban. Az üzenet az eltűnt északkal viccel. Az offline jelenet nem használ valódi szenzort vagy helyadatot, mérést és beállítást nem változtat.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Eine Spaßnadel driftet und dreht schneller. Die Nachricht scherzt über verschwundenen Norden. Die Offline-Szene nutzt keine echten Sensor-/Standortdaten und ändert nichts.",
-                "es": "Toca siete veces el logo de Acerca de: una aguja juguetona deriva y gira más rápido. El mensaje bromea con perder el norte. La escena sin conexión no usa sensores ni ubicación reales ni cambia medidas o ajustes.",
-                "fr": "Touchez sept fois le logo dans À propos : une aiguille dérive puis tourne plus vite. Le message plaisante sur le nord introuvable. La scène hors ligne n’utilise ni capteur ni position réels et ne change rien.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: uma agulha divertida desvia e gira mais rápido. A mensagem brinca com o norte perdido. A cena offline não usa sensores nem localização reais e não muda medidas ou ajustes.",
-                "pl": "Dotknij logo w informacjach siedem razy: żartobliwa igła odchyla się i obraca szybciej. Wiadomość żartuje z zaginionej północy. Scena offline nie używa rzeczywistych czujników ani pozycji i nic nie zmienia.",
-                "it": "Tocca sette volte il logo in Informazioni: una lancetta scherzosa devia e gira più veloce. Il messaggio scherza sul nord introvabile. La scena offline non usa sensori o posizione reali e non cambia misure o impostazioni."
-              }
             }
           ]
         },
@@ -5805,29 +5575,6 @@
                 "pt-BR": "A sessão usa localização só no velocímetro ativo. Não precisa de mapa online nem conta JN86 e não guarda pontos ou histórico de viagem. Interrupções curtas podem retomar de estado válido; não inventa trechos incertos.",
                 "pl": "Sesja używa pozycji tylko przy aktywnym prędkościomierzu. Bez mapy online i konta JN86, bez punktów trasy i historii podróży. Krótkie przerwy można wznowić z poprawnego stanu; nie wymyśla niepewnych odcinków.",
                 "it": "La sessione usa posizione solo col tachimetro attivo. Non richiede mappa online o account JN86 e non conserva punti o cronologia di viaggio. Brevi interruzioni riprendono da stato valido; non inventa tratti incerti."
-              }
-            },
-            {
-              "id": "gps-egg",
-              "title": {
-                "en": "Speed-camera joke",
-                "hu": "Traffipax poén",
-                "de": "Blitzer-Spaß",
-                "es": "Broma del radar",
-                "fr": "Blague du radar",
-                "pt-BR": "Piada do radar",
-                "pl": "Żart z fotoradarem",
-                "it": "Scherzo dell’autovelox"
-              },
-              "text": {
-                "en": "Tap the About logo seven times: a drawn speedometer accelerates, a camera flash appears, then the speed falls with a joke about slowing too late. The offline animation uses no GPS and is not a real speed-camera detector.",
-                "hu": "A Névjegy logójára hétszer koppintva rajzolt sebességmérő gyorsul, vaku villan, majd a sebesség leesik a késői lassítás poénjával. Az offline animáció nem használ GPS-t, nem valódi traffipaxérzékelő.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Ein gezeichneter Tacho beschleunigt, ein Blitz erscheint und die Geschwindigkeit fällt mit einem Scherz über zu spätes Bremsen. Die Offline-Animation nutzt kein GPS und erkennt keine echten Blitzer.",
-                "es": "Toca siete veces el logo de Acerca de: velocímetro dibujado acelera, sale un flash y baja con una broma de frenar tarde. La animación sin conexión no usa GPS ni detecta radares reales.",
-                "fr": "Touchez sept fois le logo dans À propos : un compteur dessiné accélère, un flash apparaît puis la vitesse baisse avec une blague sur le freinage tardif. L’animation hors ligne n’utilise pas GPS et ne détecte pas les radars.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: velocímetro desenhado acelera, aparece flash e cai com piada de frear tarde. A animação offline não usa GPS nem detecta radares reais.",
-                "pl": "Dotknij logo w informacjach siedem razy: rysowany prędkościomierz przyspiesza, błyska aparat, potem spada z żartem o zbyt późnym zwolnieniu. Animacja offline nie używa GPS i nie wykrywa prawdziwych radarów.",
-                "it": "Tocca sette volte il logo in Informazioni: tachimetro disegnato accelera, appare un flash e cala con battuta sulla frenata tardiva. L’animazione offline non usa GPS e non rileva autovelox reali."
               }
             }
           ]
@@ -6116,29 +5863,6 @@
                 "pl": "Uruchamiasz testy z sukcesem, błędem, brakiem obsługi lub niepewnością. Sukces dotyczy jednej funkcji; obraz, dźwięk i wibracja wymagają twojej oceny. Bez certyfikacji całego telefonu i zgadywania zdrowia baterii z podstawowych danych.",
                 "it": "Avvii test con successo, errore, indisponibile o incerto. Successo vale solo per la funzione; immagini, suono e vibrazione richiedono il tuo giudizio. Non certifica tutto il telefono né inventa salute batteria da dati base."
               }
-            },
-            {
-              "id": "did-egg",
-              "title": {
-                "en": "An overly thorough check",
-                "hu": "Túl alapos ellenőrzés",
-                "de": "Eine allzu gründliche Prüfung",
-                "es": "Comprobación demasiado minuciosa",
-                "fr": "Vérification trop minutieuse",
-                "pt-BR": "Verificação detalhada demais",
-                "pl": "Zbyt dokładna kontrola",
-                "it": "Controllo troppo approfondito"
-              },
-              "text": {
-                "en": "Tap the About logo seven times for a fictional checklist that finishes by detecting the user. The offline joke does not run real hardware tests or change diagnostic results. Close it to return to the normal app.",
-                "hu": "A Névjegy logójára hétszer koppintva kitalált ellenőrzőlista végül a felhasználót is észleli. Az offline poén nem futtat valódi hardverpróbát és nem módosít eredményt. Bezárva visszatérhetsz az apphoz.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Eine fiktive Prüfliste entdeckt zuletzt den Benutzer. Der Offline-Scherz testet keine echte Hardware und ändert keine Ergebnisse. Schließe ihn zur Rückkehr.",
-                "es": "Toca siete veces el logo de Acerca de: una lista ficticia termina detectando al usuario. La broma sin conexión no prueba hardware ni cambia resultados. Ciérrala para volver.",
-                "fr": "Touchez sept fois le logo dans À propos : une liste fictive finit par détecter l’utilisateur. La blague hors ligne ne teste aucun matériel et ne change pas les résultats. Fermez pour revenir.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: uma lista fictícia termina detectando o usuário. A piada offline não testa hardware nem muda resultados. Feche para voltar.",
-                "pl": "Dotknij logo w informacjach siedem razy: fikcyjna lista wykrywa na końcu użytkownika. Żart offline nie testuje sprzętu ani nie zmienia wyników. Zamknij, by wrócić.",
-                "it": "Tocca sette volte il logo in Informazioni: una lista fittizia finisce rilevando l’utente. Lo scherzo offline non testa hardware né cambia risultati. Chiudi per tornare."
-              }
             }
           ]
         },
@@ -6356,29 +6080,6 @@
                 "pt-BR": "Compare pixels/arquivo e economia absoluta/percentual. Bytes finais só após salvar. Processe imagens com um perfil, veja resultados individuais e cancele próximas. Nomes seguros evitam colisões. Salve ou compartilhe arquivos prontos; processamento local.",
                 "pl": "Porównaj wymiary pikseli/pliku i oszczędność liczbową/procentową. Końcowe bajty po zapisie. Przetwarzaj obrazy jednym profilem, sprawdzaj osobne wyniki i anuluj dalsze. Bezpieczne nazwy zapobiegają kolizjom. Zapisz lub udostępnij gotowe pliki; przetwarzanie lokalne.",
                 "it": "Confronta pixel/file e risparmio assoluto/percentuale. Byte finali solo dopo salvataggio. Elabora più immagini con un profilo, risultati singoli e annullamento prima delle prossime. Nomi sicuri evitano collisioni. Salva o condividi file riusciti; elaborazione locale."
-              }
-            },
-            {
-              "id": "irc-egg",
-              "title": {
-                "en": "One-pixel compression joke",
-                "hu": "Egypixeles tömörítési poén",
-                "de": "Ein-Pixel-Kompressionsspaß",
-                "es": "Broma de compresión a un píxel",
-                "fr": "Blague de compression à un pixel",
-                "pt-BR": "Piada de compressão a um pixel",
-                "pl": "Żart z kompresją do piksela",
-                "it": "Scherzo di compressione a un pixel"
-              },
-              "text": {
-                "en": "Tap the About logo seven times: a built-in sample picture gets comically compressed until one large pixel remains. The offline surprise processes no personal image and changes no real output or settings.",
-                "hu": "A Névjegy logójára hétszer koppintva beépített mintakép tömörödik viccesen egy nagy pixelig. Az offline meglepetés nem dolgoz fel saját képet, valódi eredményt és beállítást nem változtat.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Ein Musterbild wird scherzhaft bis zu einem großen Pixel komprimiert. Die Offline-Überraschung nutzt kein persönliches Bild und verändert keine Ergebnisse oder Einstellungen.",
-                "es": "Toca siete veces el logo de Acerca de: imagen de muestra se comprime cómicamente hasta un píxel grande. La sorpresa sin conexión no usa fotos personales ni cambia archivos o ajustes reales.",
-                "fr": "Touchez sept fois le logo dans À propos : une image intégrée se compresse comiquement jusqu’à un gros pixel. La surprise hors ligne n’utilise aucune image personnelle ni ne change les résultats ou réglages.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: amostra se comprime de modo cômico até um pixel grande. A surpresa offline não usa imagem pessoal nem muda arquivos ou ajustes reais.",
-                "pl": "Dotknij logo w informacjach siedem razy: próbny obraz komicznie kompresuje się do dużego piksela. Niespodzianka offline nie używa prywatnych obrazów ani nie zmienia wyników lub ustawień.",
-                "it": "Tocca sette volte il logo in Informazioni: immagine campione si comprime comicamente fino a un grande pixel. La sorpresa offline non usa immagini personali né cambia risultati o impostazioni."
               }
             }
           ]
@@ -6598,29 +6299,6 @@
                 "pl": "Dźwięk pozostaje na urządzeniu do własnego eksportu lub udostępnienia. Mikrofon związany z jawnym nagraniem; bez nagrywania rozmów i ukrytej obserwacji. Pliki, nazwy, tagi i znaczniki zostają do odtwarzania i porządkowania.",
                 "it": "Il suono resta sul dispositivo fino al tuo export o condivisione. Microfono legato alla registrazione esplicita e visibile; niente chiamate registrate o sorveglianza nascosta. File, nomi, tag e segnalibri restano per riproduzione e organizzazione."
               }
-            },
-            {
-              "id": "vr-egg",
-              "title": {
-                "en": "The tangled cassette",
-                "hu": "A kigubancolódott kazetta",
-                "de": "Die verknotete Kassette",
-                "es": "El casete enredado",
-                "fr": "La cassette emmêlée",
-                "pt-BR": "A fita emaranhada",
-                "pl": "Splątana kaseta",
-                "it": "La cassetta aggrovigliata"
-              },
-              "text": {
-                "en": "Tap the About logo seven times for a drawn analogue cassette whose reels turn until its tape tangles. The offline joke suggests going digital. It uses no microphone and leaves your real recordings unchanged.",
-                "hu": "A Névjegy logójára hétszer koppintva rajzolt analóg kazetta orsói forognak, majd kigubancolódik a szalag. Az offline poén digitális váltást javasol. Mikrofont nem használ, valódi felvételt nem módosít.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Eine gezeichnete Kassette dreht, bis sich das Band verheddert. Der Offline-Scherz empfiehlt Digitaltechnik. Kein Mikrofon, echte Aufnahmen unverändert.",
-                "es": "Toca siete veces el logo de Acerca de: un casete dibujado gira hasta enredarse. La broma sin conexión propone pasarse a digital. No usa micrófono ni cambia grabaciones reales.",
-                "fr": "Touchez sept fois le logo dans À propos : une cassette dessinée tourne puis s’emmêle. La blague hors ligne suggère le numérique. Aucun microphone ni modification des enregistrements.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: cassete desenhado gira até a fita embolar. A piada offline sugere o digital. Não usa microfone nem altera gravações reais.",
-                "pl": "Dotknij logo w informacjach siedem razy: rysowana kaseta obraca się, aż taśma się splącze. Żart offline sugeruje technikę cyfrową. Bez mikrofonu i zmian nagrań.",
-                "it": "Tocca sette volte il logo in Informazioni: cassetta disegnata gira finché il nastro si aggroviglia. Lo scherzo offline propone il digitale. Non usa microfono né cambia registrazioni reali."
-              }
             }
           ]
         },
@@ -6838,29 +6516,6 @@
                 "pt-BR": "Use nomes clássicos ou salve nome, BPM, compasso e acento/subdivisão. Carregue, edite ou apague; carregar não inicia som. Metrônomo iniciado pode seguir tela apagada/em segundo plano com Parar e Pausa/Retomar suportados. Guarda predefinições, não histórico de prática.",
                 "pl": "Użyj klasycznych nazw tempa lub zapisz nazwę, BPM, metrum i akcent/podział. Wczytaj, edytuj lub usuń; wczytanie nie uruchamia dźwięku. Uruchomiony metronom działa z wygaszonym ekranem/w tle z powiadomieniem Stop i obsługiwaną Pauzą/Wznów. Zapisane są szablony, nie historia ćwiczeń.",
                 "it": "Usa nomi classici o salva nome, BPM, metro e accento/suddivisione. Carica, modifica o elimina; caricare non avvia suono. Metronomo avviato continua a schermo spento/in background con Stop e Pausa/Riprendi supportati. Salva preimpostazioni, non cronologia di pratica."
-              }
-            },
-            {
-              "id": "tm-egg",
-              "title": {
-                "en": "Runaway metronome",
-                "hu": "Elszabadult metronóm",
-                "de": "Das außer Kontrolle geratene Metronom",
-                "es": "Metrónomo desbocado",
-                "fr": "Métronome déchaîné",
-                "pt-BR": "Metrônomo descontrolado",
-                "pl": "Uciekający metronom",
-                "it": "Metronomo impazzito"
-              },
-              "text": {
-                "en": "Tap the About logo seven times for a drawn metronome that speeds up until its pendulum flies off. This short offline joke is simulated and does not start an unsafe real click sequence or change your presets.",
-                "hu": "A Névjegy logójára hétszer koppintva rajzolt metronóm gyorsul, amíg az ingája lerepül. A rövid offline poén szimulált, nem indít veszélyes valódi kattogást és nem módosítja a mentett tempókat.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Ein gezeichnetes Metronom beschleunigt, bis das Pendel wegfliegt. Dieser Offline-Scherz ist simuliert, startet keine gefährlichen echten Klicks und verändert keine Vorlagen.",
-                "es": "Toca siete veces el logo de Acerca de: metrónomo dibujado acelera hasta que vuela el péndulo. La broma sin conexión es simulada, sin clics reales peligrosos ni cambios de preajustes.",
-                "fr": "Touchez sept fois le logo dans À propos : un métronome dessiné accélère jusqu’à envol du pendule. Blague hors ligne simulée, sans clics réels dangereux ni modification des préréglages.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: metrônomo desenhado acelera até o pêndulo voar. Piada offline simulada, sem cliques reais perigosos nem mudança de predefinições.",
-                "pl": "Dotknij logo w informacjach siedem razy: rysowany metronom przyspiesza, aż wahadło odlatuje. Symulowany żart offline bez niebezpiecznych prawdziwych klików i zmian szablonów.",
-                "it": "Tocca sette volte il logo in Informazioni: metronomo disegnato accelera finché il pendolo vola via. Scherzo offline simulato senza clic reali pericolosi né modifiche alle preimpostazioni."
               }
             }
           ]
@@ -7241,29 +6896,6 @@
                 "pl": "RC dolno/górnoprzepustowy lub RL daje częstotliwość graniczną z elementów, RLC idealny rezonans. Gwiazda↔trójkąt używa kierunku i trzech dodatnich oporów dla trzech oznaczonych odpowiedników tych samych węzłów. Modele podstawowe, nie pełny projekt.",
                 "it": "RC passa-basso/alto o RL dà taglio dai componenti, RLC ideale risonanza del collegamento indicato. Stella↔triangolo usa direzione e tre resistenze positive per tre equivalenti con stessi nodi. Modelli base, non progetto completo."
               }
-            },
-            {
-              "id": "et-egg",
-              "title": {
-                "en": "Magic smoke",
-                "hu": "Varázsfüst",
-                "de": "Magischer Rauch",
-                "es": "Humo mágico",
-                "fr": "Fumée magique",
-                "pt-BR": "Fumaça mágica",
-                "pl": "Magiczny dym",
-                "it": "Fumo magico"
-              },
-              "text": {
-                "en": "Tap the About logo seven times: a drawn LED gets brighter, flashes, smokes and goes out, illustrating the magic-smoke joke. This offline scene is not a wiring or safety demonstration and changes no calculation.",
-                "hu": "A Névjegy logójára hétszer koppintva rajzolt LED fényesedik, felvillan, elfüstöl és kialszik a varázsfüst poénjával. Az offline jelenet nem bekötési vagy biztonsági bemutató, számítást nem módosít.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Eine LED wird heller, blitzt, raucht und erlischt als Rauch-Scherz. Die Offline-Szene ist keine Anschluss-/Sicherheitsanleitung und ändert keine Rechnung.",
-                "es": "Toca siete veces el logo de Acerca de: LED dibujado brilla, destella, humea y se apaga con la broma del humo mágico. No es demostración de cableado ni seguridad y no cambia cálculos.",
-                "fr": "Touchez sept fois le logo dans À propos : LED dessinée brille, flashe, fume et s’éteint pour la blague de fumée magique. Scène hors ligne sans démonstration de câblage/sécurité ni changement de calcul.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: LED desenhado brilha, pisca, fuma e apaga na piada da fumaça mágica. Cena offline sem demonstração de ligação/segurança ou mudança de cálculo.",
-                "pl": "Dotknij logo w informacjach siedem razy: rysowana LED rozjaśnia, błyska, dymi i gaśnie w żarcie o magicznym dymie. Scena offline nie pokazuje podłączeń/bezpieczeństwa i nie zmienia obliczeń.",
-                "it": "Tocca sette volte il logo in Informazioni: LED disegnato brilla, lampeggia, fuma e si spegne nella battuta del fumo magico. Scena offline senza dimostrazione di cablaggio/sicurezza o cambi di calcolo."
-              }
             }
           ]
         },
@@ -7550,29 +7182,6 @@
                 "pt-BR": "Pratique ouvir caracteres ou seu Morse com letras, números e pontuação de rádio aleatórios. Limite conjunto, ajuste velocidade/tom e veja acertos/erros e percentual da sessão. Prática curta sem perfil permanente.",
                 "pl": "Ćwicz rozpoznawanie słyszanego znaku lub jego Morse’a z losowymi literami, cyframi i znakami radiowymi. Stopniowo ogranicz zestaw, ustaw tempo/ton i zobacz trafienia/błędy oraz procent sesji. Krótka nauka bez stałego profilu.",
                 "it": "Pratica riconoscere carattere udito o il suo Morse con lettere, numeri e punteggiatura radio casuali. Limita progressivamente insieme, regola velocità/tono e vedi corrette/errori e percentuale della sessione. Breve pratica senza profilo permanente."
-              }
-            },
-            {
-              "id": "rf-egg",
-              "title": {
-                "en": "Just one more antenna",
-                "hu": "Csak még egy antenna",
-                "de": "Nur noch eine Antenne",
-                "es": "Solo una antena más",
-                "fr": "Encore une antenne",
-                "pt-BR": "Só mais uma antena",
-                "pl": "Jeszcze jedna antena",
-                "it": "Solo un’altra antenna"
-              },
-              "text": {
-                "en": "Tap the About logo seven times: antennas appear one by one until a roof becomes comically crowded. The offline scene is not an antenna wiring diagram and changes no radio calculation or location data.",
-                "hu": "A Névjegy logójára hétszer koppintva antennák jelennek meg egyenként, amíg a tető viccesen zsúfolt lesz. Az offline jelenet nem antennabekötési rajz, rádiós számítást és helyadatot nem változtat.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Antennen füllen nach und nach ein Dach. Diese Offline-Szene ist kein Antennenanschlussplan und verändert keine Funkrechnung oder Ortsdaten.",
-                "es": "Toca siete veces el logo de Acerca de: antenas llenan un tejado de forma cómica. La escena sin conexión no es diagrama de conexión ni cambia cálculos o ubicación.",
-                "fr": "Touchez sept fois le logo dans À propos : des antennes encombrent un toit. La scène hors ligne n’est pas un schéma de branchement et ne change ni calcul ni position.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: antenas lotam um telhado comicamente. Cena offline não é esquema de ligação nem muda cálculos ou localização.",
-                "pl": "Dotknij logo w informacjach siedem razy: anteny komicznie zapełniają dach. Scena offline nie jest schematem podłączenia i nie zmienia obliczeń lub pozycji.",
-                "it": "Tocca sette volte il logo in Informazioni: antenne affollano comicamente un tetto. Scena offline non è schema di collegamento né cambia calcoli o posizione."
               }
             }
           ]
@@ -7953,29 +7562,6 @@
                 "pl": "Wybierz jedną z jedenastu gier, nową lub lokalny zapis. Zobacz odpowiednie punkty, wygrane/przegrane/remisy, czasy lub ruchy. Usuń wybrane statystyki za potwierdzeniem bez usuwania aktywnej gry. Dźwięk/wibracja osobno; gry czasu rzeczywistego pauzują w tle.",
                 "it": "Scegli undici giochi, nuovi o sessione locale ripresa. Vedi punti, vittorie/sconfitte/pareggi, tempi o mosse pertinenti. Elimina statistiche scelte con conferma senza cancellare partita attiva. Suono/vibrazione separati; giochi in tempo reale sospesi in background."
               }
-            },
-            {
-              "id": "mg-egg",
-              "title": {
-                "en": "Too many games at once",
-                "hu": "Túl sok játék egyszerre",
-                "de": "Zu viele Spiele auf einmal",
-                "es": "Demasiados juegos a la vez",
-                "fr": "Trop de jeux à la fois",
-                "pt-BR": "Jogos demais ao mesmo tempo",
-                "pl": "Za dużo gier naraz",
-                "it": "Troppi giochi insieme"
-              },
-              "text": {
-                "en": "Tap the About logo seven times: familiar game pieces invade a tic-tac-toe board until playful chaos fills it. This offline scene starts no real game and changes no scores, statistics or saved sessions.",
-                "hu": "A Névjegy logójára hétszer koppintva játékfigurák özönlenek a három-egy-sorban táblára vicces káoszig. Az offline jelenet nem indít valódi játékot, pontot, statisztikát vagy mentett állást nem módosít.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Spielteile fluten ein Tic-Tac-Toe-Brett bis zum Spaßchaos. Offline, ohne echtes Spiel oder Änderung von Punkten, Statistik und Spielstand.",
-                "es": "Toca siete veces el logo de Acerca de: piezas invaden tres en raya hasta el caos cómico. Sin conexión, no inicia juegos reales ni cambia puntos, estadísticas o partidas.",
-                "fr": "Touchez sept fois le logo dans À propos : pièces envahissent un morpion jusqu’au chaos amusant. Hors ligne, sans vraie partie ni changement de scores, statistiques ou sauvegardes.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: peças invadem jogo da velha até caos divertido. Offline, sem jogo real nem mudança de pontos, estatísticas ou sessões.",
-                "pl": "Dotknij logo w informacjach siedem razy: elementy gier zalewają kółko i krzyżyk do żartobliwego chaosu. Offline, bez prawdziwej gry i zmian punktów, statystyk lub zapisów.",
-                "it": "Tocca sette volte il logo in Informazioni: pezzi invadono tris fino al caos scherzoso. Offline, senza partita reale né modifiche di punti, statistiche o salvataggi."
-              }
             }
           ]
         },
@@ -8286,29 +7872,6 @@
                 "pl": "Magazyn i rozpoznawanie lokalne bez konta i serwera. Kamera do skanu, nie ręcznej pozycji. Poprawione powiązania są edytowalnymi sugestiami; obrazy nie zostają automatycznie na długo. Błąd zapisu nie jest udaną zmianą.",
                 "it": "Scorte e riconoscimento locali senza account o analisi server. Fotocamera per scan, non manuale. Associazioni corrette riusate come suggerimenti modificabili; immagini non conservate automaticamente a lungo. Salvataggio fallito non è modifica riuscita."
               }
-            },
-            {
-              "id": "inv-egg",
-              "title": {
-                "en": "Just in case",
-                "hu": "Biztos, ami biztos",
-                "de": "Sicher ist sicher",
-                "es": "Por si acaso",
-                "fr": "Au cas où",
-                "pt-BR": "Por garantia",
-                "pl": "Na wszelki wypadek",
-                "it": "Per sicurezza"
-              },
-              "text": {
-                "en": "Tap the About logo seven times: supplies fill a shelf one by one until it becomes crowded and bends slightly. This offline joke changes no real inventory, quantities or reminders.",
-                "hu": "A Névjegy logójára hétszer koppintva készletek töltik meg egyenként a polcot, amíg zsúfolttá válik és kissé meghajlik. Az offline poén nem módosít valódi készletet, mennyiséget vagy emlékeztetőt.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Vorräte füllen ein Regal bis es überfüllt leicht biegt. Offline-Scherz ohne Änderung von Bestand, Mengen oder Erinnerungen.",
-                "es": "Toca siete veces el logo de Acerca de: suministros llenan una estantería hasta doblarla ligeramente. Broma sin conexión sin cambiar inventario, cantidades o avisos.",
-                "fr": "Touchez sept fois le logo dans À propos : provisions remplissent une étagère jusqu’à la courber légèrement. Blague hors ligne sans modifier stock, quantités ou rappels.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: suprimentos enchem prateleira até curvá-la levemente. Piada offline sem mudar estoque, quantidades ou lembretes.",
-                "pl": "Dotknij logo w informacjach siedem razy: zapasy zapełniają półkę aż lekko się zgina. Żart offline bez zmiany magazynu, ilości i przypomnień.",
-                "it": "Tocca sette volte il logo in Informazioni: scorte riempiono scaffale finché si piega leggermente. Scherzo offline senza cambiare inventario, quantità o promemoria."
-              }
             }
           ]
         },
@@ -8572,29 +8135,6 @@
                 "pt-BR": "Histórico, progresso, notas locais sem conta obrigatória. Exporte resumo legível ou backup/restauração offline validada; compras separadas pelo Play. Idade, peso, saúde não obrigatórios para base. Auxílio fitness, não diagnóstico.",
                 "pl": "Historia, postęp, notatki lokalne bez konta. Eksport czytelny lub kopia/przywracanie offline sprawdzonych danych; zakupy osobno przez Play. Wiek, waga i zdrowie nieobowiązkowe dla bazy. Pomoc fitness, nie diagnoza.",
                 "it": "Cronologia, progresso, note locali senza account obbligatorio. Export leggibile o backup/ripristino offline validato; acquisti separati via Play. Età, peso, salute non obbligatori per base. Aiuto fitness, non diagnosi."
-              }
-            },
-            {
-              "id": "wt-egg",
-              "title": {
-                "en": "A playful transformation in About",
-                "hu": "Tréfás átalakulás a Névjegyben",
-                "de": "Eine spielerische Verwandlung in Über die App",
-                "es": "Una transformación divertida en Acerca de",
-                "fr": "Une transformation amusante dans À propos",
-                "pt-BR": "Uma transformação divertida em Sobre",
-                "pl": "Zabawna przemiana w informacjach o aplikacji",
-                "it": "Una trasformazione scherzosa in Informazioni"
-              },
-              "text": {
-                "en": "Tap the About logo seven times for a short, roughly 4–5-second cartoon: a slim figure lifts a dumbbell, grows exaggerated muscles and bursts its shirt. It is a visual joke, not a claim about real training results. The scene works offline, can be closed and never changes your program or workout log; reduced motion uses still poses.",
-                "hu": "Koppints hétszer a Névjegy logójára: egy rövid, körülbelül 4–5 másodperces rajzolt jelenetben vézna figura kézisúlyzózni kezd, túlzottan izmos lesz, majd szétszakad a pólója. Ez vizuális poén, nem valódi edzéseredmény ígérete. Offline működik, bezárható, programot és edzésnaplót nem módosít; csökkentett mozgásnál állóképek mesélik el.",
-                "de": "Tippe siebenmal auf das Logo unter Über die App: In einer etwa 4–5 Sekunden langen Zeichentrickszene hebt eine schmale Figur eine Hantel, bekommt übertriebene Muskeln und sprengt ihr Shirt. Das ist ein visueller Witz, kein Versprechen realer Trainingsergebnisse. Die Szene ist offline und schließbar, ändert weder Programm noch Trainingsprotokoll; bei reduzierter Bewegung werden Standbilder gezeigt.",
-                "es": "Toca siete veces el logo de Acerca de: un dibujo de unos 4–5 segundos muestra una figura delgada levantando una mancuerna, creciendo músculos exagerados y rompiendo su camiseta. Es una broma visual, no una promesa de resultados reales. Funciona sin conexión, se puede cerrar y no cambia el programa ni el registro; con movimiento reducido usa imágenes fijas.",
-                "fr": "Touchez sept fois le logo d’À propos : une scène dessinée d’environ 4–5 secondes montre un personnage mince soulevant un haltère, gagnant des muscles exagérés et faisant éclater son tee-shirt. C’est une plaisanterie visuelle, pas une promesse de résultats réels. Elle fonctionne hors ligne, se ferme et ne modifie ni programme ni journal ; en mouvement réduit, elle utilise des images fixes.",
-                "pt-BR": "Toque sete vezes no logo de Sobre: uma cena desenhada de cerca de 4–5 segundos mostra uma figura magra levantando um halter, ganhando músculos exagerados e rasgando a camiseta. É uma piada visual, não uma promessa de resultados reais. Funciona offline, pode ser fechada e não muda o programa nem o diário; com movimento reduzido usa imagens estáticas.",
-                "pl": "Dotknij siedem razy logo w informacjach o aplikacji: rysunkowa scena trwająca około 4–5 sekund pokazuje szczupłą postać podnoszącą hantel, przesadnie rosnące mięśnie i pękającą koszulkę. To wizualny żart, nie obietnica rzeczywistych wyników. Działa offline, można ją zamknąć i nie zmienia programu ani dziennika; przy ograniczonym ruchu używa nieruchomych pozycji.",
-                "it": "Tocca sette volte il logo in Informazioni: una scena disegnata di circa 4–5 secondi mostra una figura esile sollevare un manubrio, sviluppare muscoli esagerati e strappare la maglietta. È una battuta visiva, non una promessa di risultati reali. Funziona offline, si può chiudere e non modifica programma o diario; con movimento ridotto usa immagini fisse."
               }
             }
           ]
@@ -8906,29 +8446,6 @@
                 "pl": "Własne/zainstalowane przepisy, listy, plany offline bez konta/ReadyStock. Sprawdzone aktualizacje zachowują ulubione/oceny/historię. Kopia przepisów/składników/resztek/planów/blokad/zakupów/notatek i przegląd przywrócenia. Zakupy osobno, braki treści oznaczone. Oferta i rozpoznawanie jeszcze przygotowywane/sprawdzane.",
                 "it": "Proprie/installate ricette, liste, piani offline senza account/ReadyStock. Aggiornamenti validati mantengono preferiti/voti/cronologia. Backup ricette/ingredienti/avanzi/piani/blocchi/spesa/note e verifica ripristino. Acquisti separati, contenuto assente segnalato. Offerta e riconoscimento ancora preparati/verificati."
               }
-            },
-            {
-              "id": "mp-egg",
-              "title": {
-                "en": "An About portrait surprise",
-                "hu": "Portrémeglepetés a Névjegyben",
-                "de": "Porträtüberraschung unter Über die App",
-                "es": "Retrato sorpresa en Acerca de",
-                "fr": "Portrait surprise dans À propos",
-                "pt-BR": "Retrato surpresa em Sobre",
-                "pl": "Portret w informacjach",
-                "it": "Ritratto sorpresa in Informazioni"
-              },
-              "text": {
-                "en": "Tap the About logo seven times for the planned offline portrait scene of JN86VI’s wife and chief cook. Close the stylised portrait to return; recipes, plans and personal data stay unchanged.",
-                "hu": "A Névjegy logójára hétszer koppintva a tervezett offline jelenet JN86VI feleségének és főszakácsának stilizált portréját mutatja. Bezárható; recepteket, terveket és személyes adatokat nem módosít.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo für die geplante Offline-Porträtszene von JN86VIs Frau und Chefköchin. Schließe sie zur Rückkehr; Rezepte, Pläne und Daten bleiben gleich.",
-                "es": "Toca siete veces el logo de Acerca de para la escena prevista del retrato de la esposa y cocinera de JN86VI. Cierra para volver; recetas, planes y datos no cambian.",
-                "fr": "Touchez sept fois le logo dans À propos pour le portrait prévu de l’épouse et cheffe de JN86VI. Fermez pour revenir ; recettes, plans et données inchangés.",
-                "pt-BR": "Toque sete vezes no logo em Sobre para a cena prevista do retrato da esposa e cozinheira de JN86VI. Feche para voltar; receitas, planos e dados não mudam.",
-                "pl": "Dotknij logo w informacjach siedem razy dla planowanej sceny portretu żony i kucharki JN86VI. Zamknij, by wrócić; przepisy, plany i dane bez zmian.",
-                "it": "Tocca sette volte il logo in Informazioni per la scena prevista del ritratto della moglie e cuoca di JN86VI. Chiudi per tornare; ricette, piani e dati invariati."
-              }
             }
           ]
         },
@@ -9146,29 +8663,6 @@
                 "pt-BR": "Anexe fotos antes/durante/depois ou documentos. Resumo legível/PDF com cliente/trabalho/tarefas/material/tempo/custos/notas, não nota fiscal. Backup trabalhos, clientes, modelos offline e revise restauração. Anexos podem precisar de arquivos separados; sem envio automático.",
                 "pl": "Dołącz zdjęcia przed/w trakcie/po lub dokumenty. Czytelne podsumowanie/PDF z klientem/pracą/zadaniami/materiałami/czasem/kosztami/notatkami, nie faktura. Kopia prac, klientów, szablonów offline i przegląd przywrócenia. Załączniki mogą wymagać osobnych plików; bez automatycznego wysyłania.",
                 "it": "Allega foto prima/durante/dopo o documenti. Riepilogo leggibile/PDF con cliente/lavoro/attività/materiali/tempo/costi/note, non fattura. Backup lavori, clienti, modelli offline e verifica ripristino. Allegati possono richiedere file separati; nessun invio automatico."
-              }
-            },
-            {
-              "id": "wm-egg",
-              "title": {
-                "en": "Done, then back in progress",
-                "hu": "Kész, majd újra folyamatban",
-                "de": "Fertig, dann wieder in Arbeit",
-                "es": "Terminado, luego otra vez activo",
-                "fr": "Terminé, puis à reprendre",
-                "pt-BR": "Pronto, depois em andamento",
-                "pl": "Gotowe, potem znów w toku",
-                "it": "Finito, poi di nuovo attivo"
-              },
-              "text": {
-                "en": "Tap the About logo seven times: a drawn worker checks Done, puts tools away, then hears something fall and the job becomes In progress again. This offline scene changes no real job, deadline or saved record.",
-                "hu": "A Névjegy logójára hétszer koppintva rajzolt dolgozó kipipálja a Kész állapotot és elteszi a szerszámot, majd leeső tárgy hallatán újra Folyamatban lesz. Az offline jelenet valódi munkát, határidőt és rekordot nem módosít.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Arbeiter markiert Fertig, legt Werkzeug weg, etwas fällt, wieder In Arbeit. Offline, ohne echte Aufträge, Fristen oder Daten zu ändern.",
-                "es": "Toca siete veces el logo de Acerca de: trabajador marca Terminado, guarda herramientas, algo cae y vuelve Activo. Offline sin cambiar trabajos, plazos o registros reales.",
-                "fr": "Touchez sept fois le logo dans À propos : travailleur coche Terminé, range, quelque chose tombe et revient En cours. Offline sans modifier vrais travaux, dates ou données.",
-                "pt-BR": "Toque sete vezes no logo em Sobre: trabalhador marca Pronto, guarda ferramentas, algo cai e volta Em andamento. Offline sem mudar trabalhos, prazos ou registros.",
-                "pl": "Dotknij logo w informacjach siedem razy: pracownik zaznacza Gotowe, chowa narzędzia, coś spada i znów W toku. Offline bez zmian prac, terminów i danych.",
-                "it": "Tocca sette volte il logo in Informazioni: lavoratore segna Finito, ripone attrezzi, qualcosa cade e torna Attivo. Offline senza cambiare lavori, date o registri."
               }
             }
           ]
@@ -9433,29 +8927,6 @@
                 "pt-BR": "Salve perfis, histórico, combinações, ajustes em arquivo. Restaure tudo/categorias após prévia. Mesclar padrão, substituir confirmado. Nomes: ambos, existente ou salvo. Dados não dão compra sem anúncios.",
                 "pl": "Zapisz profile, historię, kombinacje, ustawienia do pliku. Przywróć wszystko/kategorie po podglądzie. Scalenie domyślnie, zastąpienie potwierdzone. Nazwy: oba, istniejące lub zapisane. Dane nie dają zakupu bez reklam.",
                 "it": "Salva profili, cronologia, combinazioni, impostazioni al file. Ripristina tutto/categorie dopo anteprima. Unire base, sostituire confermato. Nomi: entrambi, esistente o salvato. Dati non danno acquisto senza pubblicità."
-              }
-            },
-            {
-              "id": "lf-egg",
-              "title": {
-                "en": "The JN86 draw",
-                "hu": "A JN86 sorsolás",
-                "de": "Die JN86-Ziehung",
-                "es": "El sorteo JN86",
-                "fr": "Le tirage JN86",
-                "pt-BR": "O sorteio JN86",
-                "pl": "Losowanie JN86",
-                "it": "L’estrazione JN86"
-              },
-              "text": {
-                "en": "Tap the About logo seven times for a drawn lottery drum releasing four balls marked J, N, 8 and 6. They spell JN86; this offline scene is not a generated lottery combination and changes no profiles or saved numbers.",
-                "hu": "A Névjegy logójára hétszer koppintva rajzolt sorsológömb négy J, N, 8, 6 golyót ad. JN86-ot formáznak; offline jelenet, nem lottókombináció, profilt vagy mentett számot nem módosít.",
-                "de": "Tippe siebenmal auf das Über-die-App-Logo: Trommel gibt J,N,8,6 als JN86 aus. Offline, keine Lottozahlen, keine Profil-/Datenänderung.",
-                "es": "Toca siete veces el logo: bombo dibujado da J,N,8,6 formando JN86. Offline, no combinación real ni cambios de perfiles/números.",
-                "fr": "Touchez sept fois le logo : tambour dessiné donne J,N,8,6, soit JN86. Offline, pas combinaison réelle ni changement de profils/nombres.",
-                "pt-BR": "Toque sete vezes no logo: globo desenhado dá J,N,8,6 formando JN86. Offline, não combinação real nem mudança de perfis/números.",
-                "pl": "Dotknij logo siedem razy: kula losująca daje J,N,8,6 jako JN86. Offline, nie prawdziwa kombinacja ani zmiana profili/liczb.",
-                "it": "Tocca logo sette volte: urna disegnata dà J,N,8,6 formando JN86. Offline, non combinazione reale né modifica di profili/numeri."
               }
             }
           ]

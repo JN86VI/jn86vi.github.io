@@ -28,10 +28,11 @@ assert.deepEqual(appPages.locales, locales);
 assert.deepEqual(Object.keys(appPages.apps), apps.map(a => a.id));
 const catalog = JSON.parse(fs.readFileSync(path.join(root, 'docs/w7-portfolio/catalog.json'), 'utf8'));
 assert.equal(catalog.apps.length, 25);
+const inDevelopment = new Set(['unit-converter', 'ott-e', 'fraction-calculator', 'age-date-toolkit', 'material-calculator']);
 for (const app of apps) {
   const entry = appPages.apps[app.id];
-  assert.equal(app.productStage, ['unit-converter', 'ott-e', 'fraction-calculator', 'age-date-toolkit'].includes(app.id) ? 'development' : 'planned');
-  assert.equal(entry.planned, !['unit-converter', 'ott-e', 'fraction-calculator', 'age-date-toolkit'].includes(app.id));
+  assert.equal(app.productStage, inDevelopment.has(app.id) ? 'development' : 'planned');
+  assert.equal(entry.planned, !inDevelopment.has(app.id));
   assert.deepEqual(Object.keys(entry.copy).sort(), [...locales].sort());
   assert(fs.existsSync(path.join(root, 'privacy', `${app.id}.html`)), `${app.id}: missing privacy page`);
   for (const locale of locales) {
@@ -48,6 +49,13 @@ assert.deepEqual(apps.map(a => a.name), names);
 assert.equal(new Set(apps.map(a => a.id)).size, 25);
 const soonApps = apps.filter(a => a.status === 'soon');
 const releasedApps = apps.filter(a => a.status === 'released');
+const showcaseOrder = ['fraction-calculator', 'age-date-toolkit', 'material-calculator'];
+assert.deepEqual(soonApps.map(a=>a.id).sort(), [...showcaseOrder].sort());
+assert.deepEqual(releasedApps.map(a=>a.id), ['unit-converter','ott-e']);
+const showcaseNames = showcaseOrder.map(id => apps.find(a=>a.id===id).name);
+const home = fs.readFileSync(path.join(root,'index.html'),'utf8');
+const counts = {all:25,released:2,soon:3,creating:20};
+assert.deepEqual(Object.fromEntries([...home.matchAll(/data-app-count="(\w+)">(\d+)</g)].map(m=>[m[1],+m[2]])),counts);
 const iconInventory = JSON.parse(fs.readFileSync(path.join(root,'assets/icon-inventory.json'),'utf8')).apps;
 assert.deepEqual(iconInventory.map(a=>a.app_id),apps.map(a=>a.id));
 assert.equal(new Set(iconInventory.map(a=>a.sha256)).size,25,'Each app has its own icon');
@@ -147,10 +155,10 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
   const lifecycleOnly = process.env.LIFECYCLE_ONLY === '1';
   try {
     if (!lifecycleOnly) {
-    for (const width of [320,390,1440]) {
+    for (const width of [320,768,1440]) {
       await page.setViewportSize({width,height:1000});
       for (const route of [...routes,...otherRoutes]) {
-        const response = await page.goto(new URL(route,base).href,{waitUntil:'networkidle'});
+        const response = await page.goto(new URL(route,base).href);
         assert.equal(response.status(),200,route);
         const app = apps.find(a=>route === `apps/${a.id}.html`);
         const selector = await page.locator('#languageSelect,#detailLanguage,#privacyLanguage').count();
@@ -237,9 +245,10 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
             }
           }
           if (route==='index.html') {
-            assert.deepEqual(await page.locator('.showcase-card strong').allTextContents(),soonApps.map(a=>a.name));
-            assert.equal(await page.locator('[data-app-count="soon"]').innerText(),String(soonApps.length));
-            assert.equal(await page.locator('[data-app-count="creating"]').innerText(),String(apps.filter(a=>a.status==='creating').length));
+            assert.deepEqual(await page.locator('.showcase-card strong').allTextContents(), showcaseNames);
+            for (const [key,value] of Object.entries(counts)) {
+              assert.equal(await page.locator(`[data-app-count="${key}"]`).innerText(),String(value));
+            }
             const entry=page.locator('a[href="released.html"]');
             assert.equal(await entry.count(),1);
             assert.equal(await entry.innerText(),await page.evaluate(l=>ui[l].released_apps,lang));
@@ -263,7 +272,7 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
             assert.equal(await page.locator('[data-app-availability]').textContent(),await page.evaluate(([l,id,status])=>{
               if (apps.find(a=>a.id===id).showDevelopmentStatus === false) return '';
               const entry = appPages.apps[id];
-              return entry && !entry.planned && status !== 'released' ? appPages.labels[l][id === 'unit-converter' ? 'internal' : 'soon'] : ui[l][appAvailabilityKey(status)];
+              return status === 'soon' && entry.closedTesting ? appPages.labels[l].soon : ui[l][appAvailabilityKey(status)];
             },[lang,app.id,app.status]));
             assert.equal(await page.locator('meta[name="description"]').getAttribute('content'),app.copy[lang].summary);
             assert((await page.title()).includes(await page.evaluate(l=>ui[l].detail_title,lang)));
@@ -327,8 +336,8 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
     await page.goto(new URL('index.html',base).href);
     const enteringSoon = apps.find(a=>a.status==='creating');
     await page.evaluate(id=>{apps.find(a=>a.id===id).status='soon';setLanguage('hu');},enteringSoon.id);
-    const expectedSoon = apps.filter(a=>a.status==='soon'||a.id===enteringSoon.id);
-    assert.deepEqual(await page.locator('.showcase-card strong').allTextContents(),expectedSoon.map(a=>a.name));
+    const expectedSoon = [...showcaseNames, enteringSoon.name];
+    assert.deepEqual(await page.locator('.showcase-card strong').allTextContents(),expectedSoon);
     assert.equal(await page.locator('[data-app-count="soon"]').innerText(),String(expectedSoon.length));
     console.log(`PASS: rendered links and 200 card/back pairs`);
     }
@@ -356,9 +365,9 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
       }
     }
     await page.goto(new URL('index.html',base).href);
-    await page.evaluate(()=>{apps.find(a=>a.id==='ott-e').status='released';setLanguage('hu');});
-    const remainingSoon = soonApps.filter(a=>a.id!=='ott-e');
-    assert.deepEqual(await page.locator('.showcase-card strong').allTextContents(),remainingSoon.map(a=>a.name),'Only the released app must leave Coming soon');
+    await page.evaluate(id=>{apps.find(a=>a.id===id).status='released';setLanguage('hu');},showcaseOrder[0]);
+    const remainingSoon = showcaseNames.slice(1);
+    assert.deepEqual(await page.locator('.showcase-card strong').allTextContents(),remainingSoon,'Only the released app must leave Coming soon');
     assert.equal(await page.locator('#homeShowcase').isHidden(),remainingSoon.length===0);
     await page.evaluate(()=>{apps.filter(a=>a.status==='soon').forEach(a=>{a.status='released';});setLanguage('hu');});
     assert.equal(await page.locator('.showcase-card').count(),0,'No Coming soon apps leaves an empty showcase');
@@ -380,7 +389,7 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
         await page.locator('#languageSelect').selectOption('hu');
         await page.screenshot({path:path.join(output,file+'.png'),fullPage:true});
       }
-      fs.writeFileSync(path.join(output,'validation.json'),JSON.stringify({base,apps:25,canonicalIcons:25,translations:200,states,lifecycleStates,releasedApps:releasedApps.length,localLinks,renderedLinks:renderedLinks.size,navigationPairs:lifecycleOnly?0:200,widths:lifecycleOnly?[320,1440]:[320,390,1440],errors},null,2));
+      fs.writeFileSync(path.join(output,'validation.json'),JSON.stringify({base,apps:25,canonicalIcons:25,translations:200,states,lifecycleStates,releasedApps:releasedApps.length,localLinks,renderedLinks:renderedLinks.size,navigationPairs:lifecycleOnly?0:200,widths:lifecycleOnly?[320,1440]:[320,768,1440],errors},null,2));
     }
     console.log(`PASS: ${states} browser states, ${lifecycleStates} lifecycle states, 25 icons, ${renderedLinks.size} rendered links, ${lifecycleOnly?0:200} card/back pairs, locale and keyboard checks`);
   } finally {await browser.close();}
