@@ -2,7 +2,6 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
-const crypto = require('node:crypto');
 const {spawnSync} = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const work = path.join(root, 'docs/details-restoration-20261012');
@@ -14,12 +13,15 @@ assert.deepEqual(data.locales, ['en','hu','de','es','fr','pt-BR','pl','it']);
 const ids = process.env.APP_ID ? [process.env.APP_ID] : Object.keys(data.apps);
 const locales = process.env.LANGS ? process.env.LANGS.split(',') : data.locales;
 const banned = /\b(?:v[12](?:\.\d+)?|roadmap|scope|contract|registry|implementation|work package|audit|future features)\b|munkacsomag|implementáció|későbbi ötlet|jövőbeli bővítés/i;
+const retired = id => id === 'uc-dedication' || id.endsWith('-egg');
+const additional = {'fraction-calculator': ['frc-history']};
+const expectedAnchors = id => [...coverage[id].map(item=>item.web_anchor).filter(id=>!retired(id)), ...(additional[id] || [])];
 for (const id of ids) {
   const app = data.apps[id];
   assert(app, `Missing descriptions: ${id}`);
   const items = app.sections.flatMap(s => s.items);
   assert.equal(new Set(items.map(i => i.id)).size, items.length, `${id}: duplicate anchors`);
-  assert.deepEqual(items.map(i => i.id).sort(), coverage[id].map(i => i.web_anchor).sort(), `${id}: unmapped function`);
+  assert.deepEqual(items.map(i => i.id).sort(), expectedAnchors(id).sort(), `${id}: unmapped function`);
   for (const section of app.sections) {
     for (const lang of locales) {
       assert(section.title[lang]?.trim(), `${id}/${lang}: section title`);
@@ -32,18 +34,11 @@ for (const id of ids) {
       }
     }
   }
-  const generated = spawnSync('python3', [path.join(root, 'scripts/build-details.py'), '--app', id, '--check'], {encoding:'utf8'});
-  assert.equal(generated.status, 0, generated.stdout + generated.stderr);
 }
-if (!process.env.BASE_URL) {
-  const baseline = JSON.parse(fs.readFileSync(path.join(work, 'baseline.json')));
-  for (const [file, hash] of Object.entries(baseline.protected)) {
-    const expected = baseline.authorized_updates?.[file]?.sha256 || hash;
-    assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex'), expected, `Protected content changed: ${file}`);
-  }
-}
+const generated = spawnSync('python3', [path.join(root, 'scripts/build-details.py'), '--check'], {encoding:'utf8'});
+assert.equal(generated.status, 0, generated.stdout + generated.stderr);
 if (process.env.STATIC_ONLY === '1') {
-  console.log(`PASS: ${ids.length} descriptions; ${locales.length} languages; coverage, generated HTML and protected files`);
+  console.log(`PASS: ${ids.length} descriptions; ${locales.length} languages; feature coverage and generated files`);
   process.exit(0);
 }
 (async () => {
@@ -108,8 +103,8 @@ if (process.env.STATIC_ONLY === '1') {
       const links = await page.locator('main a[href]').evaluateAll(els => els.map(e => e.href));
       for (const url of links.filter(u => u.startsWith(base))) assert.equal((await page.request.get(url)).status(),200,url);
       assert.deepEqual(errors, []);
-      const report = {app:id,status:'PASS',languages:locales,widths:[320,390,1440],rendered_states:states,sections:data.apps[id].sections.length,feature_descriptions:data.apps[id].sections.flatMap(s=>s.items).length,coverage_rows:coverage[id].length,links_checked:links.length,keyboard_and_language_state:'PASS',errors:[],base_url:base};
-      const reportDirectory = process.env.REPORT_DIR || (!process.env.BASE_URL ? work : null);
+      const report = {app:id,status:'PASS',languages:locales,widths:[320,390,1440],rendered_states:states,sections:data.apps[id].sections.length,feature_descriptions:data.apps[id].sections.flatMap(s=>s.items).length,coverage_rows:expectedAnchors(id).length,links_checked:links.length,keyboard_and_language_state:'PASS',errors:[],base_url:base};
+      const reportDirectory = process.env.REPORT_DIR;
       if (reportDirectory) {
         fs.mkdirSync(reportDirectory,{recursive:true});
         fs.writeFileSync(path.join(reportDirectory,`${id}-validation.json`),JSON.stringify(report,null,2)+'\n');

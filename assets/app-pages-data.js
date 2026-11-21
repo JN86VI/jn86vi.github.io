@@ -435,6 +435,7 @@ const appPages = {
     },
     "age-date-toolkit": {
       "planned": false,
+      "closedTesting": true,
       "monetization": "ads",
       "copy": {
         "en": {
@@ -559,6 +560,7 @@ const appPages = {
     },
     "fraction-calculator": {
       "planned": false,
+      "closedTesting": true,
       "monetization": "ads",
       "copy": {
         "en": {
@@ -682,7 +684,7 @@ const appPages = {
       }
     },
     "material-calculator": {
-      "planned": true,
+      "planned": false,
       "monetization": "ads",
       "copy": {
         "en": {
@@ -1432,57 +1434,57 @@ const appPages = {
         "en": {
           "workflow": "Choose a game from the collection of eleven. Start a puzzle such as Sudoku or Minesweeper, or a board game such as Reversi; each game uses its own rules and controls. Resume a saved session instead of restarting, view local results and statistics, or reset statistics after confirmation. Sound and vibration are optional where supported.",
           "limits": "Scores stay local. There is no online opponent, public leaderboard, chat, gambling or paid gameplay advantage. Availability of a statistic depends on the selected game.",
-          "data": "Saved game sessions, local records, statistics and preferences would stay on the device. No cloud account or cross-device game synchronization is planned.",
-          "permissions": "The core games do not need camera, microphone, location or contacts. Advertising and Play purchases are separate services; ads must not cover the board.",
+          "data": "Saved game sessions, local records, statistics, language and settings stay on the device. Android backup and device-to-device transfer may carry these app data; there is no JN86 account, online leaderboard, game server or JN86 cloud sync. A Google Play ad-removal entitlement is not restored from backup.",
+          "permissions": "The games use offline local gameplay, audio and haptics without camera, microphone, location or contacts. A banner uses the shared Google AdMob/UMP flow and must not cover the board. A one-time Google Play ad-removal purchase uses Play Billing; there is no interstitial, rewarded ad, subscription or paywalled game mode.",
           "plans": "The eleven named games are the first-version collection. Chess, daily challenges, achievements and online multiplayer are excluded."
         },
         "hu": {
           "workflow": "Válassz a tizenegy játék közül. Indíts például Sudokut vagy Aknakeresőt, illetve Reversit; mindegyik saját szabályt és vezérlést használ. Folytass mentett játékot újrakezdés helyett, nézd a helyi eredményt és statisztikát, vagy megerősítéssel nullázd a statisztikát. Hang és rezgés az alkalmas játékoknál opcionális.",
           "limits": "Pontszám helyben marad. Online ellenfél, nyilvános ranglista, chat, szerencsejáték és fizetős játékbeli előny nincs. Egy statisztika a választott játéktól függ.",
-          "data": "Mentett munkamenet, helyi rekord, statisztika és beállítás a készüléken maradna. Felhőfiók és készülékek közötti játékszinkron nincs.",
-          "permissions": "Az alapjátékok nem kérnek kamerát, mikrofont, helyet vagy kontaktokat. Reklám és Play-vásárlás külön szolgáltatás; reklám nem takarhatja a táblát.",
+          "data": "A mentett játékállások, helyi rekordok, statisztikák, nyelv és beállítások a készüléken maradnak. Az Android mentése és eszközről eszközre átvitele ezeket kezelheti; nincs JN86-fiók, online ranglista, játékszerver vagy JN86-felhőszinkron. A Google Play reklámmentesítési jogosultságát a mentés nem állítja helyre.",
+          "permissions": "A játékok offline, helyi játékmenetet, hangot és rezgést használnak kamera, mikrofon, hely vagy kontaktok nélkül. A banner a közös Google AdMob/UMP-folyamatot használja, és nem takarhatja a táblát. Az egyszeri Google Play-reklámmentesítés Play Billinget használ; nincs közbeiktatott vagy jutalmazott reklám, előfizetés vagy fizetős játékmód.",
           "plans": "Az első változat a tizenegy megnevezett játékot tartalmazza. Sakk, napi kihívás, achievement és online többjátékos mód nincs."
         },
         "de": {
           "workflow": "Wähle eines der elf Spiele. Starte Sudoku oder Minesweeper oder ein Brettspiel wie Reversi; jedes hat eigene Regeln und Steuerung. Setze gespeicherte Sitzungen fort, lies lokale Ergebnisse und Statistiken oder setze diese nach Bestätigung zurück. Ton und Vibration sind optional, sofern unterstützt.",
           "limits": "Punkte bleiben lokal. Keine Onlinegegner, öffentliche Rangliste, Chat, Glücksspiel oder gekaufter Spielvorteil. Statistiken hängen vom Spiel ab.",
-          "data": "Spielstände, Rekorde, Statistiken und Einstellungen sollen auf dem Gerät bleiben. Kein Cloudkonto oder geräteübergreifender Spielabgleich.",
-          "permissions": "Kernspiele brauchen weder Kamera, Mikrofon, Standort noch Kontakte. Werbung und Play-Käufe sind getrennt; Werbung darf das Brett nicht verdecken.",
+          "data": "Gespeicherte Spielsitzungen, lokale Rekorde, Statistiken, Sprache und Einstellungen bleiben auf dem Gerät. Android-Backup und Geräteübertragung können diese App-Daten übernehmen; es gibt kein JN86-Konto, keine Online-Rangliste, keinen Spielserver und keine JN86-Cloud-Synchronisierung. Die Google-Play-Berechtigung zur Werbeentfernung wird nicht aus dem Backup wiederhergestellt.",
+          "permissions": "Die Spiele verwenden Offline-Spielabläufe, lokalen Ton und Vibration ohne Kamera, Mikrofon, Standort oder Kontakte. Ein Banner nutzt den gemeinsamen Google-AdMob/UMP-Ablauf und darf das Spielfeld nicht verdecken. Der einmalige Kauf zur Werbeentfernung läuft über Google Play Billing; es gibt keine Interstitial- oder belohnte Werbung, kein Abo und keinen kostenpflichtigen Spielmodus.",
           "plans": "Die elf benannten Spiele bilden die erste Version. Schach, tägliche Herausforderungen, Erfolge und Online-Multiplayer fehlen."
         },
         "es": {
           "workflow": "Elige uno de once juegos. Inicia Sudoku, Buscaminas o Reversi; cada juego tiene reglas y controles propios. Continúa una sesión guardada, consulta resultados y estadísticas locales o reinícialas tras confirmar. Sonido y vibración son opcionales cuando corresponda.",
           "limits": "Puntuaciones locales. Sin rivales online, clasificaciones públicas, chat, apuestas ni ventajas de pago. Las estadísticas dependen del juego.",
-          "data": "Partidas, récords, estadísticas y ajustes quedarían en el dispositivo. Sin cuenta en nube ni sincronización entre dispositivos.",
-          "permissions": "Los juegos no necesitan cámara, micrófono, ubicación ni contactos. Anuncios y compras Play separados; no pueden tapar el tablero.",
+          "data": "Las partidas guardadas, récords locales, estadísticas, idioma y ajustes permanecen en el dispositivo. La copia de seguridad y la transferencia entre dispositivos de Android pueden incluir estos datos; no hay cuenta JN86, clasificación online, servidor de juego ni sincronización en la nube de JN86. La compra de eliminación de anuncios de Google Play no se restaura desde la copia.",
+          "permissions": "Los juegos funcionan sin conexión con audio y vibración locales, sin cámara, micrófono, ubicación ni contactos. Un banner usa el flujo común de Google AdMob/UMP y no puede cubrir el tablero. La compra única para quitar anuncios usa Google Play Billing; no hay anuncios intersticiales o bonificados, suscripción ni modo de juego de pago.",
           "plans": "Los once juegos forman la primera versión. Ajedrez, retos diarios, logros y multijugador online están excluidos."
         },
         "fr": {
           "workflow": "Choisissez parmi onze jeux. Lancez Sudoku, Démineur ou Reversi ; chacun possède règles et commandes propres. Reprenez une partie, consultez résultats et statistiques locales ou réinitialisez-les après confirmation. Sons et vibrations sont facultatifs si pris en charge.",
           "limits": "Scores locaux. Aucun adversaire en ligne, classement public, chat, jeu d’argent ou avantage payé. Les statistiques dépendent du jeu.",
-          "data": "Parties, records, statistiques et préférences resteraient sur l’appareil. Aucun compte cloud ni synchronisation entre appareils.",
-          "permissions": "Les jeux n’exigent ni caméra, microphone, localisation ni contacts. Publicités et achats Play sont distincts ; aucune publicité sur le plateau.",
+          "data": "Les parties enregistrées, records locaux, statistiques, langue et réglages restent sur l’appareil. La sauvegarde et le transfert Android peuvent emporter ces données ; aucun compte JN86, classement en ligne, serveur de jeu ni synchronisation cloud JN86 n’existe. Le droit de suppression des publicités Google Play n’est pas restauré par la sauvegarde.",
+          "permissions": "Les jeux fonctionnent hors ligne avec audio et vibrations locales, sans caméra, microphone, localisation ni contacts. Une bannière utilise le flux commun Google AdMob/UMP et ne doit pas couvrir le plateau. L’achat unique de suppression des publicités passe par Google Play Billing ; aucun interstitiel, publicité récompensée, abonnement ou mode payant.",
           "plans": "Les onze jeux nommés constituent la première version. Échecs, défis quotidiens, succès et multijoueur en ligne sont exclus."
         },
         "pt-BR": {
           "workflow": "Escolha um dos onze jogos. Inicie Sudoku, Campo Minado ou Reversi; cada um tem regras e controles próprios. Continue uma partida salva, veja resultados e estatísticas locais ou reinicie após confirmar. Som e vibração são opcionais quando compatíveis.",
           "limits": "Pontuações locais. Sem oponentes online, ranking público, chat, apostas ou vantagem paga. Estatísticas dependem do jogo.",
-          "data": "Partidas, recordes, estatísticas e preferências ficariam no dispositivo. Sem conta na nuvem ou sincronização entre aparelhos.",
-          "permissions": "Jogos não exigem câmera, microfone, localização ou contatos. Anúncios e compras Play separados; anúncios não podem cobrir o tabuleiro.",
+          "data": "Partidas salvas, recordes locais, estatísticas, idioma e configurações ficam no dispositivo. O backup e a transferência entre dispositivos do Android podem levar esses dados; não há conta JN86, ranking online, servidor de jogos nem sincronização na nuvem da JN86. A compra do Google Play para remover anúncios não é restaurada pelo backup.",
+          "permissions": "Os jogos funcionam offline com áudio e vibração locais, sem câmera, microfone, localização ou contatos. Um banner usa o fluxo compartilhado do Google AdMob/UMP e não pode cobrir o tabuleiro. A compra única para remover anúncios usa o Google Play Billing; não há anúncio intersticial ou recompensado, assinatura nem modo pago.",
           "plans": "Os onze jogos nomeados formam a primeira versão. Xadrez, desafios diários, conquistas e multiplayer online ficam excluídos."
         },
         "pl": {
           "workflow": "Wybierz jedną z jedenastu gier. Uruchom Sudoku, Sapera lub Reversi; każda ma własne reguły i sterowanie. Wznów zapis, zobacz lokalne wyniki i statystyki albo wyzeruj je po potwierdzeniu. Dźwięk i wibracje są opcjonalne w obsługujących grach.",
           "limits": "Wyniki są lokalne. Bez przeciwników online, publicznego rankingu, czatu, hazardu i płatnej przewagi. Statystyki zależą od gry.",
-          "data": "Zapisane sesje, rekordy, statystyki i ustawienia byłyby na urządzeniu. Bez konta w chmurze i synchronizacji gier między urządzeniami.",
-          "permissions": "Gry nie wymagają kamery, mikrofonu, lokalizacji i kontaktów. Reklamy i zakupy Play są osobne; reklamy nie zasłaniają planszy.",
+          "data": "Zapisane sesje gier, lokalne rekordy, statystyki, język i ustawienia pozostają na urządzeniu. Kopia zapasowa i przenoszenie Androida mogą objąć te dane; nie ma konta JN86, rankingu online, serwera gier ani synchronizacji w chmurze JN86. Uprawnienie do usunięcia reklam z Google Play nie jest przywracane z kopii.",
+          "permissions": "Gry działają offline z lokalnym dźwiękiem i wibracjami, bez kamery, mikrofonu, lokalizacji i kontaktów. Baner korzysta ze wspólnego przepływu Google AdMob/UMP i nie może zasłaniać planszy. Jednorazowy zakup usunięcia reklam używa Google Play Billing; nie ma reklam pełnoekranowych ani nagradzanych, subskrypcji ani płatnego trybu.",
           "plans": "Pierwsza wersja obejmuje jedenaście nazwanych gier. Szachy, dzienne wyzwania, osiągnięcia i multiplayer online są wyłączone."
         },
         "it": {
           "workflow": "Scegli uno degli undici giochi. Avvia Sudoku, Campo minato o Reversi; ciascuno ha regole e controlli propri. Riprendi una sessione, vedi risultati e statistiche locali o azzera dopo conferma. Suono e vibrazioni sono facoltativi ove supportati.",
           "limits": "Punteggi locali. Nessun avversario online, classifica pubblica, chat, gioco d’azzardo o vantaggio pagato. Statistiche secondo il gioco.",
-          "data": "Partite, record, statistiche e preferenze resterebbero sul dispositivo. Nessun account cloud o sincronizzazione fra dispositivi.",
-          "permissions": "I giochi non chiedono fotocamera, microfono, posizione o contatti. Annunci e acquisti Play separati; gli annunci non coprono il tabellone.",
+          "data": "Partite salvate, record locali, statistiche, lingua e impostazioni restano sul dispositivo. Il backup e il trasferimento Android possono includere questi dati; non esistono account JN86, classifica online, server di gioco o sincronizzazione cloud JN86. Il diritto alla rimozione degli annunci di Google Play non viene ripristinato dal backup.",
+          "permissions": "I giochi funzionano offline con audio e vibrazione locali, senza fotocamera, microfono, posizione o contatti. Un banner usa il flusso condiviso Google AdMob/UMP e non deve coprire il tabellone. L’acquisto una tantum per rimuovere gli annunci usa Google Play Billing; non ci sono annunci interstitial o premiati, abbonamenti o modalità a pagamento.",
           "plans": "Gli undici giochi nominati sono la prima versione. Scacchi, sfide giornaliere, obiettivi e multiplayer online sono esclusi."
         }
       }

@@ -12,11 +12,18 @@ function applyShowcaseLanguage(lang){const dict=showcaseText[lang]||showcaseText
 const showcaseSelect=document.getElementById('languageSelect');
 if(showcaseSelect){applyShowcaseLanguage(showcaseSelect.value||localStorage.getItem('jn86-language')||'en');showcaseSelect.addEventListener('change',e=>applyShowcaseLanguage(e.target.value));}
 
+const homeShowcaseOrder = ['fraction-calculator', 'age-date-toolkit', 'material-calculator'];
+function showcaseRank(app) {
+  const rank = homeShowcaseOrder.indexOf(app.id);
+  return rank === -1 ? homeShowcaseOrder.length : rank;
+}
+
 function renderShowcase(lang) {
   const showcase = document.getElementById('homeShowcase');
   if (!showcase) return;
   showcase.replaceChildren();
-  const comingSoon = apps.filter(a => a.status === 'soon');
+  const comingSoon = apps.filter(app => app.status === 'soon')
+    .sort((a, b) => showcaseRank(a) - showcaseRank(b));
   showcase.hidden = comingSoon.length === 0;
   for (const app of comingSoon) {
     const link = document.createElement('a');

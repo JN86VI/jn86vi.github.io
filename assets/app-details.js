@@ -26,8 +26,8 @@
         if (item.units) article.querySelector('[data-content-units-label]').textContent = labels.units;
       }
     }
-    if (app.showDevelopmentStatus !== false && app.productStage !== 'planned' && app.status !== 'released') {
-      document.querySelector('[data-app-availability]').textContent = appPages.labels[lang][id === 'unit-converter' ? 'internal' : 'soon'];
+    if (!notice.hidden && app.status === 'soon' && appPages.apps[id].closedTesting) {
+      document.querySelector('[data-app-availability]').textContent = appPages.labels[lang].soon;
     }
   }
   document.addEventListener('jn86-language', event => render(event.detail));
