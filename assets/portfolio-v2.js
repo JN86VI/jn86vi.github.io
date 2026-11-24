@@ -1657,7 +1657,7 @@ const portfolioApps = [
         "features": [
           "2248, Sudoku, Minesweeper, Snake, Reversi.",
           "15 Puzzle, Gomoku, Nine Men’s Morris, Solitaire · Klondike.",
-          "Tic-tac-toe, JN86 Block Puzzle.",
+          "Tic-tac-toe, Block Puzzle.",
           "Resume saved games, view local results and control sound and vibration separately."
         ]
       },
@@ -1667,7 +1667,7 @@ const portfolioApps = [
         "features": [
           "2248, Sudoku, Aknakereső, Kígyó, Reversi.",
           "15-ös kirakó, Gomoku, Malom, Pasziánsz · Klondike.",
-          "Amőba 3×3, JN86 Block Puzzle.",
+          "Amőba 3×3, Block Puzzle.",
           "Folytasd a mentett játszmát, nézd meg a helyi eredményeket, és állítsd külön a hangot és a rezgést."
         ]
       },
@@ -1677,7 +1677,7 @@ const portfolioApps = [
         "features": [
           "2248, Sudoku, Minesweeper, Schlange, Reversi.",
           "15-Puzzle, Gomoku, Mühle, Solitär · Klondike.",
-          "Tic-Tac-Toe, JN86 Block Puzzle.",
+          "Tic-Tac-Toe, Block Puzzle.",
           "Setze Spielstände fort, sieh lokale Ergebnisse und schalte Ton und Vibration getrennt."
         ]
       },
@@ -1687,7 +1687,7 @@ const portfolioApps = [
         "features": [
           "2248, Sudoku, Buscaminas, Serpiente, Reversi.",
           "Rompecabezas del 15, Gomoku, Molino, Solitario · Klondike.",
-          "Tres en raya, JN86 Block Puzzle.",
+          "Tres en raya, Block Puzzle.",
           "Continúa partidas guardadas, consulta resultados locales y ajusta el sonido y la vibración por separado."
         ]
       },
@@ -1697,7 +1697,7 @@ const portfolioApps = [
         "features": [
           "2248, Sudoku, Démineur, Serpent, Reversi.",
           "Taquin, Gomoku, Jeu du moulin, Solitaire · Klondike.",
-          "Morpion, JN86 Block Puzzle.",
+          "Morpion, Block Puzzle.",
           "Reprenez vos parties, consultez vos résultats sur l’appareil et réglez séparément le son et les vibrations."
         ]
       },
@@ -1707,7 +1707,7 @@ const portfolioApps = [
         "features": [
           "2248, Sudoku, Campo minado, Cobrinha, Reversi.",
           "Jogo dos quinze, Gomoku, Trilha, Paciência · Klondike.",
-          "Jogo da velha, JN86 Block Puzzle.",
+          "Jogo da velha, Block Puzzle.",
           "Retome partidas, veja os resultados no dispositivo e ajuste som e vibração separadamente."
         ]
       },
@@ -1717,7 +1717,7 @@ const portfolioApps = [
         "features": [
           "2248, Sudoku, Saper, Wąż, Reversi.",
           "Piętnastka, Gomoku, Młynek, Pasjans · Klondike.",
-          "Kółko i krzyżyk, JN86 Block Puzzle.",
+          "Kółko i krzyżyk, Block Puzzle.",
           "Wznawiaj zapisane rozgrywki, sprawdzaj lokalne wyniki i ustawiaj osobno dźwięk i wibracje."
         ]
       },
@@ -1727,7 +1727,7 @@ const portfolioApps = [
         "features": [
           "2248, Sudoku, Campo minato, Serpente, Reversi.",
           "Gioco del quindici, Gomoku, Mulino, Solitario · Klondike.",
-          "Tris, JN86 Block Puzzle.",
+          "Tris, Block Puzzle.",
           "Riprendi partite salvate, consulta i risultati sul dispositivo e regola separatamente audio e vibrazione."
         ]
       }
