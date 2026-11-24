@@ -8,19 +8,26 @@ const root = path.resolve(__dirname, '..');
 const base = process.env.BASE_URL || 'http://127.0.0.1:8766/';
 const output = process.env.OUTPUT_DIR;
 const policy = require('../assets/privacy-mini-games.json');
+const pages = require('../assets/app-pages.json').apps['mini-games'];
+const games = require('../assets/app-details.json').apps['mini-games'].sections[0].items
+  .filter(item => item.id !== 'mg-saved');
 const locales = ['en', 'hu', 'de', 'es', 'fr', 'pt-BR', 'pl', 'it'];
 const widths = [320, 768, 1440];
 const offerRoutes = ['index.html', 'apps/unit-converter.html'];
 const policyRoute = 'privacy/mini-games.html';
 const deadline = Date.parse('2027-01-05T00:00:00Z');
 const campaignDay = new Date('2026-11-21T12:00:00Z');
-const soon = ['fraction-calculator', 'age-date-toolkit', 'material-calculator'];
+const soon = ['fraction-calculator', 'age-date-toolkit', 'material-calculator', 'mini-games'];
 const playUrl = 'https://play.google.com/store/apps/details?id=hu.jn86.unitconverter';
 const activation = /(?:tap|click) (?:the )?(?:about )?(?:logo|icon).{0,35}(?:seven|7) (?:times|taps)|about logo|névjegy logój|(?:siebenmal|siete veces|sept fois|sete vezes|siedem razy|sette volte).{0,24}(?:logo|ico[nn]|symbol|znak)|data-content-item="[^"]+-egg"|id="uc-dedication"/iu;
 const price = /[$€£¥₹₽₩]|\b(?:USD|EUR|HUF|GBP|PLN|BRL)\b|\d\s*%/i;
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 
 assert.deepEqual(policy.locales, locales);
+assert.equal(games.length,11);
+assert.equal(games[0].id,'mg-2248');
+assert.equal(pages.planned,false);
+assert(!pages.closedTesting);
 for (const dir of ['apps','help']) {
   for (const file of fs.readdirSync(path.join(root, dir)).filter(name=>name.endsWith('.html'))) {
     assert(!activation.test(read(`${dir}/${file}`)), `Public activation in ${dir}/${file}`);
@@ -124,8 +131,25 @@ async function noOverflow(page, label) {
       assert(page.url().endsWith('#backup'),'Keyboard contents navigation');
       await page.locator('[data-p="back"]').click();
       assert(page.url().endsWith('/apps/mini-games.html'));
-      assert.equal(await page.locator('[data-app-status].creating').count(),1);
-      assert.equal(await page.locator('[data-app-play] a').count(),0);
+      for (const lang of locales) {
+        await language(page,lang);
+        assert.equal(await page.locator('[data-app-status].soon').textContent(),await page.evaluate(()=>ui[document.documentElement.lang].status_soon));
+        assert.equal(await page.locator('[data-app-availability]').innerText(),pages.copy[lang].reviewNotice);
+        assert(await page.locator('[data-content-notice]').isHidden());
+        assert.equal(await page.locator('[data-app-play] a').count(),0);
+        assert(!/\b2048\b/.test(await page.locator('main').innerText()));
+        for (const game of games) {
+          const article = page.locator(`#${game.id}`);
+          assert.equal(await article.locator('h3').innerText(),game.title[lang]);
+          assert.equal(await article.locator('p').innerText(),game.text[lang]);
+        }
+        assert.match(await page.locator('#mg-2248 p').innerText(),/2 \+ 2 \+ 4 → 8/);
+        await noOverflow(page,`Mini Games detail/${width}/${lang}`);
+        responsiveStates++;
+      }
+      await visit(page,'index.html');
+      await page.locator('#homeShowcase [data-app="mini-games"]').click();
+      assert(page.url().endsWith('/apps/mini-games.html'));
     }
     await visit(page,'index.html');
     await language(page,'hu');
@@ -142,7 +166,7 @@ async function noOverflow(page, label) {
       ]) {
         await page.setViewportSize({width,height:900});
         await visit(page,route);
-        await page.locator(route===policyRoute ? '.policy-toc' : '#uc-holiday')
+        await page.locator(route===policyRoute ? '.policy-toc' : route==='index.html' ? '#homeShowcase' : '#uc-holiday')
           .screenshot({path:path.join(output,file+'.png')});
       }
     }
@@ -190,6 +214,15 @@ async function noOverflow(page, label) {
     await visit(noScript,policyRoute);
     assert.equal(await noScript.locator('h1').innerText(),policy.copy.en.title);
     assert.equal(await noScript.locator('#backup p').innerText(),policy.copy.en.backupText);
+    assert.equal(await noScript.locator('[data-p="diagnosticsStorage"]').innerText(),policy.copy.en.diagnosticsStorage);
+    await visit(noScript,'apps/mini-games.html');
+    assert.equal(await noScript.locator('[data-app-availability]').innerText(),pages.copy.en.reviewNotice);
+    assert.equal(await noScript.locator('#mg-2248 p').innerText(),games[0].text.en);
+    assert.equal(await noScript.locator('#mg-2248 #mg-2048').count(),1);
+    assert.equal(await noScript.locator('link[rel="canonical"]').getAttribute('href'),'https://jn86vi.github.io/apps/mini-games.html');
+    assert.equal(await noScript.locator('[data-app-play] a').count(),0);
+    await visit(noScript,'index.html');
+    assert.deepEqual(await noScript.locator('[data-app-count]').allTextContents(),['25','2','4','19']);
     assert.deepEqual(errors,[]);
     console.log(`PASS: ${responsiveStates} UC/MG viewport-language states, ${timingStates} route/timezone cutoff sequences, no-JS and keyboard checks, and spoiler scan`);
   } finally {
