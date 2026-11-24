@@ -7521,14 +7521,14 @@
             {
               "id": "mg-blocks",
               "title": {
-                "en": "JN86 Block Puzzle",
-                "hu": "JN86 Block Puzzle",
-                "de": "JN86 Block Puzzle",
-                "es": "JN86 Block Puzzle",
-                "fr": "JN86 Block Puzzle",
-                "pt-BR": "JN86 Block Puzzle",
-                "pl": "JN86 Block Puzzle",
-                "it": "JN86 Block Puzzle"
+                "en": "Block Puzzle",
+                "hu": "Block Puzzle",
+                "de": "Block Puzzle",
+                "es": "Block Puzzle",
+                "fr": "Block Puzzle",
+                "pt-BR": "Block Puzzle",
+                "pl": "Block Puzzle",
+                "it": "Block Puzzle"
               },
               "text": {
                 "en": "Place the three offered shapes in any order on an 8×8 board. Drag a shape from the tray, or tap the shape and then a board cell. Use the shapes in the orientations shown. Full rows and columns clear together. Consecutive clearing moves build a combo, and clearing the entire board earns a Perfect Clear bonus. The game ends when none of the remaining shapes fits. Your high score stays on the device.",

@@ -229,7 +229,7 @@ def closed_test_review_notice(app):
 
 
 def page(app):
-    revision = '?v=20261124' if app['id'] == 'mini-games' else '?v=20261121'
+    revision = '?v=20261124-2' if app['id'] == 'mini-games' else '?v=20261121'
     detail_style = f'<link rel="stylesheet" href="../assets/app-details.css{revision}">'
     detail_scripts = f'<script src="../assets/app-details-data.js{revision}"></script>\n<script src="../assets/app-details.js{revision}"></script>'
     if app['id'] == 'unit-converter':
