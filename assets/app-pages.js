@@ -10,7 +10,7 @@
     document.querySelectorAll('[data-detail]').forEach(e => { e.textContent = text[e.dataset.detail]; });
     document.querySelectorAll('[data-policy-shared]').forEach(e => { e.textContent = labels[e.dataset.policyShared]; });
     const app = apps.find(a => a.id === id);
-    const notice = entry.planned ? labels.plannedNotice : labels[id === 'unit-converter' ? 'internal' : 'soon'];
+    const notice = text.reviewNotice || (entry.planned ? labels.plannedNotice : labels[id === 'unit-converter' ? 'internal' : 'soon']);
     document.querySelectorAll('[data-detail-notice]').forEach(e => { e.textContent = notice; });
     document.querySelectorAll('[data-detail-offline]').forEach(e => { e.textContent = text.offline || labels.offline; });
     document.querySelectorAll('[data-detail-android]').forEach(e => { e.textContent = labels.android; });

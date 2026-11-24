@@ -65,7 +65,9 @@ def restored_sections(app):
     data = detail_data()
     entry = data['apps'][app['id']]
     labels = data['labels']['en']
-    notice = '' if app['status'] == 'released' or app.get('showDevelopmentStatus') is False else labels['planned'] if app['productStage'] == 'planned' else labels['testing']
+    review_notice = closed_test_review_notice(app)
+    show_notice = app['status'] != 'released' and app.get('showDevelopmentStatus') is not False and not review_notice
+    notice = labels['planned' if app['productStage'] == 'planned' else 'testing'] if show_notice else ''
     safety = entry.get('safety')
     safety_html = f'''<aside class="panel pet-safety" aria-labelledby="screen-safety-title">
 <h2 id="screen-safety-title" data-screen-safety-title>{html.escape(safety['title']['en'])}</h2>
@@ -78,8 +80,9 @@ def restored_sections(app):
             units = ('<p class="detail-units"><strong data-content-units-label>' +
                      html.escape(labels['units']) + '</strong> ' +
                      html.escape(', '.join(item['units'])) + '</p>') if item.get('units') else ''
+            legacy_anchor = f'<span id="{html.escape(item["legacyAnchor"], quote=True)}" aria-hidden="true"></span>' if item.get('legacyAnchor') else ''
             items.append(f'''<article id="{item['id']}" data-content-item="{item['id']}">
-<h3 data-content-item-title>{html.escape(item['title']['en'])}</h3>
+{legacy_anchor}<h3 data-content-item-title>{html.escape(item['title']['en'])}</h3>
 <p data-content-item-text>{html.escape(item['text']['en'])}</p>{units}</article>''')
         intro = f'<p data-content-intro>{html.escape(section["intro"]["en"])}</p>' if section.get('intro') else ''
         sections.append(f'''<details class="detail-section" data-content-section="{section['id']}" open>
@@ -219,8 +222,14 @@ def privacy_page(app):
 '''
 
 
+def closed_test_review_notice(app):
+    if app['status'] == 'soon':
+        return extended_data()['apps'][app['id']]['copy']['en'].get('reviewNotice', '')
+    return ''
+
+
 def page(app):
-    revision = '?v=20261121'
+    revision = '?v=20261124' if app['id'] == 'mini-games' else '?v=20261121'
     detail_style = f'<link rel="stylesheet" href="../assets/app-details.css{revision}">'
     detail_scripts = f'<script src="../assets/app-details-data.js{revision}"></script>\n<script src="../assets/app-details.js{revision}"></script>'
     if app['id'] == 'unit-converter':
@@ -243,7 +252,10 @@ def page(app):
                     'creating': 'This app is being created. The features described here are planned; it is not yet available to download.',
                     'released': 'This app has been publicly released.'}[app['status']]
     entry = extended_data()['apps'].get(app['id'])
-    if app['status'] == 'soon' and entry.get('closedTesting'):
+    review_notice = closed_test_review_notice(app)
+    if review_notice:
+        availability = esc(review_notice)
+    elif app['status'] == 'soon' and entry.get('closedTesting'):
         availability = extended_data()['labels']['en']['soon']
     if hide_development:
         availability = ''

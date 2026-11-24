@@ -9,7 +9,9 @@
     if (!labels) throw new Error(`Missing description language: ${lang}`);
     document.querySelector('[data-content-heading]').textContent = labels.heading;
     const notice = document.querySelector('[data-content-notice]');
-    notice.hidden = app.status === 'released' || app.showDevelopmentStatus === false;
+    const page = appPages.apps[id];
+    const reviewNotice = app.status === 'soon' ? page.copy[lang].reviewNotice : '';
+    notice.hidden = app.status === 'released' || app.showDevelopmentStatus === false || Boolean(reviewNotice);
     notice.textContent = notice.hidden ? '' : labels[app.productStage === 'planned' ? 'planned' : 'testing'];
     if (entry.safety) {
       document.querySelector('[data-screen-safety-title]').textContent = entry.safety.title[lang];
@@ -26,8 +28,8 @@
         if (item.units) article.querySelector('[data-content-units-label]').textContent = labels.units;
       }
     }
-    if (!notice.hidden && app.status === 'soon' && appPages.apps[id].closedTesting) {
-      document.querySelector('[data-app-availability]').textContent = appPages.labels[lang].soon;
+    if (app.status === 'soon' && app.showDevelopmentStatus !== false && (reviewNotice || page.closedTesting)) {
+      document.querySelector('[data-app-availability]').textContent = reviewNotice || appPages.labels[lang].soon;
     }
   }
   document.addEventListener('jn86-language', event => render(event.detail));

@@ -1,5 +1,5 @@
 // Public app presentations from the current canonical JN86 AppSpecs.
-// Public status policy: owner requests; Ott e! and Unit Converter released, FC, ADT and MC coming soon (2026-11-21).
+// Public status policy: owner requests; Ott e! and Unit Converter released, FC, ADT, MC and Mini Games coming soon (2026-11-24).
 const APP_STATUSES = Object.freeze(['creating', 'soon', 'released']);
 
 // URL shape is checked here. Public production availability must be verified
@@ -1648,92 +1648,92 @@ const portfolioApps = [
   {
     "id": "mini-games",
     "name": "Mini Games",
-    "status": "creating",
+    "status": "soon",
     "icon": "assets/icons/mini-games.png",
     "copy": {
       "en": {
         "summary": "Play eleven classic puzzles and small games offline in one app.",
-        "overview": "An offline collection of 11 games, including 2048, Sudoku, Minesweeper, Snake, Reversi, Solitaire and a JN86 block puzzle.",
+        "overview": "Eleven offline games in one app, from linking number tiles in 2248 to taking turns at Nine Men’s Morris on a shared device.",
         "features": [
-          "2048, Sudoku, Minesweeper, Snake and Reversi.",
-          "15 Puzzle, Gomoku, Nine Men’s Morris and Solitaire.",
-          "Tic-tac-toe and JN86 Block Puzzle.",
-          "Resume saved games and view local results."
+          "2248, Sudoku, Minesweeper, Snake, Reversi.",
+          "15 Puzzle, Gomoku, Nine Men’s Morris, Solitaire · Klondike.",
+          "Tic-tac-toe, JN86 Block Puzzle.",
+          "Resume saved games, view local results and control sound and vibration separately."
         ]
       },
       "hu": {
         "summary": "Tizenegy klasszikus fejtörő és rövid játék egyetlen offline alkalmazásban.",
-        "overview": "Offline gyűjtemény 11 játékkal, köztük 2048, Sudoku, Aknakereső, Snake, Reversi, Solitaire és saját JN86 block puzzle.",
+        "overview": "Tizenegy offline játék egy appban, a 2248 számozott lapkáinak összekötésétől az egy készüléken játszható Malomig.",
         "features": [
-          "2048, Sudoku, Aknakereső, Snake és Reversi.",
-          "15 Puzzle, Gomoku, Malom és Solitaire.",
-          "Három egy sorban és JN86 Block Puzzle.",
-          "Mentett játékok folytatása és helyi eredmények."
+          "2248, Sudoku, Aknakereső, Kígyó, Reversi.",
+          "15-ös kirakó, Gomoku, Malom, Pasziánsz · Klondike.",
+          "Amőba 3×3, JN86 Block Puzzle.",
+          "Folytasd a mentett játszmát, nézd meg a helyi eredményeket, és állítsd külön a hangot és a rezgést."
         ]
       },
       "de": {
         "summary": "Elf klassische Denkspiele und kleine Spiele offline in einer App.",
-        "overview": "Offline-Sammlung mit 11 Spielen, darunter 2048, Sudoku, Minesweeper, Snake, Reversi, Solitaire und ein JN86-Blockpuzzle.",
+        "overview": "Elf Offline-Spiele in einer App, vom Verbinden der Zahlen in 2248 bis zur Mühle zu zweit am selben Gerät.",
         "features": [
-          "2048, Sudoku, Minesweeper, Snake und Reversi.",
-          "15 Puzzle, Gomoku, Mühle und Solitaire.",
-          "Tic-Tac-Toe und JN86 Block Puzzle.",
-          "Gespeicherte Spiele fortsetzen und lokale Ergebnisse sehen."
+          "2248, Sudoku, Minesweeper, Schlange, Reversi.",
+          "15-Puzzle, Gomoku, Mühle, Solitär · Klondike.",
+          "Tic-Tac-Toe, JN86 Block Puzzle.",
+          "Setze Spielstände fort, sieh lokale Ergebnisse und schalte Ton und Vibration getrennt."
         ]
       },
       "es": {
         "summary": "Once rompecabezas y juegos clásicos para jugar sin conexión en una sola app.",
-        "overview": "Colección offline de 11 juegos, entre ellos 2048, Sudoku, Buscaminas, Snake, Reversi, Solitario y un rompecabezas de bloques JN86.",
+        "overview": "Once juegos sin conexión en una app, desde unir fichas en 2248 hasta jugar al Molino por turnos en un mismo dispositivo.",
         "features": [
-          "2048, Sudoku, Buscaminas, Snake y Reversi.",
-          "15 Puzzle, Gomoku, Molino y Solitario.",
-          "Tres en raya y JN86 Block Puzzle.",
-          "Continúa partidas guardadas y consulta resultados locales."
+          "2248, Sudoku, Buscaminas, Serpiente, Reversi.",
+          "Rompecabezas del 15, Gomoku, Molino, Solitario · Klondike.",
+          "Tres en raya, JN86 Block Puzzle.",
+          "Continúa partidas guardadas, consulta resultados locales y ajusta el sonido y la vibración por separado."
         ]
       },
       "fr": {
         "summary": "Onze casse-têtes et petits jeux classiques hors ligne dans une seule application.",
-        "overview": "Collection hors ligne de 11 jeux, dont 2048, Sudoku, Démineur, Snake, Reversi, Solitaire et un puzzle de blocs JN86.",
+        "overview": "Onze jeux hors ligne dans une seule application, des chaînes de tuiles de 2248 au jeu du moulin à deux sur le même appareil.",
         "features": [
-          "2048, Sudoku, Démineur, Snake et Reversi.",
-          "15 Puzzle, Gomoku, Jeu du moulin et Solitaire.",
-          "Morpion et JN86 Block Puzzle.",
-          "Reprise des parties sauvegardées et résultats locaux."
+          "2248, Sudoku, Démineur, Serpent, Reversi.",
+          "Taquin, Gomoku, Jeu du moulin, Solitaire · Klondike.",
+          "Morpion, JN86 Block Puzzle.",
+          "Reprenez vos parties, consultez vos résultats sur l’appareil et réglez séparément le son et les vibrations."
         ]
       },
       "pt-BR": {
         "summary": "Onze quebra-cabeças e jogos clássicos offline em um só aplicativo.",
-        "overview": "Coleção offline de 11 jogos, incluindo 2048, Sudoku, Campo Minado, Snake, Reversi, Paciência e quebra-cabeça de blocos JN86.",
+        "overview": "Onze jogos offline em um app, de ligar peças numeradas no 2248 a jogar Trilha em dupla no mesmo dispositivo.",
         "features": [
-          "2048, Sudoku, Campo Minado, Snake e Reversi.",
-          "15 Puzzle, Gomoku, Trilha e Paciência.",
-          "Jogo da velha e JN86 Block Puzzle.",
-          "Continue partidas salvas e veja resultados locais."
+          "2248, Sudoku, Campo minado, Cobrinha, Reversi.",
+          "Jogo dos quinze, Gomoku, Trilha, Paciência · Klondike.",
+          "Jogo da velha, JN86 Block Puzzle.",
+          "Retome partidas, veja os resultados no dispositivo e ajuste som e vibração separadamente."
         ]
       },
       "pl": {
         "summary": "Jedenaście klasycznych łamigłówek i małych gier offline w jednej aplikacji.",
-        "overview": "Zbiór 11 gier offline, w tym 2048, Sudoku, Saper, Snake, Reversi, pasjans i układanka blokowa JN86.",
+        "overview": "Jedenaście gier offline w jednej aplikacji, od łączenia płytek w 2248 po grę w Młynek na jednym urządzeniu.",
         "features": [
-          "2048, Sudoku, Saper, Snake i Reversi.",
-          "15 Puzzle, Gomoku, Młynek i pasjans.",
-          "Kółko i krzyżyk oraz JN86 Block Puzzle.",
-          "Kontynuacja zapisanych gier i lokalne wyniki."
+          "2248, Sudoku, Saper, Wąż, Reversi.",
+          "Piętnastka, Gomoku, Młynek, Pasjans · Klondike.",
+          "Kółko i krzyżyk, JN86 Block Puzzle.",
+          "Wznawiaj zapisane rozgrywki, sprawdzaj lokalne wyniki i ustawiaj osobno dźwięk i wibracje."
         ]
       },
       "it": {
         "summary": "Undici rompicapi e giochi classici offline in una sola app.",
-        "overview": "Raccolta offline di 11 giochi, tra cui 2048, Sudoku, Campo minato, Snake, Reversi, Solitario e un puzzle a blocchi JN86.",
+        "overview": "Undici giochi offline in una sola app, dalle catene di tessere in 2248 al Mulino a turni sullo stesso dispositivo.",
         "features": [
-          "2048, Sudoku, Campo minato, Snake e Reversi.",
-          "15 Puzzle, Gomoku, Mulino e Solitario.",
-          "Tris e JN86 Block Puzzle.",
-          "Riprendi partite salvate e consulta risultati locali."
+          "2248, Sudoku, Campo minato, Serpente, Reversi.",
+          "Gioco del quindici, Gomoku, Mulino, Solitario · Klondike.",
+          "Tris, JN86 Block Puzzle.",
+          "Riprendi partite salvate, consulta i risultati sul dispositivo e regola separatamente audio e vibrazione."
         ]
       }
     },
     "playUrl": null,
-    "productStage": "planned"
+    "productStage": "development"
   },
   {
     "id": "readystock",

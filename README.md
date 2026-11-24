@@ -6,9 +6,9 @@ Polish and Italian.
 
 Content authority: the current JN86 App Portfolio and Roadmap, Design Guide
 and each app’s canonical Functional Specification in the separate JN86 repo.
-The owner's 2026-11-21 decision sets the public statuses. Ott e! and
+The owner's 2026-11-24 decision sets the current public statuses. Ott e! and
 Unit Converter are Available. Fraction Calculator, Age & Date Toolkit and
-Material Calculator are Coming soon. The other 20 apps are In the works.
+Material Calculator are Coming soon, followed by Mini Games. The other 19 apps are In the works.
 Ott e!'s public production listing was verified without a tester account on
 2026-11-02: [Ott e! on Google Play](https://play.google.com/store/apps/details?id=hu.jn86.otte).
 Its closed test has ended according to the owner's publication update.
@@ -19,17 +19,17 @@ Portfolio. The owner's 2026-11-10 correction confirms that FC and ADT are in
 closed testing and Coming soon, superseding their older planned statuses in
 the Portfolio. Neither has a public Play installation link.
 No release date is promised for the remaining apps.
-The separate product-stage field distinguishes the five implemented apps from
-the other 20 planned apps. The site hides it for released apps. Closed-testing
-copy is reserved for apps explicitly marked as being in closed testing.
+The separate product-stage field distinguishes the six implemented apps from
+the other 19 planned apps. The site hides it for released apps. Mini Games uses
+a localized review notice while Google Play reviews its closed test release.
 Material Calculator uses the Coming soon status and the In development
 stage with no public Play link.
 
 `assets/portfolio-v2.js` contains names, statuses and all eight translations.
 Cards, detail pages, the home showcase, all four home counters and the Contact
 page's released-app Play links use this same data. The current counters are
-25 portfolio apps = 2 released + 3 coming soon + 20 in the works. The homepage
-showcase puts FC, ADT and MC first in that order among Coming soon apps.
+25 portfolio apps = 2 released + 4 coming soon + 19 in the works. The homepage
+showcase puts FC, ADT, MC and Mini Games in that order.
 Each app description has complete copy for every supported language.
 `assets/app-detail.js` updates every detail page with the selected language.
 `scripts/build-details.py` generates the static pages from one shared template,
@@ -118,9 +118,9 @@ Android implementation and Play Data Safety declaration before app release.
 
 `assets/privacy-mini-games.json` uses the same dedicated renderer for the approved
 first-version Mini Games policy. It covers local saves and statistics, Android
-backup and device transfer, AdMob, UMP, Play Billing and external support. The
-portfolio entry stays at In the works and links to the dedicated policy, which
-identifies the `hu.jn86.minigames` package.
+backup and device transfer, AdMob, UMP, Play Billing and external support. It
+also describes the on-device banner diagnostics in version 1.0.0. The Coming
+soon entry links to the dedicated policy for `hu.jn86.minigames`.
 
 The Unit Converter holiday notice on the homepage and app detail shares
 `assets/uc-holiday.js` and `assets/uc-holiday.css`. Both notices display the approved Play

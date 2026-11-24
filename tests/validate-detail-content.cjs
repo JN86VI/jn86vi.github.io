@@ -15,7 +15,11 @@ const locales = process.env.LANGS ? process.env.LANGS.split(',') : data.locales;
 const banned = /\b(?:v[12](?:\.\d+)?|roadmap|scope|contract|registry|implementation|work package|audit|future features)\b|munkacsomag|implementáció|későbbi ötlet|jövőbeli bővítés/i;
 const retired = id => id === 'uc-dedication' || id.endsWith('-egg');
 const additional = {'fraction-calculator': ['frc-history']};
-const expectedAnchors = id => [...coverage[id].map(item=>item.web_anchor).filter(id=>!retired(id)), ...(additional[id] || [])];
+const updatedAnchors = {'mg-2048': 'mg-2248'};
+const expectedAnchors = id => [
+  ...coverage[id].map(item=>item.web_anchor).filter(id=>!retired(id)).map(anchor=>updatedAnchors[anchor] || anchor),
+  ...(additional[id] || [])
+];
 for (const id of ids) {
   const app = data.apps[id];
   assert(app, `Missing descriptions: ${id}`);
