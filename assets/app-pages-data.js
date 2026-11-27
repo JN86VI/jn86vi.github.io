@@ -435,7 +435,6 @@ const appPages = {
     },
     "age-date-toolkit": {
       "planned": false,
-      "closedTesting": true,
       "monetization": "ads",
       "copy": {
         "en": {

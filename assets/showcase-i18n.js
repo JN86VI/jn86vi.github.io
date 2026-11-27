@@ -12,7 +12,7 @@ function applyShowcaseLanguage(lang){const dict=showcaseText[lang]||showcaseText
 const showcaseSelect=document.getElementById('languageSelect');
 if(showcaseSelect){applyShowcaseLanguage(showcaseSelect.value||localStorage.getItem('jn86-language')||'en');showcaseSelect.addEventListener('change',e=>applyShowcaseLanguage(e.target.value));}
 
-const homeShowcaseOrder = ['fraction-calculator', 'age-date-toolkit', 'material-calculator', 'mini-games'];
+const homeShowcaseOrder = ['fraction-calculator', 'material-calculator', 'mini-games'];
 function showcaseRank(app) {
   const rank = homeShowcaseOrder.indexOf(app.id);
   return rank === -1 ? homeShowcaseOrder.length : rank;

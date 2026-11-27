@@ -6,18 +6,18 @@ Polish and Italian.
 
 Content authority: the current JN86 App Portfolio and Roadmap, Design Guide
 and each app’s canonical Functional Specification in the separate JN86 repo.
-The owner's 2026-11-24 decision sets the current public statuses. Ott e! and
-Unit Converter are Available. Fraction Calculator, Age & Date Toolkit and
-Material Calculator are Coming soon, followed by Mini Games. The other 19 apps are In the works.
+Ott e!, Unit Converter and Age & Date Toolkit are Available. Fraction
+Calculator, Material Calculator and Mini Games are Coming soon. The other
+19 apps are In the works.
 Ott e!'s public production listing was verified without a tester account on
 2026-11-02: [Ott e! on Google Play](https://play.google.com/store/apps/details?id=hu.jn86.otte).
 Its closed test has ended according to the owner's publication update.
 Unit Converter's public listing was verified without cookies or a signed-in
 account on 2026-11-10: [Unit Converter on Google Play](https://play.google.com/store/apps/details?id=hu.jn86.unitconverter).
-This owner update supersedes the older UC development status in the JN86
-Portfolio. The owner's 2026-11-10 correction confirms that FC and ADT are in
-closed testing and Coming soon, superseding their older planned statuses in
-the Portfolio. Neither has a public Play installation link.
+Age & Date Toolkit 0.8.1 (17) launched on 2026-11-27, as confirmed by the
+owner. Its public listing was checked without a tester account on that date.
+[Age & Date Toolkit on Google Play](https://play.google.com/store/apps/details?id=hu.jn86.agedatetoolkit).
+Fraction Calculator remains in closed testing and has no public Play link.
 No release date is promised for the remaining apps.
 The separate product-stage field distinguishes the six implemented apps from
 the other 19 planned apps. The site hides it for released apps. Mini Games uses
@@ -28,8 +28,13 @@ stage with no public Play link.
 `assets/portfolio-v2.js` contains names, statuses and all eight translations.
 Cards, detail pages, the home showcase, all four home counters and the Contact
 page's released-app Play links use this same data. The current counters are
-25 portfolio apps = 2 released + 4 coming soon + 19 in the works. The homepage
-showcase puts FC, ADT, MC and Mini Games in that order.
+25 portfolio apps = 3 released + 3 coming soon + 19 in the works. The homepage
+showcase puts FC, MC and Mini Games in that order. The homepage also links to
+the JN86VI developer page on Google Play.
+The ADT detail page uses the seven approved English Play images in
+`assets/screenshots/age-date-toolkit/` with captions and alternatives in all
+eight website languages. The portfolio record defines the gallery order and
+translations. Each image opens at full size.
 Each app description has complete copy for every supported language.
 `assets/app-detail.js` updates every detail page with the selected language.
 `scripts/build-details.py` generates the static pages from one shared template,
@@ -43,8 +48,8 @@ Icons are copied without redrawing or regenerating the canonical assets.
 Public lifecycle: `creating` (In the works) → `soon` (Coming soon) → `released`
 (Available). Coming soon follows the owner's availability decisions, including
 Material Calculator. The home showcase includes only `soon`. The
-`released.html` page lists Unit Converter and Ott e!. A localized empty state is used
-when there are no released apps. The full
+`released.html` page lists Unit Converter, Ott e! and Age & Date Toolkit. A
+localized empty state is used when there are no released apps. The full
 portfolio retains every app with its own current status.
 
 To publish an app after its actual public production launch, set its status to
