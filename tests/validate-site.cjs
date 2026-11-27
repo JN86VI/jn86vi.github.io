@@ -49,12 +49,30 @@ assert.deepEqual(apps.map(a => a.name), names);
 assert.equal(new Set(apps.map(a => a.id)).size, 25);
 const soonApps = apps.filter(a => a.status === 'soon');
 const releasedApps = apps.filter(a => a.status === 'released');
-const showcaseOrder = ['fraction-calculator', 'age-date-toolkit', 'material-calculator', 'mini-games'];
+const showcaseOrder = ['fraction-calculator', 'material-calculator', 'mini-games'];
 assert.deepEqual(soonApps.map(a=>a.id).sort(), [...showcaseOrder].sort());
-assert.deepEqual(releasedApps.map(a=>a.id), ['unit-converter','ott-e']);
+assert.deepEqual(releasedApps.map(a=>a.id), ['unit-converter','ott-e','age-date-toolkit']);
+const adt = apps.find(app => app.id === 'age-date-toolkit');
+const adtPlayUrl = 'https://play.google.com/store/apps/details?id=hu.jn86.agedatetoolkit';
+const developerPlayUrl = 'https://play.google.com/store/apps/dev?id=8533847169571511478';
+assert.equal(adt.playUrl, adtPlayUrl);
+assert(!appPages.apps[adt.id].closedTesting);
+assert.deepEqual(adt.gallery.images.map(file => path.basename(file)), [
+  '01-period', '02-age', '03-difference', '04-anniversary', '05-date-info', '06-saved-dates', '07-languages'
+].map(id => id + '-1080x1920.png'));
+assert.deepEqual(Object.keys(adt.gallery.copy), locales);
+for (const lang of locales) {
+  const {title, note, slides} = adt.gallery.copy[lang];
+  assert(title.trim() && note.trim());
+  assert.equal(slides.length, adt.gallery.images.length);
+  slides.forEach(({caption, alt}, index) => {
+    assert(caption.trim() && alt.trim() && caption !== alt);
+    if (lang !== 'en') assert.notEqual(alt, adt.gallery.copy.en.slides[index].alt);
+  });
+}
 const showcaseNames = showcaseOrder.map(id => apps.find(a=>a.id===id).name);
 const home = fs.readFileSync(path.join(root,'index.html'),'utf8');
-const counts = {all:25,released:2,soon:4,creating:19};
+const counts = {all:apps.length,released:releasedApps.length,soon:soonApps.length,creating:apps.filter(a=>a.status==='creating').length};
 assert.deepEqual(Object.fromEntries([...home.matchAll(/data-app-count="(\w+)">(\d+)</g)].map(m=>[m[1],+m[2]])),counts);
 const iconInventory = JSON.parse(fs.readFileSync(path.join(root,'assets/icon-inventory.json'),'utf8')).apps;
 assert.deepEqual(iconInventory.map(a=>a.app_id),apps.map(a=>a.id));
@@ -212,7 +230,9 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
               }
               for(const el of document.querySelectorAll('main a,main button,select')) {
                 if(!el.getClientRects().length) continue;
-                if(!el.textContent.trim() && !el.getAttribute('aria-label')) bad.push('unlabelled control');
+                if(!el.textContent.trim() && !el.getAttribute('aria-label') && !el.querySelector('img[alt]:not([alt=""])')) {
+                  bad.push('unlabelled control');
+                }
               }
               if(document.querySelectorAll('h1').length!==1)bad.push('h1 count');
               return bad;
@@ -242,6 +262,7 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
               assert.equal(await card.locator('.app-icon').getAttribute('src'),a.icon);
               assert.equal(await card.locator('.app-icon').getAttribute('alt'),'');
               assert.equal(await card.locator('.play-link').count(),sandbox.getPlayUrl(a)?1:0);
+              if (a.playUrl) assert.equal(await card.locator('.play-link').getAttribute('href'),a.playUrl);
             }
           }
           if (route==='index.html') {
@@ -252,16 +273,25 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
             const entry=page.locator('a[href="released.html"]');
             assert.equal(await entry.count(),1);
             assert.equal(await entry.innerText(),await page.evaluate(l=>ui[l].released_apps,lang));
+            const developerLink = page.locator(`a[href="${developerPlayUrl}"]`);
+            assert.equal(await developerLink.count(), 1);
+            assert(await developerLink.isVisible());
+            assert.equal(await developerLink.innerText(), await page.evaluate(l=>ui[l].play_developer,lang));
+            if (lang === 'hu') assert.equal(await developerLink.innerText(), 'Összes alkalmazásunk a Google Playen');
           }
           if (route==='released.html') {
             assert.equal(await page.locator('.app-card').count(),releasedApps.length);
             assert.deepEqual(await page.locator('.app-card h2').allTextContents(),releasedApps.map(a=>a.name));
+            assert.equal(await page.locator(`[data-app="${adt.id}"] .play-link`).getAttribute('href'),adtPlayUrl);
             assert.equal(await page.locator('#releasedEmpty').isVisible(),releasedApps.length===0);
             if(!releasedApps.length) {
               assert.equal(await page.locator('[data-i18n="released_empty"]').innerText(),await page.evaluate(l=>ui[l].released_empty,lang));
               assert.equal(await page.locator('.play-link').count(),0);
             }
             assert.equal(await page.title(),await page.evaluate(l=>`${ui[l].released_apps} — JN86`,lang));
+          }
+          if (route==='contact.html') {
+            assert.equal(await page.locator(`#contactPlayApps [data-app="${adt.id}"] .play-link`).getAttribute('href'),adtPlayUrl);
           }
           if (app) {
             assert.equal(await page.locator('h1').innerText(),app.name);
@@ -281,6 +311,23 @@ if (process.env.STATIC_ONLY === '1') process.exit(0);
             assert.equal(await page.locator('.detail-icon').getAttribute('src'),'../'+app.icon);
             assert.equal(await page.locator('.detail-icon').getAttribute('alt'),'');
             assert.equal(await page.locator('[data-app-play] .play-link').count(),sandbox.getPlayUrl(app)?1:0);
+            if (app.id === adt.id) {
+              assert.equal(await page.locator('[data-app-play] .play-link').getAttribute('href'),adtPlayUrl);
+              assert(await page.locator('[data-app-stage]').isHidden());
+              assert(await page.locator('[data-content-notice]').isHidden());
+              const copy = adt.gallery.copy[lang];
+              const gallery = page.getByRole('region', {name:copy.title});
+              assert.equal(await gallery.locator('p').innerText(),copy.note);
+              assert.deepEqual(await gallery.locator('figure').evaluateAll(figures => figures.map(figure => {
+                const image = figure.querySelector('img');
+                const link = figure.querySelector('a');
+                return [image.getAttribute('src'), link.getAttribute('href'), image.alt,
+                  figure.querySelector('figcaption').textContent, image.naturalWidth, image.naturalHeight];
+              })), copy.slides.map(({alt,caption}, index) => {
+                const url = '../' + adt.gallery.images[index];
+                return [url, url, alt, caption, 1080, 1920];
+              }));
+            }
           }
           const iconSizes=await page.locator('.app-icon,.detail-icon,.showcase-card img').evaluateAll(els=>els.map(el=>({width:el.getBoundingClientRect().width,height:el.getBoundingClientRect().height,naturalWidth:el.naturalWidth,naturalHeight:el.naturalHeight,fit:getComputedStyle(el).objectFit})));
           for(const size of iconSizes) {

@@ -228,8 +228,31 @@ def closed_test_review_notice(app):
     return ''
 
 
+def screenshot_gallery(app):
+    gallery = app.get('gallery')
+    if not gallery:
+        return ''
+    copy = gallery['copy']['en']
+    figures = []
+    for image, slide in zip(gallery['images'], copy['slides'], strict=True):
+        url = '../' + html.escape(image, quote=True)
+        alt = html.escape(slide['alt'], quote=True)
+        caption = html.escape(slide['caption'])
+        figures.append(f'''<figure>
+      <a href="{url}"><img src="{url}" alt="{alt}" width="1080" height="1920" loading="lazy" decoding="async"></a>
+      <figcaption>{caption}</figcaption>
+    </figure>''')
+    return f'''
+  <section class="section" data-app-gallery aria-labelledby="app-gallery-title"><div class="wrap app-gallery">
+    <h2 id="app-gallery-title">{html.escape(copy['title'])}</h2>
+    <p class="lead">{html.escape(copy['note'])}</p>
+    <div class="app-gallery-grid">{''.join(figures)}</div>
+  </div></section>'''
+
+
 def page(app):
-    revision = '?v=20261124-2' if app['id'] == 'mini-games' else '?v=20261121'
+    revision = {'mini-games': '?v=20261124-2', 'age-date-toolkit': '?v=20261127'}.get(app['id'], '?v=20261121')
+    detail_revision = '20261127' if app.get('gallery') else '4'
     detail_style = f'<link rel="stylesheet" href="../assets/app-details.css{revision}">'
     detail_scripts = f'<script src="../assets/app-details-data.js{revision}"></script>\n<script src="../assets/app-details.js{revision}"></script>'
     if app['id'] == 'unit-converter':
@@ -304,13 +327,13 @@ def page(app):
     <h2 data-i18n="availability_title"{' hidden' if hide_development else ''}>Availability</h2>
     <p class="lead" data-app-availability{' hidden' if hide_development else ''}>{availability}</p>
     <div class="hero-actions"><a class="btn secondary" href="../apps.html" data-i18n="back_apps">← Back to apps</a>{related}<span data-app-play>{play}</span></div>
-  </div></section>
+  </div></section>{screenshot_gallery(app)}
 </main>
 <footer><div class="wrap footer"><div><img src="../assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
 <script src="../assets/site.js?v=9"></script>
 <script src="../assets/portfolio-v2.js{revision}"></script>
 <script src="../assets/mobile-menu.js?v=6"></script>
-<script src="../assets/app-detail.js?v=4"></script>
+<script src="../assets/app-detail.js?v={detail_revision}"></script>
 <script src="../assets/app-pages-data.js{revision}"></script>
 {detail_scripts}
 </body>
@@ -354,7 +377,7 @@ def released_page(apps):
   </div></section>
 </main>
 <footer><div class="wrap footer"><div><img src="assets/JN86_Logo_Lockup_White_Transparent.png" alt="JN86" class="footer-logo"><p>Fast. Simple. Reliable.</p></div><p>© <span id="year"></span> JN86 · <span data-i18n="developer">Developer: JN86VI</span></p></div></footer>
-<script src="assets/site.js?v=8"></script><script src="assets/portfolio-v2.js?v=20261121"></script><script src="assets/mobile-menu.js?v=6"></script>
+<script src="assets/site.js?v=8"></script><script src="assets/portfolio-v2.js?v=20261127"></script><script src="assets/mobile-menu.js?v=6"></script>
 </body>
 </html>
 '''

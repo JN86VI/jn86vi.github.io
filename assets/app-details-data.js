@@ -3340,14 +3340,14 @@ const appDetails = {
                 "it": "Pubblicità e rimozione facoltativa"
               },
               "text": {
-                "en": "The date tools in the test version are free. A one-time Google Play purchase removes banner ads where available. Restore the purchase through Play. Backups of saved dates do not grant ad-free access. There is no subscription.",
-                "hu": "A tesztváltozat dátumeszközei ingyenesek. Ahol elérhető, egyszeri Google Play-vásárlással távolíthatók el a bannerek. A vásárlás visszaállítása a Playen történik. A dátumok mentése nem ad reklámmentességet. Nincs előfizetés.",
-                "de": "Die Datumsfunktionen der Testversion sind kostenlos. Wenn verfügbar, entfernt ein einmaliger Kauf über Google Play Banner. Stelle den Kauf über Play wieder her. Eine Sicherung gespeicherter Daten gewährt keine Werbefreiheit. Es gibt kein Abo.",
-                "es": "Las herramientas de fechas de la versión de prueba son gratuitas. Si está disponible, un pago único en Google Play elimina los banners. Restaura la compra con Play. La copia de fechas guardadas no quita los anuncios. No hay suscripción.",
-                "fr": "Les outils de dates de la version de test sont gratuits. Si disponible, un achat unique via Google Play supprime les bannières. Restaurez l’achat via Play. La sauvegarde des dates ne supprime pas les annonces. Il n’y a pas d’abonnement.",
-                "pt-BR": "As ferramentas de data da versão de teste são gratuitas. Uma compra única no Google Play remove banners quando disponível. Restaure a compra pelo Play. O backup de datas salvas não concede a remoção de anúncios. Não há assinatura.",
-                "pl": "Narzędzia do dat w wersji testowej są bezpłatne. Jeśli zakup jest dostępny, jednorazowa płatność w Google Play usuwa banery. Przywróć zakup w Play. Kopia zapisanych dat nie daje uprawnienia do usunięcia reklam. Nie ma subskrypcji.",
-                "it": "Gli strumenti per le date della versione di test sono gratuiti. Se disponibile, un acquisto una tantum su Google Play rimuove i banner. Ripristina l’acquisto tramite Play. Il backup delle date non rimuove gli annunci. Non c’è un abbonamento."
+                "en": "The date tools are free. A one-time Google Play purchase removes banner ads where available. Restore the purchase through Play. Backups of saved dates do not grant ad-free access. There is no subscription.",
+                "hu": "A dátumszámítási funkciók ingyenesek. Ahol elérhető, egyszeri Google Play-vásárlással távolíthatók el a bannerek. A vásárlás visszaállítása a Playen történik. A dátumok mentése nem ad reklámmentességet. Nincs előfizetés.",
+                "de": "Die Datumsfunktionen sind kostenlos. Wenn verfügbar, entfernt ein einmaliger Kauf über Google Play Banner. Stelle den Kauf über Play wieder her. Eine Sicherung gespeicherter Daten gewährt keine Werbefreiheit. Es gibt kein Abo.",
+                "es": "Las herramientas para calcular fechas son gratuitas. Si está disponible, un pago único en Google Play elimina los banners. Restaura la compra con Play. La copia de fechas guardadas no quita los anuncios. No hay suscripción.",
+                "fr": "Les outils de calcul de dates sont gratuits. Si disponible, un achat unique via Google Play supprime les bannières. Restaurez l’achat via Play. La sauvegarde des dates ne supprime pas les annonces. Il n’y a pas d’abonnement.",
+                "pt-BR": "As ferramentas de cálculo de datas são gratuitas. Uma compra única no Google Play remove banners quando disponível. Restaure a compra pelo Play. O backup de datas salvas não concede a remoção de anúncios. Não há assinatura.",
+                "pl": "Narzędzia do obliczania dat są bezpłatne. Jeśli zakup jest dostępny, jednorazowa płatność w Google Play usuwa banery. Przywróć zakup w Play. Kopia zapisanych dat nie daje uprawnienia do usunięcia reklam. Nie ma subskrypcji.",
+                "it": "Gli strumenti di calcolo delle date sono gratuiti. Se disponibile, un acquisto una tantum su Google Play rimuove i banner. Ripristina l’acquisto tramite Play. Il backup delle date non rimuove gli annunci. Non c’è un abbonamento."
               }
             }
           ]

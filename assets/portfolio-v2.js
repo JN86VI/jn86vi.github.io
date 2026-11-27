@@ -208,12 +208,12 @@ const portfolioApps = [
   {
     "id": "age-date-toolkit",
     "name": "Age & Date Toolkit",
-    "status": "soon",
+    "status": "released",
     "icon": "assets/icons/age-date-toolkit.png",
     "copy": {
       "en": {
         "summary": "Find exact ages, compare calendar dates, count down to anniversaries and save dates for later.",
-        "overview": "Calculate exact age, date differences and time until the next birthday or anniversary; add or subtract calendar periods from dates. Designed for offline use.",
+        "overview": "Calculate exact age, date differences and time until the next birthday or anniversary; add or subtract calendar periods from dates. The date tools work offline.",
         "features": [
           "Age in years, months and days.",
           "Add or subtract years, months, weeks and days.",
@@ -223,7 +223,7 @@ const portfolioApps = [
       },
       "hu": {
         "summary": "Számíts pontos életkort, hasonlíts össze dátumokat, számolj vissza évfordulókig, és ments el dátumokat.",
-        "overview": "Pontos életkor, dátumkülönbség és a következő születésnapig vagy évfordulóig hátralévő idő számítása; naptári időszakok hozzáadása és kivonása. Offline használatra készül.",
+        "overview": "Pontos életkor, dátumkülönbség és a következő születésnapig vagy évfordulóig hátralévő idő számítása; naptári időszakok hozzáadása és kivonása. A dátumszámítások internetkapcsolat nélkül is működnek.",
         "features": [
           "Életkor években, hónapokban és napokban.",
           "Évek, hónapok, hetek és napok hozzáadása vagy kivonása.",
@@ -233,7 +233,7 @@ const portfolioApps = [
       },
       "de": {
         "summary": "Berechne das genaue Alter, vergleiche Kalenderdaten, zähle bis zu Jahrestagen und speichere Daten für später.",
-        "overview": "Exaktes Alter, Datumsabstände und Zeit bis zum nächsten Geburtstag oder Jahrestag berechnen; Kalenderzeiträume zu Daten addieren oder abziehen. Für Offline-Nutzung geplant.",
+        "overview": "Exaktes Alter, Datumsabstände und Zeit bis zum nächsten Geburtstag oder Jahrestag berechnen; Kalenderzeiträume zu Daten addieren oder abziehen. Die Datumswerkzeuge funktionieren auch offline.",
         "features": [
           "Alter in Jahren, Monaten und Tagen.",
           "Jahre, Monate, Wochen und Tage addieren oder abziehen.",
@@ -243,7 +243,7 @@ const portfolioApps = [
       },
       "es": {
         "summary": "Calcula edades exactas, compara fechas, consulta cuánto falta para aniversarios y guarda fechas.",
-        "overview": "Calcula edad exacta, diferencias entre fechas y tiempo hasta el próximo cumpleaños o aniversario; suma o resta periodos de calendario. Previsto para uso sin conexión.",
+        "overview": "Calcula edad exacta, diferencias entre fechas y tiempo hasta el próximo cumpleaños o aniversario; suma o resta periodos de calendario. Las herramientas de fechas funcionan sin conexión.",
         "features": [
           "Edad en años, meses y días.",
           "Suma o resta años, meses, semanas y días.",
@@ -253,7 +253,7 @@ const portfolioApps = [
       },
       "fr": {
         "summary": "Calculez un âge exact, comparez des dates, comptez les jours jusqu’aux anniversaires et enregistrez vos dates.",
-        "overview": "Calcule l’âge exact, les écarts entre dates et le temps jusqu’au prochain anniversaire ; ajoute ou retire des périodes calendaires. Conçu pour fonctionner hors ligne.",
+        "overview": "Calcule l’âge exact, les écarts entre dates et le temps jusqu’au prochain anniversaire ; ajoute ou retire des périodes calendaires. Les outils de calcul de dates fonctionnent hors ligne.",
         "features": [
           "Âge en années, mois et jours.",
           "Ajout ou retrait d’années, de mois, de semaines et de jours.",
@@ -263,7 +263,7 @@ const portfolioApps = [
       },
       "pt-BR": {
         "summary": "Calcule idades exatas, compare datas, veja quanto falta para aniversários e salve datas.",
-        "overview": "Calcula idade exata, diferenças entre datas e tempo até o próximo aniversário; soma ou subtrai períodos do calendário. Planejado para uso offline.",
+        "overview": "Calcula idade exata, diferenças entre datas e tempo até o próximo aniversário; soma ou subtrai períodos do calendário. As ferramentas de datas funcionam offline.",
         "features": [
           "Idade em anos, meses e dias.",
           "Some ou subtraia anos, meses, semanas e dias.",
@@ -273,7 +273,7 @@ const portfolioApps = [
       },
       "pl": {
         "summary": "Obliczaj dokładny wiek, porównuj daty, odliczaj do rocznic i zapisuj daty.",
-        "overview": "Oblicza dokładny wiek, różnice między datami i czas do kolejnych urodzin lub rocznicy; dodaje i odejmuje okresy kalendarzowe. Planowane działanie offline.",
+        "overview": "Oblicza dokładny wiek, różnice między datami i czas do kolejnych urodzin lub rocznicy; dodaje i odejmuje okresy kalendarzowe. Narzędzia do obliczania dat działają offline.",
         "features": [
           "Wiek w latach, miesiącach i dniach.",
           "Dodawanie i odejmowanie lat, miesięcy, tygodni i dni.",
@@ -283,7 +283,7 @@ const portfolioApps = [
       },
       "it": {
         "summary": "Calcola l’età esatta, confronta le date, conta i giorni agli anniversari e salva le date.",
-        "overview": "Calcola età esatta, differenze tra date e tempo al prossimo compleanno o anniversario; aggiunge e sottrae periodi di calendario. Previsto per l’uso offline.",
+        "overview": "Calcola età esatta, differenze tra date e tempo al prossimo compleanno o anniversario; aggiunge e sottrae periodi di calendario. Gli strumenti per le date funzionano offline.",
         "features": [
           "Età in anni, mesi e giorni.",
           "Aggiungi o sottrai anni, mesi, settimane e giorni.",
@@ -292,8 +292,293 @@ const portfolioApps = [
         ]
       }
     },
-    "playUrl": null,
-    "productStage": "development"
+    "playUrl": "https://play.google.com/store/apps/details?id=hu.jn86.agedatetoolkit",
+    "productStage": "development",
+    "gallery": {
+      "images": [
+        "assets/screenshots/age-date-toolkit/01-period-1080x1920.png",
+        "assets/screenshots/age-date-toolkit/02-age-1080x1920.png",
+        "assets/screenshots/age-date-toolkit/03-difference-1080x1920.png",
+        "assets/screenshots/age-date-toolkit/04-anniversary-1080x1920.png",
+        "assets/screenshots/age-date-toolkit/05-date-info-1080x1920.png",
+        "assets/screenshots/age-date-toolkit/06-saved-dates-1080x1920.png",
+        "assets/screenshots/age-date-toolkit/07-languages-1080x1920.png"
+      ],
+      "copy": {
+        "en": {
+          "title": "Screenshots",
+          "note": "The screenshots show the English interface.",
+          "slides": [
+            {
+              "caption": "Add or subtract a period",
+              "alt": "The calculator adds two months and three days, subtracts one week, and shows the resulting date."
+            },
+            {
+              "caption": "Exact age",
+              "alt": "Age for a birth date of May 20, 1990, shown in years, months and days, with the total number of days."
+            },
+            {
+              "caption": "Difference between two dates",
+              "alt": "The result shows the calendar difference between two dates, the total days and the breakdown in weeks."
+            },
+            {
+              "caption": "Next anniversary",
+              "alt": "The next anniversary result shows the date, weekday and days remaining."
+            },
+            {
+              "caption": "Date information",
+              "alt": "December 20, 2026, is shown as a Sunday, with its day of the year and ISO week."
+            },
+            {
+              "caption": "Saved dates",
+              "alt": "The saved list contains a birthday, wedding anniversary, summer holiday, project deadline and family reunion."
+            },
+            {
+              "caption": "Interface languages",
+              "alt": "The selector lists English, Hungarian, German, French, Spanish, Italian, Polish and Brazilian Portuguese."
+            }
+          ]
+        },
+        "hu": {
+          "title": "Képernyőképek",
+          "note": "A képernyőképek az angol felületet mutatják.",
+          "slides": [
+            {
+              "caption": "Időszak hozzáadása vagy kivonása",
+              "alt": "A kalkulátor hozzáad két hónapot és három napot, kivon egy hetet, és megmutatja a kapott dátumot."
+            },
+            {
+              "caption": "Pontos életkor",
+              "alt": "Az 1990. május 20-i születési dátumhoz tartozó életkor években, hónapokban és napokban, az eltelt napok teljes számával."
+            },
+            {
+              "caption": "Két dátum különbsége",
+              "alt": "Az eredmény a két dátum közötti naptári különbséget, a teljes napok számát és a hetek szerinti bontást mutatja."
+            },
+            {
+              "caption": "Következő évforduló",
+              "alt": "Az eredményen a következő évforduló dátuma, a hét napja és a hátralévő napok száma látható."
+            },
+            {
+              "caption": "Dátuminformáció",
+              "alt": "A képernyőn látszik, hogy 2026. december 20. vasárnapra esik, hányadik napja az évnek és melyik ISO-hétbe tartozik."
+            },
+            {
+              "caption": "Mentett dátumok",
+              "alt": "A listában születésnap, házassági évforduló, nyári nyaralás, projekthatáridő és családi összejövetel szerepel."
+            },
+            {
+              "caption": "A felület nyelvei",
+              "alt": "A nyelvválasztóban angol, magyar, német, francia, spanyol, olasz, lengyel és brazil portugál választható."
+            }
+          ]
+        },
+        "de": {
+          "title": "Screenshots",
+          "note": "Die Screenshots zeigen die englische Benutzeroberfläche.",
+          "slides": [
+            {
+              "caption": "Zeitraum addieren oder abziehen",
+              "alt": "Der Rechner addiert zwei Monate und drei Tage, zieht eine Woche ab und zeigt das Ergebnisdatum."
+            },
+            {
+              "caption": "Genaues Alter",
+              "alt": "Das Alter zum Geburtsdatum 20. Mai 1990 erscheint in Jahren, Monaten und Tagen sowie als Gesamtzahl der Tage."
+            },
+            {
+              "caption": "Abstand zwischen zwei Daten",
+              "alt": "Das Ergebnis zeigt den Kalenderabstand zwischen zwei Daten, die Gesamtzahl der Tage und die Aufteilung in Wochen."
+            },
+            {
+              "caption": "Nächster Jahrestag",
+              "alt": "Die Anzeige nennt das Datum, den Wochentag und die verbleibenden Tage bis zum nächsten Jahrestag."
+            },
+            {
+              "caption": "Datumsinformationen",
+              "alt": "Der 20. Dezember 2026 wird als Sonntag mit dem Tag des Jahres und der ISO-Kalenderwoche angezeigt."
+            },
+            {
+              "caption": "Gespeicherte Termine",
+              "alt": "Die Liste enthält einen Geburtstag, einen Hochzeitstag, einen Sommerurlaub, eine Projektfrist und ein Familientreffen."
+            },
+            {
+              "caption": "Sprachen der Benutzeroberfläche",
+              "alt": "Zur Auswahl stehen Englisch, Ungarisch, Deutsch, Französisch, Spanisch, Italienisch, Polnisch und brasilianisches Portugiesisch."
+            }
+          ]
+        },
+        "es": {
+          "title": "Capturas de pantalla",
+          "note": "Las capturas muestran la interfaz en inglés.",
+          "slides": [
+            {
+              "caption": "Sumar o restar un periodo",
+              "alt": "La calculadora suma dos meses y tres días, resta una semana y muestra la fecha resultante."
+            },
+            {
+              "caption": "Edad exacta",
+              "alt": "La edad para la fecha de nacimiento del 20 de mayo de 1990 se muestra en años, meses y días, junto con el total de días."
+            },
+            {
+              "caption": "Diferencia entre dos fechas",
+              "alt": "El resultado muestra la diferencia entre dos fechas del calendario, el total de días y el desglose en semanas."
+            },
+            {
+              "caption": "Próximo aniversario",
+              "alt": "El resultado indica la fecha y el día de la semana del próximo aniversario, así como los días que faltan."
+            },
+            {
+              "caption": "Información de la fecha",
+              "alt": "El 20 de diciembre de 2026 aparece como domingo, con su número de día del año y su semana ISO."
+            },
+            {
+              "caption": "Fechas guardadas",
+              "alt": "La lista incluye un cumpleaños, un aniversario de boda, unas vacaciones de verano, el plazo de un proyecto y una reunión familiar."
+            },
+            {
+              "caption": "Idiomas de la interfaz",
+              "alt": "El selector ofrece inglés, húngaro, alemán, francés, español, italiano, polaco y portugués de Brasil."
+            }
+          ]
+        },
+        "fr": {
+          "title": "Captures d’écran",
+          "note": "Les captures d’écran montrent l’interface en anglais.",
+          "slides": [
+            {
+              "caption": "Ajouter ou retirer une période",
+              "alt": "Le calculateur ajoute deux mois et trois jours, retire une semaine et affiche la date obtenue."
+            },
+            {
+              "caption": "Âge exact",
+              "alt": "Pour une naissance le 20 mai 1990, l’âge s’affiche en années, mois et jours, avec le nombre total de jours."
+            },
+            {
+              "caption": "Écart entre deux dates",
+              "alt": "Le résultat affiche l’écart calendaire entre deux dates, le nombre total de jours et le détail en semaines."
+            },
+            {
+              "caption": "Prochain anniversaire",
+              "alt": "Le résultat donne la date du prochain anniversaire, le jour de la semaine et le nombre de jours restants."
+            },
+            {
+              "caption": "Informations sur la date",
+              "alt": "Le 20 décembre 2026 est indiqué comme un dimanche, avec son rang dans l’année et sa semaine ISO."
+            },
+            {
+              "caption": "Dates enregistrées",
+              "alt": "La liste contient un anniversaire, un anniversaire de mariage, des vacances d’été, une échéance de projet et une réunion de famille."
+            },
+            {
+              "caption": "Langues de l’interface",
+              "alt": "Le sélecteur propose l’anglais, le hongrois, l’allemand, le français, l’espagnol, l’italien, le polonais et le portugais du Brésil."
+            }
+          ]
+        },
+        "pt-BR": {
+          "title": "Capturas de tela",
+          "note": "As capturas de tela mostram a interface em inglês.",
+          "slides": [
+            {
+              "caption": "Somar ou subtrair um período",
+              "alt": "A calculadora soma dois meses e três dias, subtrai uma semana e mostra a data resultante."
+            },
+            {
+              "caption": "Idade exata",
+              "alt": "A idade para a data de nascimento de 20 de maio de 1990 aparece em anos, meses e dias, com o total de dias."
+            },
+            {
+              "caption": "Diferença entre duas datas",
+              "alt": "O resultado mostra a diferença entre duas datas do calendário, o total de dias e a divisão em semanas."
+            },
+            {
+              "caption": "Próxima data comemorativa",
+              "alt": "O resultado mostra a data, o dia da semana e quantos dias faltam para a próxima comemoração."
+            },
+            {
+              "caption": "Informações da data",
+              "alt": "20 de dezembro de 2026 aparece como domingo, com o número do dia no ano e a semana ISO."
+            },
+            {
+              "caption": "Datas salvas",
+              "alt": "A lista inclui um aniversário, um aniversário de casamento, férias de verão, o prazo de um projeto e um encontro de família."
+            },
+            {
+              "caption": "Idiomas da interface",
+              "alt": "O seletor oferece inglês, húngaro, alemão, francês, espanhol, italiano, polonês e português do Brasil."
+            }
+          ]
+        },
+        "pl": {
+          "title": "Zrzuty ekranu",
+          "note": "Zrzuty ekranu przedstawiają interfejs w języku angielskim.",
+          "slides": [
+            {
+              "caption": "Dodawanie lub odejmowanie okresu",
+              "alt": "Kalkulator dodaje dwa miesiące i trzy dni, odejmuje tydzień i pokazuje datę wynikową."
+            },
+            {
+              "caption": "Dokładny wiek",
+              "alt": "Wiek osoby urodzonej 20 maja 1990 r. jest podany w latach, miesiącach i dniach oraz jako łączna liczba dni."
+            },
+            {
+              "caption": "Różnica między dwiema datami",
+              "alt": "Wynik pokazuje różnicę kalendarzową między dwiema datami, łączną liczbę dni i przeliczenie na tygodnie."
+            },
+            {
+              "caption": "Najbliższa rocznica",
+              "alt": "Wynik pokazuje datę najbliższej rocznicy, dzień tygodnia i liczbę pozostałych dni."
+            },
+            {
+              "caption": "Informacje o dacie",
+              "alt": "20 grudnia 2026 r. jest pokazany jako niedziela, wraz z numerem dnia roku i tygodnia ISO."
+            },
+            {
+              "caption": "Zapisane daty",
+              "alt": "Na liście znajdują się urodziny, rocznica ślubu, wakacje, termin projektu i spotkanie rodzinne."
+            },
+            {
+              "caption": "Języki interfejsu",
+              "alt": "Do wyboru są angielski, węgierski, niemiecki, francuski, hiszpański, włoski, polski i portugalski brazylijski."
+            }
+          ]
+        },
+        "it": {
+          "title": "Schermate",
+          "note": "Le schermate mostrano l’interfaccia in inglese.",
+          "slides": [
+            {
+              "caption": "Aggiungere o sottrarre un periodo",
+              "alt": "Il calcolatore aggiunge due mesi e tre giorni, sottrae una settimana e mostra la data risultante."
+            },
+            {
+              "caption": "Età esatta",
+              "alt": "Per la data di nascita del 20 maggio 1990, l’età è espressa in anni, mesi e giorni, con il totale dei giorni."
+            },
+            {
+              "caption": "Differenza tra due date",
+              "alt": "Il risultato mostra la differenza di calendario tra due date, il totale dei giorni e il conteggio in settimane."
+            },
+            {
+              "caption": "Prossimo anniversario",
+              "alt": "Il risultato mostra la data del prossimo anniversario, il giorno della settimana e quanti giorni mancano."
+            },
+            {
+              "caption": "Informazioni sulla data",
+              "alt": "Il 20 dicembre 2026 è indicato come domenica, con il numero del giorno dell’anno e la settimana ISO."
+            },
+            {
+              "caption": "Date salvate",
+              "alt": "L’elenco include un compleanno, un anniversario di matrimonio, una vacanza estiva, la scadenza di un progetto e una riunione di famiglia."
+            },
+            {
+              "caption": "Lingue dell’interfaccia",
+              "alt": "Il selettore offre inglese, ungherese, tedesco, francese, spagnolo, italiano, polacco e portoghese brasiliano."
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "stopwatch-multi-timer",

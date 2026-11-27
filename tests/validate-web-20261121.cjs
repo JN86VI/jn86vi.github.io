@@ -17,7 +17,7 @@ const offerRoutes = ['index.html', 'apps/unit-converter.html'];
 const policyRoute = 'privacy/mini-games.html';
 const deadline = Date.parse('2027-01-05T00:00:00Z');
 const campaignDay = new Date('2026-11-21T12:00:00Z');
-const soon = ['fraction-calculator', 'age-date-toolkit', 'material-calculator', 'mini-games'];
+const soon = ['fraction-calculator', 'material-calculator', 'mini-games'];
 const playUrl = 'https://play.google.com/store/apps/details?id=hu.jn86.unitconverter';
 const activation = /(?:tap|click) (?:the )?(?:about )?(?:logo|icon).{0,35}(?:seven|7) (?:times|taps)|about logo|névjegy logój|(?:siebenmal|siete veces|sept fois|sete vezes|siedem razy|sette volte).{0,24}(?:logo|ico[nn]|symbol|znak)|data-content-item="[^"]+-egg"|id="uc-dedication"/iu;
 const price = /[$€£¥₹₽₩]|\b(?:USD|EUR|HUF|GBP|PLN|BRL)\b|\d\s*%/i;
@@ -222,7 +222,7 @@ async function noOverflow(page, label) {
     assert.equal(await noScript.locator('link[rel="canonical"]').getAttribute('href'),'https://jn86vi.github.io/apps/mini-games.html');
     assert.equal(await noScript.locator('[data-app-play] a').count(),0);
     await visit(noScript,'index.html');
-    assert.deepEqual(await noScript.locator('[data-app-count]').allTextContents(),['25','2','4','19']);
+    assert.deepEqual(await noScript.locator('[data-app-count]').allTextContents(),['25','3','3','19']);
     assert.deepEqual(errors,[]);
     console.log(`PASS: ${responsiveStates} UC/MG viewport-language states, ${timingStates} route/timezone cutoff sequences, no-JS and keyboard checks, and spoiler scan`);
   } finally {

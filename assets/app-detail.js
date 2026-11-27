@@ -1,6 +1,7 @@
 (() => {
   const app = apps.find(a => a.id === document.body.dataset.app);
   if (!app) throw new Error('Unknown app detail page');
+  const gallery = document.querySelector('[data-app-gallery]');
   function render(lang) {
     const copy = app.copy[lang];
     document.querySelector('[data-app-summary]').textContent = copy.summary;
@@ -31,6 +32,16 @@
       item.textContent = text;
       return item;
     }));
+    if (gallery) {
+      const galleryCopy = app.gallery.copy[lang];
+      gallery.querySelector('h2').textContent = galleryCopy.title;
+      gallery.querySelector('p').textContent = galleryCopy.note;
+      gallery.querySelectorAll('figure').forEach((figure, index) => {
+        const {caption, alt} = galleryCopy.slides[index];
+        figure.querySelector('img').alt = alt;
+        figure.querySelector('figcaption').textContent = caption;
+      });
+    }
     const title = `${app.name} — ${tr(lang, 'detail_title')} — JN86`;
     document.title = title;
     document.querySelector('meta[name="description"]').content = copy.summary;
